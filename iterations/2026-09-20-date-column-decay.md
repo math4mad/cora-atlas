@@ -9,3 +9,8 @@
 ② 知乎一问处补一句故意的模糊（around 2011），并把主人的判决句英文入信：
 *"memory decays in its date column while its topology of events stays crisp: the timestamp is degradable; what matters is what happened."*
 ——勘误当场转化为理论的又一次自指：写信人对时间的记忆误差，成了 C13/C15 的活证据；参考文献引 5th ed. 合法（引的是现行版，非记忆版）。
+
+## 续校（主人补刀，逐字）
+> 「是的, 现在手头有一本 5th的书, 但是这个书的先后和看到mit opencourse 无关」
+处置：藏书与 2011 的 OCW 相遇改为**无因果独立边**表述——"whose 5th edition sits on my shelf today, bought for reasons entirely its own"。
+理论自洽注脚：时间拓扑里，**先后相邻 ≠ 因果相连**——上一句"only in a later edition"仍是伪因果，本句始净。
