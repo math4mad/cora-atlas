@@ -19,6 +19,8 @@ REFS.md                    Crossref 核验文献弹药（†=凭记忆待终核�
 3. 引用园区证据一律 **pilot evidence** 措辞（exp10/11 数字以 chora manifest sha 可溯）；
 4. 发布前最后一校 = 主人点头，此步永不自动化。
 
+## 仓律第五 · 修订即记账（见 LEDGER.md）
+
 ## 待办（发布线）
 - [ ] 公式两级化（Dirichlet）/ 4D 措辞 / 量子词删除 / Related 段 / Predictions 节
 - [ ] 记忆节按迭代 II 改写：「人人等速」判决句 + REFS 弹药
