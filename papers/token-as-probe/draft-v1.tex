@@ -56,6 +56,8 @@ If context lives in the model and understanding is composition agreement, then a
 \section{Conclusion: the Atlas}
 We are building Atlas --- a navigation map whose coordinates are space \emph{and} era, whose roads are bases, and whose traffic is probes. Intelligence is not storing data; it is navigating a spatiotemporal concept space with precise probes. Stop feeding. Start navigating.
 
+(\emph{Supplement A} spells out the basis-coefficient unification --- eigenfaces, DCT, synapses, concepts --- in full.)
+
 \section*{Acknowledgments}
 The first match was struck in MIT 18.06 \cite{strang}: rank-one matrices and a national flag made me \emph{see} linear algebra; that open letter to Professor Gilbert Strang is archived with this paper. The theory was refined in two weeks of dialogue with AI agents, including the collaborator who insisted that ``sausage'' and ``Gaussian process'' are one shape in two concept spaces. The sharpest early reviewer was a cat named Y\v{i}zi (Chair), who, hearing ``bicycle,'' activated an entirely different space and came home at once.
 
@@ -72,6 +74,63 @@ The first match was struck in MIT 18.06 \cite{strang}: rank-one matrices and a n
 \bibitem{huth2016} Huth et al. (2016), Natural selects for shared semantics map in the brain, \emph{Nature}.
 \bibitem{vonoswald2023} von Oswald et al. (2023), Transformers learn in-context by gradient descent, ICLR. arXiv:2212.07674
 \end{thebibliography}
+
+\clearpage
+\appendix
+\section*{Supplement A: The Mathematical Unity of Concept Space Navigation}
+
+\subsection*{A.1 The common structure}
+The Atlas Framework is not an isolated analogy. It is a specific instance of a structure that recurs across neuroscience, signal processing, and machine learning: \textbf{representation via basis coefficients}. Any complex object --- a face, an image, a memory, a concept --- is expressed as
+\begin{equation}
+\mathbf{x} = \sum_{i=1}^{n} \alpha_i\, \mathbf{e}_i ,
+\end{equation}
+where the $\mathbf{e}_i$ are basis vectors and the $\alpha_i$ coefficients. The object is not ``stored'' as a raw entity; it is \textbf{encoded} as coefficients over a fixed basis. This is not new. What is new is recognizing that \emph{the same structure governs all four domains below}, and that a token in an LLM is a coordinate that selects a point in this shared representational space.
+
+\subsection*{A.2 Face recognition: eigenfaces and coefficient strength}
+A face image $\mathbf{I}$ is decomposed via PCA/SVD into eigenfaces:
+\begin{equation}
+\mathbf{I} \approx \sum_{i=1}^{k} w_i\, \mathbf{u}_i ,
+\end{equation}
+with orthonormal basis $\mathbf{u}_i$ and projection coefficients $w_i$. Recognition is not pixel matching: it computes $\mathbf{w}$ and compares against stored coefficient vectors. The \emph{strength} of recognition --- how quickly a face is placed --- scales with the magnitude of the dominant coefficients. Strong $\mathbf{w}$: immediate recognition. Weak $\mathbf{w}$: ``I know this face but cannot place it.'' Exactly the ``11 $\to$ Yao Ming'' episode of the main text: a decayed coefficient, revived by a secondary probe (``Houston Rockets'').
+
+\subsection*{A.3 JPEG: DCT basis and compression}
+An $8{\times}8$ image block is transformed by the discrete cosine transform,
+\begin{equation}
+B(u,v) = \alpha(u)\,\alpha(v) \sum_{x=0}^{7}\sum_{y=0}^{7} I(x,y)\, \cos\!\Big[\tfrac{(2x+1)u\pi}{16}\Big] \cos\!\Big[\tfrac{(2y+1)v\pi}{16}\Big] ,
+\end{equation}
+yielding DCT coefficients $B(u,v)$, each attached to a fixed frequency basis function. Compression is the deliberate discarding of small coefficients. The JPEG image is not a pixel grid but a \emph{coefficient vector}; decoding is inverse transform. The same operation as concept-space activation: the probe supplies coefficients, the weights supply the basis, the output is the reconstruction.
+
+\subsection*{A.4 Synaptic memory: coefficient decay, not deletion}
+Hebbian plasticity is a coefficient update rule:
+\begin{equation}
+\Delta w_{ij} = \eta\, x_i\, y_j ,
+\end{equation}
+with synaptic weight $w_{ij}$ between neurons $i$ and $j$, activations $x_i, y_j$, learning rate $\eta$. Unused synapses undergo long-term depression: not ``forgetting'' as deletion, but \textbf{coefficient decay} --- the trace persists in structure while activation falls below retrieval threshold. A related cue boosts coefficients back above threshold and reactivates the memory. That is what ``Houston Rockets'' did.
+
+\subsection*{A.5 Concepts: tokens as coordinate vectors}
+An LLM's weights define a high-dimensional semantic basis $\{\mathbf{e}_i\}$. A token $t$ carries an embedding $\mathbf{v}_t$, expressible over it:
+\begin{equation}
+\mathbf{v}_t = \sum_{i=1}^{d} \alpha_i^{(t)}\, \mathbf{e}_i .
+\end{equation}
+The coefficients $\alpha_i^{(t)}$ determine which regions light up: ``11'' writes large into a mathematics region for one listener and into a basketball region for another. \textbf{The token is not the meaning; the token is the coordinate at which each listener's own basis is asked to reconstruct a meaning.}
+
+\subsection*{A.6 Basis change: the unifying principle}
+Let $\mathcal{B}_1$ be the eigenface basis, $\mathcal{B}_2$ the DCT basis, $\mathcal{B}_3$ the synaptic basis, $\mathcal{B}_4$ the semantic basis. Each is a coordinate system for structured information; passage between them is a linear (or approximately linear) map
+\begin{equation}
+\boldsymbol{\alpha}^{(\mathcal{B}_2)} = \mathbf{M}_{12}\, \boldsymbol{\alpha}^{(\mathcal{B}_1)} ,
+\end{equation}
+the change-of-basis operator. The same underlying information admits many representations; \emph{the basis decides what is cheap to access and what is compressed away}. Faces use a basis tuned to identity; JPEG to perceptual compression; synapses to associative recall; concepts to semantic inference. The mathematics --- representation by basis coefficients --- is identical.
+
+\subsection*{A.7 Implications}
+\begin{enumerate}
+\item \textbf{Prompting is coefficient tuning.} A prompt does not write instructions; it adjusts coordinates steering reconstruction toward a region of concept space.
+\item \textbf{Context bloat is pixel-store.} Stuffing text to teach what weights already encode is storing as raw pixels what could be stored as DCT coefficients.
+\item \textbf{Forgetting is reversible, in principle.} If decay is coefficient shrinkage, retrieval fails by threshold, not by deletion; secondary probes are the rescue.
+\item \textbf{Cross-domain understanding is basis alignment.} Agent-to-human alignment (and agent-to-agent) is estimation of a map $\mathbf{M}$ between semantic bases. The Atlas project is an effort to learn that alignment.
+\end{enumerate}
+
+\subsection*{A.8 Conclusion}
+The Atlas Framework is not a metaphor. It is a mathematical identity: concept-space navigation \emph{is} basis-coefficient activation --- the operation behind face recognition, image compression, and synaptic memory. The token is the probe; the weights are the basis; the output is the reconstruction. The key to intelligence, artificial or biological, is not storing more data but finding better bases and sharper coordinates.
 
 \vspace{2em}
 \begin{center}\fbox{\parbox{0.92\textwidth}{\centering\small
