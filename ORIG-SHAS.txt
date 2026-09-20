@@ -1,0 +1,4 @@
+e6bb31d1efa3e40c57758f9bedc7eabff6c90a75055a27a25400fde85f9723bd  orig/letter-strang.docx
+c70b7b9e8f7a93484c7e632238b70329d8b797a6f896a6682a88d753614f48f9  orig/token-as-probe-notes.docx
+6c65dbd58d236ddf5f0f579eeb448d6aa0a0193f71c07dd4122c0bbd41216b9e  orig/token-as-probe-tex.docx
+0935d630d237fda2c214973fe5a6301915e16ba8294e316ecc697963d2f137a6  orig/xdom-probes-brief.docx
