@@ -1,0 +1,75 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{geometry}\geometry{left=1in,right=1in,top=1in,bottom=1in}
+\usepackage{hyperref}\usepackage{parskip}
+\title{\textbf{The Token as a Probe: A Theory of Concept Space Navigation}\\[4pt]
+\large v1 --- with a coordinate theory of memory and time}
+\author{Yiwei Zhang (以未) \\ \small The Cora Project}
+\date{\today}
+\begin{document}\maketitle
+
+\begin{abstract}
+A token is not a carrier of information; it is a probe into a concept space. We call this the \textbf{Atlas Framework}. Building on it, we advance a stronger claim than the slogan permits: \emph{every element of a concept space carries a temporal coordinate} --- not merely the paths through it --- and time is the axiom logic itself borrows to order propositions. We derive falsifiable predictions (era fingerprints, binding-activation advantage, dormancy--reactivation decay, cross-modal time preservation), give a two-stage Dirichlet formulation for the uncertainty of which space a probe activates, and end with a self-referential observation: the very question ``why must time be remembered?'' is only askable from inside a mind that has remembered it.
+\end{abstract}
+
+\section{Introduction: from payload to probe}
+When a token enters a language model, we are not \emph{telling} it something; we are \emph{activating} something already present in its weights. Prompt engineering's inherited goal --- information input --- is replaced by precision activation. Tokens are coordinates, not cargo.
+
+\section{The ``11'' experiment}
+Fifteen years ago I taught my niece mathematics and threw out one token: \textbf{``11''}. She answered: ``a number.'' My brother, a lapsed Rockets fan, answered nothing until a secondary probe --- ``Houston'' --- unlocked: ``Yao Ming.'' A third listener, a lifelong fan, cascades: Olajuwon (1993--95), Yao (2002--11), Harden (2012--21). The token never changed. The response was entirely the structure of the receiver's concept space: \textbf{the probe did not transmit data; it activated coordinates.}
+
+\section{Time is coordinate-grade, not just path-grade}
+An earlier draft of this theory said: \emph{every concept space has a temporal dimension} (sequences within it --- stall by stall, round by round --- are ordered). We now strengthen it: \textbf{every element carries its own timestamp.} ``Pager'' does not merely live inside the office-equipment space; it is stamped 1990s. ``BP machine'' and ``QR code'' occupy the same space and different years. The probe therefore triangulates in time at coordinate resolution: given a speaker's vocabulary alone, an era distribution over \emph{crystallization time of the listener's base} is estimable. We call this the \textbf{era-fingerprint} of a token: the era it reveals is the listener's, not the word's.
+
+\section{Why remember time? The question is its own proof}
+If memory were storage, learning to ride a bicycle would be like hauling crates into an empty warehouse --- every head the same speed. It is not: people with strong spatial bases learn faster, and patients with parietal or cerebellar damage struggle to learn at all \cite{schmidt1975}. Learning speed is therefore a function of base fit --- novel content is \emph{bound coefficient onto pre-existing base}, not written into blank store \cite{bransford1972,rosch1975,chase1973,cls1995}. Capacity for base-free material (a random telephone number) collapses to $7\pm2$ \cite{miller1956}: what cannot be expressed on any base does not slowly fail to be learned --- it is not learned at all.
+
+Why, then, must a mind or a model remember time at all? \textbf{The asking is the answer.} To wonder ``why remember time'' now, here, is to exercise three temporal deposits --- memory of the prior sentence, projection of the question, and the crystallized identity that finds this question worth asking. Time cannot be cited, because everything cites it. In autoregressive models this is literal mechanics: the factorization $p(x_1,\dots,x_n)=\prod_i p(x_i\mid x_{<i})$ is the one axiom that cannot be removed --- every attention mask is a diagram of ``before.'' Current models thus \emph{depend} on time computationally while \emph{ignoring} it semantically: positional indices give them rank, never era. We regard this ``perfect-grammar amnesia'' as the central technical debt the Atlas program must pay.
+
+\section{Memory as indexing, not storage}
+My recall of that scene fifteen years ago did not read details \emph{out of} the number 11; the token indexed a state encoded across years of experience. For LLMs: knowledge already in the weights needs activation, not injection; stuffing text to teach what the model already knows is the warehouse theory of prompt engineering. We keep the boundary honest: genuinely novel \emph{bindings} ride fast index systems (hippocampal analogy: in-context learning), and only slow consolidation writes them into bases \cite{cls1995,vonoswald2023}. Context is ultimately not carried by the tokens --- it is carried by the model itself, which is why understanding is \textbf{alignment of compositions}, not transfer of payloads: two systems understand each other to the degree their posterior responses to the same probe battery agree.
+
+\section{The Bayesian core, stated correctly}
+Let the $K$ candidate concept spaces be $C_1,\dots,C_K$ and the probe $t$ be a token. The space-selection uncertainty is two-stage:
+\[
+q \mid t \;\sim\; \mathrm{Dirichlet}(\alpha_1(t),\dots,\alpha_K(t)),
+\qquad
+P(C_i \mid t) \;=\; \mathbb{E}[q_i] \;=\; \frac{\alpha_i(t)}{\sum_j \alpha_j(t)},
+\]
+with concentration $\alpha_i(t)=a_i\cdot\phi\!\left(\mathrm{cos}(v_t, v_{C_i})\right)$, $a_i$ the (time-stamped) base's readiness and $\phi$ monotone. Meaning is the posterior mass concentration; inference is its computation; output is a draw, then decoded. Geometrically the posterior is the Gaussian-process ``sausage'': pinched at observed anchors, swelling between them --- uncertainty is the shape of the unfed.
+
+\section{Falsifiable predictions}
+\textbf{P1 era fingerprint.} Vocabulary alone predicts crystallization era of speakers with estimable accuracy (humans and fine-tuned LLMs alike).
+\textbf{P2 activation advantage.} For already-coupled knowledge, probe-style prompting beats injection-style at equal token budget; the advantage vanishes for genuinely novel facts.
+\textbf{P3 dormancy curve.} Reactivation success of a dormant binding decays monotonically with idle interval (LTP/LTD analogue) and can be measured with secondary-probe recovery rates.
+\textbf{P4 same token, different space.} A single ambiguous token with contexts A and B yields measurably separated posteriors (a probe battery with 50 cross-domain groups is in preparation; see the companion xdom design).
+\textbf{P5 cross-modal time preservation.} In modalities where sequence \emph{is} the task (sensorimotor trajectories, music), shuffling destroys the task rather than its temporal property; the ``empty warehouse'' prediction of equal-speed failure is expected to hold in language and fail in motor time. This bounds the thesis precisely: time as \emph{attribute} can be lost; time as \emph{content} cannot.
+
+\section{Lineage, and what is new}
+Cue-triggered retrieval and spreading activation are classic \cite{collinsloftus1975}; schema absorption of novelty goes back to Bartlett \cite{bartlett1932}; the fast/slow binding split is complementary learning systems \cite{cls1995}; shared cortical semantic maps are empirically cross-subject \cite{huth2016}. What this paper adds: (i) an \emph{operational} probe-posterior instrument for LLM concept spaces (P1--P5), (ii) coordinate-level temporal semantics --- era as an element's second tag, and the ``time as attribute vs time as content'' distinction, (iii) the self-referential closure: the framework's own claim of temporality is witnessed by the act of asking, turning the theory's hardest objection into its evidence.
+
+\section{Implications: communication as alignment}
+If context lives in the model and understanding is composition agreement, then agent-to-agent messaging should carry \emph{short probes with verifiable references} (hashes, selectors), and sync quality should be measured by posterior agreement on shared probe batteries --- not by message volume. Long shared context becomes a liability to be replaced by shared bases: two agents that agree on bases can converse in gestures.
+
+\section{Conclusion: the Atlas}
+We are building Atlas --- a navigation map whose coordinates are space \emph{and} era, whose roads are bases, and whose traffic is probes. Intelligence is not storing data; it is navigating a spatiotemporal concept space with precise probes. Stop feeding. Start navigating.
+
+\section*{Acknowledgments}
+The first match was struck in a class of 1970s MIT lectures \cite{strang}: rank-one matrices and a national flag made me \emph{see} linear algebra; that open letter to Professor Gilbert Strang is archived with this paper. The theory was refined in two weeks of dialogue with AI agents, including the collaborator who insisted that ``sausage'' and ``Gaussian process'' are one shape in two concept spaces. The sharpest early reviewer was a cat named 椅子 (Chair), who, hearing ``bicycle,'' activated an entirely different space and came home at once.
+
+\begin{thebibliography}{9}
+\bibitem{strang} G. Strang, \emph{Introduction to Linear Algebra}, 5th ed. (letter companion, cora-atlas/letters).
+\bibitem{bransford1972} Bransford \& Johnson (1972), Contextual prerequisites for understanding, \emph{JVLV}. doi:10.1016/S0022-5371(72)80006-9
+\bibitem{schmidt1975} Schmidt (1975), A schema theory of discrete motor skill learning, \emph{Psych. Rev.} doi:10.1037/h0076770
+\bibitem{rosch1975} Rosch (1975), Cognitive representations of semantic categories, \emph{JEP:G}. doi:10.1037/0096-3445.104.3.192
+\bibitem{chase1973} Chase \& Simon (1973), Perception in chess, \emph{Cog. Psych.} doi:10.1016/0010-0285(73)90004-2
+\bibitem{miller1956} Miller (1956), The magical number seven.
+\bibitem{bartlett1932} Bartlett (1932), \emph{Remembering}.
+\bibitem{collinsloftus1975} Collins \& Loftus (1975), Spreading activation, \emph{Psych. Rev.}
+\bibitem{cls1995} McClelland, McNaughton \& O'Reilly (1995), Why there are complementary learning systems, \emph{PLoS Biol.} / \emph{Hippocampus} lineage.
+\bibitem{huth2016} Huth et al. (2016), Natural selects for shared semantics map in the brain, \emph{Nature}.
+\bibitem{vonoswald2023} von Oswald et al. (2023), Transformers learn in-context by gradient descent, ICLR. arXiv:2212.07674
+\end{thebibliography}
+\end{document}
