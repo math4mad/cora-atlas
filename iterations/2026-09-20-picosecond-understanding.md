@@ -11,3 +11,10 @@
 「最快的学是记起」= Plato《美诺篇》回忆说的皮秒版；真懂=先在场,后被点名。
 样张（§5 收尾候选）：*"The fastest learning is remembering: a picosecond of understanding writes no new edges — it only confirms which edges were already there. Familiar spaces do not need explanations; they need roll calls."*
 独有优点入账：此论证的验证即读者的反应时本身——数据在读者颅内采集。
+
+## 出处补刀（主人二示，逐字）
+> 「我照'不到长城非好汉,不吃长沙臭豆腐等于没来'这两句改的」
+定性：18.06 那句是**旅游打卡语法的直接仿制**——地标门票体。理论随之一透：
+学一门学问=游一座城（地标=零比特探针；打卡=盖章=绑定入账；"没到过地标=没到过城市"）。
+Atlas 双关至此合龙: 图册 + 19 世纪旅行指南（Traveller's Atlas）同名同源；
+懂=老游客,同乡接头省三千字。若 slogan 为主人自制，则为本仓第一件民俗标本——理论出生次日即被口语收养。
