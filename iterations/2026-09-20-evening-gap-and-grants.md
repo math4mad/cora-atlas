@@ -35,3 +35,9 @@
 - exp12 二死于 peft 野文件名(/tmp/adpack 无 adapter_model.safetensors)→ 引擎 train() 改 save_pretrained 正门, 重铸已射。
 - **atlas v2 悬案告破**: metadata 早指向 verify_kernel_v2.py 但该文件从未存在→历次 push 哑火, COMPLETE 皆旧弹。今夜补铸真 v2(raw/centered 双轨 H-A1), 版本 21/22 出膛。
 - pocket 三接线: daily-report 尾部/夜哨回匣/夜哨 ERROR——空档静默, 主人贴 webhook 即响。
+
+## 补三 · 19:0x exp12 回匣 + 口袋通电
+- exp12 (3.5min): 双不对称翻转成立(序臂偏序 +0.0312/乱臂偏乱 −0.0155)——**方向性保真存在且可翻转**; 序↔乱 adapter 角 7.0° 对跨域 85.3°: 时间是注释(小旋转), 域是骨架(大旋转), 与 v2 宣言对榫。
+- 意外对照: 夏语料答案多为单句, 洗牌=恒等 → 两夏臂逐字节相同, NLL/角度全等——「洗牌对照」需先验证语料内部确有句序结构, 此为语料学第一课, 记入方法附录。
+- 18:58 飞书 pocket 通电: 首弹「园报进袋第一声」已达; secret 存 ~/.config/pocket (077, 不进 git)。
+- 夜哨空转 bug: 网络打盹期 status 空串不匹配任何 case → 静默。已加 ""→跳过 分支并换班(见下条命令)。
