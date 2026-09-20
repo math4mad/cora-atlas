@@ -28,3 +28,10 @@
 ## 补 · 申表正址（主人钦定，18:2x）
 - 申请表= https://services.google.com/fb/forms/kaggle-research-grants-application/
 - （PDF 里钓出的另一个是 bench 旧表; 以正址为准。园网出境此刻不通, 填表=主人 eyeball 时刻, Lola 只代笔不代点。）
+
+## 补二 · 18:3x 黑白复制 & atlas 真 v2
+- **exp13b 回匣(3.0min)**: 黑白道 11 点曲线与春雾道**同构**——端点角 83.3°(春雾 85.2°), 中点角和鼓包 124.9°(春雾 122.6°), p=0.1 摆幅 32°(春雾 35°)。**「中点不正」跨语料对复制成功**: 鼓包是混合训练的几何常数, 不是某一对话题的特化。
+- 边界八句 P_white 0.40-0.87: 「正义和忠诚不能同时选」=0.40(判黑), 「卧底穿这身衣服」=0.87(判白)——**立场词判黑、身份词判白**, 缝的语义学有了第一批标本。
+- exp12 二死于 peft 野文件名(/tmp/adpack 无 adapter_model.safetensors)→ 引擎 train() 改 save_pretrained 正门, 重铸已射。
+- **atlas v2 悬案告破**: metadata 早指向 verify_kernel_v2.py 但该文件从未存在→历次 push 哑火, COMPLETE 皆旧弹。今夜补铸真 v2(raw/centered 双轨 H-A1), 版本 21/22 出膛。
+- pocket 三接线: daily-report 尾部/夜哨回匣/夜哨 ERROR——空档静默, 主人贴 webhook 即响。
