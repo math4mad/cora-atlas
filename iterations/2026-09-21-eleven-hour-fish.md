@@ -27,3 +27,9 @@ Lola 注: 此句将「智能之辩」判为**病名而非问题**——任何对
 ## 补 · 18:55 三份并陈定案 & 7B 破缺
 - 主人令: 「如果qwen总结的和你不一样, 可以两份都保留」「保留原稿」→ v0 几何卷 / Qwen 概率卷(sha b641d8d0) / v1 对照本, 并陈不合并, README 记真分歧三条(基底本体/智能之问/狄利克雷定位)。
 - exp17 fp16-7B 回匣: 均秩 31.0 > 3B 的 15.45, 规模单调破缺。诚实登记, 三假说在册待 E17b(每规模多句/换 last-token/查泄漏)。
+
+## 补 · 19:5x Control Room 立项与双马分工
+- **pi-agents-redux-saga-extension = 麦 B·Qwen 程序员的货**（单 commit 9-20，测试文化在线，frontDesk/人质闸门在类型层）。交接帖 TESTING-ON-ANOTHER-MAC.md 在册：三活件(Vite :5173 / RPC 桥 :8787 / pi 加载 dashboard.ts)、Node≥22.19、nvm 陷阱（ENOENT 静默死）有 preflight 治。
+- 明日票 T1：本机克隆→npm ci→preflight→npm test（8 票全跑）→ 三件套起demo→人质闸门亲手按一次。
+- 明日票 T2：ORCHESTRA 三家什（guard 写篱/persist 账本/timetravel）以插件嫁进 extension store；extension 的 HUMAN_APPROVED 闸门反向移植 ORCHESTRA（两幕剧升三幕剧）。
+- 分工宣言：**双马同鞍，麦 A 管账本与验收，麦 B 管界面与开发**；git 是两匹马之间唯一的缰绳。
