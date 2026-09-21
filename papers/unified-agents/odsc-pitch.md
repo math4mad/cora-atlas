@@ -23,9 +23,7 @@ Best,
 Yiwei
 
 ## 正文（若编辑回信索要）
-直接给 `medium-en.md` 的 BODY 段——仅需两处改写即成 ODSC 版：
-1. 首节"unfriendly sentence"的哲学腔降半度，前面加一句教程承诺："In this post you will learn to measure how LoRA adapters remember order, domain, and mixture — in under an hour of free GPU."
-2. 结尾加一节 "Try it yourself"：三行指令（fork kernel → 换语料 sha → 重跑 11 点扫描），符合 ODSC 读者口味。
+**用 `odsc-dry.md` 全文**（主人已定：ODSC 腿走干稿——how-to 开场、数字为主角、修辞进脚注、附 Try-it-yourself）。Medium 腿仍用 medium-en.md（该站吃文学性）。
 
 ## 账
 - 状态：待主人过目 → 发送（表单人机验证需人工，家法同款）。
