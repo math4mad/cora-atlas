@@ -111,4 +111,5 @@ Lola 自纠一枚: 把"你做那个 offline-doc 用的就是这个啊"读成了"
 
 ## 明日票 + 移交麦 B · 21:2x
 - 主人点题: **redux-saga dashboard 可 Neutralino 化**(Vite dist 入壳 / WKWebView 支持 SSE / server.cjs 走 Extension API 当 sidecar, 或首版 README 标注手动起服务)。与书签壳、文档壳合称「麦 B 壳坊」: 三壳同 SDK, 一枚 vendor/neutralino.js 通吃, Playwright 永不录用。
-- 编号文明二期三例(续表): ICD-10 U07.1(新冠预留码=全球围观的空号), RFC 2324(咖啡壶=序号宇宙的故意空号), Unicode 码位(emoji 有门牌, 码位段=文字族群的分形周期表)。
+- 编号文明二期两例(续表): RFC 2324(咖啡壶=序号宇宙的故意空号), Unicode 码位(emoji 有门牌, 码位段=文字族群的分形周期表)。
+- **撤令在册（主人明令）**: ICD-10 U07.1 新冠编码例——**作废, 不入任何考题/文章/谈话**; 该条当日即从 E22 素材池除名。
