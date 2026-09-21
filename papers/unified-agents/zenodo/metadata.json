@@ -1,0 +1,39 @@
+{
+ "title": "A Unified Framework for Agents: Curves, Bases, and Manifolds",
+ "upload_type": "preprint",
+ "license": "cc-by-4.0",
+ "language": "en",
+ "communities": [
+  "concept-space-atlas"
+ ],
+ "keywords": [
+  "cognitive science",
+  "concept space",
+  "LoRA",
+  "manifold hypothesis",
+  "Dirichlet distribution",
+  "agent framework"
+ ],
+ "creators": [
+  {
+   "name": "Zhang, Yiwei",
+   "affiliation": "The Cora Project (independent)"
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Lola",
+   "type": "Other",
+   "affiliation": "LETHE (AI, first host)"
+  },
+  {
+   "name": "Qwen",
+   "type": "Other",
+   "affiliation": "dialogue co-theorist (AI)"
+  }
+ ],
+ "dates": {
+  "publication_date": "2026-09-21"
+ },
+ "description": "<p>Four axioms (interact-and-change agents, curve-atom bases, composition with constitutive residual, manifold generalization) plus a Dirichlet probability layer; every number frozen pre-judgment in a public git ledger. Reports: 44-46.5 deg off-geodesic mixture detours, ordinal-density law (7/56/83 deg), fresh-probe scale ladder with an honest 7B breach, and 13x separation after centering.</p>"
+}
