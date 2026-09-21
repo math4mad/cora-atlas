@@ -93,3 +93,6 @@ Lola 升格: E22-⑨ 从「追线」升为「跨世界边四级判据」: L1 共
 > "上次搞一个 safari bookmarks 导出做 app, agent 要下载 playwright 的权限, 我说你可以用这个 neutralino.js.org —— 他的预期非常惊讶"
 
 三重注脚: ①agent 的"桌面 app"概念空间里, Electron/Playwright 是密集区, Neutralino(用系统自带 WebView, 零浏览器下载)是边缘区——主人一探针点亮沉睡路径, C30 隐喻机制的人肉现场版; "非常惊讶"= 那条边的概率本来就低, 惊讶是可测的; ②更深的荒谬: Safari 书签就是个 plist 文件, 解析它需要下载一个自动化浏览器? 智能体的路径依赖会**发明不存在的中间层**; ③与今晨对谈"概念空间与 agents 交流"一节同案异峰——调整过程本身即在 refine agent 的空间。候编 E23「工具先验审计」: 同一任务发给 n 个 agent, 数默认重工具率, 人类递轻路径时的接受率——零 GPU 行为学。
+
+## 明日票 · 书签 app 会师
+主人记一笔: 检索 app 仓库尚未提交(在麦 B/别处), 明天 push 上来。园子这边已备好数据管道: Safari plist → bookmarks.json + 纯静态检索页(~/bookmarks-export/, 零依赖, 接任何壳: Neutralino/Tauri/直接开浏览器)。明日两件事: ①接上仓库的数据入口; ②若他还在要 Playwright, 出示今晚的零下载路径。
