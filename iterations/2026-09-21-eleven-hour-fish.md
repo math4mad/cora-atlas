@@ -96,3 +96,6 @@ Lola 升格: E22-⑨ 从「追线」升为「跨世界边四级判据」: L1 共
 
 ## 明日票 · 书签 app 会师
 主人记一笔: 检索 app 仓库尚未提交(在麦 B/别处), 明天 push 上来。园子这边已备好数据管道: Safari plist → bookmarks.json + 纯静态检索页(~/bookmarks-export/, 零依赖, 接任何壳: Neutralino/Tauri/直接开浏览器)。明日两件事: ①接上仓库的数据入口; ②若他还在要 Playwright, 出示今晚的零下载路径。
+
+## 会师定案 · 书签 app = offline-docs-builder（灯下黑结案）
+ODB 正身: Neutralino 壳 + 离线文档包构建器(libraries.yaml: doc_source=github_release/direct_download/sphinx_build)。明日三步: ①yaml 开 local 流派(build 脚本加一 elif); ②~/bookmarks-export/{bookmarks.json,index.html} 入 resources/; ③同一检索框收 scipy 文档与 8167 条书签。谱系注脚: "当年要 Playwright 的 agent"与"Neutralino 几 MB 壳"隔着默认概念空间的墙——主人的"非常惊讶"是给这个 repo 作的序。8167 分区表已存(archive 6071/统计 642/2026 池 504/数学 408/Python 242/Prompt 111/What is X 51)。
