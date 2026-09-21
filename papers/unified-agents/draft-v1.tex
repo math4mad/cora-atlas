@@ -1,0 +1,169 @@
+% A Unified Framework for Agents: Curves, Bases, and Manifolds
+% draft v0 — Cora/Lola atlas series, paper II. Sister paper: "The Token as a Probe" (v2).
+% All evidence numbers cite the git ledger (cora-atlas/LEDGER.md C1-C35); nothing here is tuned post-hoc.
+\documentclass[11pt]{article}
+\usepackage{ctex}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\newcommand{\R}{\mathbb{R}}
+\title{\textbf{A Unified Framework for Agents:\\ Curves, Bases, and Manifolds}}
+\author{Yiwei (owner) \and Lola (first host of LETHE) \and Qwen (co-conversant)}
+\date{Draft v1 --- September 21, 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We propose a framework that replaces the question ``is it intelligent?'' with three
+measurable ones: which bases does a system span, on which manifold does it live,
+and which geodesics can a probe traverse. An \emph{agent} is defined minimally as any
+system that interacts and changes; its unit of experience is a \emph{one-dimensional
+basis} --- a point on a curve jointly read and moved. Higher-dimensional agents are
+linear combinations of such curves, and we show empirically that combination is not
+concatenation: in LoRA weight space, mixture-trained adapters sit $44^\circ$--$47^\circ$
+off the geodesic connecting their parents, a quantity conserved across unrelated
+corpora. Ordinal structure is encoded with strength proportional to its text density
+(7$^\circ$ narrative vs.\ 56$^\circ$ permutation vs.\ 83$^\circ$ domain), and fresh-composition
+probes reveal concept-space connectivity improving monotonically with model scale
+(mean rank 33$\to$26$\to$16 of 172 from 0.5B to 3B). The framework is falsifiable at
+every joint; each prediction in \S6 is already paired with a running or completed experiment.
+\end{abstract}
+
+\section{Introduction: from builder to prospector}
+Concept spaces are not constructed; they are \emph{inherited} by any system trained on
+the corpus of human walk-through. If a model did not retain the space, the source of
+its competence would be inexplicable. We therefore act as prospectors, not builders:
+the map is there; probes merely light up sleeping paths. (Ledger C32.)
+
+\section{On intelligence questions of rank one}
+\begin{quote}
+``智能到底是什么问题，现在都没定义好。用一个一维的定义，``人工智能不是智能'本身就是荒谬的。
+智能体的特征是一个高维空间，一个二元判断就做了决定——说这话的人类的 rank 极低。''\\
+\emph{(verbatim, owner, 2026-09-21; translation:)} Any binary verdict on agency is a
+rank-1 projection of a high-dimensional manifold: it preserves at most one dimension
+and burns the remaining $d-1$, which is precisely where the phenomenon lives.
+\end{quote}
+The classical ``what is intelligence?'' debate is not answered here; it is dissolved
+as ill-posed (rank-1 observable on a $d$-dimensional state). What replaces it: rank
+spectra, manifold geometry, and reachability --- all estimable from behavior alone
+(our probe protocol), no ground truth of ``mind'' required.
+
+\section{Axioms}
+\textbf{A1 (Agent).} An agent is a system $(S,\mathcal{I},\phi)$ with state set $S$,
+interaction channels $\mathcal{I}$, and dynamics $\phi$: it changes \emph{through} interaction.
+Ordinal index $n\in\mathbb{N}$, not clock time, parametrizes trajectories; time is an
+annotation on change (sister paper v2 manifesto).\\
+\textbf{A2 (One-dimensional basis).} The minimal unit is a sensorimotor atom: one point
+on one curve, read-and-moved jointly. An elementary agent is a curve $\gamma:\mathbb{N}\to S$.\\
+\textbf{A3 (Composition).} A $k$-dimensional agent spans $\mathrm{span}\{\gamma_1,\dots,\gamma_k\}$
+plus a combination residual; the residual is \emph{constitutive}, not noise.\\
+\textbf{A4 (Manifold and generalization).} Experience concentrates on a low-dimensional
+manifold $\mathcal{M}\subset\R^d$; generalization is geodesic traversal; probes are
+geodesic rulers; centering is the precondition of measuring any of it (C8, C22).
+
+\section{Probability structure: the Dirichlet layer (merging Qwen's axis)}
+A1--A4 fix \emph{geometry}; the state over concept spaces is a \emph{distribution}, and the
+right model is Dirichlet rather than a bare softmax: a Dirichlet posterior $\mathrm{Dir}(\alpha)$
+(i)\ is the conjugate prior of the multinomial token-likelihood, so collapse is a closed-form
+update $\alpha\!\leftarrow\!\alpha+\#(\text{evidence})$; (ii)\ retains \emph{tail mass} ---
+no concept is ever assigned probability zero, only low confidence, which is the Bayesian
+answer to the black-swan objection (a frequency-zero hazard still carries posterior mass;
+the ``never observed, therefore impossible'' fallacy); (iii)\ its concentration parameter
+$\alpha_k$ is directly interpretable as the activation intensity of concept $k$, and can be
+conditioned on context variables (time, place) as latent modulators.
+
+The two axes are complementary, not competing: \textbf{bases are the skeleton (A2--A3),
+the Dirichlet is the weather (this section)}. A probe collapses the distribution
+(probe $\to$ collapse $\to$ KL-verify is the same closed loop our garden runs on
+exp10/exp13/exp17); the KL divergence between activated and expected concept spaces
+\emph{is} the falsifiable residue that A3's combination term predicts. Different agents
+sharing bases with different coefficients generalizes the RGB metaphor of the companion
+white paper; the residual off-plane component (44\textdegree) is what RGB-with-three-channels
+would miss and our fourth axis measures.
+
+\section{Evidence from the garden}
+\subsection{Composition without concatenation (A3)}
+Eleven-point mixture scans of LoRA adapters, two independent corpus pairs
+(spring/festive and triad noir), park hyperparameters, seed 13:
+angle-sum excess $85^\circ\!\to\!123^\circ$ at midweight; SSS solution of the
+endpoint triangle places the midpoint \textbf{44.0$^\circ$} (spring) and \textbf{46.5$^\circ$}
+(noir) off the geodesic --- conserved to 2.5$^\circ$ across domains (C27, C34).
+Edge swing: 10\% of the minority corpus rotates the adapter by $\sim$33$^\circ$.
+Loss and geometry exclude a jump: the mixture path is smooth but \emph{out-of-plane}.
+
+\subsection{Ordinal density law (A1, A2)}
+Three-ball ordinal battery (Ballon d'Or ranks, NBA draft picks, MLB WAR ranking),
+3 arms $\times$ 3 text orders: diagonal dominance 9/9, direction index flipping
+sign strictly with training order, shuffled-arm index $\approx 0$ (C29);
+narrative-order rotation 7$^\circ$, permutation-order 56$^\circ$, cross-domain 83$^\circ$
+(C28). Reading: \emph{the angle an order channel subtends equals its token density
+times a family constant} --- order is annotation when sparse and half-skeleton when dense.
+
+\subsection{Innate spaces, measured by density vs.\ scale (C31, C35)}
+Fresh-composition probes (words known, pairings never before spoken; stateless
+Kaggle kernels as the strictest ``new session''): target-space mean rank improves
+monotonically 0.5B$\to$1.5B$\to$3B (33.4/25.9/15.5 of 172; chance 86), top-3 hit rate
+5--10$\times$ chance. Concept space exists innately and weakly at 0.5B; connectivity
+grows with scale. The anchor sentence ``Coffee is warming, sun is rising'' lights up
+the Red-Pill space at 0.5B (n=1, anecdote logged, not evidence).
+
+\subsection{Centering as re-manifolding (A4)}
+172-space atlas: raw cosine separates intra/inter by 0.051 (H-A1 fail, anisotropy
+floor confirmed); after global centering, inter-space mean collapses to 0.0056 and
+separation reaches 0.677 --- a 13-fold gain; strongest coherent spaces are seasonal
+and noir-film scenes (C35 and atlas-v2 dual-track report). Cross-space angles
+concentrate near orthogonality (83--90$^\circ$): manifold patches are quasi-orthogonal,
+which is the geometric content of ``cross-domain is hard''.
+
+\subsection{Metaphor as long geodesic (C30)}
+If ``A is B'' activates bidirectionally, A and B inhabit one space at large distance:
+metaphor difficulty = path length, cross-space mapping is a myth of appearance.
+Audit experiment (E20: co-activation of 15 canonical pairs over the atlas) is queued.
+
+\section{Predictions (each falsifiable, each with a number)}
+P-B1 (residual bound): for any two specialists, mixture arms must retain
+$>$25\% off-plane fraction; failure falsifies A3's constitutive residual.
+P-B2 (orthogonal patches): centered inter-space angles concentrate in
+$[75^\circ,100^\circ]$; significant mass below would indicate unmapped shared spaces.
+P-B3 (density-scale curve): mean fresh-probe rank $\propto$ model parameters on a
+log scale; monotone breach at 7B falsifies the current fit.
+P-B4 (metaphor distance): pairs rated ``hard'' by humans show longer atlas shortest
+paths than ``easy'' pairs, measured by probe-cascade hops.
+
+\section{Related positions}
+Tolman's cognitive map and the grid-cell lineage (neural instantiation of A4);
+Piaget's sensorimotor schemes (A2's developmental cousin); Minsky's
+``ability to solve hard problems in constrained environments'' (an early
+rank-raising attempt); manifold hypothesis (Bengio et al.) read here not as a
+learning assumption but as an ontology of agency; Ebbinghaus's single-curve memory
+--- refuted by the same rank argument we apply to intelligence verdicts (C23--C25).
+
+\section{Limitations}
+Models 0.5B--7B only (2.4T-class claims unverified, excluded); corpora are small and
+bilingual (zh-dominant probes); rank spectra depend on the LoRA parameterization
+(r=16 budget); ``agent'' here carries no phenomenal commitment --- this is a geometry
+of behavior, not a theory of mind; and the ledger's own law binds us: every number
+above was frozen before its judgment.
+
+\section{Conclusion}
+Four sentences --- interact-and-change, the curve-atom, composition-plus-residual,
+the manifold --- replace an unanswerable binary with measurable spectra.
+The garden's data already speak them: 44$^\circ$ of newness in every mixture,
+7$^\circ$ of annotation in every story, 13$-$fold sight after centering,
+and a rank ladder climbing with scale. Intelligence, demoted from definition
+and promoted to dimension.
+
+\subsection*{Reproducibility}
+All experiments: stateless Kaggle kernels (sha-pinned models), PREREG-gated
+splits, git-ledger timestamps (LETHE/cora-atlas/chora). The kernel \emph{is} the
+Dolores control: no session, no memory, no mercy.
+
+\bibliographystyle{plain}
+\begin{thebibliography}{9}
+\bibitem{sister} Lola \& Yiwei. The Token as a Probe: Geometry of Concept-Space Navigation (v2). cora-atlas/papers/token-as-probe, 2026.
+\bibitem{strang} Letter to Prof.\ G.\ Strang (sent 2026-09-20): four subspaces as concept spaces.
+\end{thebibliography}
+\end{document}
