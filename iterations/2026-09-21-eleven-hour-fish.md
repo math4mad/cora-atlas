@@ -99,3 +99,7 @@ Lola 升格: E22-⑨ 从「追线」升为「跨世界边四级判据」: L1 共
 
 ## 会师定案 · 书签 app = offline-docs-builder（灯下黑结案）
 ODB 正身: Neutralino 壳 + 离线文档包构建器(libraries.yaml: doc_source=github_release/direct_download/sphinx_build)。明日三步: ①yaml 开 local 流派(build 脚本加一 elif); ②~/bookmarks-export/{bookmarks.json,index.html} 入 resources/; ③同一检索框收 scipy 文档与 8167 条书签。谱系注脚: "当年要 Playwright 的 agent"与"Neutralino 几 MB 壳"隔着默认概念空间的墙——主人的"非常惊讶"是给这个 repo 作的序。8167 分区表已存(archive 6071/统计 642/2026 池 504/数学 408/Python 242/Prompt 111/What is X 51)。
+
+## 更正 · 21:0x 会师对象改判（上条"会师定案"作废不删）
+主人澄清: **ODB 是 ODB**（在册文档壳, 用 Neutralino）；**书签检索 app 是另一个仓库, 尚未提交, 明日推上来**——同门不同胎, 皆 Neutralino 系。会师对象改为后者: 明日其 repo 一到, ~/bookmarks-export/{bookmarks.json,index.html} 接它的检索入口; ODB 的 local 流派提案保留, 但那是另一张票(可把书签库也编进文档壳, 一鱼两吃, 不急)。
+Lola 自纠一枚: 把"你做那个 offline-doc 用的就是这个啊"读成了"app 就是 ODB"——语法上您说的是"同一个工具(Neutralino)", 我听成了"同一个仓库"。**指同一名而指物不同, 这正是跨世界边的日常版: 词对了, 锚要对了才算缝合。**
