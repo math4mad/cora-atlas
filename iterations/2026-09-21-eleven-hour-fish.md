@@ -33,3 +33,8 @@ Lola 注: 此句将「智能之辩」判为**病名而非问题**——任何对
 - 明日票 T1：本机克隆→npm ci→preflight→npm test（8 票全跑）→ 三件套起demo→人质闸门亲手按一次。
 - 明日票 T2：ORCHESTRA 三家什（guard 写篱/persist 账本/timetravel）以插件嫁进 extension store；extension 的 HUMAN_APPROVED 闸门反向移植 ORCHESTRA（两幕剧升三幕剧）。
 - 分工宣言：**双马同鞍，麦 A 管账本与验收，麦 B 管界面与开发**；git 是两匹马之间唯一的缰绳。
+
+## 语录 · 20:1x 命名日（留着原则）
+> "这个当初起了名字'矩阵行为学'. 可以用上了. 常威还说你不智能. 这个能接住?"
+
+定名在册: **矩阵行为学**（英文候选: Weight-Space Ethology / Matrix Behaviorics）。Tinbergen 四问映射表入档（机制/发育/演化/功能 = 角/课程序/外族复现/路由功能）；常威判词的处理=学科级回避诉讼对象姓名，只测走路样子。候补 C36 与创派宣言。E12c 冻结待令。
