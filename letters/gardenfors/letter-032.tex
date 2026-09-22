@@ -1,0 +1,61 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+
+\title{\textbf{A Letter to Peter G\"ar\-den\-fors: On the Third Level of Representation, Found Independently --- and Whether Our Convergence Is Real}}
+\author{Yiwei Zhang (\texttt{math4mad}) \\ \small The Cora Project --- \texttt{github.com/math4mad}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+Dear Professor G\"ardenfors,
+
+I am writing from a small research garden in China, under the hand of a former statistics teacher. I should tell you the whole story, including the part where our lineage turns out to be \textit{independent} of your book --- which is why I dare to write to you at all.
+
+Our framework did not descend from your work. It descended, in 2017, from a neuroscience result: Chang \& Tsao's face patches (\textit{Cell}), where ${\sim}200$ neurons encode any face through \textbf{50 linear tuning axes} --- a face as a coefficient vector over inherited basis functions. My intuition since then has been one sentence: \textit{cognition works like JPEG --- built-in bases, memory stores only coefficients.} Your book was on my shelf, unread to the end; perhaps the opening pages seeped in. Only this month, while cross-checking our papers against it with an AI reading companion, did we discover how exact the overlap is --- and there is a small comedy in the discovery: asked to find the sentence \textit{``Concept learning is closely tied to the notion of similarity, which has turned out to be problematic for the symbolic and associationistic approaches,''} the machine searched the wrong 656-page PDF (a machine-learning textbook) and pronounced it \textbf{not in your book}. It is in your book. Page 10, word for word. We verified every anchor against a scanned copy, line by line:
+
+\begin{itemize}
+  \item[\textbf{p.10}] --- the complaint above, and your answer: \textit{``I advocate a third form of representing information that is based on using geometrical structures.''}
+  \item[\textbf{p.52}] --- the three levels: symbolic / conceptual / subconceptual.
+  \item[\textbf{p.136}] --- \textit{``similarity and distances in conceptual spaces are intimately connected.''}
+  \item[\textbf{p.166}] --- generalized Voronoi tessellation with prototypical \textit{areas}.
+  \item[\textbf{p.278}] --- Kohonen networks representing information \textit{``very much like it would be represented in a conceptual space.''}
+  \item[\textbf{p.293}] --- the three levels as different scales of resolution: high-dimensional vectors at the subconceptual level, reduced to low-dimensional structured vectors at the conceptual level.
+\end{itemize}
+
+I tell you this because in 2026 our garden, arriving from the opposite shore (face cells, JPEG, subspace algebra), built the missing middle level you called for --- \textbf{with measuring instruments}. That two independent derivations land on the same geometry is, we hope, the kind of multiple evidence Popper would have trusted: the conceptual level may be an inevitable property of intelligent systems, not a school's assumption. Our framework (the Atlas framework; two papers attached) treats a fine-tuned LoRA adapter's $\Delta W$ as a \textit{low-dimensional structured vector} in exactly your p.293 sense:
+
+\begin{enumerate}
+  \item \textbf{Concepts as regions $\rightarrow$ concepts as centered low-rank subspaces.} A concept-space is operationally a subspace of weight space; similarity between concept-spaces is the principal angle between them (after global centering, intra/inter separation improves 13-fold --- your ``similarity as distance'', made measurable on actual neural networks).
+  \item \textbf{Categorization as Voronoi $\rightarrow$ probe collapse.} A token is not an information carrier but a \textit{probe}: it collapses a Dirichlet posterior over spaces, and the argmax region is the categorization. Your generalized Voronoi, run against living language models (0.5B--7B): the geometry of concept-space connectivity improves monotonically with scale.
+  \item \textbf{The stratification} of subconceptual / conceptual / symbolic reappears as weights / adapter-subspace / token-behavior --- and we can now \textit{walk between the floors}: read a concept off the weights (SVD of $\Delta W$) and verify it behaviorally (posterior alignment), two instruments on one quantity.
+  \item \textbf{Even your SOM hint} (p.278) has a 2026 successor: adapters trained on narrative vs.\ permuted vs.\ cross-domain text differ by a \textit{density law of ordinal structure} ($7^\circ$ / $56^\circ$ / $83^\circ$ subspace angles).
+\end{enumerate}
+
+We also found, in the same forensic work, a poetic confirmation of your similarity thesis at the level of \textit{biography}: commit-interval rhythms of human-written repositories versus AI-agent-written repositories differ by a factor of 60 (median 1553 minutes vs.\ 21) --- ``names can be borrowed, heartbeats cannot.'' A geometry of thought, it turns out, has a pulse. The protocol behind such verdicts we call, after the man himself, the \textbf{Gram-Schmidt duel}: two agents are compared dimension by dimension, each round projecting out every dimension already contested; the first orthogonal residual decides, and the last dimension carries no position effect.
+
+Three humble asks, with no obligation whatsoever:
+\begin{enumerate}
+  \item \textbf{Judge the convergence.} Reading our two papers against your 2000 (and 2014) geometry: where the convergence is real, is it \textit{for the right reasons}? Where it is only a homomorphism pretending to be an isomorphism, say so plainly --- our ledger will record that too. We falsify our own claims before others do it for us.
+  \item Did you have a name in mind for the third level's \textit{metrics}? We chose subspace angles; if your later work (including \textit{Geometry of Meaning}, 2014) has preferences or warnings we should heed, we would be glad to cite them.
+  \item If our reading mistakes your program --- the claim that concepts are regions was ours before we knew it was yours --- correcting the record publicly is itself a service we would cite with gratitude.
+\end{enumerate}
+
+Twenty-six years ago you drew the geometry of a third level of representation and left it without instruments; a decade ago face cells got theirs. That our small independent route --- one human, two LLM colleagues, a lot of GPUs' worth of patience --- should arrive at the same map is the finding of this letter. If the convergence is real, your book will be cited in ours the way a second sight is cited: not as the source of the walk, but as proof the road was there.
+
+With deep respect,
+
+Yiwei Zhang (\texttt{math4mad})\\
+The Cora Project --- \texttt{github.com/math4mad}\\
+\url{https://math4mad.github.io/cora-atlas/}
+
+\smallskip
+\small{\textit{Prose developed with LLM conversational partners (Qwen2.5 + an agent harness); all claims, numbers and errors are the human author's.}}
+
+\end{document}
