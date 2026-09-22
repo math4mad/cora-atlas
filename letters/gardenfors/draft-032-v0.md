@@ -105,3 +105,24 @@ peter.gardenfors@philosophy.lu.se · peter.gardenfors@luc.lund.lu · via Springe
 
 **发送规程** (循 Strang 例): mmads4653@agent.qq.com → agently-cli send, 正文如上,
 附件 PDF; 发后在匣记 `sent-YYYY-MM-DD-v1.md` + LEDGER 入册 (园务行)。
+
+---
+
+## 路由方案 (照 Strang 例: 甲案直邮, 乙案公开化)
+
+**甲案 (主道)**：直邮 Lund 哲学系地址 (候核: peter.gardenfors@philosophy.lu.se 等,
+网络通时从 portal.research.lu.se / 系页验真后发)。退信则 24h 内转乙案第①路。
+
+**乙案 (备胎三道, 依序)**
+1. **第二地址同题重发**：LUCCog 认知科学单元 / 个人站 petergardenfors.net 联系页 /
+   Springer《Conceptual Spaces: Elaborations and Applications》(Synthese Library 405)
+   编辑部转递 —— 抄送室秘书是学界常礼, 非绕闸。
+2. **30 天无回音 → 公开信化** (Strang 先例 C25: 信抵即专栏向世界发射)：
+   本信去抬头改 `An Open Letter to Professor Gärdenfors (no reply yet)` 贴
+   math4mad.github.io/cora-atlas + Zenodo DOI 存档 (zenodo/ 通道在册),
+   知乎/Medium 双轨同步 —— 公器不私, 回不回都在册。
+3. **隔山有路**：Zenker/Hautamäki 等《Applications of Conceptual Spaces》辑者
+   为 G 门生网络, 若乙①②皆静, 可向辑者求转 (只转信不催议)。
+
+**铁律**：两案皆不伪造地址裸发; 地址未验 = 不发。回音一到, LEDGER 园务行入册,
+谦引句即时织入 v2.2 修订。
