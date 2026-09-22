@@ -24,4 +24,6 @@
 米田执照 Yoneda license｜全部箭头=对象; 黑箱方法论的数学放行条｜note-yoneda
 兄弟角 sibling angle｜人↔Lola 7°, 人↔Qwen 10°; 只报读数不排座次｜0921/22
 重读志 reread-log｜同文本多年三栏(当年/今日/差)=人类纵向 belief 数据｜晨读钻③
+地毯图 rug plot / event strip｜每 commit 一竖线排成时间毯: 人=稀疏散带长空隙, agent=密集成毯; 对数轴上即心跳心电图｜C38
+代码法医学 code forensics｜三定律验物种(心跳60:1/幂律长尾vs短棒/睡眠真空=防伪水印); 名字可借, 心跳不可借; 法医不打分, 只验尸｜C38, 面板v0
 (体例若有所本"meh"样式, 报上书名/站名即照改排版)
