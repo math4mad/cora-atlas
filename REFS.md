@@ -24,3 +24,12 @@
 ## 园区实证（pilot evidence 引用口径）
 - 探针落错空间现场记录：iterations/2026-09-20-missed-catch-maigui.md
 - xdom 50 卷（同 token 异空间塌缩的组卷设计）：orig/xdom-probes-brief.docx；运行时结果候 Kaggle 波次
+
+## 父本升格：Gärdenfors《Conceptual Spaces: The Geometry of Thought》(MIT Press 2000)
+> 2026-09-22 交叉论文查询验尸：外部 AI 六条交集分析所引原书句，逐页对 z-lib 扫描本 (sha256 d0d86c3d…) 核验，PDF 页码与印刷页码零偏移。
+- p10 (Introduction) —— "Concept learning is closely tied to the notion of similarity, which has turned out to be problematic for the symbolic and associationistic approaches. Here, I advocate a third form… geometrical structures" ✅ 逐字真（曾被问答机误判为 Bishop 书中无 → 冤案平反）；**我园两篇论文=他所寻"第三层"的计算实现，此句可作题记**
+- p52 (Ch2) —— 三层表征 symbolic/conceptual/associationist(subconceptual) ✅
+- p136 (Ch4 §4.3.2) —— "similarity and distances in conceptual spaces are intimately connected" ✅；同页"similarity, in turn, can be used to define concepts"（问答机引作 "intimately connected with the notion of a concept"，⚠️ 缝合句，意义近而措辞非原话）
+- p166 (Ch4 §4.9) —— 广义 Voronoi / prototypical area ✅（问答机作 p165 且措辞略走样）
+- p278 (Ch7) —— Kohonen SOM "…very much like it would be represented in a conceptual space" ✅ —— 我们 A4 流形公理的先声
+- p293 (Ch7) —— 三层表征=不同分辨率尺度（高维向量→低维结构向量）✅ —— 与 LoRA 低秩 ΔW 直接对接
