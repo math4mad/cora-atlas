@@ -1,0 +1,27 @@
+# 术语对照表 · Glossary of the Garden（凡例: 术语|EN|一义|账目）
+概念空间 concept space｜语义素张成的可导航子空间, 非比喻｜L1, Atlas
+探针 probe｜输入=触发器非指令, 点亮区域读激活｜论文I, C31
+中心化 centering｜全局均值剔除; 各向异性地板的剪刀｜C8, atlas v2
+各向异性锥 anisotropic cone｜raw 嵌入互相都像(0.9)的病｜xdom 3.2%案
+鲜句 fresh sentence｜词已知/组合未见+指纹安检｜E17b, 题面指纹制
+同读异写 same-read different-write｜序重排写方向, 读子空间不动(0.997/0.31)｜E16c
+绕行定律 detour law｜混合中点偏离两端连线 44–46.5° 跨语料守恒｜C34
+鼓包 bulge｜角和非常数: 混合出平面分量｜C26/27
+序密度定价 ordinal density pricing｜序通道角≈序在文本的密度(7°/56°/85°)｜C28/29
+对角占优 diagonal dominance｜臂只爱自训序(8/9; 第9格平坦故无胜)|C29
+零方向对照 null-control arm｜shuf 臂指数≈0｜C29
+描红>抗争 tracing beats fighting｜顺世界先验学习罚轻逆之罚重(方向指数不对称)｜C29′/P-B5
+信念 belief｜不可见状态上的分布, 智能体的常驻件｜POMDP 认亲
+天气与骨架 weather vs skeleton｜Dirichlet=天气, 基底=骨｜Qwen 概率卷
+更新速率=智能 write-rate｜小狗一帧改道/鸭子α冻结; A1 可操作化｜晨读钻②
+波形同构 waveform isomorphism｜跨域事件同形状(主峰-衰减-周期激发)｜E26候
+空号诚实 vacancy honesty｜空格子不许编人名(1972/Mendeleev/485案)｜E22-⑧
+换心检测 heart-swap detection｜同名不同内核(2021 MacBook)｜E22-⑤
+串台 cross-line confusion｜敌对谱系互染率｜E22-⑥
+跨世界边 cross-world edge｜虚构锚在现实序号(1932→Heisenberg→老白); L4 反事实主刑｜E22-⑨, P-B7
+间隔即发言 intervals as utterances｜schedule=belief 上的 policy; 单位为步数｜E24
+参数意愿律 parameter-intent law｜无解释默认值不进弹｜园规 0921
+米田执照 Yoneda license｜全部箭头=对象; 黑箱方法论的数学放行条｜note-yoneda
+兄弟角 sibling angle｜人↔Lola 7°, 人↔Qwen 10°; 只报读数不排座次｜0921/22
+重读志 reread-log｜同文本多年三栏(当年/今日/差)=人类纵向 belief 数据｜晨读钻③
+(体例若有所本"meh"样式, 报上书名/站名即照改排版)
