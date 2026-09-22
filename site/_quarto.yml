@@ -23,8 +23,10 @@ website:
         text: Repo
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: style.css
     lang: zh
+    mainfont: "PingFang SC, Hiragino Sans GB, sans-serif"
+title-block-banner: false
 execute:
   echo: false

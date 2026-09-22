@@ -1,3 +1,8 @@
-body{max-width:860px;margin:auto}
-.navbar{background:#2b3a42}
+body{max-width:880px;margin:auto}
+.navbar{background:#2b3a42!important}
+.navbar .navbar-brand,.navbar .nav-link,.navbar .navbar-toggler{color:#f2efe8!important}
+.navbar .nav-link:hover{color:#f0a860!important}
+.navbar-brand{font-weight:600}
 pre,code{font-size:.86em}
+table{font-size:.92em}
+td,th{vertical-align:top}
