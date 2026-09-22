@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Letter 032 候验轨道: 每 10 分钟试核 Gärdenfors 收件地址 (铁律: 未验不发)。
-# 命中即写 letters/gardenfors/address-verified.txt 并退出; 12 试皆败留痕挂账。
+# Letter 032 候验轨道 (单趟版): 每次调用巡一轮五路 slug; 节律由 bin/queue.py 管 (指数退避)。
+# 命中即写 letters/gardenfors/address-verified.txt 并退 0 (队列记 ☑)。铁律: 未验不发。
 set -u
 L="$(dirname "$0")/../letters/gardenfors"; cd "$L"
 CAND=(
@@ -10,7 +10,6 @@ CAND=(
  "https://www.cogsci.lu.se/staff/peterg"
  "https://en.wikipedia.org/wiki/Peter_G%C3%A4rdenfors"
 )
-for i in $(seq 1 12); do
   for u in "${CAND[@]}"; do
     body=$(curl -s -m 15 -L -A "Mozilla/5.0" "$u" 2>/dev/null) || continue
     mail=$(printf '%s' "$body" | grep -aoE "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.lu\.se" | sort -u | head -1)
@@ -19,6 +18,5 @@ for i in $(seq 1 12); do
       echo "$(date '+%F %T') VERIFIED $mail via $u" >> verify-log.txt; exit 0
     fi
   done
-  echo "$(date '+%F %T') 第${i}试未通 (网络或 slug 不对)" >> verify-log.txt; sleep 600
-done
-echo "$(date '+%F %T') 十二试皆静 — 地址仍候核, 信不发" >> verify-log.txt; exit 1
+  echo "$(date '+%F %T') 本轮未通 (网络或 slug 不对)" >> verify-log.txt
+echo "$(date '+%F %T') 本轮未中 — 地址仍候核, 信不发" >> verify-log.txt; exit 1
