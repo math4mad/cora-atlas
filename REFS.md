@@ -33,3 +33,4 @@
 - p166 (Ch4 §4.9) —— 广义 Voronoi / prototypical area ✅（问答机作 p165 且措辞略走样）
 - p278 (Ch7) —— Kohonen SOM "…very much like it would be represented in a conceptual space" ✅ —— 我们 A4 流形公理的先声
 - p293 (Ch7) —— 三层表征=不同分辨率尺度（高维向量→低维结构向量）✅ —— 与 LoRA 低秩 ΔW 直接对接
+- **⚠️ 2026-09-22 夜谱系改判（主人亲口）**：我园论文与 G 书非继承关系，是**独立收敛**——真祖源 = Chang & Tsao (Cell 2017, 面孔 50 调谐轴) + "认知即 JPEG：内置基、记忆只存系数"直觉 (2017→)。G 书降为**并行祖源**（"书在架上未读完，开篇或有渗漏"）。Letter 032 叙事随之改 v2"请判读收敛是真是巧"。见 iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.md
