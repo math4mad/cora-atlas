@@ -34,3 +34,9 @@
 - p278 (Ch7) —— Kohonen SOM "…very much like it would be represented in a conceptual space" ✅ —— 我们 A4 流形公理的先声
 - p293 (Ch7) —— 三层表征=不同分辨率尺度（高维向量→低维结构向量）✅ —— 与 LoRA 低秩 ΔW 直接对接
 - **⚠️ 2026-09-22 夜谱系改判（主人亲口）**：我园论文与 G 书非继承关系，是**独立收敛**——真祖源 = Chang & Tsao (Cell 2017, 面孔 50 调谐轴) + "认知即 JPEG：内置基、记忆只存系数"直觉 (2017→)。G 书降为**并行祖源**（"书在架上未读完，开篇或有渗漏"）。Letter 032 叙事随之改 v2"请判读收敛是真是巧"。见 iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.md
+
+## 第四位并行祖源：Feldman《From Molecule to Metaphor》(MIT Press 2006)
+> 2026-09-23 晨 · external/概念空间理论的四种几何化路径_统一比较分析.pdf (pin f6f16f40…) 引入; Crossref 验讫 DOI:10.7551/mitpress/3135.001.0001
+- 整合回路 (发散-收敛) = 基+系数的神经实现; **绑定问题=同步** ≈ 探针-空间激活; 概念图式 (容器/力动态) = quality spaces 之神经版; 明确**反对 Chomsky 普遍语法** (与 C42 生地论同侧)
+- 园账定位: G(几何地图)/F(神经电路)/v1(探针)/v2(流形) = **四路并立, 皆独立收敛** —— 园律改判 (0922 夜) 同样适用于 Feldman: 非继承, 是殊途
+- ⚠️ 该文两处待纠: ①"CORATLAS 将 G 推向新高度"= 旧继承叙事复辟 (违 0922 改判); ②漏第五路 = 主人 2017 Chang&Tsao 面孔 50 轴 (真祖源, 任何谱系表不得再缺)
