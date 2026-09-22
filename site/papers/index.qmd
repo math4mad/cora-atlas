@@ -1,0 +1,14 @@
+---
+title: "论文 · 索引"
+---
+
+| 案 | 纸 | 状态 |
+|---|---|---|
+| The Token as a Probe (Atlas v1/v2) | [PDF](https://math4mad.github.io/cora-atlas/atlas-paper-v2.pdf) · [arXiv 源](https://github.com/math4mad/cora-atlas/tree/main/papers/token-as-probe) | 已发 |
+| A Unified Framework for Agents (v2.1-arxiv) | [PDF](https://math4mad.github.io/cora-atlas/unified-agents-v2.pdf) · [arXiv 包](https://github.com/math4mad/cora-atlas/tree/main/papers/unified-agents/arxiv) | 候射 |
+| 最小二语 P-L2 (三向最小学习者) | [骨架 v1](minimal-l2-skeleton.qmd) | 立项候批 |
+| 达尔文夫妇 exp18 | [PREREG](prereg-exp18.qmd) | C39 已封 |
+| 序锦标赛/海选/全贯 P-B15 | [PREREG v3](prereg-pb15.qmd) | 候批候射 |
+| PB10 子空间敲除 | [PREREG](prereg-pb10.qmd) | v2 在射 |
+| G1 垃圾基因两源 | [PREREG](prereg-g1.qmd) | 候批 |
+| 致 Gärdenfors (Letter 032) | [草稿 v2](https://github.com/math4mad/cora-atlas/blob/main/letters/gardenfors/draft-032-v2.md) | 候朱批 |

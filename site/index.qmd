@@ -1,0 +1,13 @@
+---
+title: "Cora Atlas · 碑前"
+---
+
+::: {style="text-align:center; margin:2em 0"}
+[🏛 论文 Papers](papers/index.qmd) &nbsp;·&nbsp; [🍞 迭代手记 Iterations](iterations/index.qmd) &nbsp;·&nbsp; [📜 台账 Ledger](LEDGER.qmd) &nbsp;·&nbsp; [🔤 术语碑 Glossary](GLOSSARY.qmd)
+:::
+
+本园体例：**判据先冻，刻石为证**（汉谟拉比条款）。
+论文给结论，手记给过程 —— 而主人说，**精华不分**：两侧同权同导航，
+凡成体系之文，园体自认碑体。
+
+旧站诸 PDF 与外传仍在 [原入口](https://math4mad.github.io/cora-atlas/index.html) 候驾。

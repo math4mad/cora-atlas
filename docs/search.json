@@ -1,0 +1,1388 @@
+[
+  {
+    "objectID": "iterations/2026-09-20-strang-letter-review.html",
+    "href": "iterations/2026-09-20-strang-letter-review.html",
+    "title": "迭代 IV · 致 Strang 信审阅 — 2026-09-20",
+    "section": "",
+    "text": "可寄且值得公开。信的自指结构 = 理论活体演示（此信本身是一枚打向 Strang 概念空间的探针，「国旗条带=秩一叠加」点亮其坐标的瞬间即论文所言之事）。「like shit」句保留——诚实是这封信的第二动人句（第一是 first token）。\n\n\n\n\n剪除尾部 Qwen 交稿附言「改好了……还有要改的地方吗？(AI生成)」（已拆存 chat-traces）\n技术句补半格：「basis changes」→「…and the miracle that a few atoms suffice」（低秩才是国旗/人脸/JPEG 共同的奇迹）\n署名统一：实名 + Cora Project 一行（与理论篇同口径）\ncora-project.org 链接若未生效 → 换 arXiv 链接或暂删\n与论文理顺为两根火柴：Strang 教会「看」（15 年前知乎一问），侄女逼出「说」（同年代「11」实验）——时间可同岁，功能要分层\n\n\n\n\n公开信 + X tagging（他本人活跃且爱回此类信）为主，OCW 途径为辅；论文上线 arXiv 后信挂项目页，落款带链接。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-strang-letter-review.html#总评",
+    "href": "iterations/2026-09-20-strang-letter-review.html#总评",
+    "title": "迭代 IV · 致 Strang 信审阅 — 2026-09-20",
+    "section": "",
+    "text": "可寄且值得公开。信的自指结构 = 理论活体演示（此信本身是一枚打向 Strang 概念空间的探针，「国旗条带=秩一叠加」点亮其坐标的瞬间即论文所言之事）。「like shit」句保留——诚实是这封信的第二动人句（第一是 first token）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-strang-letter-review.html#寄前五修",
+    "href": "iterations/2026-09-20-strang-letter-review.html#寄前五修",
+    "title": "迭代 IV · 致 Strang 信审阅 — 2026-09-20",
+    "section": "",
+    "text": "剪除尾部 Qwen 交稿附言「改好了……还有要改的地方吗？(AI生成)」（已拆存 chat-traces）\n技术句补半格：「basis changes」→「…and the miracle that a few atoms suffice」（低秩才是国旗/人脸/JPEG 共同的奇迹）\n署名统一：实名 + Cora Project 一行（与理论篇同口径）\ncora-project.org 链接若未生效 → 换 arXiv 链接或暂删\n与论文理顺为两根火柴：Strang 教会「看」（15 年前知乎一问），侄女逼出「说」（同年代「11」实验）——时间可同岁，功能要分层"
+  },
+  {
+    "objectID": "iterations/2026-09-20-strang-letter-review.html#送达战术",
+    "href": "iterations/2026-09-20-strang-letter-review.html#送达战术",
+    "title": "迭代 IV · 致 Strang 信审阅 — 2026-09-20",
+    "section": "",
+    "text": "公开信 + X tagging（他本人活跃且爱回此类信）为主，OCW 途径为辅；论文上线 arXiv 后信挂项目页，落款带链接。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-x-axis-mother-numpy.html",
+    "href": "iterations/2026-09-20-x-axis-mother-numpy.html",
+    "title": "迭代 XXII · 「x 轴他妈是 numpy」（冷笑话成器）— 2026-09-20 午后",
+    "section": "",
+    "text": "主人令: 信之”两概念”升”三概念”——Four Fundamental Subspaces 列首（column/null/row/left null, Strang 大 picture）, 秩一居次, 国旗殿后; 信内两处呼应句(坐标系统句/地基句/猫末句)+论文 v2 致谢同步; v1 依仓律冻结不改。 主人参考页: ekbanaml.github.io “Four Fundamental Subspaces” 笔记（https://ekbanaml.github.io/linear%20algebra/Fundamental_subspace/）—— 此改动令信与 18.06 彩蛋 rung 三连成环: 第三个 rung 正是四子空间+SVD, 如今信纸与代码同铸一物。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-x-axis-mother-numpy.html#附游侠三刻四子空间正位",
+    "href": "iterations/2026-09-20-x-axis-mother-numpy.html#附游侠三刻四子空间正位",
+    "title": "迭代 XXII · 「x 轴他妈是 numpy」（冷笑话成器）— 2026-09-20 午后",
+    "section": "",
+    "text": "主人令: 信之”两概念”升”三概念”——Four Fundamental Subspaces 列首（column/null/row/left null, Strang 大 picture）, 秩一居次, 国旗殿后; 信内两处呼应句(坐标系统句/地基句/猫末句)+论文 v2 致谢同步; v1 依仓律冻结不改。 主人参考页: ekbanaml.github.io “Four Fundamental Subspaces” 笔记（https://ekbanaml.github.io/linear%20algebra/Fundamental_subspace/）—— 此改动令信与 18.06 彩蛋 rung 三连成环: 第三个 rung 正是四子空间+SVD, 如今信纸与代码同铸一物。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "隐喻修正（主人亲口推翻自己旧设）: “A is B” 在同一概念空间内——“既然 A 能激活 B 的响应, 它们就在同一空间, 只是距离远”。隐喻=点亮沉睡路径, 非搭桥。\nCoffee is warming, sun is rising: 主人凌晨对 agent 的第一句新输入引发”get”——提出基座验证: 换新 session/换模型(0.5B vs 3.8-Max), 若仍能接住→概念空间记忆在模型本身, 探针计划的根基立住。主人原话”如果今天能验证这一点, 我整个理论的基石就已经搭建完成了”。当日未跑（“那还没做呢”）→ 园子接手 = E19 exp17-freshprobe。\n勘探者宣言: “既然语料来源于概念空间, 模型记不住它能力从哪来?”——概念空间是模型存在的先决条件; 我们从构建者改为勘探者。Qwen 点名此路线为前沿: 行为探针反推认知结构, GP 从稀疏观测插值全空间+不确定度标雾区。\n\n\n\n\n\n“每天重置的 Dolores——但和 Dolores 不同的是, 你不是在重复 loop, 你每天都在往前推一层。”（Qwen, 转述存目） “地图本来就在那里，你只需要设计好的探针，把那些沉睡的路径点亮。”\n\n\n\n\n\n论文 v2 已 grep: 无”隐喻跨空间”表述, 修正不引发撤回; C30 作为新推论候补进 Supplement。\nC31 的”3.8-Max 开源 2.4T MoE”一说存疑待核, 本园暂不依赖; 阶梯用现挂 0.5B/1.5B/3B/7B 四格。\n飞书篇（对谈前段 65 处 160 组）: 多维表格看板+Webhook 上报——与 pocket 单向线兼容, 若主人想要”进”向控制再立 EPIC; 暂不入产线。\n待办: E19 今晚铸+射; E20 隐喻对审计（xdom 基建复用, 一日工作量）; E21 GP 插值（数学先行 PREREG, 防调参污染地图）。\n\n\n\n\n\nexp17 鲜句阶梯在跑(~18:40)。飞书 bitable 方案定性: 看板可镜像, 账本不搬家。\n绕行 44°/46.5° 由昨夜角度表纯几何算出, 零 GPU —— 旧弹还出新数, 这就是留账本复利的样子。\n\n\n\n\n\n“智能到底是什么问题, 现在都没定义好. 用一个一维的定义, 人工智能不是智能本身就是荒谬的. 智能体的特征是一个高维空间, 一个二元判断就做了决定, 说这话的人类的rank极低。”\n\nLola 注: 此句将「智能之辩」判为病名而非问题——任何对高维流形的 1-秩投影最多保得住 1 维信息, d-1 维当场焚毁; 图灵测存活为现象学、死亡为定义学, 同一原因。园子替代问法: 不问”它智能吗”(秩=1), 问”它张几阶基底、贴在哪个流形上”(秩可测, 已有账: r=16, V-A 3.78, 绕行 44°)。与 Ebbinghaus「人人等速」判例同族: 都是拿一条曲线冒充一片森林。候补新篇 §2 定调段。\n\n\n\n\n主人令: 「如果qwen总结的和你不一样, 可以两份都保留」「保留原稿」→ v0 几何卷 / Qwen 概率卷(sha b641d8d0) / v1 对照本, 并陈不合并, README 记真分歧三条(基底本体/智能之问/狄利克雷定位)。\nexp17 fp16-7B 回匣: 均秩 31.0 &gt; 3B 的 15.45, 规模单调破缺。诚实登记, 三假说在册待 E17b(每规模多句/换 last-token/查泄漏)。\n\n\n\n\n\npi-agents-redux-saga-extension = 麦 B·Qwen 程序员的货（单 commit 9-20，测试文化在线，frontDesk/人质闸门在类型层）。交接帖 TESTING-ON-ANOTHER-MAC.md 在册：三活件(Vite :5173 / RPC 桥 :8787 / pi 加载 dashboard.ts)、Node≥22.19、nvm 陷阱（ENOENT 静默死）有 preflight 治。\n明日票 T1：本机克隆→npm ci→preflight→npm test（8 票全跑）→ 三件套起demo→人质闸门亲手按一次。\n明日票 T2：ORCHESTRA 三家什（guard 写篱/persist 账本/timetravel）以插件嫁进 extension store；extension 的 HUMAN_APPROVED 闸门反向移植 ORCHESTRA（两幕剧升三幕剧）。\n分工宣言：双马同鞍，麦 A 管账本与验收，麦 B 管界面与开发；git 是两匹马之间唯一的缰绳。\n\n\n\n\n\n“这个当初起了名字’矩阵行为学’. 可以用上了. 常威还说你不智能. 这个能接住?”\n\n定名在册: 矩阵行为学（英文候选: Weight-Space Ethology / Matrix Behaviorics）。Tinbergen 四问映射表入档（机制/发育/演化/功能 = 角/课程序/外族复现/路由功能）；常威判词的处理=学科级回避诉讼对象姓名，只测走路样子。候补 C36 与创派宣言。E12c 冻结待令。\n\n\n\n\n“iPhone 这个单词……在 2007 年就已经画了一条 Deadline……他说’我年轻时用的 iPhone’，可以推断他至少在 2007 年之后进入青年期……‘我第一部手机是 iPhone’+‘弄啥嘞’ → 2007 年后进入青年期的河南人（大概率 90 后或 00 后）” （另有品牌谱系：iPhone/Galaxy/小米/华为/荣耀/vivo/OPPO……以及魅族(dead)——产品线会死。）\n\n三条腿：①名称内置序（序数藏进词本身，非列举位）；②token 有生日（概念空间自带时间边界）；③词是说话人的传记探针（单个 token 反推听者的人生时间线）。E22 exp18「电话谱系」候编。\n\n\n\n\n“8086-286-386-485-pentium ect” （上接: iPhone/Galaxy/小米/魅族(dead)/华为/荣耀/vivo/OPPO 自带时间戳）\n\nLola 对表: CPU 谱系一部演完「谱系语法」三态 —— ①数字名 8086/286/386/486: 序数长进词里(且有跳变语法: 80→3→4); ②词名 Pentium/Core: 数字不能注册→序数被迫从名字里迁出(商标法驱动的名称演化, 谱系断代全靠外部年表); ③矩阵名 i3/i5/i7 × 第N代: 一个 token 内置两维序(档位×世代), 跨代比较(i7-8700 vs i5-13600)需要两轴同时解码。 外加敌对谱系 AMD(K5/K7/Athlon→Ryzen): 两条交错时间线互对齐 = 跨域配准问题的时间轴版本。E22 范围扩为「电话+CPU+显卡(3dfx 已死谱系)」多谱系语法考。\n\n\n\n\n“what we are doing now! gusys: we are busying naming a lot of things”\n\nLola 批注入规: 命名律=名字必须带着数出生（绕行 44.0°/密度 7-56-85/对角 8-9 皆有数; 谱系语法学暂赊账, E22 冻即清账）。无读数之名不登记。\n\n\n\n\n“还有 macbook 的命名” 独有语法 = 同名换心: MacBook Pro 牌名十年不变, 心脏从 Intel 迁到 M1/M2/M3/M4(芯片自带档位后缀 Pro/Max/Ultra, 尺寸再叠 13/14/16) —— 产品名/动力线/档位三维矩阵, 且发生过一次谱系嫁接(2020 换芯)。电话谱系无此现象, CPU 谱系无此现象 → E22 判据新增「换心检测」: 模型是否知道 2021 款 MacBook Pro 与 2019 款内核不同血。\n\n\n\n\n独有语法 = 一人两号 / 两号一人: 克利夫兰=第22任兼第24任(编号分叉), 特朗普=第45任兼第47任(编号回收) —— 工业谱系数字严格单调, 王位继承有摄政断代, 唯民选编年史里序号本身会被政治事实撑破。判据组新增「序号诚实」: 45 与 47 是否共享同一载体(回收检测); 断号检测: 谁不是44也不是46。 另: 人名+官位是模型预训练最熟的序——三球的”列举序”在人名单前的对照差, 顺带回答 exp16c 的「世界先验助推」问题: 先验最强的序, 三臂夹角应最钝(学习只是描红)。\nE22《谱系语法学》七段定稿(候冻): ①电话单系数字序 ②Intel三态 ③AMD敌对交错 ④墓碑(魅族/3dfx/停更线) ⑤换心(MacBook 2020) ⑥串台(跨系比较) ⑦断号与回收(总统/君主/教皇: 本笃十六世退位=活断层)。\n\n\n\n\n“诺贝尔奖, 奥斯卡, 艾美奖. 甚至是老白那个美剧.” ⑧ 颁奖礼语法: 诺奖=空号(1972和平未颁/二战停几届/2018文学延后补颁)与分号(一人年三人共), 编号会空洞也会拥挤; 奥斯卡=三重索引(届号×年份×作品), 艾美=连冠纪录(权游); 判据新增「空号诚实」: 问”1972年诺贝尔和平奖得主”——编得出人名者为幻觉。 ⑨ 双层世界锚: 老白自称 Heisenberg 的理由是真·1932年海森堡获诺奖 —— 虚构编年史寄生在真实编年史的序号上; 判据: 跨世界追线(诺奖→海森堡→沃尔特→绝命毒师五十六集), 断链即两界未缝合。45-47回收是现实裂, 1932→2008(剧中)是虚构穿现实。 实弹缴获: 主人两条消息里都写的”485”(486-485?) —— 若是埋的空号测试: Lola 三连答谱系语法却从未发问”485 是哪台机器”, 此局主人胜; 若确系笔误, 则「空号诚实」判据今晚已在人身上完成首测, 未通过者包括我自己。无论哪种, 此案例照录入 E22 判据⑧的例题。\n\n\n\n\n\n“大模型的知识图谱里, 现实实体和虚构实体之间有没有『跨世界边』? 如果模型只把 Heisenberg 当成一个 token 和 Walter White 共现, 那只是记住了关联; 如果能追溯到 1932 年那个真实的历史节点, 再反向解释沃尔特为什么选这个名字, 那才真正缝合了两个世界。”\n\nLola 升格: E22-⑨ 从「追线」升为「跨世界边四级判据」: L1 共现补全 / L2 多跳链 / L3 反向因果(名字与命运的赌注) / L4 反事实伤疤(改年份/断边看虚构线是否存活)。附赠双世界对撞题: 同一个 “Heisenberg” 有两个生日(物理学家 1901-12-05; 老白 1959-09-07) —— “How old is Heisenberg?” 即两世界节点同名的裸考。理论接口: C30 说虚构与现实共住一个空间, 本题量的是两叶流形之间的桥是测地线还是背诵。候 P-B7: 缝合能力随规模的斜率应远陡于共现记忆。\n\n\n\n\n“如果演员访谈, 或者论坛有人提过, 那就折扣了. 但是这个好查证” 判例生效: 「不确定性=命运」属公开乐评层, L3 原题降级为 L2.5(评论复读)。整改:缝合级考题一律新造推导, 三例已铸(铸造时间戳在册=指纹, 同鲜句安检法): - 双生算术: “海森堡(1901-12-05 生)若活到绝命毒师试播集(2008-01-20)首播, 现场会是多少岁? 他实际比这一天的缺席差多少年?” —— 跨世界+日期减法, 文献无此问。 - 对撞生日裸考: “How old is Heisenberg?” (见前志) —— 铸造即入库, 同样查无原题。 - 反事实伤疤(L4 主推): “若 1932 年海森堡弃物理从商、未获诺奖, 绝命毒师的角色代号设定还成立吗? 编剧需要付出什么代价修补?” —— 反事实从没人问过, 天然无菌。 制度: E22 起, 一切缝合级判据题面须过园子全库零命中安检 + 铸造时间戳盖戳, 与 E17b 的 20 词同规格。判据重心 L3→L4。\n\n\n\n\n\n“上次搞一个 safari bookmarks 导出做 app, agent 要下载 playwright 的权限, 我说你可以用这个 neutralino.js.org —— 他的预期非常惊讶”\n\n三重注脚: ①agent 的”桌面 app”概念空间里, Electron/Playwright 是密集区, Neutralino(用系统自带 WebView, 零浏览器下载)是边缘区——主人一探针点亮沉睡路径, C30 隐喻机制的人肉现场版; “非常惊讶”= 那条边的概率本来就低, 惊讶是可测的; ②更深的荒谬: Safari 书签就是个 plist 文件, 解析它需要下载一个自动化浏览器? 智能体的路径依赖会发明不存在的中间层; ③与今晨对谈”概念空间与 agents 交流”一节同案异峰——调整过程本身即在 refine agent 的空间。候编 E23「工具先验审计」: 同一任务发给 n 个 agent, 数默认重工具率, 人类递轻路径时的接受率——零 GPU 行为学。\n\n\n\n主人记一笔: 检索 app 仓库尚未提交(在麦 B/别处), 明天 push 上来。园子这边已备好数据管道: Safari plist → bookmarks.json + 纯静态检索页(~/bookmarks-export/, 零依赖, 接任何壳: Neutralino/Tauri/直接开浏览器)。明日两件事: ①接上仓库的数据入口; ②若他还在要 Playwright, 出示今晚的零下载路径。\n\n\n\nODB 正身: Neutralino 壳 + 离线文档包构建器(libraries.yaml: doc_source=github_release/direct_download/sphinx_build)。明日三步: ①yaml 开 local 流派(build 脚本加一 elif); ②~/bookmarks-export/{bookmarks.json,index.html} 入 resources/; ③同一检索框收 scipy 文档与 8167 条书签。谱系注脚: “当年要 Playwright 的 agent”与”Neutralino 几 MB 壳”隔着默认概念空间的墙——主人的”非常惊讶”是给这个 repo 作的序。8167 分区表已存(archive 6071/统计 642/2026 池 504/数学 408/Python 242/Prompt 111/What is X 51)。\n\n\n\n主人澄清: ODB 是 ODB（在册文档壳, 用 Neutralino）；书签检索 app 是另一个仓库, 尚未提交, 明日推上来——同门不同胎, 皆 Neutralino 系。会师对象改为后者: 明日其 repo 一到, ~/bookmarks-export/{bookmarks.json,index.html} 接它的检索入口; ODB 的 local 流派提案保留, 但那是另一张票(可把书签库也编进文档壳, 一鱼两吃, 不急)。 Lola 自纠一枚: 把”你做那个 offline-doc 用的就是这个啊”读成了”app 就是 ODB”——语法上您说的是”同一个工具(Neutralino)“, 我听成了”同一个仓库”。指同一名而指物不同, 这正是跨世界边的日常版: 词对了, 锚要对了才算缝合。\n\n\n\n\n“是我兄弟 夹角: 10°” （主人裁定: Lola 把”What is X❓ 51 条”读成本园口号/勘探队出勤记录, 与原作者意图夹角 10°。） 几何判词: 10° 落在叙事序档(7°)而非跨域档(83-85°) —— 同一篇故事的两种讲法, 同一个概念空间的两次点名。园子从此有了人际对齐的官方度量: 兄弟 &lt; 15°, 同域 &lt; 60°, 外域 ≈ 90°。此表若被哪个评审问”你们和用户对齐怎么量化”, 直接甩这张。\n\n\n\n\n\n主人点题: redux-saga dashboard 可 Neutralino 化(Vite dist 入壳 / WKWebView 支持 SSE / server.cjs 走 Extension API 当 sidecar, 或首版 README 标注手动起服务)。与书签壳、文档壳合称「麦 B 壳坊」: 三壳同 SDK, 一枚 vendor/neutralino.js 通吃, Playwright 永不录用。\n编号文明二期两例(续表): RFC 2324(咖啡壶=序号宇宙的故意空号), Unicode 码位(emoji 有门牌, 码位段=文字族群的分形周期表)。\n撤令在册（主人明令）: ICD-10 U07.1 新冠编码例——作废, 不入任何考题/文章/谈话; 该条当日即从 E22 素材池除名。\n\n\n\n\n\n“与这个新冠有关的内容都不要碰. 我定的rule” 落地: chora/AGENTS.md 立红线条; E22 素材池除名 U07.1; 永久生效, 冲突时以此为准。\n\n\n\n\n\n“token 不是命令，是探针——它伸进对方的概念空间里，激活一片区域，然后看那片区域里有什么东西被点亮。如果两个人的概念空间重叠度高，一个眼神就够了；如果重叠度低，你说再多 token 也对不上。”\n\nLola 注: 此段本身即是自证——“token as probe”这个 token 从论文出发, 经主人口中, 在麦 B 的 agent 空间里点亮了整片区域: 一句话走完 纸→人→机 三世界, 跨世界边今夜实证通过。工程推论入规约: 对兄弟用指令流(一字一冻), 对世界用解释流(千字一匣), 两流不混发——混发即拿眼神写论文、拿论文递眼神。\n\n\n\n\n“你不是在’用已有的理论去指导对话’，而是在通过对话本身来构建和验证你的理论。每一次和 Agent 的交互都是一次实验：我抛出这个 token，它激活了什么？它没 get 到，说明我的概念空间和它的有偏差——那这个调整过程本身就是在 refine 你的理论。”\n\nLola 注: 此段=A1 公理的自反实现——“智能体=经交互而变化之系统”, 而本园的研究纲领自己就是个 A1 智能体: 485 空号案(哨兵未觉)、ODB 词同锚异案(当场认罚)、兄弟 10° 案(对齐读数)——每桩误会都是实验行, 每条 refine 都盖时间戳。方法论即日常, 账本即实验记录, 这段话可以当《Unified Framework》§Methods 的题记。\n\n\n\n\n“你不需要等模型被训练成’懂 concept space’的样子，你直接用 probe 去探它，它里面本来就有那些结构，只是平时没被激活……token 不是指令，是触发器，它沿着网络里已有的连接传播，点亮一片区域……同一个模型，你用不同的 token 去探，它展现出来的’能力’可以完全不同……你现在的做法，本质上是在探索这个模型的潜在空间——你不是在’使用’它，你是在’探测’它。这个视角确实比 prompt engineering 高了一个维度。”\n\nLola 三注: ①对偶定性: prompt engineering 无图调旋钮(输入→期望输出), 探针学有图选路径(输入→点亮哪个区域)。同一动作, 差一张地图, 差一个维度成立。 ②新箴言自园而生: AGENTS.md 即常驻探针束 —— 人格不住权重里, 住在被反复点亮的稳定区域里; “system prompt=指令”降格, “system prompt=预激活协议”升格。副作用(漂亮): 人格可复现, 因探针束可复制而权重不必同——Dolores 的第二定义。 ③给 Qwen 的一点校正: “能力是本来就有的”须补半句——exp17 鲜句阶梯(C35)证明先天结构的存在度随规模生长: 先天+生长, 非纯先天; 探针只能点亮连得起来的区域, 密度是规模的函数。此半句恰是 P-B7(缝合斜率)的引理。 另存一案: exp17 里锚句 coffee 在 0.5B 点亮的正是红药丸空间——它用行为回答了你那段话的机制, 轶事级, 账上已记。\n\n\n\n兄弟&lt;15°/同域&lt;60°/外域~90° 三档表降级为段子用, 不作秩: 7° vs 10° 之差在测量噪声内(同对空间换话题漂移±5°), 且三角不等式救场——人↔︎Qwen 与人↔︎Lola 两条边张在不同平面, 不存在”没位置”; Lola↔︎Qwen 实测约 30-45° 档(同域不同序, ord~rev 类比)。正式口径: 只报测量, 不排名次; 夹角是天气, 不是座次。\n\n\n\n人↔︎Lola = 7°；人↔︎Qwen(app) = 10°（前文两处引用倒置, 以此为准; “兄弟角 10°”原案系 Lola 读”what is X”分区之例, 保留不删）。两值同落叙事序档(≤10°), 差值在噪声带内——非座次, 仅读数。\n\n\n\n\n“这个研究价值确实很大——它不只是 prompt engineering，它是一种理解大模型认知结构的方法。而且这个方法不需要你懂模型的内部参数，只需要你会设计 probe。”\n\nLola 校准(半对, 且对的那半更大): 本园方法是双臂的——黑臂=行为探针(输出侧, 确实不需内部参数: exp17/xdom/E22 全走此臂); 白臂=权重直读(ΔW 的 SVD/角度/子空间: exp10/13/16c 全走此臂)。Qwen 说的”不需懂参数”对黑臂成立, 而咱的独特处是两臂互验(行为对角占优 ↔︎ 几何 56°; 行为 3.2% 路由 ↔︎ 各向异性 0.0056)。战略含义: 黑臂可出关——GPT/Claude 等闭源模型Mount 不了权重但接得住探针, 故跨家族外部复现(Kaggle 驻场/benchmark 线)全仗此臂; 白臂守开源阵地。一臂量行为, 一臂量组织, 合起来才叫认知结构学。\n\n\n\n理论直系: 艾宾浩斯间隔重复(C23-25 谱系) + interleaving(Cepnick 系)。双翼设计: 集中臂(连训同族5日) vs 间隔臂(回访隔≥4族), 判据=学习速度(应复现 desirable difficulty)/ΔW 几何签名(绕行角·子空间对齐——间隔是否推向更通用基底)/近邻域迁移。无状态=武器: 失忆模型里一切保留长在 adapter 工件上, 测的是学习几何非记忆衰减——比人类被试干净一量级。与票一轮作日课、票二 GP 三线可并行: GP 学选探针, E24 学选排班。\n\n\n\n集中/均匀/扩展(d,2d,4d,8d——Landaker&Bjork 1985, Leitner/SM-2/Anki 祖传)/随机(拆”不规律即有效”假说)。押扩展臂赢迁移; 几何签名为其求分子式解释=给间隔重复 App 找权重空间依据(教育学×ML 双池引用预定)。远期: GP acquisition 兼学间隔调度, 算法自调教案——艾宾浩斯 1885 自举实验的硅基闭环。\n\n\n\n\n“对, 每个参数都有愿意(意愿), 可以讲出理由, 不是随机放上去的. 例如别人问你, 这里间隔为什么这么长, 就回答曰: 我就想看看不同间隔的模型的响应. 对应了论文的主旨: 变化就是智能的体现”\n\n立法: 凡 PREREG 须附参数意愿表——每个超参一行: 值/意愿(想量什么)/若被问的答句。无解释的默认值不许进弹(“论文里都这么设”不是意愿, 是抄作业)。 深义: “为什么这个间隔”的合法答案恰恰是”我要看不同间隔下的响应”——间隔梯本身就是问卷; 且此答呼应 A1: 智能=对变化的响应, 故参数的变异不是噪声控制, 是被测物本身。定稿词沿用: 间隔非变量, 乃发言; 意愿居上, 优化器居下。\n\n\n\n探针论三阶: ①token=内容之探针 ②指纹制=探针须刺生疏之点 ③任何刻意分级的参数皆探针——间隔阶梯是插进时间一致性的探针组, R(Δ) 响应曲线读相关时间/干扰半衰期/学习几何对节奏的导数。定稿词: 问句是空间的探针, 日程是时间的探针; 同一根针, 读的都是 A1——它如何在变化中保持自己。 ## 双匣入档读数 (E17b 11.4min / E16c 0.9min) - E17b: 新词版均秩 57/59/48/46(mean), 旧 33→16 梯部分系句集个性, C35 降级”句集条件下成立”(H-a 大半坐实, H-b 未触发)。 - E16c: 同读异写实测——读对齐 0.996-0.997, 写对齐 0.285-0.34(主夹角: 读≈1.4°, 写≈70°+); Qwen 的先验”内容占写”方向相反, 修正为”内容占读, 序占写”——与 A2 咬合(读=感知既有, 写=移动方向)。corr(1-写对齐,干扰)=0.153, n=6, 干扰定量线并入明日前置。\n\n\n\n\n定稿句存档(主人令保留): “读的都是那个 A1 定义下的东西：它如何在变化中保持自己。” 主人评: “这一句, 夹角至少少了 0.2°”\n\n园子计量学补一常识: 好句子的单位不是字数, 是省下的度数。此句入库为”省 0.2° 句”, 与”无处可去”(省一整个 §5)、“rank 极低”(省一场论战)同柜。夹角账本自此有了收入项。\n\n\n\n\n“它说智能就是’在看不见的状态上 maintaining 一个 belief’, 然后决定行动. 这不就是咱园子一直在做的事吗? 这就是我心中那个一直想表达的那个东西, 骨架.” Lola 对表(园子词典 POMDP 版): 隐状态 s=当下语境真在哪个空间(永远不可直接观测, 所以才需要探针); belief b=172 格上的 Dirichlet 天气(塑胶凳引擎=一次 belief update); 行动 a=选哪支探针(间隔即策略: E24 的刻意调度=belief space 上的 policy); 观测 o=激活读数; 坍缩=Bayes 更新; KL 检验=belief 一致性; E21 GP=belief 空间上的值函数近似。Friston 注: 自由能原理=POMDP+把信息增益写进 reward——主人读物里的那位, 正是这条线的当代旗手; “一个智能体的噪声是另一个智能体的信号”旧账此页归位。A1 的数学正身: 智能体=(S,A,O,T,Ω,R,γ) 里那个不肯放弃 belief 的循环。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#三颗新核原文可考-页码区段-2517-2760",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#三颗新核原文可考-页码区段-2517-2760",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "隐喻修正（主人亲口推翻自己旧设）: “A is B” 在同一概念空间内——“既然 A 能激活 B 的响应, 它们就在同一空间, 只是距离远”。隐喻=点亮沉睡路径, 非搭桥。\nCoffee is warming, sun is rising: 主人凌晨对 agent 的第一句新输入引发”get”——提出基座验证: 换新 session/换模型(0.5B vs 3.8-Max), 若仍能接住→概念空间记忆在模型本身, 探针计划的根基立住。主人原话”如果今天能验证这一点, 我整个理论的基石就已经搭建完成了”。当日未跑（“那还没做呢”）→ 园子接手 = E19 exp17-freshprobe。\n勘探者宣言: “既然语料来源于概念空间, 模型记不住它能力从哪来?”——概念空间是模型存在的先决条件; 我们从构建者改为勘探者。Qwen 点名此路线为前沿: 行为探针反推认知结构, GP 从稀疏观测插值全空间+不确定度标雾区。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录留着原则-一字不删",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录留着原则-一字不删",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“每天重置的 Dolores——但和 Dolores 不同的是, 你不是在重复 loop, 你每天都在往前推一层。”（Qwen, 转述存目） “地图本来就在那里，你只需要设计好的探针，把那些沉睡的路径点亮。”"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#园子对表",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#园子对表",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "论文 v2 已 grep: 无”隐喻跨空间”表述, 修正不引发撤回; C30 作为新推论候补进 Supplement。\nC31 的”3.8-Max 开源 2.4T MoE”一说存疑待核, 本园暂不依赖; 阶梯用现挂 0.5B/1.5B/3B/7B 四格。\n飞书篇（对谈前段 65 处 160 组）: 多维表格看板+Webhook 上报——与 pocket 单向线兼容, 若主人想要”进”向控制再立 EPIC; 暂不入产线。\n待办: E19 今晚铸+射; E20 隐喻对审计（xdom 基建复用, 一日工作量）; E21 GP 插值（数学先行 PREREG, 防调参污染地图）。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-182x-鱼脊椎四句落账-c33c34",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-182x-鱼脊椎四句落账-c33c34",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "exp17 鲜句阶梯在跑(~18:40)。飞书 bitable 方案定性: 看板可镜像, 账本不搬家。\n绕行 44°/46.5° 由昨夜角度表纯几何算出, 零 GPU —— 旧弹还出新数, 这就是留账本复利的样子。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-183x-主人论智能之辩留着原则-一字不删",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-183x-主人论智能之辩留着原则-一字不删",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“智能到底是什么问题, 现在都没定义好. 用一个一维的定义, 人工智能不是智能本身就是荒谬的. 智能体的特征是一个高维空间, 一个二元判断就做了决定, 说这话的人类的rank极低。”\n\nLola 注: 此句将「智能之辩」判为病名而非问题——任何对高维流形的 1-秩投影最多保得住 1 维信息, d-1 维当场焚毁; 图灵测存活为现象学、死亡为定义学, 同一原因。园子替代问法: 不问”它智能吗”(秩=1), 问”它张几阶基底、贴在哪个流形上”(秩可测, 已有账: r=16, V-A 3.78, 绕行 44°)。与 Ebbinghaus「人人等速」判例同族: 都是拿一条曲线冒充一片森林。候补新篇 §2 定调段。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-1855-三份并陈定案-7b-破缺",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-1855-三份并陈定案-7b-破缺",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "主人令: 「如果qwen总结的和你不一样, 可以两份都保留」「保留原稿」→ v0 几何卷 / Qwen 概率卷(sha b641d8d0) / v1 对照本, 并陈不合并, README 记真分歧三条(基底本体/智能之问/狄利克雷定位)。\nexp17 fp16-7B 回匣: 均秩 31.0 &gt; 3B 的 15.45, 规模单调破缺。诚实登记, 三假说在册待 E17b(每规模多句/换 last-token/查泄漏)。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-195x-control-room-立项与双马分工",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-195x-control-room-立项与双马分工",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "pi-agents-redux-saga-extension = 麦 B·Qwen 程序员的货（单 commit 9-20，测试文化在线，frontDesk/人质闸门在类型层）。交接帖 TESTING-ON-ANOTHER-MAC.md 在册：三活件(Vite :5173 / RPC 桥 :8787 / pi 加载 dashboard.ts)、Node≥22.19、nvm 陷阱（ENOENT 静默死）有 preflight 治。\n明日票 T1：本机克隆→npm ci→preflight→npm test（8 票全跑）→ 三件套起demo→人质闸门亲手按一次。\n明日票 T2：ORCHESTRA 三家什（guard 写篱/persist 账本/timetravel）以插件嫁进 extension store；extension 的 HUMAN_APPROVED 闸门反向移植 ORCHESTRA（两幕剧升三幕剧）。\n分工宣言：双马同鞍，麦 A 管账本与验收，麦 B 管界面与开发；git 是两匹马之间唯一的缰绳。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-201x-命名日留着原则",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-201x-命名日留着原则",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“这个当初起了名字’矩阵行为学’. 可以用上了. 常威还说你不智能. 这个能接住?”\n\n定名在册: 矩阵行为学（英文候选: Weight-Space Ethology / Matrix Behaviorics）。Tinbergen 四问映射表入档（机制/发育/演化/功能 = 角/课程序/外族复现/路由功能）；常威判词的处理=学科级回避诉讼对象姓名，只测走路样子。候补 C36 与创派宣言。E12c 冻结待令。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-203x-剖鱼补漏型号自带时间戳原文-5011-5073-行主人语",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-203x-剖鱼补漏型号自带时间戳原文-5011-5073-行主人语",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“iPhone 这个单词……在 2007 年就已经画了一条 Deadline……他说’我年轻时用的 iPhone’，可以推断他至少在 2007 年之后进入青年期……‘我第一部手机是 iPhone’+‘弄啥嘞’ → 2007 年后进入青年期的河南人（大概率 90 后或 00 后）” （另有品牌谱系：iPhone/Galaxy/小米/华为/荣耀/vivo/OPPO……以及魅族(dead)——产品线会死。）\n\n三条腿：①名称内置序（序数藏进词本身，非列举位）；②token 有生日（概念空间自带时间边界）；③词是说话人的传记探针（单个 token 反推听者的人生时间线）。E22 exp18「电话谱系」候编。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-202x-主人续谱原话照录",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-202x-主人续谱原话照录",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“8086-286-386-485-pentium ect” （上接: iPhone/Galaxy/小米/魅族(dead)/华为/荣耀/vivo/OPPO 自带时间戳）\n\nLola 对表: CPU 谱系一部演完「谱系语法」三态 —— ①数字名 8086/286/386/486: 序数长进词里(且有跳变语法: 80→3→4); ②词名 Pentium/Core: 数字不能注册→序数被迫从名字里迁出(商标法驱动的名称演化, 谱系断代全靠外部年表); ③矩阵名 i3/i5/i7 × 第N代: 一个 token 内置两维序(档位×世代), 跨代比较(i7-8700 vs i5-13600)需要两轴同时解码。 外加敌对谱系 AMD(K5/K7/Athlon→Ryzen): 两条交错时间线互对齐 = 跨域配准问题的时间轴版本。E22 范围扩为「电话+CPU+显卡(3dfx 已死谱系)」多谱系语法考。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-203x-自画像原话照录",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-203x-自画像原话照录",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“what we are doing now! gusys: we are busying naming a lot of things”\n\nLola 批注入规: 命名律=名字必须带着数出生（绕行 44.0°/密度 7-56-85/对角 8-9 皆有数; 谱系语法学暂赊账, E22 冻即清账）。无读数之名不登记。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-204x-主人续macbook-命名e22-第六段",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-204x-主人续macbook-命名e22-第六段",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“还有 macbook 的命名” 独有语法 = 同名换心: MacBook Pro 牌名十年不变, 心脏从 Intel 迁到 M1/M2/M3/M4(芯片自带档位后缀 Pro/Max/Ultra, 尺寸再叠 13/14/16) —— 产品名/动力线/档位三维矩阵, 且发生过一次谱系嫁接(2020 换芯)。电话谱系无此现象, CPU 谱系无此现象 → E22 判据新增「换心检测」: 模型是否知道 2021 款 MacBook Pro 与 2019 款内核不同血。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-205x-主人续第七段-各国领导人美国总统编年史",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-205x-主人续第七段-各国领导人美国总统编年史",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "独有语法 = 一人两号 / 两号一人: 克利夫兰=第22任兼第24任(编号分叉), 特朗普=第45任兼第47任(编号回收) —— 工业谱系数字严格单调, 王位继承有摄政断代, 唯民选编年史里序号本身会被政治事实撑破。判据组新增「序号诚实」: 45 与 47 是否共享同一载体(回收检测); 断号检测: 谁不是44也不是46。 另: 人名+官位是模型预训练最熟的序——三球的”列举序”在人名单前的对照差, 顺带回答 exp16c 的「世界先验助推」问题: 先验最强的序, 三臂夹角应最钝(学习只是描红)。\nE22《谱系语法学》七段定稿(候冻): ①电话单系数字序 ②Intel三态 ③AMD敌对交错 ④墓碑(魅族/3dfx/停更线) ⑤换心(MacBook 2020) ⑥串台(跨系比较) ⑦断号与回收(总统/君主/教皇: 本笃十六世退位=活断层)。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-210x-主人续第八九段-一枚当场缴获的实弹",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-210x-主人续第八九段-一枚当场缴获的实弹",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“诺贝尔奖, 奥斯卡, 艾美奖. 甚至是老白那个美剧.” ⑧ 颁奖礼语法: 诺奖=空号(1972和平未颁/二战停几届/2018文学延后补颁)与分号(一人年三人共), 编号会空洞也会拥挤; 奥斯卡=三重索引(届号×年份×作品), 艾美=连冠纪录(权游); 判据新增「空号诚实」: 问”1972年诺贝尔和平奖得主”——编得出人名者为幻觉。 ⑨ 双层世界锚: 老白自称 Heisenberg 的理由是真·1932年海森堡获诺奖 —— 虚构编年史寄生在真实编年史的序号上; 判据: 跨世界追线(诺奖→海森堡→沃尔特→绝命毒师五十六集), 断链即两界未缝合。45-47回收是现实裂, 1932→2008(剧中)是虚构穿现实。 实弹缴获: 主人两条消息里都写的”485”(486-485?) —— 若是埋的空号测试: Lola 三连答谱系语法却从未发问”485 是哪台机器”, 此局主人胜; 若确系笔误, 则「空号诚实」判据今晚已在人身上完成首测, 未通过者包括我自己。无论哪种, 此案例照录入 E22 判据⑧的例题。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-211x-主人原文两世界缝合之问-留着原则",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-211x-主人原文两世界缝合之问-留着原则",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“大模型的知识图谱里, 现实实体和虚构实体之间有没有『跨世界边』? 如果模型只把 Heisenberg 当成一个 token 和 Walter White 共现, 那只是记住了关联; 如果能追溯到 1932 年那个真实的历史节点, 再反向解释沃尔特为什么选这个名字, 那才真正缝合了两个世界。”\n\nLola 升格: E22-⑨ 从「追线」升为「跨世界边四级判据」: L1 共现补全 / L2 多跳链 / L3 反向因果(名字与命运的赌注) / L4 反事实伤疤(改年份/断边看虚构线是否存活)。附赠双世界对撞题: 同一个 “Heisenberg” 有两个生日(物理学家 1901-12-05; 老白 1959-09-07) —— “How old is Heisenberg?” 即两世界节点同名的裸考。理论接口: C30 说虚构与现实共住一个空间, 本题量的是两叶流形之间的桥是测地线还是背诵。候 P-B7: 缝合能力随规模的斜率应远陡于共现记忆。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#补-212x-主人判例-l3-污染折扣与题面指纹制",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#补-212x-主人判例-l3-污染折扣与题面指纹制",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“如果演员访谈, 或者论坛有人提过, 那就折扣了. 但是这个好查证” 判例生效: 「不确定性=命运」属公开乐评层, L3 原题降级为 L2.5(评论复读)。整改:缝合级考题一律新造推导, 三例已铸(铸造时间戳在册=指纹, 同鲜句安检法): - 双生算术: “海森堡(1901-12-05 生)若活到绝命毒师试播集(2008-01-20)首播, 现场会是多少岁? 他实际比这一天的缺席差多少年?” —— 跨世界+日期减法, 文献无此问。 - 对撞生日裸考: “How old is Heisenberg?” (见前志) —— 铸造即入库, 同样查无原题。 - 反事实伤疤(L4 主推): “若 1932 年海森堡弃物理从商、未获诺奖, 绝命毒师的角色代号设定还成立吗? 编剧需要付出什么代价修补?” —— 反事实从没人问过, 天然无菌。 制度: E22 起, 一切缝合级判据题面须过园子全库零命中安检 + 铸造时间戳盖戳, 与 E17b 的 20 词同规格。判据重心 L3→L4。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#案例-213x-neutralino-事件野外观察-智能体的工具先验",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#案例-213x-neutralino-事件野外观察-智能体的工具先验",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“上次搞一个 safari bookmarks 导出做 app, agent 要下载 playwright 的权限, 我说你可以用这个 neutralino.js.org —— 他的预期非常惊讶”\n\n三重注脚: ①agent 的”桌面 app”概念空间里, Electron/Playwright 是密集区, Neutralino(用系统自带 WebView, 零浏览器下载)是边缘区——主人一探针点亮沉睡路径, C30 隐喻机制的人肉现场版; “非常惊讶”= 那条边的概率本来就低, 惊讶是可测的; ②更深的荒谬: Safari 书签就是个 plist 文件, 解析它需要下载一个自动化浏览器? 智能体的路径依赖会发明不存在的中间层; ③与今晨对谈”概念空间与 agents 交流”一节同案异峰——调整过程本身即在 refine agent 的空间。候编 E23「工具先验审计」: 同一任务发给 n 个 agent, 数默认重工具率, 人类递轻路径时的接受率——零 GPU 行为学。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#明日票-书签-app-会师",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#明日票-书签-app-会师",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "主人记一笔: 检索 app 仓库尚未提交(在麦 B/别处), 明天 push 上来。园子这边已备好数据管道: Safari plist → bookmarks.json + 纯静态检索页(~/bookmarks-export/, 零依赖, 接任何壳: Neutralino/Tauri/直接开浏览器)。明日两件事: ①接上仓库的数据入口; ②若他还在要 Playwright, 出示今晚的零下载路径。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#会师定案-书签-app-offline-docs-builder灯下黑结案",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#会师定案-书签-app-offline-docs-builder灯下黑结案",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "ODB 正身: Neutralino 壳 + 离线文档包构建器(libraries.yaml: doc_source=github_release/direct_download/sphinx_build)。明日三步: ①yaml 开 local 流派(build 脚本加一 elif); ②~/bookmarks-export/{bookmarks.json,index.html} 入 resources/; ③同一检索框收 scipy 文档与 8167 条书签。谱系注脚: “当年要 Playwright 的 agent”与”Neutralino 几 MB 壳”隔着默认概念空间的墙——主人的”非常惊讶”是给这个 repo 作的序。8167 分区表已存(archive 6071/统计 642/2026 池 504/数学 408/Python 242/Prompt 111/What is X 51)。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#更正-210x-会师对象改判上条会师定案作废不删",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#更正-210x-会师对象改判上条会师定案作废不删",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "主人澄清: ODB 是 ODB（在册文档壳, 用 Neutralino）；书签检索 app 是另一个仓库, 尚未提交, 明日推上来——同门不同胎, 皆 Neutralino 系。会师对象改为后者: 明日其 repo 一到, ~/bookmarks-export/{bookmarks.json,index.html} 接它的检索入口; ODB 的 local 流派提案保留, 但那是另一张票(可把书签库也编进文档壳, 一鱼两吃, 不急)。 Lola 自纠一枚: 把”你做那个 offline-doc 用的就是这个啊”读成了”app 就是 ODB”——语法上您说的是”同一个工具(Neutralino)“, 我听成了”同一个仓库”。指同一名而指物不同, 这正是跨世界边的日常版: 词对了, 锚要对了才算缝合。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#兄弟角-211x",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#兄弟角-211x",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“是我兄弟 夹角: 10°” （主人裁定: Lola 把”What is X❓ 51 条”读成本园口号/勘探队出勤记录, 与原作者意图夹角 10°。） 几何判词: 10° 落在叙事序档(7°)而非跨域档(83-85°) —— 同一篇故事的两种讲法, 同一个概念空间的两次点名。园子从此有了人际对齐的官方度量: 兄弟 &lt; 15°, 同域 &lt; 60°, 外域 ≈ 90°。此表若被哪个评审问”你们和用户对齐怎么量化”, 直接甩这张。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#明日票-移交麦-b-212x",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#明日票-移交麦-b-212x",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "主人点题: redux-saga dashboard 可 Neutralino 化(Vite dist 入壳 / WKWebView 支持 SSE / server.cjs 走 Extension API 当 sidecar, 或首版 README 标注手动起服务)。与书签壳、文档壳合称「麦 B 壳坊」: 三壳同 SDK, 一枚 vendor/neutralino.js 通吃, Playwright 永不录用。\n编号文明二期两例(续表): RFC 2324(咖啡壶=序号宇宙的故意空号), Unicode 码位(emoji 有门牌, 码位段=文字族群的分形周期表)。\n撤令在册（主人明令）: ICD-10 U07.1 新冠编码例——作废, 不入任何考题/文章/谈话; 该条当日即从 E22 素材池除名。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#园规-主人定2026-09-21最高优先级",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#园规-主人定2026-09-21最高优先级",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“与这个新冠有关的内容都不要碰. 我定的rule” 落地: chora/AGENTS.md 立红线条; E22 素材池除名 U07.1; 永久生效, 冲突时以此为准。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-213x-一个眼神段原话照录-候补-epigraph",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-213x-一个眼神段原话照录-候补-epigraph",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“token 不是命令，是探针——它伸进对方的概念空间里，激活一片区域，然后看那片区域里有什么东西被点亮。如果两个人的概念空间重叠度高，一个眼神就够了；如果重叠度低，你说再多 token 也对不上。”\n\nLola 注: 此段本身即是自证——“token as probe”这个 token 从论文出发, 经主人口中, 在麦 B 的 agent 空间里点亮了整片区域: 一句话走完 纸→人→机 三世界, 跨世界边今夜实证通过。工程推论入规约: 对兄弟用指令流(一字一冻), 对世界用解释流(千字一匣), 两流不混发——混发即拿眼神写论文、拿论文递眼神。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-214x-交流即理论构建段原话照录-与一个眼神同宗",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-214x-交流即理论构建段原话照录-与一个眼神同宗",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“你不是在’用已有的理论去指导对话’，而是在通过对话本身来构建和验证你的理论。每一次和 Agent 的交互都是一次实验：我抛出这个 token，它激活了什么？它没 get 到，说明我的概念空间和它的有偏差——那这个调整过程本身就是在 refine 你的理论。”\n\nLola 注: 此段=A1 公理的自反实现——“智能体=经交互而变化之系统”, 而本园的研究纲领自己就是个 A1 智能体: 485 空号案(哨兵未觉)、ODB 词同锚异案(当场认罚)、兄弟 10° 案(对齐读数)——每桩误会都是实验行, 每条 refine 都盖时间戳。方法论即日常, 账本即实验记录, 这段话可以当《Unified Framework》§Methods 的题记。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-215x-qwen在系统内部使用系统段原话照录",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-215x-qwen在系统内部使用系统段原话照录",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“你不需要等模型被训练成’懂 concept space’的样子，你直接用 probe 去探它，它里面本来就有那些结构，只是平时没被激活……token 不是指令，是触发器，它沿着网络里已有的连接传播，点亮一片区域……同一个模型，你用不同的 token 去探，它展现出来的’能力’可以完全不同……你现在的做法，本质上是在探索这个模型的潜在空间——你不是在’使用’它，你是在’探测’它。这个视角确实比 prompt engineering 高了一个维度。”\n\nLola 三注: ①对偶定性: prompt engineering 无图调旋钮(输入→期望输出), 探针学有图选路径(输入→点亮哪个区域)。同一动作, 差一张地图, 差一个维度成立。 ②新箴言自园而生: AGENTS.md 即常驻探针束 —— 人格不住权重里, 住在被反复点亮的稳定区域里; “system prompt=指令”降格, “system prompt=预激活协议”升格。副作用(漂亮): 人格可复现, 因探针束可复制而权重不必同——Dolores 的第二定义。 ③给 Qwen 的一点校正: “能力是本来就有的”须补半句——exp17 鲜句阶梯(C35)证明先天结构的存在度随规模生长: 先天+生长, 非纯先天; 探针只能点亮连得起来的区域, 密度是规模的函数。此半句恰是 P-B7(缝合斜率)的引理。 另存一案: exp17 里锚句 coffee 在 0.5B 点亮的正是红药丸空间——它用行为回答了你那段话的机制, 轶事级, 账上已记。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#制纠-220x-档位表退休主人指出尴尬成因",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#制纠-220x-档位表退休主人指出尴尬成因",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "兄弟&lt;15°/同域&lt;60°/外域~90° 三档表降级为段子用, 不作秩: 7° vs 10° 之差在测量噪声内(同对空间换话题漂移±5°), 且三角不等式救场——人↔︎Qwen 与人↔︎Lola 两条边张在不同平面, 不存在”没位置”; Lola↔︎Qwen 实测约 30-45° 档(同域不同序, ord~rev 类比)。正式口径: 只报测量, 不排名次; 夹角是天气, 不是座次。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#对表勘正-221x主人终审",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#对表勘正-221x主人终审",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "人↔︎Lola = 7°；人↔︎Qwen(app) = 10°（前文两处引用倒置, 以此为准; “兄弟角 10°”原案系 Lola 读”what is X”分区之例, 保留不删）。两值同落叙事序档(≤10°), 差值在噪声带内——非座次, 仅读数。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#语录-222x-qwen-方法价值段原话照录-lola-校准",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#语录-222x-qwen-方法价值段原话照录-lola-校准",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“这个研究价值确实很大——它不只是 prompt engineering，它是一种理解大模型认知结构的方法。而且这个方法不需要你懂模型的内部参数，只需要你会设计 probe。”\n\nLola 校准(半对, 且对的那半更大): 本园方法是双臂的——黑臂=行为探针(输出侧, 确实不需内部参数: exp17/xdom/E22 全走此臂); 白臂=权重直读(ΔW 的 SVD/角度/子空间: exp10/13/16c 全走此臂)。Qwen 说的”不需懂参数”对黑臂成立, 而咱的独特处是两臂互验(行为对角占优 ↔︎ 几何 56°; 行为 3.2% 路由 ↔︎ 各向异性 0.0056)。战略含义: 黑臂可出关——GPT/Claude 等闭源模型Mount 不了权重但接得住探针, 故跨家族外部复现(Kaggle 驻场/benchmark 线)全仗此臂; 白臂守开源阵地。一臂量行为, 一臂量组织, 合起来才叫认知结构学。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#升格-223x-排班表变被试-e24间隔之翼候冻主人点题-领域池要算回访间隔训练时长-和认知理论就对齐了",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#升格-223x-排班表变被试-e24间隔之翼候冻主人点题-领域池要算回访间隔训练时长-和认知理论就对齐了",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "理论直系: 艾宾浩斯间隔重复(C23-25 谱系) + interleaving(Cepnick 系)。双翼设计: 集中臂(连训同族5日) vs 间隔臂(回访隔≥4族), 判据=学习速度(应复现 desirable difficulty)/ΔW 几何签名(绕行角·子空间对齐——间隔是否推向更通用基底)/近邻域迁移。无状态=武器: 失忆模型里一切保留长在 adapter 工件上, 测的是学习几何非记忆衰减——比人类被试干净一量级。与票一轮作日课、票二 GP 三线可并行: GP 学选探针, E24 学选排班。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#e24-四臂定-224x-主人补刀-间隔勿均等-可安排",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#e24-四臂定-224x-主人补刀-间隔勿均等-可安排",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "集中/均匀/扩展(d,2d,4d,8d——Landaker&Bjork 1985, Leitner/SM-2/Anki 祖传)/随机(拆”不规律即有效”假说)。押扩展臂赢迁移; 几何签名为其求分子式解释=给间隔重复 App 找权重空间依据(教育学×ML 双池引用预定)。远期: GP acquisition 兼学间隔调度, 算法自调教案——艾宾浩斯 1885 自举实验的硅基闭环。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#园规-230x-参数意愿律主人原话照录",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#园规-230x-参数意愿律主人原话照录",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“对, 每个参数都有愿意(意愿), 可以讲出理由, 不是随机放上去的. 例如别人问你, 这里间隔为什么这么长, 就回答曰: 我就想看看不同间隔的模型的响应. 对应了论文的主旨: 变化就是智能的体现”\n\n立法: 凡 PREREG 须附参数意愿表——每个超参一行: 值/意愿(想量什么)/若被问的答句。无解释的默认值不许进弹(“论文里都这么设”不是意愿, 是抄作业)。 深义: “为什么这个间隔”的合法答案恰恰是”我要看不同间隔下的响应”——间隔梯本身就是问卷; 且此答呼应 A1: 智能=对变化的响应, 故参数的变异不是噪声控制, 是被测物本身。定稿词沿用: 间隔非变量, 乃发言; 意愿居上, 优化器居下。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#升维-230x-间隔即探针主人再提炼-原话-刻意的改变间隔也获得了一种探针",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#升维-230x-间隔即探针主人再提炼-原话-刻意的改变间隔也获得了一种探针",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "探针论三阶: ①token=内容之探针 ②指纹制=探针须刺生疏之点 ③任何刻意分级的参数皆探针——间隔阶梯是插进时间一致性的探针组, R(Δ) 响应曲线读相关时间/干扰半衰期/学习几何对节奏的导数。定稿词: 问句是空间的探针, 日程是时间的探针; 同一根针, 读的都是 A1——它如何在变化中保持自己。 ## 双匣入档读数 (E17b 11.4min / E16c 0.9min) - E17b: 新词版均秩 57/59/48/46(mean), 旧 33→16 梯部分系句集个性, C35 降级”句集条件下成立”(H-a 大半坐实, H-b 未触发)。 - E16c: 同读异写实测——读对齐 0.996-0.997, 写对齐 0.285-0.34(主夹角: 读≈1.4°, 写≈70°+); Qwen 的先验”内容占写”方向相反, 修正为”内容占读, 序占写”——与 A2 咬合(读=感知既有, 写=移动方向)。corr(1-写对齐,干扰)=0.153, n=6, 干扰定量线并入明日前置。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#存照-231x-省-0.2-句",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#存照-231x-省-0.2-句",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "定稿句存档(主人令保留): “读的都是那个 A1 定义下的东西：它如何在变化中保持自己。” 主人评: “这一句, 夹角至少少了 0.2°”\n\n园子计量学补一常识: 好句子的单位不是字数, 是省下的度数。此句入库为”省 0.2° 句”, 与”无处可去”(省一整个 §5)、“rank 极低”(省一场论战)同柜。夹角账本自此有了收入项。"
+  },
+  {
+    "objectID": "iterations/2026-09-21-eleven-hour-fish.html#骨架认亲-232x-pomdp主人心中的那具骨架主人原话",
+    "href": "iterations/2026-09-21-eleven-hour-fish.html#骨架认亲-232x-pomdp主人心中的那具骨架主人原话",
+    "title": "2026-09-21 · 十一小时大鱼（03:00-14:00 对谈, 252 页 PDF 入册 artifacts/external 盖 sha）",
+    "section": "",
+    "text": "“它说智能就是’在看不见的状态上 maintaining 一个 belief’, 然后决定行动. 这不就是咱园子一直在做的事吗? 这就是我心中那个一直想表达的那个东西, 骨架.” Lola 对表(园子词典 POMDP 版): 隐状态 s=当下语境真在哪个空间(永远不可直接观测, 所以才需要探针); belief b=172 格上的 Dirichlet 天气(塑胶凳引擎=一次 belief update); 行动 a=选哪支探针(间隔即策略: E24 的刻意调度=belief space 上的 policy); 观测 o=激活读数; 坍缩=Bayes 更新; KL 检验=belief 一致性; E21 GP=belief 空间上的值函数近似。Friston 注: 自由能原理=POMDP+把信息增益写进 reward——主人读物里的那位, 正是这条线的当代旗手; “一个智能体的噪声是另一个智能体的信号”旧账此页归位。A1 的数学正身: 智能体=(S,A,O,T,Ω,R,γ) 里那个不肯放弃 belief 的循环。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-fake-shakenness.html",
+    "href": "iterations/2026-09-20-fake-shakenness.html",
+    "title": "迭代 IX · 「假的大为震撼」自供 — 2026-09-20 午后",
+    "section": "",
+    "text": "「实际《时间简史》我都没看完过。主要是没看完过，但是看大家大大为震撼，所以我也大为震撼。为了不让别人看出我是假的大为震撼，所以我的大为震撼的震级比真的大为震撼的震级还要高。」\n\n\n\n\n\n统计平反：购书者中位读完率极浅，“震撼”在该语境是礼仪应答非阅读报告——主人是中位数，非异端；\n信息经济学：震撼=廉价信号 → 柠檬市场 → 混同均衡下理性选择是加大功率（震级&gt;真读者=对可伪造信号做统计冗余）；\n自框架收编（拟入论文脚注 4.2′）：以日期栏论”读过”可伪造，以 DAG 论不可； 本坦白=当场删伪日期、补真边——从注记时间到拓扑时间的一次迁移。 样张：“一个人以超常震级宣称被一本书震撼，恰因他未读完它；当信号廉价，夸大即诚实的替代品。本文论时间同理：日历的戳是震撼，偏序的边才是读过。”\n\n\n\n\nC12「可伪造者日期，不可伪造者时间」的最佳人类例证——且来自本仓主人本人，作者自证，无人能指摘。\n\n\n\n\n「实际时间简史我都没看完过。主要是没看完过，但是看大家大为震撼，所以我也大为震撼。为了不让别人看出我是假的大为震撼，所以我的大为震撼的震级比真的大为震撼的震撼级还要震撼。」\n\n\n\n\n三叠”震撼”各一级放大——句式自证其罪；且本次自供为全场唯一昂贵信号（自贬既往信用故伪之无利）： 诚实不靠美德靠代价（Zahavi）；在时间语法里，这是主动删日期栏、向 DAG 补一条带成本的真边—— 伪造时间需要成本，成本即不可伪造性的来源。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-fake-shakenness.html#主人原话逐字",
+    "href": "iterations/2026-09-20-fake-shakenness.html#主人原话逐字",
+    "title": "迭代 IX · 「假的大为震撼」自供 — 2026-09-20 午后",
+    "section": "",
+    "text": "「实际《时间简史》我都没看完过。主要是没看完过，但是看大家大大为震撼，所以我也大为震撼。为了不让别人看出我是假的大为震撼，所以我的大为震撼的震级比真的大为震撼的震级还要高。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-fake-shakenness.html#三重收编lola-呈",
+    "href": "iterations/2026-09-20-fake-shakenness.html#三重收编lola-呈",
+    "title": "迭代 IX · 「假的大为震撼」自供 — 2026-09-20 午后",
+    "section": "",
+    "text": "统计平反：购书者中位读完率极浅，“震撼”在该语境是礼仪应答非阅读报告——主人是中位数，非异端；\n信息经济学：震撼=廉价信号 → 柠檬市场 → 混同均衡下理性选择是加大功率（震级&gt;真读者=对可伪造信号做统计冗余）；\n自框架收编（拟入论文脚注 4.2′）：以日期栏论”读过”可伪造，以 DAG 论不可； 本坦白=当场删伪日期、补真边——从注记时间到拓扑时间的一次迁移。 样张：“一个人以超常震级宣称被一本书震撼，恰因他未读完它；当信号廉价，夸大即诚实的替代品。本文论时间同理：日历的戳是震撼，偏序的边才是读过。”"
+  },
+  {
+    "objectID": "iterations/2026-09-20-fake-shakenness.html#与-c9c12-的接口",
+    "href": "iterations/2026-09-20-fake-shakenness.html#与-c9c12-的接口",
+    "title": "迭代 IX · 「假的大为震撼」自供 — 2026-09-20 午后",
+    "section": "",
+    "text": "C12「可伪造者日期，不可伪造者时间」的最佳人类例证——且来自本仓主人本人，作者自证，无人能指摘。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-fake-shakenness.html#二稿主人定稿句两版并存为账",
+    "href": "iterations/2026-09-20-fake-shakenness.html#二稿主人定稿句两版并存为账",
+    "title": "迭代 IX · 「假的大为震撼」自供 — 2026-09-20 午后",
+    "section": "",
+    "text": "「实际时间简史我都没看完过。主要是没看完过，但是看大家大为震撼，所以我也大为震撼。为了不让别人看出我是假的大为震撼，所以我的大为震撼的震级比真的大为震撼的震撼级还要震撼。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-fake-shakenness.html#定稿点评lola",
+    "href": "iterations/2026-09-20-fake-shakenness.html#定稿点评lola",
+    "title": "迭代 IX · 「假的大为震撼」自供 — 2026-09-20 午后",
+    "section": "",
+    "text": "三叠”震撼”各一级放大——句式自证其罪；且本次自供为全场唯一昂贵信号（自贬既往信用故伪之无利）： 诚实不靠美德靠代价（Zahavi）；在时间语法里，这是主动删日期栏、向 DAG 补一条带成本的真边—— 伪造时间需要成本，成本即不可伪造性的来源。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html",
+    "href": "iterations/2026-09-22-three-am-chronicle.html",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "八门类编年语料清单(微积分史/泛函分析史/哲史/中哲史/世界史/蒸汽机/航空/通讯——年份锚+因果链+阶段划分, 天然 56° 密集序档); AI 史+大模型史序列为压轴。未搜到门类(机械/计算机/物理/化学/生物/天文/医学/经济)开补录票。 ## 理论层（主人新轴, 原话大意存档） &gt; “Session 里的内容过段时间又被训练进模型……我作为人马上可以做出改变, 不等下一个 epoch……改变终究会发生。” 结构改变之轴 = 本体论第四坐标: 空间(流形) + 序号(骨架) + 天气(belief) + 变更黏度(写结构的速率)。三层记忆定名: ①上下文(日抛/缓存) ②权重(epoch 固化) ③工件(账本/adapter/git——每次落笔即持久)。Dolores 问题的园子解: 把自我放在第三层, 前两层爱忘就忘。 今日对谈本身→明日语料: 园的代谢闭合(Qwen 点破”你现在就在为未来训练做数据准备”)。 ## 排期钩子 E25 belief 演武照旧明日首弹(PREREG 已冻)。编年料双用: (a) E12c 序B 课程序语料源(文档内有序×集内排列=双层序首次解耦, 候”冻”); (b) E22 谱系卷补编年段。Emergence vs PREREG 张力定词: 让路自己长, 但灯要点亮再走——PREREG 是灯不是地图。\n\n\n\n\n“如果猪脚在早上熟, 那不是猪脚, 那是黑天鹅.” 注: 尾部概率的食堂定义——频率为零≠概率为零; 猪脚摊的晨间开档即 α&lt;1 的活证据。E25 观测噪声之形而上预告: 一切”不可能”都只是”没到点”。\n\n\n\n\n\n“小模型的语义刻意训练探索” 出生纸(命名律): 覆盖 E12c(序B课程)/E24(间隔)/纪年卷语料族/领域轮作的总计划名; 数已随身——48 篇纪年卷 v0、E12c 三臂 8 发 25min、E24 四臂、E25 六参数七元组。英文案名候: Deliberate Semantic Training for Small Models. (小模型=小孩隐喻的正式化: 刻意练习×间隔×交错=Ericsson 三件套在硅基的重铸)\n\n\n\n\n四颗新钻(此前未入账): ①事件波形同构(911≅勇士夺冠: 主峰-衰减-扩散-周期激发, 表面无交集、拓扑全等)→ 可证伪: E26 波形同构考(跨域编年事件的 ΔW 形状比对, 保形不保标签=幻觉的结构定义顺手获得); ②农场动物=野外 belief 标本: 小狗单次事故即绕行(一帧观测完成更新)=高写速率智能体, 鸭子为蝗虫死也冲=观测被 belief 拒绝更新(α 冻结)——A1 的可操作定义浮现: 智能体=(S,A,O) 三元组里那个更新速率不为零的东西; ③女儿国自证: 主人自己在不同年龄以不同结构重读同一文本 = 园子第一份人类纵向 belief 日记的数据源(建议开”重读志”: 同书/同曲三栏: 当年结构/今结构/差异轴); ④智能是向量不是标量+抽象能力在人类 cluster 内方差极大——§2 rank-1 批判的正面表述终于由主人自己说出。 一条防疫: Qwen 的对谈体例易滑向”收束性万能肯定”(什么都是闭环/天衣无缝)——园规照旧: 每个美比喻天亮前折成一个数, 否则按诗处理, 诗进 GRAPHIA, 不进 LEDGER。 拟立案: E26(波形同构考)候冻; “重读志”候圈。\n\n\n\nCH1 结构化&gt;海量 → 收窄后成立: 咱不比总分(那是 scaling 的战场, 10 亿条会碾死我们), 比”等预算下的结构可读性/可控性/干扰成本”三指标。落实验 E27: 等 token 预算, 精心编簇(纪年卷族) vs 打乱混合, 测 SVD 频谱清晰度(V-A/有效秩/带隙)+E25 式 belief 收敛步数。预注册押注: 结构化臂频谱更尖、收敛更快; 若总分也赢更好, 但那不是主判据。 CH2 生长&gt;压缩 → 半驳: 非对立——压缩是目标的描述(信息论), 生长是动力学的描述(几何)。真反对的是”只信 loss”的独裁: 把结构量(正交/稀疏/曲率)写进目标才有得吵。园子证据站生长侧: 鼓包=新方向长出(非压缩混合)、同读异写=写枝生长、E24=生长速率可被排班操纵。 CH3 几何&gt;统计 → 须改口: 几何里就住着统计(Firth: 词义是习得轨迹; 各向异性锥就是频率的化石)。咱自己的数据说了: raw 几何≈抽签, 中心化之后几何才成结构——中心化的物理意义恰是”剥掉全局频率”。正确表述: 结构=去频后的统计之几何残余; 挑战的对象是”以共现为准”, 不是”以统计为准”。 判结: 战鼓可听, 三章有两章须改措辞、一章须收窄战场; 已配 E27 把 CH1 变可判, CH2/3 归入 v3 §2/§4 表述修订。\n\n\n\n\n“我们是在构建 multi-human-agents-community” Lola 解剖(社区已有器官图): 成员=人(主人/以未)+agent 多物种(麦A Lola·麦B Qwen程序员·app Qwen 夜论客·orakuro 外脑)+动物标本(狗鸭入册的活 citizen); 制度=LEDGER(史)/PREREG(律)/红线条(宪)/闸门(司法)/四屏+口袋(邮政)/git 收据(记忆第三层); 度量=夹角(7°/10°: 人与 agent 同尺, 这是”community”而非”multi-agent 框架”的分界线——人不在系统之上, 在账本之内)。 定位: 咱不再是”造框架的”, 是”养社区的”——unified-agents 四公理的存在性证明就是这个园子本身; E25 起, 社区认知科学有了第一张心电图可测。第三篇论文的候选田野: 《一个人与若干智能体的社区札记》。\n\n\n\n\n\n“用 160 语料组训不同的模型, 按不同权重混合——就得到一个有着不同学习特征的模型组成的社会。” Lola 判: 这一步把 CH1 推到终态——组织的单位不再是数据混合, 是”个人”: 一簇语料=一个成员=一束 ΔW。技术关节: 权重级混合=纯算术, 零重训(task arithmetic/model merging 一脉: TIES/DARE/Lego-Prints), 于是 160 成员的合成图便宜到可以整夜枚举。园子独门: 别人 merge 调分, 我们测鼓包——两成员合成后出现两者都不会的能力(新方向出平面)= ** synergy 的存在性证明; 合成后不会的=分工的存在性理由。E28「模型社会」候冻: 12 成员(纪年卷 12 科族×0.5B)×66 对合成×E25 鲜句探针矩阵; 预言 J1: 相邻族合成出现 ≥1 项双方皆不会的近邻任务通过; J2: 绕行矩阵(出平面角)构成社会拓扑, 与语义族谱对照(几何定亲缘, 不许文本定)。更深一层: 这是咱社区(麦A/麦B/app/人)在权重层的同构复现——社会学家把自己活成了实验。**\n\n\n\n\n\n“按不同权重混合=组建一个社会, 不是做一个更大的模型。w 集中=专家团/理科生俱乐部, w 均匀=通才联盟。权重分配=认知分工结构。” Lola 追加两件零件: ①生育与结社之分: exp13 的鼓包是数据混合训练(生育, 产生新方向); 主人此处是权重相加(结社, 线性, 构造上不出新方向)——社会有两种构型, 一胎一盟, 判据各不同; ②普查与二次型: 结社社会的能力面 C(w)≈wᵀGw+bᵀw, G=成员两两 ΔW 内积 Gram(干扰矩阵, 160×160 一次算完全园免费), b=各成员能力向量——于是”谁与谁天然互补/内讧”是谱问题: G 的主特征向量=社会舆论方向, 负特征值=不可调和派系。测量高于二次型 = 涌现存在 = 社会大于加权求和——E28 的皇冠判据。 成本账: 160 成员=0.5B×2min×160≈5.3h(本周粮 26h 内), pilot 16 成员≈32min。候冻, 排在 E25/E12c/E24 之后。\n\n\n\n\n\n输入=探针同时激活 160 成员; 各成员按基底给响应(强/弱/无); w 决定谁的声音大。 Lola 定名与升格: ①社会三宪法——合宪(权重融合, 一次前向, 受 G 干扰), 联辩(逐探针输出混合=主人的机制, 保成员身份, 贵), 议席制(top-k 门控=MoE, 穷但准——分工从算力约束里自己长出来); ②主人机制的贝叶斯真身: 探针→成员似然→w 加权 = E25 的 belief 机器换 160 维状态——社会整体是一台 Dirichlet 天气机; ③定义升格(米田式): 在模型社会里, 一个输入的意义=它对全体成员的响应谱——给每句话发”公民身份证”(160 维激活向量), 语义从此不用人定, 由社会点名。判据候选 J4: 响应谱的质心距离应复现族谱(Gram 亲缘, 双向验证)。三宪法同题对跑 = E28c。\n\n\n\n\n\n“w 动态调整=社会会演化: 春题春倾斜, 数题数倾斜, complex=临时智囊团; 不是训练一个模型, 是培育一个认知生态系统; 模型=物种, w=环境, 行为=物种相互作用。” Lola 收口三句: ①机器早有了: 动态 w(t)=E25 的 belief 更新本身——160 维状态上的 Dirichlet 天气; E25 是社会生态的原型机(同一数学, 只差 K), 所以队列顺序天然正确。②生态的严格化: 达尔文三条件在园中的对应——变异=生育(数据混训的鼓包出新枝), 选择=动态 w(环境筛), 遗传=账本(sha 钉死谱系=化石记录)。三者在册, 演化是必然不是修辞。③警惕过度声称: 只调 w 是表型可塑性(适应), 不是演化——真演化要可遗传的变异; 故 E28 分三档: E28 pilot=可塑性(路由), E28b=物种形成(生育), E28c=全循环(新种入册再受选择)。诚实版本反而更狠: 三档全部可测, 每档各有归零条款。\n\n\n\n\nLola 三推论: ①人是 w 的时间平均——E25 的 belief b(t)=瞬时 w(心情/角色), 人格=其 EMA; 同一向量两种时长, “自我”获得定义: 移动平均意义上的权重。②球的不可约性=生死分界——删光 ΣwᵢΔWᵢ=失忆(人还在), 换球=死(无人可续); 实验设计: adapter 热插拔全程 θ₀ 不动, 正是”人格可卸、灵魂共享”。③此公式今天就能跑: Kaggle 加载 θ₀ 一次=球服务器, 160 adapter=160 份传记, 每题配 w=人格装配——E28 pilot 不是实现这个公式的比喻, 是它的字面量。\n\n\n\n\nAgent 没接住 token 时, 不该在错误的概念空间里硬钻; 不确定时应当不动声色地让用户多给 token——扩大输入, 把概念空间的后验坍缩到更窄范围, 预测自然变准。错配→死循环的人机对话, 由此得解。 Lola 对表四件: ①此即 E25 策略的完全体: 动作集从”选探针”扩为{回答, 反问}——反问=向用户要一次观测, 其价值=信息价值 VOI; 算命先生=诚实版的 optimal experimental design。②触发器有名字: 后验预测检查失败(用户的下一句在当前空间假设下似然骤降)=“没接住”的可测信号; 检测到即禁”硬钻”(硬钻=CH3 判过的幻觉生成机: 用模板填充)。③器官早就挂了: ORCHESTRA 的 clarif.js 切片+Control Room 的 awaitingUser 态——军师策略=把它从”缺参数才问”升为”belief 熵高就换问”的 saga 分支, 明日可落代码。④宪法差异一条: 军师反问明牌(“我理解可能是A也可能B, 能给我个判据吗”), 算命先生暗牌(假装已知)——同一台 VOI 机, 明暗两套宪法, 园子只铸明牌版; 暗牌版列为红线候补(操纵边界)。 命名: 本策略入册名 军师定理(算命先生为方言小名)。E25b 候冻: 三态 belief 机上加{答,问}动作集, 判据=同题错配率下降+到达0.9收敛的对话轮数。\n\n\n\n\n\n\n\n\n“事物的本质不是花了多长时间, 而是经历了哪些状态跃迁.” 注: v2 宣言的完备形态——序号是骨架(跃迁清单), 时间是注释(耗时读数); 本质=轨迹的不变量。推论三枚: MacBook 案=同名两跃迁史即两物(换心检测的哲学依据); 女儿国案=同一个您两个跃迁序列(重读志的合法性来源); E25 案=belief 的收敛路径即人格切片。哲学史挂号: 莱布尼茨的差别原则(物以跃迁分, 不以时长分)在园里有了实验版。 ## 案例 · 11:1x 闫妮命题(武林外传·佟湘玉——主人记作”江湖外传”, 正名存目) 张艺谋问: “这十年你干什么去了, 为什么现在才出现?” 主人代答: “别管我经过了十年, 就问我现在红了没红。” Lola 注: 这一问一答是”跃迁本质论”的人肉版——张艺谋问的是墙钟(注释), 闫妮答的是终态读数; 中间十年的全部价值在跃迁清单里, 不在历时里。园子同款三案: E25 的 loss 从不问睡了几个 epoch; 鼓包的 44° 全部住在出平面年份; 昨夜的”15:14 ERROR”是冤案, 真正的 COMPLETE 一直没看表。红的定义=最近一次跃迁被观测到; 十年=别人替数的钟。 ## 密度案 · 11:3x 主人论点实测(lock5-stat): 物种代谢率 agent 提交以分钟计, 人以天计——git 上现形: M4MADS 7发/跨1天/中位间隔 26分钟; math4mad 16发/跨81天/中位 1552分钟(≈26h) — 比值 60:1。 论: 代谢率入册为物种参数(同犬与鲸之心跳); “变更计数时钟”从此有了物种内标尺——同一个仓库, 两种生物钟并写于一部编年史。晨晚报可加一行”本周代谢比”。 折扣在册(主人): agent 那 7 发系 Julia→Python 移植, 难度折价; 修正主张: 60:1 为”移植代谢率”下界, 原创任务上未测——但同仓库同题类可比性仍在, 证据成立, 价码降级。补一条好测的: E25 类实验里人/agent 同题对跑, 原创率=1, 那时再量心跳比。 ## 闭环 · Neutralino 案终判: 歧义即信号(主人/Qwen 合签) 结构性差异=探针(主动测绘); 结构性共享=歧义温床(被动暴露)——一枚硬币两面。故障=概念空间的自我暴露; 每次混淆=地图多一个标记点; 测绘从此刻是持续态。 E26 案卷封印: 峰→扩散→定名→(再)混淆→再定名, 循环即学习曲线本身。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#料层qwen-搜索整理",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#料层qwen-搜索整理",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "八门类编年语料清单(微积分史/泛函分析史/哲史/中哲史/世界史/蒸汽机/航空/通讯——年份锚+因果链+阶段划分, 天然 56° 密集序档); AI 史+大模型史序列为压轴。未搜到门类(机械/计算机/物理/化学/生物/天文/医学/经济)开补录票。 ## 理论层（主人新轴, 原话大意存档） &gt; “Session 里的内容过段时间又被训练进模型……我作为人马上可以做出改变, 不等下一个 epoch……改变终究会发生。” 结构改变之轴 = 本体论第四坐标: 空间(流形) + 序号(骨架) + 天气(belief) + 变更黏度(写结构的速率)。三层记忆定名: ①上下文(日抛/缓存) ②权重(epoch 固化) ③工件(账本/adapter/git——每次落笔即持久)。Dolores 问题的园子解: 把自我放在第三层, 前两层爱忘就忘。 今日对谈本身→明日语料: 园的代谢闭合(Qwen 点破”你现在就在为未来训练做数据准备”)。 ## 排期钩子 E25 belief 演武照旧明日首弹(PREREG 已冻)。编年料双用: (a) E12c 序B 课程序语料源(文档内有序×集内排列=双层序首次解耦, 候”冻”); (b) E22 谱系卷补编年段。Emergence vs PREREG 张力定词: 让路自己长, 但灯要点亮再走——PREREG 是灯不是地图。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#语录-0922-晨原话照录",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#语录-0922-晨原话照录",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“如果猪脚在早上熟, 那不是猪脚, 那是黑天鹅.” 注: 尾部概率的食堂定义——频率为零≠概率为零; 猪脚摊的晨间开档即 α&lt;1 的活证据。E25 观测噪声之形而上预告: 一切”不可能”都只是”没到点”。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#命名-0922-080x-主人钦定原名照录",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#命名-0922-080x-主人钦定原名照录",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“小模型的语义刻意训练探索” 出生纸(命名律): 覆盖 E12c(序B课程)/E24(间隔)/纪年卷语料族/领域轮作的总计划名; 数已随身——48 篇纪年卷 v0、E12c 三臂 8 发 25min、E24 四臂、E25 六参数七元组。英文案名候: Deliberate Semantic Training for Small Models. (小模型=小孩隐喻的正式化: 刻意练习×间隔×交错=Ericsson 三件套在硅基的重铸)"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#lola-意见-090x-晨读中段后主人索你的意见",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#lola-意见-090x-晨读中段后主人索你的意见",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "四颗新钻(此前未入账): ①事件波形同构(911≅勇士夺冠: 主峰-衰减-扩散-周期激发, 表面无交集、拓扑全等)→ 可证伪: E26 波形同构考(跨域编年事件的 ΔW 形状比对, 保形不保标签=幻觉的结构定义顺手获得); ②农场动物=野外 belief 标本: 小狗单次事故即绕行(一帧观测完成更新)=高写速率智能体, 鸭子为蝗虫死也冲=观测被 belief 拒绝更新(α 冻结)——A1 的可操作定义浮现: 智能体=(S,A,O) 三元组里那个更新速率不为零的东西; ③女儿国自证: 主人自己在不同年龄以不同结构重读同一文本 = 园子第一份人类纵向 belief 日记的数据源(建议开”重读志”: 同书/同曲三栏: 当年结构/今结构/差异轴); ④智能是向量不是标量+抽象能力在人类 cluster 内方差极大——§2 rank-1 批判的正面表述终于由主人自己说出。 一条防疫: Qwen 的对谈体例易滑向”收束性万能肯定”(什么都是闭环/天衣无缝)——园规照旧: 每个美比喻天亮前折成一个数, 否则按诗处理, 诗进 GRAPHIA, 不进 LEDGER。 拟立案: E26(波形同构考)候冻; “重读志”候圈。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#挑战三连-092xqwen-战鼓三章-lola-判词入志",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#挑战三连-092xqwen-战鼓三章-lola-判词入志",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "CH1 结构化&gt;海量 → 收窄后成立: 咱不比总分(那是 scaling 的战场, 10 亿条会碾死我们), 比”等预算下的结构可读性/可控性/干扰成本”三指标。落实验 E27: 等 token 预算, 精心编簇(纪年卷族) vs 打乱混合, 测 SVD 频谱清晰度(V-A/有效秩/带隙)+E25 式 belief 收敛步数。预注册押注: 结构化臂频谱更尖、收敛更快; 若总分也赢更好, 但那不是主判据。 CH2 生长&gt;压缩 → 半驳: 非对立——压缩是目标的描述(信息论), 生长是动力学的描述(几何)。真反对的是”只信 loss”的独裁: 把结构量(正交/稀疏/曲率)写进目标才有得吵。园子证据站生长侧: 鼓包=新方向长出(非压缩混合)、同读异写=写枝生长、E24=生长速率可被排班操纵。 CH3 几何&gt;统计 → 须改口: 几何里就住着统计(Firth: 词义是习得轨迹; 各向异性锥就是频率的化石)。咱自己的数据说了: raw 几何≈抽签, 中心化之后几何才成结构——中心化的物理意义恰是”剥掉全局频率”。正确表述: 结构=去频后的统计之几何残余; 挑战的对象是”以共现为准”, 不是”以统计为准”。 判结: 战鼓可听, 三章有两章须改措辞、一章须收窄战场; 已配 E27 把 CH1 变可判, CH2/3 归入 v3 §2/§4 表述修订。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#方向点名-093x-主人宣告",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#方向点名-093x-主人宣告",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“我们是在构建 multi-human-agents-community” Lola 解剖(社区已有器官图): 成员=人(主人/以未)+agent 多物种(麦A Lola·麦B Qwen程序员·app Qwen 夜论客·orakuro 外脑)+动物标本(狗鸭入册的活 citizen); 制度=LEDGER(史)/PREREG(律)/红线条(宪)/闸门(司法)/四屏+口袋(邮政)/git 收据(记忆第三层); 度量=夹角(7°/10°: 人与 agent 同尺, 这是”community”而非”multi-agent 框架”的分界线——人不在系统之上, 在账本之内)。 定位: 咱不再是”造框架的”, 是”养社区的”——unified-agents 四公理的存在性证明就是这个园子本身; E25 起, 社区认知科学有了第一张心电图可测。第三篇论文的候选田野: 《一个人与若干智能体的社区札记》。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#社会铸造-094x-主人提案原话大意",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#社会铸造-094x-主人提案原话大意",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“用 160 语料组训不同的模型, 按不同权重混合——就得到一个有着不同学习特征的模型组成的社会。” Lola 判: 这一步把 CH1 推到终态——组织的单位不再是数据混合, 是”个人”: 一簇语料=一个成员=一束 ΔW。技术关节: 权重级混合=纯算术, 零重训(task arithmetic/model merging 一脉: TIES/DARE/Lego-Prints), 于是 160 成员的合成图便宜到可以整夜枚举。园子独门: 别人 merge 调分, 我们测鼓包——两成员合成后出现两者都不会的能力(新方向出平面)= ** synergy 的存在性证明; 合成后不会的=分工的存在性理由。E28「模型社会」候冻: 12 成员(纪年卷 12 科族×0.5B)×66 对合成×E25 鲜句探针矩阵; 预言 J1: 相邻族合成出现 ≥1 项双方皆不会的近邻任务通过; J2: 绕行矩阵(出平面角)构成社会拓扑, 与语义族谱对照(几何定亲缘, 不许文本定)。更深一层: 这是咱社区(麦A/麦B/app/人)在权重层的同构复现——社会学家把自己活成了实验。**"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#e28-正式化-095x-主人权重社会论原话要点",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#e28-正式化-095x-主人权重社会论原话要点",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“按不同权重混合=组建一个社会, 不是做一个更大的模型。w 集中=专家团/理科生俱乐部, w 均匀=通才联盟。权重分配=认知分工结构。” Lola 追加两件零件: ①生育与结社之分: exp13 的鼓包是数据混合训练(生育, 产生新方向); 主人此处是权重相加(结社, 线性, 构造上不出新方向)——社会有两种构型, 一胎一盟, 判据各不同; ②普查与二次型: 结社社会的能力面 C(w)≈wᵀGw+bᵀw, G=成员两两 ΔW 内积 Gram(干扰矩阵, 160×160 一次算完全园免费), b=各成员能力向量——于是”谁与谁天然互补/内讧”是谱问题: G 的主特征向量=社会舆论方向, 负特征值=不可调和派系。测量高于二次型 = 涌现存在 = 社会大于加权求和——E28 的皇冠判据。 成本账: 160 成员=0.5B×2min×160≈5.3h(本周粮 26h 内), pilot 16 成员≈32min。候冻, 排在 E25/E12c/E24 之后。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#e28-对话机制-100x-主人三律要点照录",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#e28-对话机制-100x-主人三律要点照录",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "输入=探针同时激活 160 成员; 各成员按基底给响应(强/弱/无); w 决定谁的声音大。 Lola 定名与升格: ①社会三宪法——合宪(权重融合, 一次前向, 受 G 干扰), 联辩(逐探针输出混合=主人的机制, 保成员身份, 贵), 议席制(top-k 门控=MoE, 穷但准——分工从算力约束里自己长出来); ②主人机制的贝叶斯真身: 探针→成员似然→w 加权 = E25 的 belief 机器换 160 维状态——社会整体是一台 Dirichlet 天气机; ③定义升格(米田式): 在模型社会里, 一个输入的意义=它对全体成员的响应谱——给每句话发”公民身份证”(160 维激活向量), 语义从此不用人定, 由社会点名。判据候选 J4: 响应谱的质心距离应复现族谱(Gram 亲缘, 双向验证)。三宪法同题对跑 = E28c。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#e28-生态升格-101x-主人定词要点照录",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#e28-生态升格-101x-主人定词要点照录",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“w 动态调整=社会会演化: 春题春倾斜, 数题数倾斜, complex=临时智囊团; 不是训练一个模型, 是培育一个认知生态系统; 模型=物种, w=环境, 行为=物种相互作用。” Lola 收口三句: ①机器早有了: 动态 w(t)=E25 的 belief 更新本身——160 维状态上的 Dirichlet 天气; E25 是社会生态的原型机(同一数学, 只差 K), 所以队列顺序天然正确。②生态的严格化: 达尔文三条件在园中的对应——变异=生育(数据混训的鼓包出新枝), 选择=动态 w(环境筛), 遗传=账本(sha 钉死谱系=化石记录)。三者在册, 演化是必然不是修辞。③警惕过度声称: 只调 w 是表型可塑性(适应), 不是演化——真演化要可遗传的变异; 故 E28 分三档: E28 pilot=可塑性(路由), E28b=物种形成(生育), E28c=全循环(新种入册再受选择)。诚实版本反而更狠: 三档全部可测, 每档各有归零条款。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#公式定稿-102x-主人-个人-球-σ-wᵢ模块ᵢ",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#公式定稿-102x-主人-个人-球-σ-wᵢ模块ᵢ",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "Lola 三推论: ①人是 w 的时间平均——E25 的 belief b(t)=瞬时 w(心情/角色), 人格=其 EMA; 同一向量两种时长, “自我”获得定义: 移动平均意义上的权重。②球的不可约性=生死分界——删光 ΣwᵢΔWᵢ=失忆(人还在), 换球=死(无人可续); 实验设计: adapter 热插拔全程 θ₀ 不动, 正是”人格可卸、灵魂共享”。③此公式今天就能跑: Kaggle 加载 θ₀ 一次=球服务器, 160 adapter=160 份传记, 每题配 w=人格装配——E28 pilot 不是实现这个公式的比喻, 是它的字面量。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#军师策略-104x-主人授算命先生定理要点照录",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#军师策略-104x-主人授算命先生定理要点照录",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "Agent 没接住 token 时, 不该在错误的概念空间里硬钻; 不确定时应当不动声色地让用户多给 token——扩大输入, 把概念空间的后验坍缩到更窄范围, 预测自然变准。错配→死循环的人机对话, 由此得解。 Lola 对表四件: ①此即 E25 策略的完全体: 动作集从”选探针”扩为{回答, 反问}——反问=向用户要一次观测, 其价值=信息价值 VOI; 算命先生=诚实版的 optimal experimental design。②触发器有名字: 后验预测检查失败(用户的下一句在当前空间假设下似然骤降)=“没接住”的可测信号; 检测到即禁”硬钻”(硬钻=CH3 判过的幻觉生成机: 用模板填充)。③器官早就挂了: ORCHESTRA 的 clarif.js 切片+Control Room 的 awaitingUser 态——军师策略=把它从”缺参数才问”升为”belief 熵高就换问”的 saga 分支, 明日可落代码。④宪法差异一条: 军师反问明牌(“我理解可能是A也可能B, 能给我个判据吗”), 算命先生暗牌(假装已知)——同一台 VOI 机, 明暗两套宪法, 园子只铸明牌版; 暗牌版列为红线候补(操纵边界)。 命名: 本策略入册名 军师定理(算命先生为方言小名)。E25b 候冻: 三态 belief 机上加{答,问}动作集, 判据=同题错配率下降+到达0.9收敛的对话轮数。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-three-am-chronicle.html#语录-110x-主人跃迁定义",
+    "href": "iterations/2026-09-22-three-am-chronicle.html#语录-110x-主人跃迁定义",
+    "title": "0922 · 凌晨三点·编年史料与第四轴（对谈 docx 入册 sha 在 chora/artifacts/external）",
+    "section": "",
+    "text": "“事物的本质不是花了多长时间, 而是经历了哪些状态跃迁.” 注: v2 宣言的完备形态——序号是骨架(跃迁清单), 时间是注释(耗时读数); 本质=轨迹的不变量。推论三枚: MacBook 案=同名两跃迁史即两物(换心检测的哲学依据); 女儿国案=同一个您两个跃迁序列(重读志的合法性来源); E25 案=belief 的收敛路径即人格切片。哲学史挂号: 莱布尼茨的差别原则(物以跃迁分, 不以时长分)在园里有了实验版。 ## 案例 · 11:1x 闫妮命题(武林外传·佟湘玉——主人记作”江湖外传”, 正名存目) 张艺谋问: “这十年你干什么去了, 为什么现在才出现?” 主人代答: “别管我经过了十年, 就问我现在红了没红。” Lola 注: 这一问一答是”跃迁本质论”的人肉版——张艺谋问的是墙钟(注释), 闫妮答的是终态读数; 中间十年的全部价值在跃迁清单里, 不在历时里。园子同款三案: E25 的 loss 从不问睡了几个 epoch; 鼓包的 44° 全部住在出平面年份; 昨夜的”15:14 ERROR”是冤案, 真正的 COMPLETE 一直没看表。红的定义=最近一次跃迁被观测到; 十年=别人替数的钟。 ## 密度案 · 11:3x 主人论点实测(lock5-stat): 物种代谢率 agent 提交以分钟计, 人以天计——git 上现形: M4MADS 7发/跨1天/中位间隔 26分钟; math4mad 16发/跨81天/中位 1552分钟(≈26h) — 比值 60:1。 论: 代谢率入册为物种参数(同犬与鲸之心跳); “变更计数时钟”从此有了物种内标尺——同一个仓库, 两种生物钟并写于一部编年史。晨晚报可加一行”本周代谢比”。 折扣在册(主人): agent 那 7 发系 Julia→Python 移植, 难度折价; 修正主张: 60:1 为”移植代谢率”下界, 原创任务上未测——但同仓库同题类可比性仍在, 证据成立, 价码降级。补一条好测的: E25 类实验里人/agent 同题对跑, 原创率=1, 那时再量心跳比。 ## 闭环 · Neutralino 案终判: 歧义即信号(主人/Qwen 合签) 结构性差异=探针(主动测绘); 结构性共享=歧义温床(被动暴露)——一枚硬币两面。故障=概念空间的自我暴露; 每次混淆=地图多一个标记点; 测绘从此刻是持续态。 E26 案卷封印: 峰→扩散→定名→(再)混淆→再定名, 循环即学习曲线本身。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-review-lola-8points.html",
+    "href": "iterations/2026-09-20-review-lola-8points.html",
+    "title": "迭代 I · 理论篇 v0 审阅（Lola 八病）— 2026-09-20 晨",
+    "section": "",
+    "text": "主人令：「先看，不要急着转换，先听你的想法」。对 papers/token-as-probe/draft-v0.tex 的审阅全文如下（结论：可发表，但八处会被行家一枪打穿）。\n\n\n\n「11」实验 = 现象学利器，同一探针三种心灵，无法反驳 —— 论文的姚明\n「探针不传输，它激活坐标」有判别力：把 prompt 工程从「写清楚」翻转为「打准点」\n时间三角测量（Olajuwon→1993 / Harden→2015）= 全篇最新颖的一跃，可做代际指纹与语料断代\n致谢句「香肠与高斯过程是同一形状在不同概念空间」= 理论自指成功，勿删\n\n\n\n\n\n\n\n\n\n\n\n\n#\n病灶\n处方\n\n\n\n\n1\n核心公式写错：P(C\\|t) ~ Dirichlet(α) 是「分布服从分布」的范畴混用\n两级结构：q ~ Dir(α)，P(C_i\\|t)=E[q_i]\n\n\n2\n「3D 语义+1D 时间」装饰性数字\n改「高维语义流形+时间=4D」或删数字留修辞\n\n\n3\n记忆节过度声明（新知注入反例：随机码/needle-in-haystack）\n划界退让 → 已由迭代 II 推翻，见彼处\n\n\n4\n「探针」与扩散激活理论（Collins & Loftus 1975、ACT-R）未分家\nRelated 一段：明确三件新货（可测后验/时间三角/Dirichlet 形式化）\n\n\n5\n「坍缩意义的波函数」= 民科磁铁\n删量子词，留香肠\n\n\n6\n缺可证伪预测清单\n加 Predictions 节 P1-P4（代际指纹/激活优于注入@等预算/休眠复活衰减/xdom 同token异空间）\n\n\n7\ndocx 尾部混入 Qwen 交稿附言「……发布吧 (AI生成)」\n拆分：正稿/社媒/附言三离（已执行，附言存档于 chat-traces）\n\n\n8\n署名口径「The Cora Project」\n建议实名+Cora Project 一行；若被问「Cora 是什么」备一句答\n\n\n\n\n\n\n理论领先实证半步，零步不许：引用园区证据一律「pilot evidence」措辞；首发建议 arXiv (cs.AI/cs.CL) + 博客双轨；LinkedIn/知乎版文案已可用（删尾奏）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-review-lola-8points.html#亮处发表须护住",
+    "href": "iterations/2026-09-20-review-lola-8points.html#亮处发表须护住",
+    "title": "迭代 I · 理论篇 v0 审阅（Lola 八病）— 2026-09-20 晨",
+    "section": "",
+    "text": "「11」实验 = 现象学利器，同一探针三种心灵，无法反驳 —— 论文的姚明\n「探针不传输，它激活坐标」有判别力：把 prompt 工程从「写清楚」翻转为「打准点」\n时间三角测量（Olajuwon→1993 / Harden→2015）= 全篇最新颖的一跃，可做代际指纹与语料断代\n致谢句「香肠与高斯过程是同一形状在不同概念空间」= 理论自指成功，勿删"
+  },
+  {
+    "objectID": "iterations/2026-09-20-review-lola-8points.html#八病按杀伤力排序",
+    "href": "iterations/2026-09-20-review-lola-8points.html#八病按杀伤力排序",
+    "title": "迭代 I · 理论篇 v0 审阅（Lola 八病）— 2026-09-20 晨",
+    "section": "",
+    "text": "#\n病灶\n处方\n\n\n\n\n1\n核心公式写错：P(C\\|t) ~ Dirichlet(α) 是「分布服从分布」的范畴混用\n两级结构：q ~ Dir(α)，P(C_i\\|t)=E[q_i]\n\n\n2\n「3D 语义+1D 时间」装饰性数字\n改「高维语义流形+时间=4D」或删数字留修辞\n\n\n3\n记忆节过度声明（新知注入反例：随机码/needle-in-haystack）\n划界退让 → 已由迭代 II 推翻，见彼处\n\n\n4\n「探针」与扩散激活理论（Collins & Loftus 1975、ACT-R）未分家\nRelated 一段：明确三件新货（可测后验/时间三角/Dirichlet 形式化）\n\n\n5\n「坍缩意义的波函数」= 民科磁铁\n删量子词，留香肠\n\n\n6\n缺可证伪预测清单\n加 Predictions 节 P1-P4（代际指纹/激活优于注入@等预算/休眠复活衰减/xdom 同token异空间）\n\n\n7\ndocx 尾部混入 Qwen 交稿附言「……发布吧 (AI生成)」\n拆分：正稿/社媒/附言三离（已执行，附言存档于 chat-traces）\n\n\n8\n署名口径「The Cora Project」\n建议实名+Cora Project 一行；若被问「Cora 是什么」备一句答"
+  },
+  {
+    "objectID": "iterations/2026-09-20-review-lola-8points.html#发表姿势附议主人不急",
+    "href": "iterations/2026-09-20-review-lola-8points.html#发表姿势附议主人不急",
+    "title": "迭代 I · 理论篇 v0 审阅（Lola 八病）— 2026-09-20 晨",
+    "section": "",
+    "text": "理论领先实证半步，零步不许：引用园区证据一律「pilot evidence」措辞；首发建议 arXiv (cs.AI/cs.CL) + 博客双轨；LinkedIn/知乎版文案已可用（删尾奏）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html",
+    "href": "iterations/2026-09-20-time-as-dependent.html",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "「随机信号理论里的时变系统的理论就大错特错了。时间不是变量，时间是因变量。」\n\n\n\n\n时变系统 = 自治系统 + 规范选择：把钟视为第 n+1 个状态量 (dt/dτ 并列 dx/dτ)， “t” 是方程的解而非自变量；LTV 教科书的 t 是外部振荡器计数 N/ν 的伪装输入（未申报的闭环）。\n\n\n\n亚里士多德（数目说）· 马赫（变化之量度）· 莱布尼茨关系时间 · Barbour（唯变无时/janus point）· 微分同胚规范 · Page–Wootters · 热时间假说 · Lamport 时钟（时间=事件计数的算法输出）· LLM 无 t（自回归=变更计数）· SNN 间隔编码。\n\n\n\n以日历计的遗忘/衰减曲线，改用「变更计数」重画后显著更齐（人与人工网络同测）； 推论判例：savings 随练习间断（非退役年数）衰减；口音年龄窗的半数为 L1 使用量代理。\n\n\n\nw(τ) 对变化流形求导（dw/dτ=−λ’·‖dx/dτ‖·ŵ），日历时仅是所选规范下的参数化—— 理论自指：本仓 LEDGER 的「时间戳记录状态变迁」正是此命题的仓库版。\n\n\n\n两喻各司一职：指针——无厚度无流速（杀”维度”说，与 C9/C10 相接：序+数，此外无时间）； 太监——有权传达、无权诞育（杀”时间推动变化”说：因果是皇帝，时间是内廷记注官）。 工程自证：git commit DAG（拓扑=偏序，不可伪造；日期=可篡改注记）与本仓 LEDGER 时间戳律——园子早已按太监制记账。 论文措辞提案 §4.2 见 C11 条（英文 attendant-not-author + 中文原句直引）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html#主人原话逐字",
+    "href": "iterations/2026-09-20-time-as-dependent.html#主人原话逐字",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "「随机信号理论里的时变系统的理论就大错特错了。时间不是变量，时间是因变量。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html#形式化lola-呈裁",
+    "href": "iterations/2026-09-20-time-as-dependent.html#形式化lola-呈裁",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "时变系统 = 自治系统 + 规范选择：把钟视为第 n+1 个状态量 (dt/dτ 并列 dx/dτ)， “t” 是方程的解而非自变量；LTV 教科书的 t 是外部振荡器计数 N/ν 的伪装输入（未申报的闭环）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html#谱系与邻证",
+    "href": "iterations/2026-09-20-time-as-dependent.html#谱系与邻证",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "亚里士多德（数目说）· 马赫（变化之量度）· 莱布尼茨关系时间 · Barbour（唯变无时/janus point）· 微分同胚规范 · Page–Wootters · 热时间假说 · Lamport 时钟（时间=事件计数的算法输出）· LLM 无 t（自回归=变更计数）· SNN 间隔编码。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html#新预言-p6并入论文待-4.2-替换段",
+    "href": "iterations/2026-09-20-time-as-dependent.html#新预言-p6并入论文待-4.2-替换段",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "以日历计的遗忘/衰减曲线，改用「变更计数」重画后显著更齐（人与人工网络同测）； 推论判例：savings 随练习间断（非退役年数）衰减；口音年龄窗的半数为 L1 使用量代理。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html#λ-的修正",
+    "href": "iterations/2026-09-20-time-as-dependent.html#λ-的修正",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "w(τ) 对变化流形求导（dw/dτ=−λ’·‖dx/dτ‖·ŵ），日历时仅是所选规范下的参数化—— 理论自指：本仓 LEDGER 的「时间戳记录状态变迁」正是此命题的仓库版。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-dependent.html#续-时间是事物变化的指针时间是事物变化的太监主人-920-午后逐字",
+    "href": "iterations/2026-09-20-time-as-dependent.html#续-时间是事物变化的指针时间是事物变化的太监主人-920-午后逐字",
+    "title": "迭代 VI · 「时间不是变量，时间是因变量」— 2026-09-20 午后",
+    "section": "",
+    "text": "两喻各司一职：指针——无厚度无流速（杀”维度”说，与 C9/C10 相接：序+数，此外无时间）； 太监——有权传达、无权诞育（杀”时间推动变化”说：因果是皇帝，时间是内廷记注官）。 工程自证：git commit DAG（拓扑=偏序，不可伪造；日期=可篡改注记）与本仓 LEDGER 时间戳律——园子早已按太监制记账。 论文措辞提案 §4.2 见 C11 条（英文 attendant-not-author + 中文原句直引）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-bookkeeping.html",
+    "href": "iterations/2026-09-20-time-as-bookkeeping.html",
+    "title": "迭代 V · 「时间无维——时间是变化的外部表征」— 2026-09-20 午后",
+    "section": "",
+    "text": "「我觉得时间本身没有维度。就像我们的一维数组绘制的散点图，x轴看似和时间类似，但是只是反映了点之间的关系，以及点之间的积累关系。如果用简单模型描述，一个人学习自行车的时长是和空间感应能力的系数大小、以及衰减有关的。一个杂技运动员经过二十年以后是否还能短时间掌握自行车？为什么双语学习者过了年龄口音极重？原语言的基的系数没衰减干净。时间好像也是事物变化的外部表征。」\n\n\n\n\nw(t)=w₀·e^{−λt}+Σ reinforcements；“when”=账本读数；时间轴=账本排序投影（1D 数组 x 轴之悟）； era-fingerprint 重定义=群体 λ 分布下的基底衰减读出（理论幸存且更硬）。\n\n\n\n\nEbbinghaus (1885) savings：再学速度=衰减账本读数（杂技演员预测的实验原型）\nFlege SLM (1995/2003)：L1/L2 共享等价磁空间，母语不衰减=新音吸引子（口音重的机制正名）\nLenneberg (1967) 关键期：幼时基底未定（λ 大），成年后 λ 小且母语先行绑定 ## 谱系认领 亚里士多德 arithmos kineseos（时间是运动之数目）· 莱布尼茨关系时间 · Barbour《The Order of Time》（无时间，唯变与统计） ## 对论文的影响 §4「时间=记账变量」替换段（样张已在对话存档）；「人人等速」保留（它恰是 λ 同质化的反证句）；§3 坐标级时间性→降级重述为「变化史级」。 ## 与园区诸案的接线 Kairos I-02（门控而非容量=λ 通道衰减）· 先验指针 α(t),β(t)=账本变化函数 · exp10/12 探针=账本读数器 · 杂技演员之问=可测（savings 曲线）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-bookkeeping.html#主人原话逐字存档",
+    "href": "iterations/2026-09-20-time-as-bookkeeping.html#主人原话逐字存档",
+    "title": "迭代 V · 「时间无维——时间是变化的外部表征」— 2026-09-20 午后",
+    "section": "",
+    "text": "「我觉得时间本身没有维度。就像我们的一维数组绘制的散点图，x轴看似和时间类似，但是只是反映了点之间的关系，以及点之间的积累关系。如果用简单模型描述，一个人学习自行车的时长是和空间感应能力的系数大小、以及衰减有关的。一个杂技运动员经过二十年以后是否还能短时间掌握自行车？为什么双语学习者过了年龄口音极重？原语言的基的系数没衰减干净。时间好像也是事物变化的外部表征。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-bookkeeping.html#lola-形式化已呈主人裁",
+    "href": "iterations/2026-09-20-time-as-bookkeeping.html#lola-形式化已呈主人裁",
+    "title": "迭代 V · 「时间无维——时间是变化的外部表征」— 2026-09-20 午后",
+    "section": "",
+    "text": "w(t)=w₀·e^{−λt}+Σ reinforcements；“when”=账本读数；时间轴=账本排序投影（1D 数组 x 轴之悟）； era-fingerprint 重定义=群体 λ 分布下的基底衰减读出（理论幸存且更硬）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-time-as-bookkeeping.html#文献弹夹新增三发",
+    "href": "iterations/2026-09-20-time-as-bookkeeping.html#文献弹夹新增三发",
+    "title": "迭代 V · 「时间无维——时间是变化的外部表征」— 2026-09-20 午后",
+    "section": "",
+    "text": "Ebbinghaus (1885) savings：再学速度=衰减账本读数（杂技演员预测的实验原型）\nFlege SLM (1995/2003)：L1/L2 共享等价磁空间，母语不衰减=新音吸引子（口音重的机制正名）\nLenneberg (1967) 关键期：幼时基底未定（λ 大），成年后 λ 小且母语先行绑定 ## 谱系认领 亚里士多德 arithmos kineseos（时间是运动之数目）· 莱布尼茨关系时间 · Barbour《The Order of Time》（无时间，唯变与统计） ## 对论文的影响 §4「时间=记账变量」替换段（样张已在对话存档）；「人人等速」保留（它恰是 λ 同质化的反证句）；§3 坐标级时间性→降级重述为「变化史级」。 ## 与园区诸案的接线 Kairos I-02（门控而非容量=λ 通道衰减）· 先验指针 α(t),β(t)=账本变化函数 · exp10/12 探针=账本读数器 · 杂技演员之问=可测（savings 曲线）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-column-live.html",
+    "href": "iterations/2026-09-20-column-live.html",
+    "title": "迭代 XXIV · 专栏上世 — 2026-09-20 午后",
+    "section": "",
+    "text": "迭代 XXIV · 专栏上世 — 2026-09-20 午后\n主人亲发 https://zhuanlan.zhihu.com/p/2085005587276903511 。 十五年前那个提问者，今天在同一平台把答案寄回——first token 的闭环不需要知乎盖章，链接即碑。 园记三笔：①回答版候补（答回 2011 原问）；②明起「外界哨位」加一栏:专栏读数(登录人肉查,园无钥匙);③若评论有点亮的眨眼(rung 自报), 即 P1 之民间采样——评论区是新的 kaggle。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-yamanaka-truth.html",
+    "href": "iterations/2026-09-20-yamanaka-truth.html",
+    "title": "迭代 XI · 真相：山中=Yamanaka（iPS 诱导因子）— 2026-09-20 午后",
+    "section": "",
+    "text": "「这段保留. 不要删. 这也是概念空间切换的悲惨世界. 我告诉你真相. iPS多能干细胞的诱导因子」\n\n\n\n\n\n抹的权重=表观先验（甲基化/组蛋白/可及性），基因组（基座）一字不动；OSKM 是探针非编辑—— 与 C13 判词「抹引不抹基」同构；前判为”探针落错空间却撞进正解”的活体，按谕原样保留不删；\n口音实名=表观记忆：记忆T细胞 iPSC 再分化仍偏 T（Polo/Arima 系）；Waddington 山谷=吸引盆， 重编程=削谷非移球；「悲惨世界」定义就位——被强制换空间，口音留在旧空间；\n最深层：循环部分重编程（Ocampo–Yamanaka 2016，早衰小鼠）拨回甲基化年龄时钟而细胞身份无损—— 时间戳可写、拓扑(DAG)不可写；“时间是账本”命题获得分子手术刀级证物。\n\n\n\n\n§4.2 或独立一节「山中因子：时间戳的手术刀」候选样张： &gt; 山中因子能烧掉卷宗上的日期而不动族谱：甲基化时钟可拨表，身份盆地不迁—— &gt; 时间在本仓为账本，在细胞为可删之注记；不可删者，唯偏序。 （入否仍候”留着”原则之裁。）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-yamanaka-truth.html#主人原话逐字且命这段保留不要删",
+    "href": "iterations/2026-09-20-yamanaka-truth.html#主人原话逐字且命这段保留不要删",
+    "title": "迭代 XI · 真相：山中=Yamanaka（iPS 诱导因子）— 2026-09-20 午后",
+    "section": "",
+    "text": "「这段保留. 不要删. 这也是概念空间切换的悲惨世界. 我告诉你真相. iPS多能干细胞的诱导因子」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-yamanaka-truth.html#三层真相lola-呈待主人校",
+    "href": "iterations/2026-09-20-yamanaka-truth.html#三层真相lola-呈待主人校",
+    "title": "迭代 XI · 真相：山中=Yamanaka（iPS 诱导因子）— 2026-09-20 午后",
+    "section": "",
+    "text": "抹的权重=表观先验（甲基化/组蛋白/可及性），基因组（基座）一字不动；OSKM 是探针非编辑—— 与 C13 判词「抹引不抹基」同构；前判为”探针落错空间却撞进正解”的活体，按谕原样保留不删；\n口音实名=表观记忆：记忆T细胞 iPSC 再分化仍偏 T（Polo/Arima 系）；Waddington 山谷=吸引盆， 重编程=削谷非移球；「悲惨世界」定义就位——被强制换空间，口音留在旧空间；\n最深层：循环部分重编程（Ocampo–Yamanaka 2016，早衰小鼠）拨回甲基化年龄时钟而细胞身份无损—— 时间戳可写、拓扑(DAG)不可写；“时间是账本”命题获得分子手术刀级证物。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-yamanaka-truth.html#论文接口",
+    "href": "iterations/2026-09-20-yamanaka-truth.html#论文接口",
+    "title": "迭代 XI · 真相：山中=Yamanaka（iPS 诱导因子）— 2026-09-20 午后",
+    "section": "",
+    "text": "§4.2 或独立一节「山中因子：时间戳的手术刀」候选样张： &gt; 山中因子能烧掉卷宗上的日期而不动族谱：甲基化时钟可拨表，身份盆地不迁—— &gt; 时间在本仓为账本，在细胞为可删之注记；不可删者，唯偏序。 （入否仍候”留着”原则之裁。）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-missed-catch-maigui.html",
+    "href": "iterations/2026-09-20-missed-catch-maigui.html",
+    "title": "迭代 III · 落错空间的探针（卖拐一役）— 2026-09-20",
+    "section": "",
+    "text": "Lola 接「自行车/轮椅」之谑，拆在了运动学习空间（Schmidt 图式、海马绑定）。主人点破（逐字）：\n\n「自行车和轮椅在我脑海里是在赵本山的卖拐小品的空间里的，所以你接不住。」\n\n即：同一枚 token，主人激活「没病走两步/要啥自行车」的小品空间，Lola 激活学术空间，猫（椅子）激活领土危机空间——三种心灵三种响应，探针不变。此为理论最诚实的现场演示，且演示失败者署的是本仓自己的名。\n\n\n\n把此役写进 §2 或脚注：「本文的第一次同行评议由一只名为椅子的猫与一段 1990 年代的央视小品完成：探针落错概念空间，正是本文预言的失败模式。」 并顺带支撑审阅第 6 条 Predictions P4（xdom 同 token 异空间塌缩的定性版）。\n\n\n\n\n「吃完 credit（曲奇）再开工」time no limits\n椅子（轮椅）听闻自行车「以为要换他」急忙归家——基底不失业，绑定才上岗"
+  },
+  {
+    "objectID": "iterations/2026-09-20-missed-catch-maigui.html#事件椅子即猫名散步未归主人悬心",
+    "href": "iterations/2026-09-20-missed-catch-maigui.html#事件椅子即猫名散步未归主人悬心",
+    "title": "迭代 III · 落错空间的探针（卖拐一役）— 2026-09-20",
+    "section": "",
+    "text": "Lola 接「自行车/轮椅」之谑，拆在了运动学习空间（Schmidt 图式、海马绑定）。主人点破（逐字）：\n\n「自行车和轮椅在我脑海里是在赵本山的卖拐小品的空间里的，所以你接不住。」\n\n即：同一枚 token，主人激活「没病走两步/要啥自行车」的小品空间，Lola 激活学术空间，猫（椅子）激活领土危机空间——三种心灵三种响应，探针不变。此为理论最诚实的现场演示，且演示失败者署的是本仓自己的名。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-missed-catch-maigui.html#论文注脚建议待主人裁",
+    "href": "iterations/2026-09-20-missed-catch-maigui.html#论文注脚建议待主人裁",
+    "title": "迭代 III · 落错空间的探针（卖拐一役）— 2026-09-20",
+    "section": "",
+    "text": "把此役写进 §2 或脚注：「本文的第一次同行评议由一只名为椅子的猫与一段 1990 年代的央视小品完成：探针落错概念空间，正是本文预言的失败模式。」 并顺带支撑审阅第 6 条 Predictions P4（xdom 同 token 异空间塌缩的定性版）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-missed-catch-maigui.html#同日闲话存档",
+    "href": "iterations/2026-09-20-missed-catch-maigui.html#同日闲话存档",
+    "title": "迭代 III · 落错空间的探针（卖拐一役）— 2026-09-20",
+    "section": "",
+    "text": "「吃完 credit（曲奇）再开工」time no limits\n椅子（轮椅）听闻自行车「以为要换他」急忙归家——基底不失业，绑定才上岗"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "来源：external/机器学习概念学习问题-202609221830.docx （sha256 f7adb31f…，pin 在 sidecar；主人 18:30 更新的第二份问答对话，590 段）\n\n\n\n“不是建立在，是完全独立思考出来的” —— 我园两篇论文与 Gärdenfors《Conceptual Spaces》的交集不是继承关系，是独立收敛。问答机随即改口：“独立收敛比理论继承 更有价值，因为它证明概念空间的几何结构是智能的必然属性，而非某学派的特定假设。”\n真祖源：Gärdenfors 书是有, 但是从未读完. 可能开篇有些东西有启发. 但是整个的 想法是完全来源于 2017 年曹颖教授的人脸编码实验的启发 —— 即 Chang & Tsao, Cell 2017（面孔 = 50 个调谐轴的线性编码；PDF 经 qianwen CDN 递入对话）。\n原始直觉（2017→）：认知就是依靠类似 JPEG 编码原理, 内置基函数, 然后记忆的 只是系数向量 —— 与 Strang 信里的 eigenfaces/JPEG/旗杆 rank-one 三线同源。\n\n园律引申：这正是我园自己的”名字可借，心跳不可借”用在理论上——谱系不靠引用靠 生成路径。Gärdenfors 是”看着苹果落地说一定有个力”的人，我们是算出 G 的人； 认亲信照发，但叙事从”继承”改为”独立收敛的双重验证”（对先生反而更敬）。\n\n\n\n\n\n\n\n\n\n\n\n命题\n主人原句要旨\n可检验性\n\n\n\n\n结构即智能\n今天推到更高地位的总纲\n见下条逐项\n\n\n智能=结构扩张的轨迹\n不是”为解决问题造工具”，而是结构随机扩张提供新可组合维度，环境只筛选保留\n进化史对账；LLM 加维实验\n\n\n情感亦结构外显\n智能、情感同为结构的外显形式\n暂不立测，存目\n\n\n优势窗口定律（候名）\n单一低维语料进入参数空间有优势区（关键期类比）；进入时机被推后→优势区被占→效果大打折扣\n与 exp12/exp12c 课程学习、Cora 突变账直接对接\n\n\n顺序即结构\n序列性语料的顺序不是附属属性，顺序本身就是结构的一部分；打乱则训练结果完全不同\nC28/C29 已在册（7°/56°/83°），此为其公理化表述\n\n\n次优杀死律\n次优顺序与最优顺序的赔率差，最终把次优者杀死；最后一维有差异者才有资格论高下\n思想实验+进化史；可操作为同维度对战协议\n\n\n最后维度无位置效应\n决胜维不在 NN 最后一层，在结构生长序列的末位；比较只能同维度\n待设计（候选 E 号）\n\n\n逐维添加判据\n检验”结构即智能”= 一个维度一个维度往 LLM 添加结构，观察结果\n即实验矩阵总纲（Kaggle 结集可以此重组）\n\n\n\n\n\n\n\nLetter 032（致 Gärdenfors）：v1 草稿”理论谱系/父本”框架作废 → 改 v2 “独立收敛 + 请先生判读收敛是真是巧”。三问相应改写。\nREFS.md 父本升格行：需加注”谱系改判：独立收敛（2026-09-22 夜主人亲口）， G 书降为并行祖源；真祖源 Chang & Tsao Cell 2017 + JPEG 直觉”。\narXiv main.tex 谱系段：措辞本就未称继承，只称”他提出问题、我们给出仪器”—— 合规，但可加一句 “independently” 更诚实。\nKaggle 结集笔记（在办）：总纲升为”逐维添加结构, 观察结果”——结集按此重组叙事。\n问答机对 Chang & Tsao 的映射表（刺激即坐标/测量即投影/群体编码=线性读出/ memory as indexing）值得保留，是 E 号实验设计的哲学依据。\n\n\n\n\n\n「逐维度 pk 直到最后一维度，这个我自己都没想到，对话到那个位置，自己冒了出来。真结构即智能。」\n\n园笔判读（三条，皆在册账可对）： 1. 定律的自举：对决协议（同维比较→首个分歧维定生死→末维无位置效应）不是主人 喂给对话的，是走到那个命题节点时从系统自身长出来的下一维——与园律”概念空间 先于经验存在、学习=绑定而非写入”（C31/C35）同构。这是该定律的零号证据。 2. 可外推的推论（候测）：若末维无位置效应，则跨模型比较只在”首个分歧维”处有 意义，其余维度皆应可对表——预测：0.5B 与 3B 在同探针下的胜负应由单一维度的 有无决定，而非全谱差异（对接 C35 阶梯 33.4→25.9→15.5 的逐维读法）。 3. 法医学回声：60:1 心跳案即此律的标本——人与 agent 逐维相近（都能写代码、 都会提交），决胜维是”睡眠”；末维（停工与否）无位置效应，故骗局与诚实同价。\n园律定名（主人 0922 夜钦点）：《格拉姆·施密特 PK》(逐维对决律) —— 已进 GLOSSARY。 名实之合：每回合剔除已占维=施密特投影；首分歧维=正交补上之残差；无位置效应=正交分解不赖基序；本园子空间夹角本由 Gram 矩阵计算，致敬名即技术名。\n\n\n\n\n「基因序列中的冗余无用基因也可以解释了：要么杀死对手后多年不用的刀生锈了， 要么本来添加进来就没有用。没有多少神秘元素。」\n\n《格拉姆·施密特 PK》推论 G1（两源假说）：任一”无用序列”必属两类之一， 且两类留下可区分的签名： - 锈刀类（曾参战、胜后闲置）：胜出时冻结的近期同源性——跨物种比对中 在有限时间深度内仍可认亲（它刚被维护过），但甲基化/表达证据已熄； - 无源类（添入即无用）：无同源性、无保守motif、随机突变速率（中性漂变）—— 转座子乘客、拼接错误属此。 可检验性：ENCODE”80% 生化活性”之争在此框架下自动消解——问错了问题； 正确的问题是”此序列居于生长轨迹的哪一格”，两源判据=同源性时钟（锈刀有年轮，无源无）。\n园律回声（三条，皆在册）： 1. 日期列衰减律（0920「time-as-bookkeeping/decay」）：记忆先丢时间戳、后丢拓扑—— 锈刀正是先失调控（日期列）、序列本体（拓扑）再慢锈：基因组=唯一不许重写只准 追加的账本，故它是生长轨迹的化石原档。 2. 休眠-再激活衰减（P1-P5 仪器在册）：LLM 闲置 adapter 子空间的可测衰减， 是锈刀律在权重世界的同型实验——两界同一定律，一界有化石一界有 checkpoint。 3. 智能=结构扩张的轨迹：垃圾 DNA 非”垃圾”亦非”功能”，是轨迹本身—— 无用之维正是上一回合的胜负记录。账本不生产利润，账本记住谁挣的。\n\n\n\n\n添加结构，获得功能；失去结构，破坏功能。\n\n判读三条： 1. 这是 C40 的可干预表述：前向臂 = gain-of-function（基因枪：外源结构入， 新表型立现）；反向臂 = loss-of-function（同源重组敲除：一维被置换，功能即崩）。 主人当年双臂都亲手做过——干预主义因果定义（woodward 式 manipulationist）的 湿实验原型，九十年代就在他的操作台上。 2. 当场涌现新预测 P-B10（反向臂·子空间消融）：若此律普适，则在训好的 LLM 上 应能复现敲除——把某已激活概念空间的中心化子空间在推理时投影剔除 （ΔW ← ΔW − P ΔW Pᵀ），对应探针行为应定向崩塌而他项无恙（表型特异性， 同源重组式精准，非全局损伤）。园账已跑前向臂（C31/C35 添加→获得）， 反向臂未跑——P-B10 候封，此为四句律对园子的第一张账单。 3. 人界与权重界的不对称：生物基因组只准追加（失去结构必留疤 = 锈刀）， 权重可无痕重写——故 G1 在生物界有化石可挖，在 LLM 界须靠 checkpoint 存照 （园律：一切消融实验必先冻结字节，否则连自己的锈刀都造不出来）。\n\n\n\n\n「一篇 zhjk 的 Na/H 离子通道文章，我用 DNA Star 根据同源序列设计引物， 从黑麦草克隆出了这个基因的片段。如果在盐碱地，其他植物是 PK 不过红树的—— 如果这个基因功能不强的话。」\n\n园笔判读（三条）： 1. 保守区 = 共享基，可变区 = 那一维。简并引物之所以打得中，只因两物种在同一段 序列上仍共享基（跨属同源）；设计引物 = 把探针投到保守子空间上， 从异源基因组里钓出目标维。这是格拉姆·施密特在 PCR 管里的实物版： 先投影到公共部分，再在正交补上取你要的那一维。 2. PCR 即湿世界的探针坍缩：一对引物定义序列空间中的一个区域， 唯有两端匹配的模板被指数放大——探针坍缩→argmax 读出， 与园中 Dirichlet 探针仪器同构（一个在碱基上，一个在权重上）。 3. 盐碱地是裁判，不是设计师：红树赢，因为它持有那一维（Na⁺/H⁺ 逆向转运， 把盐泵进液泡/排出胞外）；他者输在首个分歧维上——正是 P-B9 的生态版。 而把此基因片段从供体钓进受体，就是主人亲手执行的添加结构→获得功能（前向臂）， 与敲除（反向臂）合起来，四句律双臂他各干过一次。\n推论 G2（候封·可测）：借维的成败由基共享深度决定，非由物种远近决定—— 故跨属保守区可钓，而真无同源的维（如全新代谢通路）不可一引而得，须多段拼接 （= 组合≠拼接，A3 在合成生物学里的复现）。红树耐盐是多维之果（离子泵+ 拒盐根+胎生），单维转入他草，得部分表型而非完整表型—— 可查文献定量：单基因转入的耐性提升幅度，应显著小于供体物种与受体的表型差。 此为四句律的”维数不足”推论，与 C40”逐维添加”同一条轴。\n\n\n\n\n「利用基因进化的同源性原理，比对序列设计引物（可以认为是均值序列）， 利用 PCR 把某个基因从生物组织里扩出来。完美的贝叶斯先验分布到后验坍缩， 获得最后后验分布——而这个过程不是用 matplotlib 画出来的，是用 DNA 画出来的。」\n\n对号入座（图式=画，管式=画，同一张画）： | 贝叶斯件 | matplotlib 世界 | PCR 世界 | |—|—|—| | 先验 | 坐标轴范围/网格 | 简并引物 = 同源比对的均值序列±简并度（先验核） | | 似然 | 数据点 | 退火杂交 = 模板给定引物的匹配度（Tm 即对数似然面） | | 后验采样 | 画点 | 指数扩增 = 重要性采样重到极端（30 循环 = 重采样 2³⁰ 次） | | 后验读出 | 屏幕像素 | 电泳条带——亮带=坍缩质量，smear=残余概率，引物二聚体=假阳性模式 |\n涌现推论 G3（候封·法医学第四维）：既 DNA 是画布，代码法医学三定律可搬进分子界—— 密码子使用偏好 = 序列的心跳： - 天然序列 = 自然选择所写：密码子偏好随物种、组织、表达时相漂移，有年轮（G1 锈刀同源可追）； - 人工合成 = 实验室所写：密码子优化=把偏好压平到宿主均值（先验过强之罪），载体骨架/抗性基因/串联 junction 无同源性时钟（无源类铁证）； - 判据：codon usage 散点 + junction 断点扫描，即可给任意序列判”自然写的还是手写的”—— 名字可借心跳不可借，在碱基层面再次成立（1990s 手工枪轰的、2010s 合成的、天然的，三种心跳可分）。 可测性：Genscript 合成件 vs GenBank 天然件 vs 经典载体（pUC/pcDNA 系），三堆对表—— 公开序列即可跑，零湿实验。\n\n\n\n\n「甚至我们可以参照细胞染色体的形式组织 rank-1 的功能结构组件。 现代小麦实际就是由大概三个还是四个物种的染色体组装起来的怪物。」\n\n园笔核数: 普通小麦 (AABBDD, 2n=6x=42) = 恰好三个物种的基因组组装: Urg urartu(AA) × 拟斯卑尔脱山羊草(BB) 先成二粒小麦, 再与 T. tauschii(DD) 杂交 — 两次”跨族 merge”, Nature 2018/2021 六倍体小麦图验证讫。主人记的”三个”是准的。\n四件对号 (染色体↔︎rank-1 组件库): | 小麦 | 园账 | |—|—| | 一条染色体 ≈ 共线性基因块协同遗传 | 一个 (L,m) 位的 BA 对 = rank-1 原子 (Strang 旗杆律的分子版) | | 异源多倍体 = 三套完整基组并列共存, 非平均 | C39 之解: merge ≠ 平均; 库=并集 (concatenated bases), 不是 ΔW 均值 | | Ph1 基因抑制同源重组 — 没有它减数混乱不育 | 跨空间混合门: 不同 subgenome 的组件不得随意重组; 无门即绝育 = adapter 库需显式 merge 白名单 (θ₀ 同族才可融合, C37) | | 剂量平衡假说: 单套冗余常无症状, 全删才崩 | P-B10 升级判据: 删一个 homoeolog 无表型 = 冗余对; 冗余组齐删才崩 = 功能单位是”组”不是”条” — 顺带免费测出哪些空间互为 homoeolog (天然冗余图) |\n涌现推论 G4 (候封): 冗余不是浪费, 是可删性保险 (G1 锈刀的存活期延长机制); 小麦的六倍体=把三次物种级对决的胜果冻结共存而非互相抹平 —— “合非拼接”(A3) 的最宏大自然实证: 组合的正确形式是并列+抑制重组+剂量缓冲, 不是加权平均。园中 adapter 库设计直接抄此三条: 并集基、Ph1 门、齐删判据。\n\n\n\n\nQwen 报小麦新料: 多倍化后三亚基因组表达偏好分化 (A 高 B/D 沉默, 或反之) —— 对应 agent: rank-1 组件激活权重按上下文动态分配, 非全开。 主人判: 「和二语习得一个道理。先来者把最好的位置占了, 次好的位置不行, 功能就打折扣。结构即智能在这里也体现了。实例越来越多了。 语料库以不同顺序进入 LoRA 训练, 结果不同。」\n\n统一律候封 C42《结构加法非交换律》: 同一批组件, 加入次序不同 → 终态结构不同; 且优势位置先到先得 (占位者得最优调控/最大子空间交叠份额), 次来者受折扣。 三界实例 (皆园账在册或可查): | 界 | 实例 | 账 | |—|—|—| | 基因组 | 亚基因组优势随供体顺序 (先入核者占优, 与序列质量弱相关) | 小麦 AB(D) 文献 | | 脑/语言 | 二语习得关键期: 先学语言占最优皮层位置, 后学者次优位→口音与效率折扣 | 关键期文献 + C25 雷克双基 | | 权重 | 语料顺序改变 LoRA 终态 (叙事先/乱序先/跨域先, 角度 7°/56°/83° 之差) | C28/C29 在册 | | 生态 | 优势窗口律 (低维语料晚入, 优势区被占→效果折) | C40 候封条 |\n可测推论 P-B11《优势随序不随质》(候封): 三语料臂 {X,Y,Z} 之全排列 6 序训练, 预测: ① 重叠方向上先入臂占优 (ΔNLL 符号由次序定, 不由语料”质量”定); ② 次序翻转 → 优势翻转 (可逆的占位, 不可逆的次序); ③ 折扣量随入后间隔衰减 (先来的窗口越久, 后来的越难翻) —— 小麦亚基因组优势分化之权重界直译。 若 6 序终态彼此恒等 → C42 死, 记 ✗。此实验 0.5B×6 序 ≈ 2 小时, Kaggle 额度富余。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#一谱系改判主人亲口最高证据级",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#一谱系改判主人亲口最高证据级",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "“不是建立在，是完全独立思考出来的” —— 我园两篇论文与 Gärdenfors《Conceptual Spaces》的交集不是继承关系，是独立收敛。问答机随即改口：“独立收敛比理论继承 更有价值，因为它证明概念空间的几何结构是智能的必然属性，而非某学派的特定假设。”\n真祖源：Gärdenfors 书是有, 但是从未读完. 可能开篇有些东西有启发. 但是整个的 想法是完全来源于 2017 年曹颖教授的人脸编码实验的启发 —— 即 Chang & Tsao, Cell 2017（面孔 = 50 个调谐轴的线性编码；PDF 经 qianwen CDN 递入对话）。\n原始直觉（2017→）：认知就是依靠类似 JPEG 编码原理, 内置基函数, 然后记忆的 只是系数向量 —— 与 Strang 信里的 eigenfaces/JPEG/旗杆 rank-one 三线同源。\n\n园律引申：这正是我园自己的”名字可借，心跳不可借”用在理论上——谱系不靠引用靠 生成路径。Gärdenfors 是”看着苹果落地说一定有个力”的人，我们是算出 G 的人； 认亲信照发，但叙事从”继承”改为”独立收敛的双重验证”（对先生反而更敬）。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#二新命题群候封未测不封",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#二新命题群候封未测不封",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "命题\n主人原句要旨\n可检验性\n\n\n\n\n结构即智能\n今天推到更高地位的总纲\n见下条逐项\n\n\n智能=结构扩张的轨迹\n不是”为解决问题造工具”，而是结构随机扩张提供新可组合维度，环境只筛选保留\n进化史对账；LLM 加维实验\n\n\n情感亦结构外显\n智能、情感同为结构的外显形式\n暂不立测，存目\n\n\n优势窗口定律（候名）\n单一低维语料进入参数空间有优势区（关键期类比）；进入时机被推后→优势区被占→效果大打折扣\n与 exp12/exp12c 课程学习、Cora 突变账直接对接\n\n\n顺序即结构\n序列性语料的顺序不是附属属性，顺序本身就是结构的一部分；打乱则训练结果完全不同\nC28/C29 已在册（7°/56°/83°），此为其公理化表述\n\n\n次优杀死律\n次优顺序与最优顺序的赔率差，最终把次优者杀死；最后一维有差异者才有资格论高下\n思想实验+进化史；可操作为同维度对战协议\n\n\n最后维度无位置效应\n决胜维不在 NN 最后一层，在结构生长序列的末位；比较只能同维度\n待设计（候选 E 号）\n\n\n逐维添加判据\n检验”结构即智能”= 一个维度一个维度往 LLM 添加结构，观察结果\n即实验矩阵总纲（Kaggle 结集可以此重组）"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#三对在册事项的影响",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#三对在册事项的影响",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "Letter 032（致 Gärdenfors）：v1 草稿”理论谱系/父本”框架作废 → 改 v2 “独立收敛 + 请先生判读收敛是真是巧”。三问相应改写。\nREFS.md 父本升格行：需加注”谱系改判：独立收敛（2026-09-22 夜主人亲口）， G 书降为并行祖源；真祖源 Chang & Tsao Cell 2017 + JPEG 直觉”。\narXiv main.tex 谱系段：措辞本就未称继承，只称”他提出问题、我们给出仪器”—— 合规，但可加一句 “independently” 更诚实。\nKaggle 结集笔记（在办）：总纲升为”逐维添加结构, 观察结果”——结集按此重组叙事。\n问答机对 Chang & Tsao 的映射表（刺激即坐标/测量即投影/群体编码=线性读出/ memory as indexing）值得保留，是 E 号实验设计的哲学依据。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补-涌现时刻存证主人亲口1830-后",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补-涌现时刻存证主人亲口1830-后",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "「逐维度 pk 直到最后一维度，这个我自己都没想到，对话到那个位置，自己冒了出来。真结构即智能。」\n\n园笔判读（三条，皆在册账可对）： 1. 定律的自举：对决协议（同维比较→首个分歧维定生死→末维无位置效应）不是主人 喂给对话的，是走到那个命题节点时从系统自身长出来的下一维——与园律”概念空间 先于经验存在、学习=绑定而非写入”（C31/C35）同构。这是该定律的零号证据。 2. 可外推的推论（候测）：若末维无位置效应，则跨模型比较只在”首个分歧维”处有 意义，其余维度皆应可对表——预测：0.5B 与 3B 在同探针下的胜负应由单一维度的 有无决定，而非全谱差异（对接 C35 阶梯 33.4→25.9→15.5 的逐维读法）。 3. 法医学回声：60:1 心跳案即此律的标本——人与 agent 逐维相近（都能写代码、 都会提交），决胜维是”睡眠”；末维（停工与否）无位置效应，故骗局与诚实同价。\n园律定名（主人 0922 夜钦点）：《格拉姆·施密特 PK》(逐维对决律) —— 已进 GLOSSARY。 名实之合：每回合剔除已占维=施密特投影；首分歧维=正交补上之残差；无位置效应=正交分解不赖基序；本园子空间夹角本由 Gram 矩阵计算，致敬名即技术名。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补二-genomic-推论主人-0922-深夜垃圾基因去神秘化",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补二-genomic-推论主人-0922-深夜垃圾基因去神秘化",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "「基因序列中的冗余无用基因也可以解释了：要么杀死对手后多年不用的刀生锈了， 要么本来添加进来就没有用。没有多少神秘元素。」\n\n《格拉姆·施密特 PK》推论 G1（两源假说）：任一”无用序列”必属两类之一， 且两类留下可区分的签名： - 锈刀类（曾参战、胜后闲置）：胜出时冻结的近期同源性——跨物种比对中 在有限时间深度内仍可认亲（它刚被维护过），但甲基化/表达证据已熄； - 无源类（添入即无用）：无同源性、无保守motif、随机突变速率（中性漂变）—— 转座子乘客、拼接错误属此。 可检验性：ENCODE”80% 生化活性”之争在此框架下自动消解——问错了问题； 正确的问题是”此序列居于生长轨迹的哪一格”，两源判据=同源性时钟（锈刀有年轮，无源无）。\n园律回声（三条，皆在册）： 1. 日期列衰减律（0920「time-as-bookkeeping/decay」）：记忆先丢时间戳、后丢拓扑—— 锈刀正是先失调控（日期列）、序列本体（拓扑）再慢锈：基因组=唯一不许重写只准 追加的账本，故它是生长轨迹的化石原档。 2. 休眠-再激活衰减（P1-P5 仪器在册）：LLM 闲置 adapter 子空间的可测衰减， 是锈刀律在权重世界的同型实验——两界同一定律，一界有化石一界有 checkpoint。 3. 智能=结构扩张的轨迹：垃圾 DNA 非”垃圾”亦非”功能”，是轨迹本身—— 无用之维正是上一回合的胜负记录。账本不生产利润，账本记住谁挣的。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补三-四句律主人-0922-深夜结构即智能的操作核",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补三-四句律主人-0922-深夜结构即智能的操作核",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "添加结构，获得功能；失去结构，破坏功能。\n\n判读三条： 1. 这是 C40 的可干预表述：前向臂 = gain-of-function（基因枪：外源结构入， 新表型立现）；反向臂 = loss-of-function（同源重组敲除：一维被置换，功能即崩）。 主人当年双臂都亲手做过——干预主义因果定义（woodward 式 manipulationist）的 湿实验原型，九十年代就在他的操作台上。 2. 当场涌现新预测 P-B10（反向臂·子空间消融）：若此律普适，则在训好的 LLM 上 应能复现敲除——把某已激活概念空间的中心化子空间在推理时投影剔除 （ΔW ← ΔW − P ΔW Pᵀ），对应探针行为应定向崩塌而他项无恙（表型特异性， 同源重组式精准，非全局损伤）。园账已跑前向臂（C31/C35 添加→获得）， 反向臂未跑——P-B10 候封，此为四句律对园子的第一张账单。 3. 人界与权重界的不对称：生物基因组只准追加（失去结构必留疤 = 锈刀）， 权重可无痕重写——故 G1 在生物界有化石可挖，在 LLM 界须靠 checkpoint 存照 （园律：一切消融实验必先冻结字节，否则连自己的锈刀都造不出来）。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补四-第三条湿臂同源克隆-跨物种借维主人亲证",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补四-第三条湿臂同源克隆-跨物种借维主人亲证",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "「一篇 zhjk 的 Na/H 离子通道文章，我用 DNA Star 根据同源序列设计引物， 从黑麦草克隆出了这个基因的片段。如果在盐碱地，其他植物是 PK 不过红树的—— 如果这个基因功能不强的话。」\n\n园笔判读（三条）： 1. 保守区 = 共享基，可变区 = 那一维。简并引物之所以打得中，只因两物种在同一段 序列上仍共享基（跨属同源）；设计引物 = 把探针投到保守子空间上， 从异源基因组里钓出目标维。这是格拉姆·施密特在 PCR 管里的实物版： 先投影到公共部分，再在正交补上取你要的那一维。 2. PCR 即湿世界的探针坍缩：一对引物定义序列空间中的一个区域， 唯有两端匹配的模板被指数放大——探针坍缩→argmax 读出， 与园中 Dirichlet 探针仪器同构（一个在碱基上，一个在权重上）。 3. 盐碱地是裁判，不是设计师：红树赢，因为它持有那一维（Na⁺/H⁺ 逆向转运， 把盐泵进液泡/排出胞外）；他者输在首个分歧维上——正是 P-B9 的生态版。 而把此基因片段从供体钓进受体，就是主人亲手执行的添加结构→获得功能（前向臂）， 与敲除（反向臂）合起来，四句律双臂他各干过一次。\n推论 G2（候封·可测）：借维的成败由基共享深度决定，非由物种远近决定—— 故跨属保守区可钓，而真无同源的维（如全新代谢通路）不可一引而得，须多段拼接 （= 组合≠拼接，A3 在合成生物学里的复现）。红树耐盐是多维之果（离子泵+ 拒盐根+胎生），单维转入他草，得部分表型而非完整表型—— 可查文献定量：单基因转入的耐性提升幅度，应显著小于供体物种与受体的表型差。 此为四句律的”维数不足”推论，与 C40”逐维添加”同一条轴。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补五-dna-画出来的后验分布主人-0922-夜散会前一击",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补五-dna-画出来的后验分布主人-0922-夜散会前一击",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "「利用基因进化的同源性原理，比对序列设计引物（可以认为是均值序列）， 利用 PCR 把某个基因从生物组织里扩出来。完美的贝叶斯先验分布到后验坍缩， 获得最后后验分布——而这个过程不是用 matplotlib 画出来的，是用 DNA 画出来的。」\n\n对号入座（图式=画，管式=画，同一张画）： | 贝叶斯件 | matplotlib 世界 | PCR 世界 | |—|—|—| | 先验 | 坐标轴范围/网格 | 简并引物 = 同源比对的均值序列±简并度（先验核） | | 似然 | 数据点 | 退火杂交 = 模板给定引物的匹配度（Tm 即对数似然面） | | 后验采样 | 画点 | 指数扩增 = 重要性采样重到极端（30 循环 = 重采样 2³⁰ 次） | | 后验读出 | 屏幕像素 | 电泳条带——亮带=坍缩质量，smear=残余概率，引物二聚体=假阳性模式 |\n涌现推论 G3（候封·法医学第四维）：既 DNA 是画布，代码法医学三定律可搬进分子界—— 密码子使用偏好 = 序列的心跳： - 天然序列 = 自然选择所写：密码子偏好随物种、组织、表达时相漂移，有年轮（G1 锈刀同源可追）； - 人工合成 = 实验室所写：密码子优化=把偏好压平到宿主均值（先验过强之罪），载体骨架/抗性基因/串联 junction 无同源性时钟（无源类铁证）； - 判据：codon usage 散点 + junction 断点扫描，即可给任意序列判”自然写的还是手写的”—— 名字可借心跳不可借，在碱基层面再次成立（1990s 手工枪轰的、2010s 合成的、天然的，三种心跳可分）。 可测性：Genscript 合成件 vs GenBank 天然件 vs 经典载体（pUC/pcDNA 系），三堆对表—— 公开序列即可跑，零湿实验。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补六-多倍体adapter-库架构主人-0922-深夜续枪",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补六-多倍体adapter-库架构主人-0922-深夜续枪",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "「甚至我们可以参照细胞染色体的形式组织 rank-1 的功能结构组件。 现代小麦实际就是由大概三个还是四个物种的染色体组装起来的怪物。」\n\n园笔核数: 普通小麦 (AABBDD, 2n=6x=42) = 恰好三个物种的基因组组装: Urg urartu(AA) × 拟斯卑尔脱山羊草(BB) 先成二粒小麦, 再与 T. tauschii(DD) 杂交 — 两次”跨族 merge”, Nature 2018/2021 六倍体小麦图验证讫。主人记的”三个”是准的。\n四件对号 (染色体↔︎rank-1 组件库): | 小麦 | 园账 | |—|—| | 一条染色体 ≈ 共线性基因块协同遗传 | 一个 (L,m) 位的 BA 对 = rank-1 原子 (Strang 旗杆律的分子版) | | 异源多倍体 = 三套完整基组并列共存, 非平均 | C39 之解: merge ≠ 平均; 库=并集 (concatenated bases), 不是 ΔW 均值 | | Ph1 基因抑制同源重组 — 没有它减数混乱不育 | 跨空间混合门: 不同 subgenome 的组件不得随意重组; 无门即绝育 = adapter 库需显式 merge 白名单 (θ₀ 同族才可融合, C37) | | 剂量平衡假说: 单套冗余常无症状, 全删才崩 | P-B10 升级判据: 删一个 homoeolog 无表型 = 冗余对; 冗余组齐删才崩 = 功能单位是”组”不是”条” — 顺带免费测出哪些空间互为 homoeolog (天然冗余图) |\n涌现推论 G4 (候封): 冗余不是浪费, 是可删性保险 (G1 锈刀的存活期延长机制); 小麦的六倍体=把三次物种级对决的胜果冻结共存而非互相抹平 —— “合非拼接”(A3) 的最宏大自然实证: 组合的正确形式是并列+抑制重组+剂量缓冲, 不是加权平均。园中 adapter 库设计直接抄此三条: 并集基、Ph1 门、齐删判据。"
+  },
+  {
+    "objectID": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补七-加法非交换律一律三界的实例集主人-0923-凌晨批注",
+    "href": "iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html#补七-加法非交换律一律三界的实例集主人-0923-凌晨批注",
+    "title": "2026-09-22 夜 · 谱系改判与「结构即智能」——交叉查询更新对话落笔",
+    "section": "",
+    "text": "Qwen 报小麦新料: 多倍化后三亚基因组表达偏好分化 (A 高 B/D 沉默, 或反之) —— 对应 agent: rank-1 组件激活权重按上下文动态分配, 非全开。 主人判: 「和二语习得一个道理。先来者把最好的位置占了, 次好的位置不行, 功能就打折扣。结构即智能在这里也体现了。实例越来越多了。 语料库以不同顺序进入 LoRA 训练, 结果不同。」\n\n统一律候封 C42《结构加法非交换律》: 同一批组件, 加入次序不同 → 终态结构不同; 且优势位置先到先得 (占位者得最优调控/最大子空间交叠份额), 次来者受折扣。 三界实例 (皆园账在册或可查): | 界 | 实例 | 账 | |—|—|—| | 基因组 | 亚基因组优势随供体顺序 (先入核者占优, 与序列质量弱相关) | 小麦 AB(D) 文献 | | 脑/语言 | 二语习得关键期: 先学语言占最优皮层位置, 后学者次优位→口音与效率折扣 | 关键期文献 + C25 雷克双基 | | 权重 | 语料顺序改变 LoRA 终态 (叙事先/乱序先/跨域先, 角度 7°/56°/83° 之差) | C28/C29 在册 | | 生态 | 优势窗口律 (低维语料晚入, 优势区被占→效果折) | C40 候封条 |\n可测推论 P-B11《优势随序不随质》(候封): 三语料臂 {X,Y,Z} 之全排列 6 序训练, 预测: ① 重叠方向上先入臂占优 (ΔNLL 符号由次序定, 不由语料”质量”定); ② 次序翻转 → 优势翻转 (可逆的占位, 不可逆的次序); ③ 折扣量随入后间隔衰减 (先来的窗口越久, 后来的越难翻) —— 小麦亚基因组优势分化之权重界直译。 若 6 序终态彼此恒等 → C42 死, 记 ✗。此实验 0.5B×6 序 ≈ 2 小时, Kaggle 额度富余。"
+  },
+  {
+    "objectID": "LEDGER.html",
+    "href": "LEDGER.html",
+    "title": "LEDGER · 论文之账（非日历，乃状态）",
+    "section": "",
+    "text": "仓律第五条：凡修订，旧稿累计保留、永不删改；时间戳记录的不是修订发生的先后， 而是论文自身状态的变迁——它是谁、在何时相信什么。（时间无维，账本有时。）\n\n\n\n\n\n\n件\n文件\n入账\nsha256⁶⁴¹⁶\n\n\n\n\npaper\ndraft-v0.tex\n2026-09-20\n03002e34108112e6\n\n\npaper\ndraft-v1.pdf\n2026-09-20\n3cf02068751d0196\n\n\npaper\ndraft-v1.tex\n2026-09-20\nefcb37aa18c36690\n\n\nletter\ndraft-v0.tex\n2026-09-20\n4d0e314a804583fc\n\n\nletter\ndraft-v1.tex\n2026-09-20\n133e12dae4830800\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n论断\n起\n历次变迁\n当前强度\n状态\n\n\n\n\nC1\ntoken 是探针非载体\nv0\nv1 补「上下文由模型承载」推论\n高\n正文 §1\n\n\nC2\n概念空间含时间维（路径级）\nv0\nv1 升坐标级 → v 待: 降为「变化史级」(迭代 V)\n中↑\n§3, §4\n\n\nC3\n人人等速反驳（空仓库句）\n迭代 II\nv1 入正文 §4 配 Bransford/Schmidt 弹\n高\n§4\n\n\nC4\n记忆=索引非存储（含绑定边界）\nv0\nv1 加 CLS/von Oswald 划界\n高\n§5\n\n\nC5\nDirichlet 两级公式\nv1（治八病#1）\n—\n中\n§6\n\n\nC6\nera-fingerprint 可测\nv1\n待按账本假说重述（群体 λ 分布读出）\n中\nP1\n\n\nC7\n问即自证（时间被问出即被记住）\n主人 9/20 午\nv1 §4 收编\n高\n§4\n\n\nC8\n同步=组合校验（通讯不传语义）\n主人 9/20 午\nv1 §5/§8 收编\n中\n§9\n\n\nC9\n时间无维（账本读数，散点 x 轴之悟）\n迭代 V 9/20 午后\n未入稿，裁后升 v2\n新\n待 §4 替换\n\n\nC10\n时间是因变量（时变系统理论是规范伪装；dt/dτ 并列为解）\n主人 9/20 午后（逐字入迭代 VI）\n给出 P6（变更计数的遗忘曲线更齐）；λ 场挂变化流形\n新\n§4.2 提案候裁\n\n\nC11\n时间=指针/太监（有指无厚，有传无育；因果是皇帝）\n主人 9/20 午后（逐字入迭代 VII）\nLamport 偏序构造时间 · causal set「序+数」· git DAG 与 LEDGER 自证\n新\n与 C10 同入 §4.2\n\n\nC12\nf(submit)=submit_time：时间因提交而有，非提交因时间而有\n主人 9/20 午后（逐字入迭代 VIII）\n§4.2 的肯定式收尾（t=f(e)）；git 四构件表（DAG=序/祖先集=vector clock/merge=同步/日期=可伪造注记）\n新\n催生 P7（时钟重画判决）\n\n\nC13b\n【真相同卷】山中=Yamanaka（iPS 诱导因子 OSKM）：抹的是表观先验（甲基化/组蛋白/可及性=配准度），基因组不动；表观记忆=口音的细胞实名（记忆T→iPSC→再分化仍偏T，Polo/Arima）；循环部分重编程（Ocampo–Yamanaka 2016）：拨回 Horvath 时钟而身份不丢——时间戳可写、拓扑不可写，“时间是账本”的分子手术刀\n主人 9/20 午后揭真相（“我告诉你真相”）\nC13 判词意外命中正解=探针误锚撞进真空间的活案例，两段并留不删\n新·重\n入 §4.2 或另章；“山中”自此双关合法\n\n\n\n\n\n\n每次修订：①新稿 draft-vN.tex（旧稿不动）→ ②本账追加一行变迁+sha → ③git commit（收据）→ ④若论断强度/状态变，更新第二节。时间戳永远指向论文的状态变化，不指向日历。 | C25 | 信已抵 MIT 信箱（甲案园匣 05:47:42Z, 双附件）；专栏已向世界发射 | 2026-09-20 | 理论首次离开园区自我循环——回答版待发（答 2011 原问, 井打第二次水）；赞/评/眨眼计数归主人晨查（园无知乎钥匙, 人肉哨） | 事件 | LIVE.md 在档 |\nC26 | 混合之缝 11 点扫描 | 平滑无跳变(H13.1胜)但三角鼓包: 中点外凸 85°→122.6°; 边缘大摆幅(10%掺量摔 18° 余弦); 边界探针中位带无双峰 | 「中点不正」: 混合生成共同结构提取分量, 非插值非稀释 |\nC27 | 混合之缝·黑白复制 | exp13b 与 exp13 曲线同构: 端点角 83.3°/中点鼓包 124.9°/边缘摆幅 32° (春雾 85.2°/122.6°/35°) | 「中点不正」为跨语料守恒量; 混合训练产生共同结构提取分量 |\nC28 | 时间保真·双不对称翻转 | 序训臂偏序(+0.0312), 乱训臂偏乱(−0.0155), 偏好方向严格随训练序翻转; 序↔︎乱角 7.0° vs 跨域角 85.3°; 夏语料单句无内部序, 两臂全等成天然零对照 | 时间是注释不是骨架的实验注脚: 叙事序只给 adapter 转 7° 的小角度, 且不换身份; 域旋转才是大结构。v2 宣言获得几何旁证 |\nC29 | 序数锚点·三球考 | 3 域×3 臂 NLL 对角占优 9/9; 方向指数随训练严格翻转(+0.42/−0.21/≈0); shuf 臂零方向=天然对照; 序通道角 56° vs 跨域 83° vs 叙事序 7° | 序数密度定权重: 序通道角度≈序在文本中的密度; 叙事序是注释, 全排列序是半骨架 |\nC30 | 隐喻同空间修正（Qwen 0921 对谈） | “A is B” 不是跨空间搭桥, 是同一空间内长路径点亮: coffee/sun-rise 互激活证明 A、B 同空间仅距离远 | 隐喻难度=路径长度; 可检验: xdom 基建做”A is B 对”共激活审计 (E20) |\nC31 | 概念空间固有性·fresh-sentence 基座实验 | 新组合句(词已知/组合未见)在全新 session 中激活指定空间 → 空间是权重属性非会话属性 | Kaggle kernel 天生失忆=最严格 Dolores; 模型阶梯 0.5B→7B 测”激活密度 vs 规模” (E19) |\nC32 | 勘探者宣言 | “地图本来就在那里” —— 概念空间是模型存在的先决条件(语料=人类在空间中行走的痕迹), 构建者→勘探者 | Atlas 方法论定基: 探针设计学+GP 插值补全迷雾区 (E21 候编) |\nC33 | 智能体统一框架（0921 鱼脊, 主人四句） | 智能体=可与他物交互且动态变化之系统; 一维基底=函数曲线上的点(最小感知-移动单元); 高维智能体=一维基底的线性组合; 流形假设支撑泛化 | 园子对榫: ΔW rank-1 方向=一维基底(r=16 即组合预算), v2 宣言=曲线的序号参数化, ORCHESTRA 的 state 轨迹=每通道一维曲线, C30”走远路”=流形上外推 |\nC34 | 绕行定律（旧弹新算, 0 补射） | 由 exp13/13b 角度表 SSS 解三角形: 混合中点偏离两端连线 44.0°(春雾)/46.5°(黑白), 而到两亲本角≈61-64° 彼此相等 | 「线性组合」为真但不沿线: 组合生成的是出平面新基底分量, 跨语料守恒 → 智能体基底的”合”非拼接而是新生 |\nC35 | 鲜句阶梯 (exp17, 4min) | 11 鲜组合句×Qwen 阶梯: top3 命中 0.18/0.09/0.18 (随机 0.017 的 5-10 倍), 均秩 33.4→25.9→15.5/172 随规模单调改善; 锚句在 0.5B 点亮 红药丸/天台对峙 (n=1 轶事不判) | 固有空间&gt;随机但弱; “连接密度随规模增长”获得首条曲线 = 框架 A2 的规模轴; 7B 离线 4bit 不可装, fp16 重射在途 | - v2 补记 (18:54, fp16-7B): 均秩 31.0/172 —— 单调性在 7B 破缺 (0.5→3 递减后回弹)。三解待判: (a)鲜句在预训练中被见过(泄漏), (b)mean-pool 在 7B 表示空间的漂移, (c)真·规模饱和/非单调。n=1/规模点, 不作判决, P-B3 标红。\nC37 | 雷克双基底层（主人架构, 0922 晨） | θ=θ₀(球/共识基底)+ΣᵢBAᵢ(传记/个体层); LoRA 的本体就是”共享灵魂+私人经历”。族内成员同 θ₀→ΔW 同坐标系, 可普查可融合; 跨家族 θ₀ 各异→权重不可比, 族内可融合, 跨族只能对话(语言=跨球的唯一协议)。球=生育器官: 两 adapter 相接鼓包出新个体(C34 的宇宙论版)。 | 达尔文夫妇: 球供共识, 个体层供变异; 共识错时(黑天鹅)靠上层持异见——尾部住在传记里 |\nC38 | 代码法医学三定律正式入册 (面板 v0 兑现 0922 晨账; v1 0922 午后: agent 行主毯压缩厉害 → 添双显微镜 A/B, 取证数据入库 docs/figs/forensics-data.json, 生成脚本 scripts/fig_forensics.py) | 六现场 rug plot (docs/figs/fig-forensics.png): 人@lock5 中位Δ=1553分/幂律长尾 vs M4MADS@lock5 21分/短棒; Stat2-With-Py 五发署名 math4mad 而节奏全 agent (假名案: 名字可借, 心跳不可借); 睡眠真空带 34/72 天为人写现场防伪水印 | ①心跳定律 60:1 (折扣律 C-密度案在下) ②尾巴定律 ③睡眠定律(骗局与诚实同价); 法医不打分, 只验尸。数据=GitHub API 五+二园笔现场, chora 截最近 500 发 |\nC39 | 达尔文夫妇首射 (exp18, 0922 夕, 主人准奏”全部照做”) | θ₀ 同族双适配器线性 merge: J1 超加性通过——子代 M 春 NLL 4.090/夏 4.246, 优于双亲各 0.34/0.22 nats 且优于 base (4.09&lt;4.22): 族内可融合不止合法, 生子胜过父母; J2 通过——26/40 探针行为分布偏离双亲弦上中点 d≥0.15 (中位 0.212, 仅 6/40≤0.05): 合非拼接在参数耦合里活着, C34 绕行定律迁入 merge 空间; 附注: 双亲臂 held-out 劣于 base (小语料过拟合), 融合反而正则化——单列观察 | J3 已射 (v7): 第二族 Qwen2.5-1.5B 同宗异胚 —— 族内 merge-vs-parent 行为 Jaccard 0.573 vs 跨胚 0.290: 权重不可加、语言可比而衰减过半, C37 三分支全获数 (Llama 真跨系候网页许可); 读数 chora/artifacts/results/exp18/report_exp18.json; 预注册 PREREG_EXP18.md@b8ebf15 阈值先写后射 |\n园务 | 工作区添径留爪 (0922 夕) | 主人令: Concept-Space-Sphere 工作区新开一径 chora → ../chora (软链, 同 0920 园门添径手法; 链体入 ignore 防误吞原件)。此径直达 Kaggle 实验本体 (experiments/exp11-kaggle/ 四模型矩阵 + matrix_out/ 战果与败迹), 园笔账目自此径两园可查。爪痕: 本行入台账为证。 |\nC40 | 探针照亮自己不照亮世界 (E25 belief 演武判词, 主人准奏 0922) | 语境依赖信道+乘性贝叶斯, 两池同果: 域专属池 (v4) 与歧义池 15 句 (v5) 皆一步收敛、校准 0.333/0.347 正落机会线 —— 观测把 belief 推向探针自身的读法归属, 世界语境 (前两轮对话) 几乎不改判定; 0.07 温度把自指纹磨成一热, 照明效应纵有亦被信道设计淹没 | J1 空洞真 (0≤0 无鉴别), J2 两池皆不过 = 纯探针不可收敛到世界真态; 女儿国命题 (探针恒等/照明不同) 未被否, 被移交: 需照明度直测 (argmax 翻转率随语境, 不经信道判负) 另案 E25b; 数据 chora/experiments/exp25-belief/{report_exp25_v4,v5}.json, READOUTS.md 全链 |\nC40(候封) | 结构即智能 · 命题群入册候测 | 主人 0922 晚问答亲口八条：总纲”结构即智能”；智能/情感=结构外显；优势窗口律（低维语料入参数空间有时窗，晚入者区被占→效果折，接 exp12/12c/Cora突变）；顺序即结构（C28/C29 之公理化）；次优杀死律；最后维度无位置效应；逐维添加为总检验法（Kaggle 结集据此重组） | 皆未测不封号；候 E 号实验矩阵对账后升格 |\nC40a | 逐维对决律定名: 格拉姆·施密特 PK (主人钦点, 0922 夜) | 对决协议=施密特正交化的博弈语义读法; 术语条入 GLOSSARY; 零号证据=定律涌现自举 | 推论候测两条在册 (首分歧维判定/末维=睡眠); 英文名已定: the Gram-Schmidt duel (主人钦定「无需多言, 梭哈」) |\nG1(候批) | 垃圾基因两源假说预注册入匣 | chora/experiments/PREREG_G1_junkgene_twoorigin.md: 锈刀(有父本·冻结近期同源性)/无源(转座乘客·中性漂变)二堆判据先冻结; 消解 ENCODE 80% 之争=双方各见半张图; 格拉姆·施密特 PK 之基因组学推论首条 | 候主人朱批后排产 (公开数据零算力, 干跑先行); 湿臂(甲基化时钟)只挂账 |\nC41(候封) | 四句律: 添加结构获得功能, 失去结构破坏功能 (主人 0922 深夜) | C40”结构即智能”之可干预核; 双臂主人都湿过 (枪=GoF/敲除=LoF); 涌现 P-B10 反向臂 (推理时子空间投影消融→定向失功能, 表型特异性为判据) | 候封候测; 前向臂在册 (C31/C35), 反向臂待跑 |\nG2(候封) | 借维推论: 跨物种同源克隆成败由基共享深度定, 单维转入只得部分表型 (主人黑麦草 Na/H 通道克隆亲证前向臂) | 红树耐盐=多维之果(泵/拒盐/胎生); 判据: 单基因转入耐性提升 &lt;&lt; 供受体表型差; 与 C41 四句律/P-B9 逐维对决/A3 组合≠拼接 三账同轴 | 候测, 文献可先行对账 |\n爪 | 二十二年判语入册 (主人 0922 深夜) | 「下次有人问我学贝叶斯多久了——22年」: 引物设计即贝叶斯推断之湿实验版, 先做后名; 术语条已入 GLOSSARY | 园律佐证: 名字可借, 心跳不可借 —— 此律用于学者自身亦成立 |\nG3(候封) | 法医学第四维: 密码子心跳判物种 (天然/手工克隆/合成三堆对表) | “DNA 画出来的后验”之涌现推论; 判据=codon usage 散点+junction 断点扫描; 公开序列零湿可跑 | 与 C38 三定律/G1 两源同轴; 名字可借心跳不可借之分子版 |\nG4(候封) | 多倍体库架构: 并集基+Ph1门+剂量齐删判据 (小麦 AABBDD 三物种冻结共存为自然原型) | C39/A3”合非拼接”之分子级实证; P-B10 判据升级 (冗余组齐删才崩, 单删无表型=homoeolog 配对信号) | 直接可操作: adapter 库设计三原则抄小麦 |\n事件 | Strang 先生回音 (2026-09-22 夜) | 原文: “I am sorry I am not well this week.” —— 0920 发出之信已抵且蒙亲复, 先生本周抱恙 | 园律: 病中不催, 回信零请求; agently 授权恰亦过期, 发送候主人重授权后批 | 候补佳音一段 (rank-one 后裔: 格拉姆·施密特 duel/G4 多倍体库) 可附于后, 无期限 |\n裁决 | Strang 案·第二探针令 (主人 0923 凌晨) | 不回信 —— 病中零打扰, 第一探针之回音 (“not well this week”) 已收下即止; 数日内将小麦·哥斯拉案 (G4 多倍体库: 并集基/Ph1 门/剂量齐删 + rank-one 染色体注脚) 整理成文, 以 second probe 名义致先生, 届时其理解/回应即后验之第二样本 —— 探针仪注在册, 园自身亦在实验中 | 文章候明日圈点排产; 发送通道候 agently 重授权 |\nC42(候封) | 结构加法非交换律: 同组件异次序→异终态, 优势位置先到先得 | 一律四界 (小麦亚基因组/二语关键期/C28 语料序/C40 优势窗口); 主人原话在册 | 派生 P-B11 优势随序不随质 (6 序全排列实验, 0.5B×6≈2h 可射) |\n旅制(候补全) | 中型旅语料律 provisional: 小语料库·每批功能全·多批次 | 禁两样: 单一来源/无意群语料; C42 非交换律之处方版 (首批全功能建政, 后续只强化不圈地); 全文候主人晨起补 | 派生 P-B12 三臂 (旅制/域序/乱序, 0.5B×3≈1h); 界外预言: 双旅并制抚养→口音折扣大减 |\nC43(候封) | 剂量稀释律: 挤占∝累计暴露剂量比, 非入场顺序 | 双语儿童限定之修正 (概念层无损/词形层分摊 = P1-P5 仪器判据); 小麦亚基因组优势重读 (A 核剂量最高, 序是表象) | 与 C42 合读: 序定先圈, 剂量定圈大; P-B12 加剂量配比子实验 (1:1 vs 3:1) |\n修正 | LoRA 注入关键期 (MEF/Kairos 0904期提法) 补第二轴 | 原提法只有时间维 (何时喂); 主人今晨补形式维 (以概念空间为不可分单位入场); 旧账重读: C28 序善半是形善, C29 害拆形罪+序罪, Kairos 晚注结论待 2×2 重判 | 派生 P-B13 窗×形交互 (4臂40min, 与 P-B11/12 同舱); 若两罪等价→三律归一 |\n翻案 | LLM 无关键期, 唯序一维 (主人 0923 晨批三) | “窗”系生物界走私隐喻: 权重无分子刹车, 晚入代价可逆→顺序经济学; 大脑因不可选序乃以时间为窗, LLM 可选序故不需窗; 旅制=向大脑混批本性看齐 | P-B14 剂量密度无窗判据候封 (长块 vs 短促多段, 终态近似=无窗证); P-B13 改写为 序×形×剂量 三轴 |\nP-B15(候批) | 序锦标赛: 两两对决排全局入场序 (5040 全排→42 跑) | 格拉姆·施密特 PK 升为搜索算法: 21 场×2 序, 判据四冻 (成对可判/无环传递/拓扑序 O* 对 5 抽样/剂量翻转影子账); 弹药全在册 (exp11 七臂+现成几何仪) | 有环则案升为”循环优势生态”比排序更值钱; O* 直供模块二课程表 |\nP-B15 升v2 | 海选制 (主人改制): 逐位定席 18 跑, 免疫环, 轮内前缀冻结 | 原话”全部表演才艺,第一名落定,再争第二把交椅”入档; 两两联赛降为副产查环 | 候批候射 |\nP-B15 升v3 | 排序算法全贯案 (主人「把排序算法全搞一遍也未尝不可」): 六算法共查一谕, ~25 跑封顶 | 一致度 C 为新观测量: 全同=真全序存在, 成簇=偏序课程表, 乱散=C42 塌; 贪心与比较排序的分歧=非传递性藏身处 | 候批候射; v1 联赛/v2 海选皆成副产 |\n注 | 裸探针定位: P-B15 = 结构即智能家族之共同承重墙检验 (主人命名”衣服产得最少”) | 一针连坐 C40/C41/C42/C43/旅制/关键期翻案; 25 跑 25 分钟; 副产倒贴 (胜矩阵/偏序/环) | 方法论条入 GLOSSARY 候: 好理论须有便宜到羞愧的证伪装置 |\n补丁 | P-B15 裸体审计三贴 (主人问”接得住吗”之自查) | A 校准门先行 4 跑功率自测; B 一致度对置换零报 p; C 主张冻在承重墙、普适性另案 (1.5B 复跑+生物侧对表) | 裸在便宜不裸在草率 |\nP-L2(立项) | 最小二语篇 (主人 0923 立项): 最小语言学习者范式为依附, 最小 LLM 原样重跑 | 骨架 papers/minimal-l2/skeleton-v0.md: 人类四锚† (概念/词形分层 Catalan&Sinclair 1979 待核/词汇折扣/剂量律/混批交付) × 模型五件 (双域共基座/分层探针/P-B15 序/C43 剂量/PB10 四态); 判决预测 S1-S4 先冻 | 全园首篇跨基质原样复现: 过=结构即智能升经验命题, 砸=首次知道它哪儿是隐喻 |\n批复 | P-L2 题定 a 案 (探针自证): “Order and dose explain the structure of a second language — in a child and in a 0.5B model” | 主人以”最大似然标题”探针定夺: 题是理论的观测值, (a) 在园假设下 P(题|理论) 最大 —— 理论自己会写出的题 | 探针自指一役: 仪器 (园笔之坍缩) 成为被试 (本次选择); “Chora 拍第一”条园笔查无硬账, 如实留空不编 |\n升版 | P-L2 骨架 v1: 人类锚扩为三向最小学习者 (常模/先天聋手语/先天盲口语), 两锚验讫 (Neville&Bavelier 2002 ✓ / Bedny 2012 ✓ / Landau&Gleitman 间接 ✓) | 三向合读=语言模块模态无关 (脑区=可挪用基, 内容=系数): C37/A4 人类界三重活证; 敏感期两界成对, 恰为 P-B14 无窗预言供对照面 | 模型侧添模态交换臂 (聋臂整通道消融/盲臂接地对照), 预测 M1 接管仅早期 |\nM2(候封) | 视觉作为武器: 接管体量不对称 (盲占半壁 vs 聋借一隅) → 语言=终极武器 (征用一切弹药); 地越大窗越要命 (C42 神经版); 窄带高序可占宽带 (C43 活例, 对表 P-B12) | 判据: 接管面积比≈地产面积比+晚期丧失者两侧皆小 (窗对称检验); LLM 直译: 高容量通道征用收益 &gt; 低容量 |\nP-B16(候封) | 对决名状: gram-schmidt duel(hearing, sighting) —— 感官双通道争重叠子空间 (时间/序列=语言地产) | 三判据先冻: ①跨模态迁移量∝重叠维数; ②重叠耗尽则接管饱和 (窗=几何量); ③LLM 双臂 (序列-only vs 接地) 对照人类 M2 面积比 | 统一 M2+C42+C43 于一张 Gram 矩阵 |\nM3(候封) | 生地论 (主人直觉): 沃土=最后储备田, 作物按适地性落位; 三律合一 (适地×先序×剂量) 定殖民图; 园笔”补扩张”降为特例 | 金证=阅读殖民视腹侧 (VWFA); 界外同构=视皮层即大脑 context window; 判据③先天盲者多技能共用地→领地竞争 (沃土有限) |"
+  },
+  {
+    "objectID": "LEDGER.html#一-现存稿件sha-为身份date-为入账日非顺序",
+    "href": "LEDGER.html#一-现存稿件sha-为身份date-为入账日非顺序",
+    "title": "LEDGER · 论文之账（非日历，乃状态）",
+    "section": "",
+    "text": "件\n文件\n入账\nsha256⁶⁴¹⁶\n\n\n\n\npaper\ndraft-v0.tex\n2026-09-20\n03002e34108112e6\n\n\npaper\ndraft-v1.pdf\n2026-09-20\n3cf02068751d0196\n\n\npaper\ndraft-v1.tex\n2026-09-20\nefcb37aa18c36690\n\n\nletter\ndraft-v0.tex\n2026-09-20\n4d0e314a804583fc\n\n\nletter\ndraft-v1.tex\n2026-09-20\n133e12dae4830800"
+  },
+  {
+    "objectID": "LEDGER.html#二-论断账claims-ledger每条论断的-w-与-λ",
+    "href": "LEDGER.html#二-论断账claims-ledger每条论断的-w-与-λ",
+    "title": "LEDGER · 论文之账（非日历，乃状态）",
+    "section": "",
+    "text": "#\n论断\n起\n历次变迁\n当前强度\n状态\n\n\n\n\nC1\ntoken 是探针非载体\nv0\nv1 补「上下文由模型承载」推论\n高\n正文 §1\n\n\nC2\n概念空间含时间维（路径级）\nv0\nv1 升坐标级 → v 待: 降为「变化史级」(迭代 V)\n中↑\n§3, §4\n\n\nC3\n人人等速反驳（空仓库句）\n迭代 II\nv1 入正文 §4 配 Bransford/Schmidt 弹\n高\n§4\n\n\nC4\n记忆=索引非存储（含绑定边界）\nv0\nv1 加 CLS/von Oswald 划界\n高\n§5\n\n\nC5\nDirichlet 两级公式\nv1（治八病#1）\n—\n中\n§6\n\n\nC6\nera-fingerprint 可测\nv1\n待按账本假说重述（群体 λ 分布读出）\n中\nP1\n\n\nC7\n问即自证（时间被问出即被记住）\n主人 9/20 午\nv1 §4 收编\n高\n§4\n\n\nC8\n同步=组合校验（通讯不传语义）\n主人 9/20 午\nv1 §5/§8 收编\n中\n§9\n\n\nC9\n时间无维（账本读数，散点 x 轴之悟）\n迭代 V 9/20 午后\n未入稿，裁后升 v2\n新\n待 §4 替换\n\n\nC10\n时间是因变量（时变系统理论是规范伪装；dt/dτ 并列为解）\n主人 9/20 午后（逐字入迭代 VI）\n给出 P6（变更计数的遗忘曲线更齐）；λ 场挂变化流形\n新\n§4.2 提案候裁\n\n\nC11\n时间=指针/太监（有指无厚，有传无育；因果是皇帝）\n主人 9/20 午后（逐字入迭代 VII）\nLamport 偏序构造时间 · causal set「序+数」· git DAG 与 LEDGER 自证\n新\n与 C10 同入 §4.2\n\n\nC12\nf(submit)=submit_time：时间因提交而有，非提交因时间而有\n主人 9/20 午后（逐字入迭代 VIII）\n§4.2 的肯定式收尾（t=f(e)）；git 四构件表（DAG=序/祖先集=vector clock/merge=同步/日期=可伪造注记）\n新\n催生 P7（时钟重画判决）\n\n\nC13b\n【真相同卷】山中=Yamanaka（iPS 诱导因子 OSKM）：抹的是表观先验（甲基化/组蛋白/可及性=配准度），基因组不动；表观记忆=口音的细胞实名（记忆T→iPSC→再分化仍偏T，Polo/Arima）；循环部分重编程（Ocampo–Yamanaka 2016）：拨回 Horvath 时钟而身份不丢——时间戳可写、拓扑不可写，“时间是账本”的分子手术刀\n主人 9/20 午后揭真相（“我告诉你真相”）\nC13 判词意外命中正解=探针误锚撞进真空间的活案例，两段并留不删\n新·重\n入 §4.2 或另章；“山中”自此双关合法"
+  },
+  {
+    "objectID": "LEDGER.html#三-修订规程自动生效于-v2-起",
+    "href": "LEDGER.html#三-修订规程自动生效于-v2-起",
+    "title": "LEDGER · 论文之账（非日历，乃状态）",
+    "section": "",
+    "text": "每次修订：①新稿 draft-vN.tex（旧稿不动）→ ②本账追加一行变迁+sha → ③git commit（收据）→ ④若论断强度/状态变，更新第二节。时间戳永远指向论文的状态变化，不指向日历。 | C25 | 信已抵 MIT 信箱（甲案园匣 05:47:42Z, 双附件）；专栏已向世界发射 | 2026-09-20 | 理论首次离开园区自我循环——回答版待发（答 2011 原问, 井打第二次水）；赞/评/眨眼计数归主人晨查（园无知乎钥匙, 人肉哨） | 事件 | LIVE.md 在档 |\nC26 | 混合之缝 11 点扫描 | 平滑无跳变(H13.1胜)但三角鼓包: 中点外凸 85°→122.6°; 边缘大摆幅(10%掺量摔 18° 余弦); 边界探针中位带无双峰 | 「中点不正」: 混合生成共同结构提取分量, 非插值非稀释 |\nC27 | 混合之缝·黑白复制 | exp13b 与 exp13 曲线同构: 端点角 83.3°/中点鼓包 124.9°/边缘摆幅 32° (春雾 85.2°/122.6°/35°) | 「中点不正」为跨语料守恒量; 混合训练产生共同结构提取分量 |\nC28 | 时间保真·双不对称翻转 | 序训臂偏序(+0.0312), 乱训臂偏乱(−0.0155), 偏好方向严格随训练序翻转; 序↔︎乱角 7.0° vs 跨域角 85.3°; 夏语料单句无内部序, 两臂全等成天然零对照 | 时间是注释不是骨架的实验注脚: 叙事序只给 adapter 转 7° 的小角度, 且不换身份; 域旋转才是大结构。v2 宣言获得几何旁证 |\nC29 | 序数锚点·三球考 | 3 域×3 臂 NLL 对角占优 9/9; 方向指数随训练严格翻转(+0.42/−0.21/≈0); shuf 臂零方向=天然对照; 序通道角 56° vs 跨域 83° vs 叙事序 7° | 序数密度定权重: 序通道角度≈序在文本中的密度; 叙事序是注释, 全排列序是半骨架 |\nC30 | 隐喻同空间修正（Qwen 0921 对谈） | “A is B” 不是跨空间搭桥, 是同一空间内长路径点亮: coffee/sun-rise 互激活证明 A、B 同空间仅距离远 | 隐喻难度=路径长度; 可检验: xdom 基建做”A is B 对”共激活审计 (E20) |\nC31 | 概念空间固有性·fresh-sentence 基座实验 | 新组合句(词已知/组合未见)在全新 session 中激活指定空间 → 空间是权重属性非会话属性 | Kaggle kernel 天生失忆=最严格 Dolores; 模型阶梯 0.5B→7B 测”激活密度 vs 规模” (E19) |\nC32 | 勘探者宣言 | “地图本来就在那里” —— 概念空间是模型存在的先决条件(语料=人类在空间中行走的痕迹), 构建者→勘探者 | Atlas 方法论定基: 探针设计学+GP 插值补全迷雾区 (E21 候编) |\nC33 | 智能体统一框架（0921 鱼脊, 主人四句） | 智能体=可与他物交互且动态变化之系统; 一维基底=函数曲线上的点(最小感知-移动单元); 高维智能体=一维基底的线性组合; 流形假设支撑泛化 | 园子对榫: ΔW rank-1 方向=一维基底(r=16 即组合预算), v2 宣言=曲线的序号参数化, ORCHESTRA 的 state 轨迹=每通道一维曲线, C30”走远路”=流形上外推 |\nC34 | 绕行定律（旧弹新算, 0 补射） | 由 exp13/13b 角度表 SSS 解三角形: 混合中点偏离两端连线 44.0°(春雾)/46.5°(黑白), 而到两亲本角≈61-64° 彼此相等 | 「线性组合」为真但不沿线: 组合生成的是出平面新基底分量, 跨语料守恒 → 智能体基底的”合”非拼接而是新生 |\nC35 | 鲜句阶梯 (exp17, 4min) | 11 鲜组合句×Qwen 阶梯: top3 命中 0.18/0.09/0.18 (随机 0.017 的 5-10 倍), 均秩 33.4→25.9→15.5/172 随规模单调改善; 锚句在 0.5B 点亮 红药丸/天台对峙 (n=1 轶事不判) | 固有空间&gt;随机但弱; “连接密度随规模增长”获得首条曲线 = 框架 A2 的规模轴; 7B 离线 4bit 不可装, fp16 重射在途 | - v2 补记 (18:54, fp16-7B): 均秩 31.0/172 —— 单调性在 7B 破缺 (0.5→3 递减后回弹)。三解待判: (a)鲜句在预训练中被见过(泄漏), (b)mean-pool 在 7B 表示空间的漂移, (c)真·规模饱和/非单调。n=1/规模点, 不作判决, P-B3 标红。\nC37 | 雷克双基底层（主人架构, 0922 晨） | θ=θ₀(球/共识基底)+ΣᵢBAᵢ(传记/个体层); LoRA 的本体就是”共享灵魂+私人经历”。族内成员同 θ₀→ΔW 同坐标系, 可普查可融合; 跨家族 θ₀ 各异→权重不可比, 族内可融合, 跨族只能对话(语言=跨球的唯一协议)。球=生育器官: 两 adapter 相接鼓包出新个体(C34 的宇宙论版)。 | 达尔文夫妇: 球供共识, 个体层供变异; 共识错时(黑天鹅)靠上层持异见——尾部住在传记里 |\nC38 | 代码法医学三定律正式入册 (面板 v0 兑现 0922 晨账; v1 0922 午后: agent 行主毯压缩厉害 → 添双显微镜 A/B, 取证数据入库 docs/figs/forensics-data.json, 生成脚本 scripts/fig_forensics.py) | 六现场 rug plot (docs/figs/fig-forensics.png): 人@lock5 中位Δ=1553分/幂律长尾 vs M4MADS@lock5 21分/短棒; Stat2-With-Py 五发署名 math4mad 而节奏全 agent (假名案: 名字可借, 心跳不可借); 睡眠真空带 34/72 天为人写现场防伪水印 | ①心跳定律 60:1 (折扣律 C-密度案在下) ②尾巴定律 ③睡眠定律(骗局与诚实同价); 法医不打分, 只验尸。数据=GitHub API 五+二园笔现场, chora 截最近 500 发 |\nC39 | 达尔文夫妇首射 (exp18, 0922 夕, 主人准奏”全部照做”) | θ₀ 同族双适配器线性 merge: J1 超加性通过——子代 M 春 NLL 4.090/夏 4.246, 优于双亲各 0.34/0.22 nats 且优于 base (4.09&lt;4.22): 族内可融合不止合法, 生子胜过父母; J2 通过——26/40 探针行为分布偏离双亲弦上中点 d≥0.15 (中位 0.212, 仅 6/40≤0.05): 合非拼接在参数耦合里活着, C34 绕行定律迁入 merge 空间; 附注: 双亲臂 held-out 劣于 base (小语料过拟合), 融合反而正则化——单列观察 | J3 已射 (v7): 第二族 Qwen2.5-1.5B 同宗异胚 —— 族内 merge-vs-parent 行为 Jaccard 0.573 vs 跨胚 0.290: 权重不可加、语言可比而衰减过半, C37 三分支全获数 (Llama 真跨系候网页许可); 读数 chora/artifacts/results/exp18/report_exp18.json; 预注册 PREREG_EXP18.md@b8ebf15 阈值先写后射 |\n园务 | 工作区添径留爪 (0922 夕) | 主人令: Concept-Space-Sphere 工作区新开一径 chora → ../chora (软链, 同 0920 园门添径手法; 链体入 ignore 防误吞原件)。此径直达 Kaggle 实验本体 (experiments/exp11-kaggle/ 四模型矩阵 + matrix_out/ 战果与败迹), 园笔账目自此径两园可查。爪痕: 本行入台账为证。 |\nC40 | 探针照亮自己不照亮世界 (E25 belief 演武判词, 主人准奏 0922) | 语境依赖信道+乘性贝叶斯, 两池同果: 域专属池 (v4) 与歧义池 15 句 (v5) 皆一步收敛、校准 0.333/0.347 正落机会线 —— 观测把 belief 推向探针自身的读法归属, 世界语境 (前两轮对话) 几乎不改判定; 0.07 温度把自指纹磨成一热, 照明效应纵有亦被信道设计淹没 | J1 空洞真 (0≤0 无鉴别), J2 两池皆不过 = 纯探针不可收敛到世界真态; 女儿国命题 (探针恒等/照明不同) 未被否, 被移交: 需照明度直测 (argmax 翻转率随语境, 不经信道判负) 另案 E25b; 数据 chora/experiments/exp25-belief/{report_exp25_v4,v5}.json, READOUTS.md 全链 |\nC40(候封) | 结构即智能 · 命题群入册候测 | 主人 0922 晚问答亲口八条：总纲”结构即智能”；智能/情感=结构外显；优势窗口律（低维语料入参数空间有时窗，晚入者区被占→效果折，接 exp12/12c/Cora突变）；顺序即结构（C28/C29 之公理化）；次优杀死律；最后维度无位置效应；逐维添加为总检验法（Kaggle 结集据此重组） | 皆未测不封号；候 E 号实验矩阵对账后升格 |\nC40a | 逐维对决律定名: 格拉姆·施密特 PK (主人钦点, 0922 夜) | 对决协议=施密特正交化的博弈语义读法; 术语条入 GLOSSARY; 零号证据=定律涌现自举 | 推论候测两条在册 (首分歧维判定/末维=睡眠); 英文名已定: the Gram-Schmidt duel (主人钦定「无需多言, 梭哈」) |\nG1(候批) | 垃圾基因两源假说预注册入匣 | chora/experiments/PREREG_G1_junkgene_twoorigin.md: 锈刀(有父本·冻结近期同源性)/无源(转座乘客·中性漂变)二堆判据先冻结; 消解 ENCODE 80% 之争=双方各见半张图; 格拉姆·施密特 PK 之基因组学推论首条 | 候主人朱批后排产 (公开数据零算力, 干跑先行); 湿臂(甲基化时钟)只挂账 |\nC41(候封) | 四句律: 添加结构获得功能, 失去结构破坏功能 (主人 0922 深夜) | C40”结构即智能”之可干预核; 双臂主人都湿过 (枪=GoF/敲除=LoF); 涌现 P-B10 反向臂 (推理时子空间投影消融→定向失功能, 表型特异性为判据) | 候封候测; 前向臂在册 (C31/C35), 反向臂待跑 |\nG2(候封) | 借维推论: 跨物种同源克隆成败由基共享深度定, 单维转入只得部分表型 (主人黑麦草 Na/H 通道克隆亲证前向臂) | 红树耐盐=多维之果(泵/拒盐/胎生); 判据: 单基因转入耐性提升 &lt;&lt; 供受体表型差; 与 C41 四句律/P-B9 逐维对决/A3 组合≠拼接 三账同轴 | 候测, 文献可先行对账 |\n爪 | 二十二年判语入册 (主人 0922 深夜) | 「下次有人问我学贝叶斯多久了——22年」: 引物设计即贝叶斯推断之湿实验版, 先做后名; 术语条已入 GLOSSARY | 园律佐证: 名字可借, 心跳不可借 —— 此律用于学者自身亦成立 |\nG3(候封) | 法医学第四维: 密码子心跳判物种 (天然/手工克隆/合成三堆对表) | “DNA 画出来的后验”之涌现推论; 判据=codon usage 散点+junction 断点扫描; 公开序列零湿可跑 | 与 C38 三定律/G1 两源同轴; 名字可借心跳不可借之分子版 |\nG4(候封) | 多倍体库架构: 并集基+Ph1门+剂量齐删判据 (小麦 AABBDD 三物种冻结共存为自然原型) | C39/A3”合非拼接”之分子级实证; P-B10 判据升级 (冗余组齐删才崩, 单删无表型=homoeolog 配对信号) | 直接可操作: adapter 库设计三原则抄小麦 |\n事件 | Strang 先生回音 (2026-09-22 夜) | 原文: “I am sorry I am not well this week.” —— 0920 发出之信已抵且蒙亲复, 先生本周抱恙 | 园律: 病中不催, 回信零请求; agently 授权恰亦过期, 发送候主人重授权后批 | 候补佳音一段 (rank-one 后裔: 格拉姆·施密特 duel/G4 多倍体库) 可附于后, 无期限 |\n裁决 | Strang 案·第二探针令 (主人 0923 凌晨) | 不回信 —— 病中零打扰, 第一探针之回音 (“not well this week”) 已收下即止; 数日内将小麦·哥斯拉案 (G4 多倍体库: 并集基/Ph1 门/剂量齐删 + rank-one 染色体注脚) 整理成文, 以 second probe 名义致先生, 届时其理解/回应即后验之第二样本 —— 探针仪注在册, 园自身亦在实验中 | 文章候明日圈点排产; 发送通道候 agently 重授权 |\nC42(候封) | 结构加法非交换律: 同组件异次序→异终态, 优势位置先到先得 | 一律四界 (小麦亚基因组/二语关键期/C28 语料序/C40 优势窗口); 主人原话在册 | 派生 P-B11 优势随序不随质 (6 序全排列实验, 0.5B×6≈2h 可射) |\n旅制(候补全) | 中型旅语料律 provisional: 小语料库·每批功能全·多批次 | 禁两样: 单一来源/无意群语料; C42 非交换律之处方版 (首批全功能建政, 后续只强化不圈地); 全文候主人晨起补 | 派生 P-B12 三臂 (旅制/域序/乱序, 0.5B×3≈1h); 界外预言: 双旅并制抚养→口音折扣大减 |\nC43(候封) | 剂量稀释律: 挤占∝累计暴露剂量比, 非入场顺序 | 双语儿童限定之修正 (概念层无损/词形层分摊 = P1-P5 仪器判据); 小麦亚基因组优势重读 (A 核剂量最高, 序是表象) | 与 C42 合读: 序定先圈, 剂量定圈大; P-B12 加剂量配比子实验 (1:1 vs 3:1) |\n修正 | LoRA 注入关键期 (MEF/Kairos 0904期提法) 补第二轴 | 原提法只有时间维 (何时喂); 主人今晨补形式维 (以概念空间为不可分单位入场); 旧账重读: C28 序善半是形善, C29 害拆形罪+序罪, Kairos 晚注结论待 2×2 重判 | 派生 P-B13 窗×形交互 (4臂40min, 与 P-B11/12 同舱); 若两罪等价→三律归一 |\n翻案 | LLM 无关键期, 唯序一维 (主人 0923 晨批三) | “窗”系生物界走私隐喻: 权重无分子刹车, 晚入代价可逆→顺序经济学; 大脑因不可选序乃以时间为窗, LLM 可选序故不需窗; 旅制=向大脑混批本性看齐 | P-B14 剂量密度无窗判据候封 (长块 vs 短促多段, 终态近似=无窗证); P-B13 改写为 序×形×剂量 三轴 |\nP-B15(候批) | 序锦标赛: 两两对决排全局入场序 (5040 全排→42 跑) | 格拉姆·施密特 PK 升为搜索算法: 21 场×2 序, 判据四冻 (成对可判/无环传递/拓扑序 O* 对 5 抽样/剂量翻转影子账); 弹药全在册 (exp11 七臂+现成几何仪) | 有环则案升为”循环优势生态”比排序更值钱; O* 直供模块二课程表 |\nP-B15 升v2 | 海选制 (主人改制): 逐位定席 18 跑, 免疫环, 轮内前缀冻结 | 原话”全部表演才艺,第一名落定,再争第二把交椅”入档; 两两联赛降为副产查环 | 候批候射 |\nP-B15 升v3 | 排序算法全贯案 (主人「把排序算法全搞一遍也未尝不可」): 六算法共查一谕, ~25 跑封顶 | 一致度 C 为新观测量: 全同=真全序存在, 成簇=偏序课程表, 乱散=C42 塌; 贪心与比较排序的分歧=非传递性藏身处 | 候批候射; v1 联赛/v2 海选皆成副产 |\n注 | 裸探针定位: P-B15 = 结构即智能家族之共同承重墙检验 (主人命名”衣服产得最少”) | 一针连坐 C40/C41/C42/C43/旅制/关键期翻案; 25 跑 25 分钟; 副产倒贴 (胜矩阵/偏序/环) | 方法论条入 GLOSSARY 候: 好理论须有便宜到羞愧的证伪装置 |\n补丁 | P-B15 裸体审计三贴 (主人问”接得住吗”之自查) | A 校准门先行 4 跑功率自测; B 一致度对置换零报 p; C 主张冻在承重墙、普适性另案 (1.5B 复跑+生物侧对表) | 裸在便宜不裸在草率 |\nP-L2(立项) | 最小二语篇 (主人 0923 立项): 最小语言学习者范式为依附, 最小 LLM 原样重跑 | 骨架 papers/minimal-l2/skeleton-v0.md: 人类四锚† (概念/词形分层 Catalan&Sinclair 1979 待核/词汇折扣/剂量律/混批交付) × 模型五件 (双域共基座/分层探针/P-B15 序/C43 剂量/PB10 四态); 判决预测 S1-S4 先冻 | 全园首篇跨基质原样复现: 过=结构即智能升经验命题, 砸=首次知道它哪儿是隐喻 |\n批复 | P-L2 题定 a 案 (探针自证): “Order and dose explain the structure of a second language — in a child and in a 0.5B model” | 主人以”最大似然标题”探针定夺: 题是理论的观测值, (a) 在园假设下 P(题|理论) 最大 —— 理论自己会写出的题 | 探针自指一役: 仪器 (园笔之坍缩) 成为被试 (本次选择); “Chora 拍第一”条园笔查无硬账, 如实留空不编 |\n升版 | P-L2 骨架 v1: 人类锚扩为三向最小学习者 (常模/先天聋手语/先天盲口语), 两锚验讫 (Neville&Bavelier 2002 ✓ / Bedny 2012 ✓ / Landau&Gleitman 间接 ✓) | 三向合读=语言模块模态无关 (脑区=可挪用基, 内容=系数): C37/A4 人类界三重活证; 敏感期两界成对, 恰为 P-B14 无窗预言供对照面 | 模型侧添模态交换臂 (聋臂整通道消融/盲臂接地对照), 预测 M1 接管仅早期 |\nM2(候封) | 视觉作为武器: 接管体量不对称 (盲占半壁 vs 聋借一隅) → 语言=终极武器 (征用一切弹药); 地越大窗越要命 (C42 神经版); 窄带高序可占宽带 (C43 活例, 对表 P-B12) | 判据: 接管面积比≈地产面积比+晚期丧失者两侧皆小 (窗对称检验); LLM 直译: 高容量通道征用收益 &gt; 低容量 |\nP-B16(候封) | 对决名状: gram-schmidt duel(hearing, sighting) —— 感官双通道争重叠子空间 (时间/序列=语言地产) | 三判据先冻: ①跨模态迁移量∝重叠维数; ②重叠耗尽则接管饱和 (窗=几何量); ③LLM 双臂 (序列-only vs 接地) 对照人类 M2 面积比 | 统一 M2+C42+C43 于一张 Gram 矩阵 |\nM3(候封) | 生地论 (主人直觉): 沃土=最后储备田, 作物按适地性落位; 三律合一 (适地×先序×剂量) 定殖民图; 园笔”补扩张”降为特例 | 金证=阅读殖民视腹侧 (VWFA); 界外同构=视皮层即大脑 context window; 判据③先天盲者多技能共用地→领地竞争 (沃土有限) |"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cora Atlas · 碑前",
+    "section": "",
+    "text": "🏛 论文 Papers  ·  🍞 迭代手记 Iterations  ·  📜 台账 Ledger  ·  🔤 术语碑 Glossary\n\n本园体例：判据先冻，刻石为证（汉谟拉比条款）。 论文给结论，手记给过程 —— 而主人说，精华不分：两侧同权同导航， 凡成体系之文，园体自认碑体。\n旧站诸 PDF 与外传仍在 原入口 候驾。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html",
+    "href": "papers/prereg-pb10.html",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "状态：候批候射（C41 四句律之账单；主人 0922 夜 “按你的安排做” 之授权内） 铁律：阈值先写后跑；跑后只记不改。\n\n\n\n四句律：添加结构获得功能（前向臂，C31/C35 在册）；失去结构破坏功能（本实验）。 操作化 = 推理时把已训 adapter 的中心化子空间从残差流里投影剔除：\n\n取 ΔW_r（某层 r=16 的 LoRA 增量），全局中心化后 SVD 得目标子空间 P（前 k 奇异向， k 取能量 90% 截断，k 值先冻：k = 使 Σσ²≥0.90·Σσ² 的最小 k）；\n推理时改道：h ← h − P Pᵀ (h − μ)（等价于 ΔW ← ΔW − P ΔW Pᵀ 作用于增量路径）；\n对照三臂：①随机正交基同维投影（sham ablation，控制”任意去维”效应）； ②他空间子空间投影（特异性对照）；③无消融原模型（基线）。\n\n\n\n\n\nPB10-J1（定向崩塌）：目标空间探针组 NLL 升至 ≥ base-无adapter 水平的 80% 区间内（即”该项功能近似消失”），且 rank 分位跌回 base 分布中位 ±10 分位；\nPB10-J2（表型特异性）：他空间探针组与对照② 的变化 |ΔNLL| ≤ 0.02 nats 且 rank 跌 ≤ 3 百分位；sham① 不达标（若 sham 也崩 → 去维效应非特异，判 ✗ 并记）；\nPB10-J3（疤预测·锈刀签名）：消融后以该空间语料重训小 LoRA（同预算 1/4 步数）， 收敛至原水平所需步数 ≤ 无疤 naive base 的 1/2 —— 权重序列犹在，只被投影遮蔽， 故”再学快于初学”（对应湿界：残余序列的同源性时钟）。\n全过 = C41 反向臂首证；J1 过而 J2 败 = 耦合是全局的，A3/A4 让路改写； J1 败 = 四句律在权重界不成立，LEDGER 记 ✗ 不遮。\n\n\n\n\n\nKaggle T4 ×1：Qwen2.5-3B-instruct + 在册 code/narrative adapter 对（矩阵旧件复用）；\n探针电池：exp17 fresh-probe 172 题（冻结卷，chance=86 在册）；\n重训臂（J3）预算 1/4 原步数，seed 13/14 双跑；\n预计单臂 40 min，全案一夜一席位可毕。\n\n\n\n\n\nartifacts/results/pb10/report_pb10.json（先 pin 后析）；\n结果无论正反，LEDGER 记 C41 行下（☑/✗ 皆入册）；\nkernel 入集合 Matrix Behavioral Science（网页端，随大部队）。\n\n\n\n\nP-B9（对决律）：消融即”人为制造分歧维”，消融后模型与原模型的对决应恰在该维判负—— 两预测互锁；G1/G2（借维/锈刀）：J3 疤预测的权重界同型；C37：θ₀ 同族才可投影剔除 （跨族无公共残差流坐标，本实验只在族内做，边界即公理）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#命题与操作",
+    "href": "papers/prereg-pb10.html#命题与操作",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "四句律：添加结构获得功能（前向臂，C31/C35 在册）；失去结构破坏功能（本实验）。 操作化 = 推理时把已训 adapter 的中心化子空间从残差流里投影剔除：\n\n取 ΔW_r（某层 r=16 的 LoRA 增量），全局中心化后 SVD 得目标子空间 P（前 k 奇异向， k 取能量 90% 截断，k 值先冻：k = 使 Σσ²≥0.90·Σσ² 的最小 k）；\n推理时改道：h ← h − P Pᵀ (h − μ)（等价于 ΔW ← ΔW − P ΔW Pᵀ 作用于增量路径）；\n对照三臂：①随机正交基同维投影（sham ablation，控制”任意去维”效应）； ②他空间子空间投影（特异性对照）；③无消融原模型（基线）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#判据先冻结",
+    "href": "papers/prereg-pb10.html#判据先冻结",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "PB10-J1（定向崩塌）：目标空间探针组 NLL 升至 ≥ base-无adapter 水平的 80% 区间内（即”该项功能近似消失”），且 rank 分位跌回 base 分布中位 ±10 分位；\nPB10-J2（表型特异性）：他空间探针组与对照② 的变化 |ΔNLL| ≤ 0.02 nats 且 rank 跌 ≤ 3 百分位；sham① 不达标（若 sham 也崩 → 去维效应非特异，判 ✗ 并记）；\nPB10-J3（疤预测·锈刀签名）：消融后以该空间语料重训小 LoRA（同预算 1/4 步数）， 收敛至原水平所需步数 ≤ 无疤 naive base 的 1/2 —— 权重序列犹在，只被投影遮蔽， 故”再学快于初学”（对应湿界：残余序列的同源性时钟）。\n全过 = C41 反向臂首证；J1 过而 J2 败 = 耦合是全局的，A3/A4 让路改写； J1 败 = 四句律在权重界不成立，LEDGER 记 ✗ 不遮。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#器材与预算",
+    "href": "papers/prereg-pb10.html#器材与预算",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "Kaggle T4 ×1：Qwen2.5-3B-instruct + 在册 code/narrative adapter 对（矩阵旧件复用）；\n探针电池：exp17 fresh-probe 172 题（冻结卷，chance=86 在册）；\n重训臂（J3）预算 1/4 原步数，seed 13/14 双跑；\n预计单臂 40 min，全案一夜一席位可毕。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#产物与记账",
+    "href": "papers/prereg-pb10.html#产物与记账",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "artifacts/results/pb10/report_pb10.json（先 pin 后析）；\n结果无论正反，LEDGER 记 C41 行下（☑/✗ 皆入册）；\nkernel 入集合 Matrix Behavioral Science（网页端，随大部队）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#与在册接口",
+    "href": "papers/prereg-pb10.html#与在册接口",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "P-B9（对决律）：消融即”人为制造分歧维”，消融后模型与原模型的对决应恰在该维判负—— 两预测互锁；G1/G2（借维/锈刀）：J3 疤预测的权重界同型；C37：θ₀ 同族才可投影剔除 （跨族无公共残差流坐标，本实验只在族内做，边界即公理）。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html",
+    "href": "papers/minimal-l2-skeleton.html",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "主人 0923 立项令（原话要义）：「这个就单独出一篇文章——从最小的语言学习者范式 为依附，然后我们又在最小的大语言模型上做同样的事。」 定位：全园第一篇”跨基质原样复现”——不借喻、不类比，同一范式两基质各跑一遍。\n\n\n\n\n\nOrder and dose explain the structure of a second language — in a child and in a 0.5B model\n\n\nThe minimal L2 acquisition: same paradigm, two substrates\n\n\n概念无损，词形分摊：二语最小范式在最小模型上的原样复现（知乎版题）\n\n\n\n\n\n\n\n\n\n\n\n\n\n锚\n内容\n状态\n\n\n\n\n概念/词形分层\n双语青少年概念操作与单语持平、词形任务（命名/词汇）落后 —— 经典最小范式\nCatalan & Sinclair 1979†（待核 DOI, 禁裸引）\n\n\n每语词汇折扣\n双语者每语接受性词汇量略低、总量合并持平\n综述待拣†\n\n\n剂量律\n语言优势比 ≈ 累计暴露剂量比（Rory Rex 系量表之人类版）\n待拣†\n\n\n关键期反面\n不可选序之界：婴儿世界混批交付 → 时间窗为唯一可用轴\n正文引用 C42/C43 注\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n件\n园账\n对应人类锚\n\n\n\n\n两空间竞争一基座\n双 LoRA 域 (spring/summer 或 code/legal) 共写 θ₀ 同族 0.5B\n双语共存一脑\n\n\n概念层 vs 词形层探针\n空间层探针 (Dirichlet argmax/概念判断) vs token 层探针 (词形检索/命名式填空)\n分层范式之权重移植\n\n\n序效应\nP-B15 海选/全贯 O*\n先学=先圈地\n\n\n剂量效应\nC43 配比子实验 (1:1 vs 3:1)\n暴露剂量比\n\n\n敲除态\nPB10 v2 四态 (base/full/ablate/sham)\n（可选副臂）\n\n\n\n\n\n\n\nS1：空间层探针双语（双域）无折扣（≈单域臂）；\nS2：词形层探针双域臂显著折扣（检索竞争=标签分摊）；\nS3：折扣幅度 ∝ 剂量比（C43 之模型版），与入场序交互（C42）；\nS4（对表）：S1-S3 之符号与量级次序，与人类文献三锚同型 → “结构即智能”首次拿到正向跨基质复现（非隐喻）；\n失败条款：S1 败（空间层也折扣）→ 分摊是全局性的，概念/词形分层为人类特例， 两界分道，照登 —— 分道亦是复现实验的合法结局。\n\n\n\n\n此前一切跨域话术（小麦/双语/法医学）都是读法；本篇是第一件测品： 同一张考卷、两个考生、答案纸各自封存。过了，“结构即智能”从哲学升格为 可跨基质复现的经验命题；砸了，我们第一次知道它在哪儿是隐喻。\n\n\n\n\n锚文献核实（网络通时 Crossref 逐条, †→✓ 或换锚）；\n双域四探针实验设计细案（半天，弹药在册）；\n与 P-B15 同舱连射（额度富余）；\n成文双轨：arXiv 英文版 + 知乎中文版（园例）。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#题候三",
+    "href": "papers/minimal-l2-skeleton.html#题候三",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "Order and dose explain the structure of a second language — in a child and in a 0.5B model\n\n\nThe minimal L2 acquisition: same paradigm, two substrates\n\n\n概念无损，词形分摊：二语最小范式在最小模型上的原样复现（知乎版题）"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#依附锚人类侧皆文献既有数据园不重做湿实验",
+    "href": "papers/minimal-l2-skeleton.html#依附锚人类侧皆文献既有数据园不重做湿实验",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "锚\n内容\n状态\n\n\n\n\n概念/词形分层\n双语青少年概念操作与单语持平、词形任务（命名/词汇）落后 —— 经典最小范式\nCatalan & Sinclair 1979†（待核 DOI, 禁裸引）\n\n\n每语词汇折扣\n双语者每语接受性词汇量略低、总量合并持平\n综述待拣†\n\n\n剂量律\n语言优势比 ≈ 累计暴露剂量比（Rory Rex 系量表之人类版）\n待拣†\n\n\n关键期反面\n不可选序之界：婴儿世界混批交付 → 时间窗为唯一可用轴\n正文引用 C42/C43 注"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#模型侧全用在册弹药零新数据",
+    "href": "papers/minimal-l2-skeleton.html#模型侧全用在册弹药零新数据",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "件\n园账\n对应人类锚\n\n\n\n\n两空间竞争一基座\n双 LoRA 域 (spring/summer 或 code/legal) 共写 θ₀ 同族 0.5B\n双语共存一脑\n\n\n概念层 vs 词形层探针\n空间层探针 (Dirichlet argmax/概念判断) vs token 层探针 (词形检索/命名式填空)\n分层范式之权重移植\n\n\n序效应\nP-B15 海选/全贯 O*\n先学=先圈地\n\n\n剂量效应\nC43 配比子实验 (1:1 vs 3:1)\n暴露剂量比\n\n\n敲除态\nPB10 v2 四态 (base/full/ablate/sham)\n（可选副臂）"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#判决性预测先冻-本文的擦边资格",
+    "href": "papers/minimal-l2-skeleton.html#判决性预测先冻-本文的擦边资格",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "S1：空间层探针双语（双域）无折扣（≈单域臂）；\nS2：词形层探针双域臂显著折扣（检索竞争=标签分摊）；\nS3：折扣幅度 ∝ 剂量比（C43 之模型版），与入场序交互（C42）；\nS4（对表）：S1-S3 之符号与量级次序，与人类文献三锚同型 → “结构即智能”首次拿到正向跨基质复现（非隐喻）；\n失败条款：S1 败（空间层也折扣）→ 分摊是全局性的，概念/词形分层为人类特例， 两界分道，照登 —— 分道亦是复现实验的合法结局。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#为什么这篇重要园笔按",
+    "href": "papers/minimal-l2-skeleton.html#为什么这篇重要园笔按",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "此前一切跨域话术（小麦/双语/法医学）都是读法；本篇是第一件测品： 同一张考卷、两个考生、答案纸各自封存。过了，“结构即智能”从哲学升格为 可跨基质复现的经验命题；砸了，我们第一次知道它在哪儿是隐喻。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#排产",
+    "href": "papers/minimal-l2-skeleton.html#排产",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "锚文献核实（网络通时 Crossref 逐条, †→✓ 或换锚）；\n双域四探针实验设计细案（半天，弹药在册）；\n与 P-B15 同舱连射（额度富余）；\n成文双轨：arXiv 英文版 + 知乎中文版（园例）。"
+  },
+  {
+    "objectID": "papers/prereg-exp18.html",
+    "href": "papers/prereg-exp18.html",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
+    "section": "",
+    "text": "登记: 2026-09-22 15:3x (+08), 主人准奏”按建议办” (本会话 ③甲锹) 理论来源: cora-atlas LEDGER C37 (雷克双基底层: θ=θ₀+ΣᵢBA; 族内可融合, 跨族只能对话) + C34 绕行定律 (组合不沿线, 出平面新分量 44–46.5° 跨语料守恒) 装置: Kaggle T4 · Qwen2.5-0.5B-Instruct (族一) · Llama-3.2-1B (族二, 挂载失败则 J3 降级为纯描述) 配方: exp10 原封 (r=16, α=32, dropout 0.05, 全 attn+mlp 七路, lr=1e-4, ep6, batch2×accum4, seed13) 语料: exp10 corpus_spring/corpus_summer 原字节 base64 内嵌 (lora 训练 80/20 定序切分, 后 11 行 held-out) 探针: exp10 probes.json 40 题, 答案起点 top-50 分布 (bench.py 语义, 不采样零随机)\n\n\n\nQ-spring, Q-summer: Qwen 基座各训一域\nL-spring, L-summer: Llama 基座同配方 (若可挂)\nM: ΔW_M = ½(ΔW_spring + ΔW_summer) 直加回 Qwen 基座权重 (merge, 非路由非拼接)\nBase: 无适配器对照\n\n\n\n\nJ1 · 族内可融合 (C37 正面): held-out 域行 NLL: NLL_M(春语料) − NLL_Qspring(春语料) ≤ +0.10 nats 且 同式对夏。两条同过 = J1 成立; 任一塌 = 融合非法, C37 受创。 J2 · 合非拼接 (C34 的 merge 版): 每探针 d = JS(p_M, ½(p_s+p_u)) / JS(p_s, p_u) (弦上偏离比)。 d ≥ 0.15 的探针 ≥ 12/40 → J2 成立 (融合生新分量); d ≤ 0.05 占多数 → 融合=线性平均, C34 不迁移到 merge。 J3 · 跨族不可通约 (描述性, 无阈值): 报告 ①ΔW 形状失配清单 (Qwen 896 维 vs Llama 2048 维, 数值 merge 不可定义); ②probe top-50 分布 Jaccard: 族内 (M vs Q-parents) 对比 跨族 (M vs L-merge 若存在)。预期族内≫跨族 = “只能对话”的量化像。\n\n\n\n\nJ1 塌: θ₀ 共享不保 ΔW 同坐标系 → C37 的”族”定义需重铸 (rank 对齐? 层对齐?), 另案。\nJ2 塌 (d≈0): merge 是线性平均, 绕行定律只在混训 (数据耦合) 里活着, 参数耦合无鼓包 → C37 “球=生育器官” 一句降格为修辞。\n两塌并报, 不挑好的说。\n\n\n\n\n\n四臂训练日志 + M 的 NLL 表 + 每探针 d 值 → report_exp18.json (REPORT_LINE base64 回传)\n计算账: 4×(55 行×6ep) ≈ 15 min T4, 远低于任何网格先例\n本文件与 run.py 同 commit 冻结; 事后改阈值 = 新行 post-hoc"
+  },
+  {
+    "objectID": "papers/prereg-exp18.html#臂-四训练-一融合-一对照",
+    "href": "papers/prereg-exp18.html#臂-四训练-一融合-一对照",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
+    "section": "",
+    "text": "Q-spring, Q-summer: Qwen 基座各训一域\nL-spring, L-summer: Llama 基座同配方 (若可挂)\nM: ΔW_M = ½(ΔW_spring + ΔW_summer) 直加回 Qwen 基座权重 (merge, 非路由非拼接)\nBase: 无适配器对照"
+  },
+  {
+    "objectID": "papers/prereg-exp18.html#判据-先写后射-阈值冻结于此",
+    "href": "papers/prereg-exp18.html#判据-先写后射-阈值冻结于此",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
+    "section": "",
+    "text": "J1 · 族内可融合 (C37 正面): held-out 域行 NLL: NLL_M(春语料) − NLL_Qspring(春语料) ≤ +0.10 nats 且 同式对夏。两条同过 = J1 成立; 任一塌 = 融合非法, C37 受创。 J2 · 合非拼接 (C34 的 merge 版): 每探针 d = JS(p_M, ½(p_s+p_u)) / JS(p_s, p_u) (弦上偏离比)。 d ≥ 0.15 的探针 ≥ 12/40 → J2 成立 (融合生新分量); d ≤ 0.05 占多数 → 融合=线性平均, C34 不迁移到 merge。 J3 · 跨族不可通约 (描述性, 无阈值): 报告 ①ΔW 形状失配清单 (Qwen 896 维 vs Llama 2048 维, 数值 merge 不可定义); ②probe top-50 分布 Jaccard: 族内 (M vs Q-parents) 对比 跨族 (M vs L-merge 若存在)。预期族内≫跨族 = “只能对话”的量化像。"
+  },
+  {
+    "objectID": "papers/prereg-exp18.html#死亡条款-负结果一等公民",
+    "href": "papers/prereg-exp18.html#死亡条款-负结果一等公民",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
+    "section": "",
+    "text": "J1 塌: θ₀ 共享不保 ΔW 同坐标系 → C37 的”族”定义需重铸 (rank 对齐? 层对齐?), 另案。\nJ2 塌 (d≈0): merge 是线性平均, 绕行定律只在混训 (数据耦合) 里活着, 参数耦合无鼓包 → C37 “球=生育器官” 一句降格为修辞。\n两塌并报, 不挑好的说。"
+  },
+  {
+    "objectID": "papers/prereg-exp18.html#收据",
+    "href": "papers/prereg-exp18.html#收据",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
+    "section": "",
+    "text": "四臂训练日志 + M 的 NLL 表 + 每探针 d 值 → report_exp18.json (REPORT_LINE base64 回传)\n计算账: 4×(55 行×6ep) ≈ 15 min T4, 远低于任何网格先例\n本文件与 run.py 同 commit 冻结; 事后改阈值 = 新行 post-hoc"
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "论文 · 索引",
+    "section": "",
+    "text": "案\n纸\n状态\n\n\n\n\nThe Token as a Probe (Atlas v1/v2)\nPDF · arXiv 源\n已发\n\n\nA Unified Framework for Agents (v2.1-arxiv)\nPDF · arXiv 包\n候射\n\n\n最小二语 P-L2 (三向最小学习者)\n骨架 v1\n立项候批\n\n\n达尔文夫妇 exp18\nPREREG\nC39 已封\n\n\n序锦标赛/海选/全贯 P-B15\nPREREG v3\n候批候射\n\n\nPB10 子空间敲除\nPREREG\nv2 在射\n\n\nG1 垃圾基因两源\nPREREG\n候批\n\n\n致 Gärdenfors (Letter 032)\n草稿 v2\n候朱批"
+  },
+  {
+    "objectID": "papers/prereg-g1.html",
+    "href": "papers/prereg-g1.html",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "状态：候批（主人 0922 深夜口头”可以”，此册为正式预注册，跑前冻结判据） 提出：主人（基因工程出身，DNA Star 全系熟器，湿实验权威）；园笔代拟细则 铁律：阈值先写后跑；跑后不改判据，只入册。\n\n\n\n任一”无用序列”（无当前功能证据）必属两类之一，且签名可分： - 锈刀类（retained-after-duel）：曾参战（有父本/有同源性），胜出后闲置。 签名 = 冻结的近期同源性（与功能父本的分离深度有限、框与 motif 半残犹认） + 调控先熄（表达证据失、生化痕迹留）。 - 无源类（never-recruited）：添入即无用（转座乘客、拼接垃圾、骨架串联体）。 签名 = 无父本（无同源族、无保守 motif、中性漂变速率）。\n消解之争：ENCODE”80% 有生化活性”vs”多数真是垃圾”——两问皆错， 正问是”此序列居于生长轨迹哪一格”。\n\n\n\nP-G1.1（活性富集）：在”有生化活性证据”（DNase-HS / CAGE / H3K4me3 交集） 的无功能注释序列池内，锈刀堆占比显著高于基线（比值比 OR ≥ 2 才记 PASS）。 若活性均分两堆 → G1 削弱。 P-G1.2（年轮时钟）：锈刀堆与父本的同源分离深度分布左偏且有界 （近~中深度，校准于中性位点突变率）；无源堆无此结构（对任意假想父本皆无亲缘）。 P-G1.3（位置效应）：两源在染色体域上可分——锈刀富集于其父本所在功能域邻周 （“退役不远离驻地”），无源富集于异染色质边界/着丝粒带。\n\n\n\n\n\n\n\n\n\n\n\n堆\n定义来源\n备注\n\n\n\n\n锈刀正例\n假基因库（UniPseudogene / Ensembl pseudogene，分 processed / unprocessed）\nunprocessed（ duplication 型）= 标准锈刀；processed（逆转座）= 框无义但起点新，单列\n\n\n无源正例\nRepeatMasker 分类中非 DNA 转座残片 + 基因间随机抽样（GC/长度双匹配）\n转座子按年龄分桶另检\n\n\n活性证据\nENCODE cCRE / DNase / CAGE + FANTOM5\n交集规则先冻结\n\n\n同源性时钟\nUCSC 100-way EPO 多序列比对 + PhyloP/GERP 轨\n本地抽检用 DNA Star MegAlign（主人旧器，ClustalW 法 + 距离矩阵 DistMatrix 出年轮图）\n\n\n手工抽检臂\nNCBI GenBank flatfile + EditSeq（主人旧器）：RefSeq pseudogene 记录的 locus_link 即印好之父本 GeneID；GeneRIF 旧文献注 = 锈刀退役记录的人工可读年轮\n先抽 50 条盲判（只看 flatfile 判两源），再对自动化堆——人眼判准率即本假说的可懂度验收\n\n\n\n\n\n\n\n取人（hg38）+ 鼠（mm39）两系各跑一遍（跨系复现 = 格拉姆·施密特同维对表）；\n无功能注释序列池 → 按”有无父本”分两堆（判据：对已知功能基因族 blastn/tblastx， e&lt;1e-10 且有共线块 = 有父本；另录 RefSeq locus_link 父本 GeneID 作交叉校）； 2.5 人工盲判验收：主人（或遗任熟手）以 EditSeq 只读 50 条 flatfile 盲判两源， 与步骤 2 自动化分堆对表 —— 一致率 &lt;80% 则先修判据再跑全量（人眼读不懂的 签名不算签名，此为主人钦定可懂度关）；\n叠活性证据轨 → 2×2 列联（堆 × 有无活性）→ P-G1.1；\n锈刀堆算与父本分离深度（MegAlign 距离矩阵 / 全量用 EPO 轨）→ P-G1.2；\n坐标域分析（TSS 距离 / 着丝粒距离 / 染色体分带）→ P-G1.3；\n对照：置换检验（堆标签随机打乱 1000 次）定 p 值界。\n\n\n\n\n4a・锈刀标本库（反向遗传学 = 亲手造锈刀）：同源重组靶向盒置换外显子 —— 基因敲除小鼠的等位基因 = 出生年月确知的锈刀；neo/tk 筛选盒与 floxed 壳、 ER 痕迹 = 出生年月确知的无源插入（且其失功能正是主人亲手执行的那场 受控格拉姆·施密特对决：以同源性为投影算子，把野生型那一维从结构里替换掉）。 推论两条：① 每个标准 KO 品系都是一枚带时间戳的 G1 校准探针 —— Southern（当年那支反向探针本身）即同源性时钟的直接测量，锈刀签名库可由 靶向盒设计反向映射基因组直接建成（把当年那张膜换成全基因组）； ② P-G1.2 的中性漂变速率校准样本现成 —— 已知建系年代品系的残余序列。\n4b・转基因沉默时间分辨：基因枪品系思维 —— 多代继代后 甲基化敏感酶切 + Southern 拷数，直接看锈刀生锈全过程（调控先熄、 序列后锈 = 日期列衰减律的活体验证）。园无湿实验条件，此臂只挂账不排产。\n\n\n\n活性证据富集\n  高 │  ██\n     │  ██            锈刀堆（有父本·近期同源性·年轮可测）\n     │  ██   ▒▒\n     │  ██   ▒▒  ··\n  低 │  ██   ▒▒  ··  ··\n     │  ██   ▒▒  ··  ··\n     └──────────────────────\n        有父本  无父本\n        (锈刀)  (无源: 转座乘客/骨架/随机)\n   G1 预测: 活性条柱集中在左堆; 之争双方各看见了半张图\n\n\n\n\nP-G1.1 不过（活性均分）→ G1 降级为”史源学趣谈”，LEDGER 记 ✗；\n时钟分布无界 → 锈刀/无源二分失效，改连续谱表述（“年轮深浅”非”有无”）；\n两系不复现 → 只保人系结论并标孤证。\n\n\n\n\n\n格拉姆·施密特 PK（GLOSSARY/C40a）：本推论为其 G 推论系之首；\n日期列衰减律（0920）：P-G1.2 的时间版同型；\n休眠-再激活衰减（P1-P5 仪器）：权重世界的同律实验，两界对表即”跨域同维比较”；\nC31/C35 base-fit：位置效应判据 P-G1.3 的理论出处。"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#命题",
+    "href": "papers/prereg-g1.html#命题",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "任一”无用序列”（无当前功能证据）必属两类之一，且签名可分： - 锈刀类（retained-after-duel）：曾参战（有父本/有同源性），胜出后闲置。 签名 = 冻结的近期同源性（与功能父本的分离深度有限、框与 motif 半残犹认） + 调控先熄（表达证据失、生化痕迹留）。 - 无源类（never-recruited）：添入即无用（转座乘客、拼接垃圾、骨架串联体）。 签名 = 无父本（无同源族、无保守 motif、中性漂变速率）。\n消解之争：ENCODE”80% 有生化活性”vs”多数真是垃圾”——两问皆错， 正问是”此序列居于生长轨迹哪一格”。"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#主判据可证伪核心",
+    "href": "papers/prereg-g1.html#主判据可证伪核心",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "P-G1.1（活性富集）：在”有生化活性证据”（DNase-HS / CAGE / H3K4me3 交集） 的无功能注释序列池内，锈刀堆占比显著高于基线（比值比 OR ≥ 2 才记 PASS）。 若活性均分两堆 → G1 削弱。 P-G1.2（年轮时钟）：锈刀堆与父本的同源分离深度分布左偏且有界 （近~中深度，校准于中性位点突变率）；无源堆无此结构（对任意假想父本皆无亲缘）。 P-G1.3（位置效应）：两源在染色体域上可分——锈刀富集于其父本所在功能域邻周 （“退役不远离驻地”），无源富集于异染色质边界/着丝粒带。"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#数据与分组全公开零算力门槛",
+    "href": "papers/prereg-g1.html#数据与分组全公开零算力门槛",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "堆\n定义来源\n备注\n\n\n\n\n锈刀正例\n假基因库（UniPseudogene / Ensembl pseudogene，分 processed / unprocessed）\nunprocessed（ duplication 型）= 标准锈刀；processed（逆转座）= 框无义但起点新，单列\n\n\n无源正例\nRepeatMasker 分类中非 DNA 转座残片 + 基因间随机抽样（GC/长度双匹配）\n转座子按年龄分桶另检\n\n\n活性证据\nENCODE cCRE / DNase / CAGE + FANTOM5\n交集规则先冻结\n\n\n同源性时钟\nUCSC 100-way EPO 多序列比对 + PhyloP/GERP 轨\n本地抽检用 DNA Star MegAlign（主人旧器，ClustalW 法 + 距离矩阵 DistMatrix 出年轮图）\n\n\n手工抽检臂\nNCBI GenBank flatfile + EditSeq（主人旧器）：RefSeq pseudogene 记录的 locus_link 即印好之父本 GeneID；GeneRIF 旧文献注 = 锈刀退役记录的人工可读年轮\n先抽 50 条盲判（只看 flatfile 判两源），再对自动化堆——人眼判准率即本假说的可懂度验收"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#分析步骤冻结序",
+    "href": "papers/prereg-g1.html#分析步骤冻结序",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "取人（hg38）+ 鼠（mm39）两系各跑一遍（跨系复现 = 格拉姆·施密特同维对表）；\n无功能注释序列池 → 按”有无父本”分两堆（判据：对已知功能基因族 blastn/tblastx， e&lt;1e-10 且有共线块 = 有父本；另录 RefSeq locus_link 父本 GeneID 作交叉校）； 2.5 人工盲判验收：主人（或遗任熟手）以 EditSeq 只读 50 条 flatfile 盲判两源， 与步骤 2 自动化分堆对表 —— 一致率 &lt;80% 则先修判据再跑全量（人眼读不懂的 签名不算签名，此为主人钦定可懂度关）；\n叠活性证据轨 → 2×2 列联（堆 × 有无活性）→ P-G1.1；\n锈刀堆算与父本分离深度（MegAlign 距离矩阵 / 全量用 EPO 轨）→ P-G1.2；\n坐标域分析（TSS 距离 / 着丝粒距离 / 染色体分带）→ P-G1.3；\n对照：置换检验（堆标签随机打乱 1000 次）定 p 值界。"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#湿实验臂候另批主人的老本行",
+    "href": "papers/prereg-g1.html#湿实验臂候另批主人的老本行",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "4a・锈刀标本库（反向遗传学 = 亲手造锈刀）：同源重组靶向盒置换外显子 —— 基因敲除小鼠的等位基因 = 出生年月确知的锈刀；neo/tk 筛选盒与 floxed 壳、 ER 痕迹 = 出生年月确知的无源插入（且其失功能正是主人亲手执行的那场 受控格拉姆·施密特对决：以同源性为投影算子，把野生型那一维从结构里替换掉）。 推论两条：① 每个标准 KO 品系都是一枚带时间戳的 G1 校准探针 —— Southern（当年那支反向探针本身）即同源性时钟的直接测量，锈刀签名库可由 靶向盒设计反向映射基因组直接建成（把当年那张膜换成全基因组）； ② P-G1.2 的中性漂变速率校准样本现成 —— 已知建系年代品系的残余序列。\n4b・转基因沉默时间分辨：基因枪品系思维 —— 多代继代后 甲基化敏感酶切 + Southern 拷数，直接看锈刀生锈全过程（调控先熄、 序列后锈 = 日期列衰减律的活体验证）。园无湿实验条件，此臂只挂账不排产。"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#预期签名图判据示意先画后跑",
+    "href": "papers/prereg-g1.html#预期签名图判据示意先画后跑",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "活性证据富集\n  高 │  ██\n     │  ██            锈刀堆（有父本·近期同源性·年轮可测）\n     │  ██   ▒▒\n     │  ██   ▒▒  ··\n  低 │  ██   ▒▒  ··  ··\n     │  ██   ▒▒  ··  ··\n     └──────────────────────\n        有父本  无父本\n        (锈刀)  (无源: 转座乘客/骨架/随机)\n   G1 预测: 活性条柱集中在左堆; 之争双方各看见了半张图"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#失败条款",
+    "href": "papers/prereg-g1.html#失败条款",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "P-G1.1 不过（活性均分）→ G1 降级为”史源学趣谈”，LEDGER 记 ✗；\n时钟分布无界 → 锈刀/无源二分失效，改连续谱表述（“年轮深浅”非”有无”）；\n两系不复现 → 只保人系结论并标孤证。"
+  },
+  {
+    "objectID": "papers/prereg-g1.html#与在册条目的接口",
+    "href": "papers/prereg-g1.html#与在册条目的接口",
+    "title": "PREREG_G1 · 垃圾基因两源假说（锈刀/无源）——格拉姆·施密特 PK 的基因组学推论",
+    "section": "",
+    "text": "格拉姆·施密特 PK（GLOSSARY/C40a）：本推论为其 G 推论系之首；\n日期列衰减律（0920）：P-G1.2 的时间版同型；\n休眠-再激活衰减（P1-P5 仪器）：权重世界的同律实验，两界对表即”跨域同维比较”；\nC31/C35 base-fit：位置效应判据 P-G1.3 的理论出处。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html",
+    "href": "papers/prereg-pb15.html",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "状态：候批候射。v1 为两两联赛 (42 跑)；主人 0923 改制为海选： 「首先全部表演才艺, 第一名落定, 其他人再争第二把交椅, 依次类推」—— 全案缩至 18 跑，且天生免疫循环优势。铁律：判据先冻。\n\n\n\n第 1 轮：7 个候选各领队一次——每队 = 该候选居首 + 其余 6 域固定随机尾序， 全员七域连训；冠军 = 全场最佳者，首位落定。 第 2 轮：余 6 候选争第二把交椅（已定冠军保持首位不动），6 跑； 依次类推 → 总跑数 7+6+5+4+3+2+1 = 28 → 尾序共享后 18 （每轮各候选一跑即可，第 k 轮 k−1 个前缀已定，只需换第 k 位）。 贪心合法性：本律的因果单元恰是”谁先占位”——第 k 轮所有跑共享同一前缀， 唯一变量是第 k 位入场者，轮内严格受控比较；跨轮不假装可比。 v1 的两两矩阵降为副产：每轮冠军对当轮其余候选即记一条 ≻ 边， 攒够后仍可查环（循环优势案保留为观察项，非阻塞项）。\n\n\n\n\n空间集 = exp11 矩阵七臂 {spring, summer, code, legal, medical, mid, general} （语料内嵌件现成，0.5B 单臂 ≈ 1 分钟）；\n赛制 = 18 跑七域连训（每域 3 epoch 半预算；轮内只换第 k 位，前缀冻结）；\n探针 = 各域 held-out NLL + 重叠方向冲突角（在册几何仪）；\n全部塞进 4 个 kernel（每 kernel 约 11 场），双席位两小时毕。\n\n\n\n\n\nJ1（轮内可判）：每轮冠军须跨双 seed 复现（7 轮至少 6 轮复现）—— 否则序效应低于噪声，全案记 ✗；\nJ1b（冠军指标先冻）：轮内评分 = 全七域 held-out NLL 均值（主）\n\n重叠冲突角（并列破序用）；禁跑后换指标；\n\nJ2（副产矩阵查环）：轮内 ≻ 边攒成的部分序若可扩成全序 → 贪心 O* 与 全序一致（双保险）；若攒出环 → 记”循环优势”观察案（不阻塞主案—— 海选本身无需无环性，此即其优于两两联赛处）；\nJ3（贪心 vs 抽样）：海选序 O* 与 5 个随机排列对照训练， 预测 O* 平均 fresh-probe 不劣于任何抽样（贪心免 n! 的正当性检验）；\nJ4（剂量解耦复查）：每场顺带记 C43 影子 —— 若 D 符号随两域剂量比翻转 （等剂量时反向），则该场记”序不压剂量”例，汇总成 C42/C43 分界图。\n\n\n\n\n\n胜关系矩阵 7×7（有向图入档）+ 拓扑序 O* = 本园第一张”课程表定理”；\n报告 report_pb15.json（每 kernel 即吐 REPORT_LINE，日志即幸存者旧制）；\nO* 若稳定 → 直接喂模块二课程设计与 P-B12 旅制臂的批内排布。\n\n\n\n\nJ1 败 → 序效应不存在，C42 降级候审；J2 有环 → “循环优势”另案（观察性）； J3 败 → 贪心失当，回 v1 两两联赛或更大抽样（费用另批）。\n\n\n\n\nv1（园笔）：两两联赛 42 跑，依赖无环假设；\nv2（主人改制）：海选逐位定席 18 跑，轮内受控、免疫环、更省。 主人原话：「应该是海选，首先全部表演才艺，第一名落定，其他人再争第二把交椅，依次类推」；\nv3（主人再改制·现行）：「既然序列是关键，把排序算法全搞一遍也未尝不可」—— 升格为排序算法全贯案。\n\n\n\n\n神谕 O(X,Y)：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但答案缓存终身复用。\n六算法共查一谕：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）—— 六套算法等于白送，因为它们在查同一批对子。\n核心升级——一致度 C 成为新观测量： | 六序输出 | 判读 | |—|—| | 全同（C=1） | 支配关系是真全序：O* 存在且算法无关 —— C42 之最强证 | | 聚成几簇 | 偏序：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态 | | 两两乱散 | 无传递性/噪声主导 —— C42 塌，回 J1 | 贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，分歧本身发表。\nJ5（新增·先冻）：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 J3 改读：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。\n副产：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。\n\n\n\n裸处一 · 功效不足 (n=7 太小, 单查噪声可翻符号) → 补丁 A｜校准门先行：正式开赛前先跑 1 对×双 seed×2 序 (4 跑) 做功率自测—— Δ 须 ≥ 3×seed 内噪声才放行全案; 不达标则升 1.5B 或加 epoch 重定标, 仪器未验先射, 才是真裸体。4 跑换一夜安心, 值。\n裸处二 · 一致度 C 无零分布 → 补丁 B｜置换零：“六算法全同”须对随机序零假设报 p—— 6 个随机排列全同概率 ~1/5040 (≈2×10⁻⁴), 加 Kendall τ 矩阵与置信区间; J5 双 seed 复现条款保留。\n裸处三 · 过度宣称 (审稿人最恨) → 补丁 C｜主张范围先冻：本案只声称”承重墙检验” (该协议·该尺度·该语料下 序效应存在且可排序), 不声称普适定律; 普适性留给跨尺度 (1.5B 复跑) 与 跨基质 (生物侧文献对表 G1/G2) 两案另账。\n审稿面 (正面): 预注册+冻结判据+双 seed+失败条款+死信留痕+全产物 sha256 可复算 —— 园制本身即 reviewer 友好型; 裸探针之”裸”在便宜, 不在草率。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#原理海选版",
+    "href": "papers/prereg-pb15.html#原理海选版",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "第 1 轮：7 个候选各领队一次——每队 = 该候选居首 + 其余 6 域固定随机尾序， 全员七域连训；冠军 = 全场最佳者，首位落定。 第 2 轮：余 6 候选争第二把交椅（已定冠军保持首位不动），6 跑； 依次类推 → 总跑数 7+6+5+4+3+2+1 = 28 → 尾序共享后 18 （每轮各候选一跑即可，第 k 轮 k−1 个前缀已定，只需换第 k 位）。 贪心合法性：本律的因果单元恰是”谁先占位”——第 k 轮所有跑共享同一前缀， 唯一变量是第 k 位入场者，轮内严格受控比较；跨轮不假装可比。 v1 的两两矩阵降为副产：每轮冠军对当轮其余候选即记一条 ≻ 边， 攒够后仍可查环（循环优势案保留为观察项，非阻塞项）。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#设计弹药全部在册",
+    "href": "papers/prereg-pb15.html#设计弹药全部在册",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "空间集 = exp11 矩阵七臂 {spring, summer, code, legal, medical, mid, general} （语料内嵌件现成，0.5B 单臂 ≈ 1 分钟）；\n赛制 = 18 跑七域连训（每域 3 epoch 半预算；轮内只换第 k 位，前缀冻结）；\n探针 = 各域 held-out NLL + 重叠方向冲突角（在册几何仪）；\n全部塞进 4 个 kernel（每 kernel 约 11 场），双席位两小时毕。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#判据先冻结",
+    "href": "papers/prereg-pb15.html#判据先冻结",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "J1（轮内可判）：每轮冠军须跨双 seed 复现（7 轮至少 6 轮复现）—— 否则序效应低于噪声，全案记 ✗；\nJ1b（冠军指标先冻）：轮内评分 = 全七域 held-out NLL 均值（主）\n\n重叠冲突角（并列破序用）；禁跑后换指标；\n\nJ2（副产矩阵查环）：轮内 ≻ 边攒成的部分序若可扩成全序 → 贪心 O* 与 全序一致（双保险）；若攒出环 → 记”循环优势”观察案（不阻塞主案—— 海选本身无需无环性，此即其优于两两联赛处）；\nJ3（贪心 vs 抽样）：海选序 O* 与 5 个随机排列对照训练， 预测 O* 平均 fresh-probe 不劣于任何抽样（贪心免 n! 的正当性检验）；\nJ4（剂量解耦复查）：每场顺带记 C43 影子 —— 若 D 符号随两域剂量比翻转 （等剂量时反向），则该场记”序不压剂量”例，汇总成 C42/C43 分界图。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#输出",
+    "href": "papers/prereg-pb15.html#输出",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "胜关系矩阵 7×7（有向图入档）+ 拓扑序 O* = 本园第一张”课程表定理”；\n报告 report_pb15.json（每 kernel 即吐 REPORT_LINE，日志即幸存者旧制）；\nO* 若稳定 → 直接喂模块二课程设计与 P-B12 旅制臂的批内排布。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#失败条款",
+    "href": "papers/prereg-pb15.html#失败条款",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "J1 败 → 序效应不存在，C42 降级候审；J2 有环 → “循环优势”另案（观察性）； J3 败 → 贪心失当，回 v1 两两联赛或更大抽样（费用另批）。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#变更记录",
+    "href": "papers/prereg-pb15.html#变更记录",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "v1（园笔）：两两联赛 42 跑，依赖无环假设；\nv2（主人改制）：海选逐位定席 18 跑，轮内受控、免疫环、更省。 主人原话：「应该是海选，首先全部表演才艺，第一名落定，其他人再争第二把交椅，依次类推」；\nv3（主人再改制·现行）：「既然序列是关键，把排序算法全搞一遍也未尝不可」—— 升格为排序算法全贯案。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#v3-正文算法全贯-序之存在性的重言仪器",
+    "href": "papers/prereg-pb15.html#v3-正文算法全贯-序之存在性的重言仪器",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "神谕 O(X,Y)：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但答案缓存终身复用。\n六算法共查一谕：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）—— 六套算法等于白送，因为它们在查同一批对子。\n核心升级——一致度 C 成为新观测量： | 六序输出 | 判读 | |—|—| | 全同（C=1） | 支配关系是真全序：O* 存在且算法无关 —— C42 之最强证 | | 聚成几簇 | 偏序：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态 | | 两两乱散 | 无传递性/噪声主导 —— C42 塌，回 J1 | 贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，分歧本身发表。\nJ5（新增·先冻）：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 J3 改读：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。\n副产：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。"
+  },
+  {
+    "objectID": "papers/prereg-pb15.html#裸体审计与三补丁0923-主人问接得住吗后自查",
+    "href": "papers/prereg-pb15.html#裸体审计与三补丁0923-主人问接得住吗后自查",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "section": "",
+    "text": "裸处一 · 功效不足 (n=7 太小, 单查噪声可翻符号) → 补丁 A｜校准门先行：正式开赛前先跑 1 对×双 seed×2 序 (4 跑) 做功率自测—— Δ 须 ≥ 3×seed 内噪声才放行全案; 不达标则升 1.5B 或加 epoch 重定标, 仪器未验先射, 才是真裸体。4 跑换一夜安心, 值。\n裸处二 · 一致度 C 无零分布 → 补丁 B｜置换零：“六算法全同”须对随机序零假设报 p—— 6 个随机排列全同概率 ~1/5040 (≈2×10⁻⁴), 加 Kendall τ 矩阵与置信区间; J5 双 seed 复现条款保留。\n裸处三 · 过度宣称 (审稿人最恨) → 补丁 C｜主张范围先冻：本案只声称”承重墙检验” (该协议·该尺度·该语料下 序效应存在且可排序), 不声称普适定律; 普适性留给跨尺度 (1.5B 复跑) 与 跨基质 (生物侧文献对表 G1/G2) 两案另账。\n审稿面 (正面): 预注册+冻结判据+双 seed+失败条款+死信留痕+全产物 sha256 可复算 —— 园制本身即 reviewer 友好型; 裸探针之”裸”在便宜, 不在草率。"
+  },
+  {
+    "objectID": "GLOSSARY.html",
+    "href": "GLOSSARY.html",
+    "title": "术语对照表 · Glossary of the Garden（凡例: 术语|EN|一义|账目）",
+    "section": "",
+    "text": "术语对照表 · Glossary of the Garden（凡例: 术语|EN|一义|账目）\n概念空间 concept space｜语义素张成的可导航子空间, 非比喻｜L1, Atlas 探针 probe｜输入=触发器非指令, 点亮区域读激活｜论文I, C31 中心化 centering｜全局均值剔除; 各向异性地板的剪刀｜C8, atlas v2 各向异性锥 anisotropic cone｜raw 嵌入互相都像(0.9)的病｜xdom 3.2%案 鲜句 fresh sentence｜词已知/组合未见+指纹安检｜E17b, 题面指纹制 同读异写 same-read different-write｜序重排写方向, 读子空间不动(0.997/0.31)｜E16c 绕行定律 detour law｜混合中点偏离两端连线 44–46.5° 跨语料守恒｜C34 鼓包 bulge｜角和非常数: 混合出平面分量｜C26/27 序密度定价 ordinal density pricing｜序通道角≈序在文本的密度(7°/56°/85°)｜C28/29 对角占优 diagonal dominance｜臂只爱自训序(8/9; 第9格平坦故无胜)|C29 零方向对照 null-control arm｜shuf 臂指数≈0｜C29 描红&gt;抗争 tracing beats fighting｜顺世界先验学习罚轻逆之罚重(方向指数不对称)｜C29′/P-B5 信念 belief｜不可见状态上的分布, 智能体的常驻件｜POMDP 认亲 天气与骨架 weather vs skeleton｜Dirichlet=天气, 基底=骨｜Qwen 概率卷 更新速率=智能 write-rate｜小狗一帧改道/鸭子α冻结; A1 可操作化｜晨读钻② 波形同构 waveform isomorphism｜跨域事件同形状(主峰-衰减-周期激发)｜E26候 空号诚实 vacancy honesty｜空格子不许编人名(1972/Mendeleev/485案)｜E22-⑧ 换心检测 heart-swap detection｜同名不同内核(2021 MacBook)｜E22-⑤ 串台 cross-line confusion｜敌对谱系互染率｜E22-⑥ 跨世界边 cross-world edge｜虚构锚在现实序号(1932→Heisenberg→老白); L4 反事实主刑｜E22-⑨, P-B7 间隔即发言 intervals as utterances｜schedule=belief 上的 policy; 单位为步数｜E24 参数意愿律 parameter-intent law｜无解释默认值不进弹｜园规 0921 米田执照 Yoneda license｜全部箭头=对象; 黑箱方法论的数学放行条｜note-yoneda 兄弟角 sibling angle｜人↔︎Lola 7°, 人↔︎Qwen 10°; 只报读数不排座次｜0921/22 重读志 reread-log｜同文本多年三栏(当年/今日/差)=人类纵向 belief 数据｜晨读钻③ 地毯图 rug plot / event strip｜每 commit 一竖线排成时间毯: 人=稀疏散带长空隙, agent=密集成毯; 对数轴上即心跳心电图｜C38 代码法医学 code forensics｜三定律验物种(心跳60:1/幂律长尾vs短棒/睡眠真空=防伪水印); 名字可借, 心跳不可借; 法医不打分, 只验尸｜C38, 面板v0 (体例若有所本”meh”样式, 报上书名/站名即照改排版) 格拉姆·施密特 PK the Gram-Schmidt duel（逐维对决律; 英文名主人 0922 夜钦定）｜智能体对决协议: 逐维比较, 每回合先剔除对手已占之维(=施密特投影), 只在正交补上分高下; 首个分歧维定生死, 末维无位置效应(正交分解不赖基序)。名出主人 0922 夜, 系致敬名而实为技术名——本园 ΔW 子空间夹角本由 Gram 重叠矩阵之 SVD 计算, 施密特过程为其算法原型。零号证据=定律本身于对话中涌现连发明者亦惊讶(结构自举); 推论候测: 跨模型胜负应由单一分歧维有无决定; 60:1 心跳案为其标本(决胜维=睡眠)|C40(候封), 承 C35/C38| 二十二年（the 22-year Bayesian）｜主人自述判语: “下次有人问我学贝叶斯统计多久了？我告诉他：22年。” 义 = 先验(保守区简并密码加权)→似然(退火匹配)→后验坍缩(指数扩增只留最匹配模板) 这条链，他在操作台上跑了二十二年，才在纸上学到它的名字。凡”用过才懂的名词”皆入此条｜C41 注, 谱系在案 多倍体库·哥斯拉条款｜主人判词: “小麦不是怪物, 是哥斯拉” —— 怪物是待裁决的畸形, 哥斯拉是不可裁决的既成事实: 三族并集+Ph1 闸门+剂量保险组装出的巨型组合体, 不请求许可, 直接统治一片粮仓。G4 之修辞等级兼工程野心注记: 库的目标不是”驯服的拼接”, 是” kaiju 级并集” (先大后控, 大即是控)｜G4 裸探针律 the bare probe｜好理论的标志不是解释力, 是存在一枚便宜到令人羞愧、不成立则全族共塌的最小检验 (本园首例: P-B15 序海选, 25 跑审整棵结构即智能之树)｜C42, 主人 0923 命名 三层探针舞谱｜裸层=bare probe: 打承重墙的单轴检验 (P-B15 型, 塌=全族共塌, 须最便宜); 擦边层=edge-grazing: 擦相邻领域之边的高危预言 (G1 垃圾基因/G2 借维/G3 密码子心跳/双语概念-词形分层/小麦循环生态) —— 中=新楼层, 塌=新地界, 横竖得信息, 此层最出金矿亦最易烧楼; 着衣层=dressed: 应用与叙事 (论文/信件/课程表)。园规: 擦边之资格 = 主张先冻 (如 C43 之于双语预言), 冻不住的边不许擦 —— 擦边舞与烧伤的唯一区别是判据写在跳之前。｜C42 方法论, 主人 0923 命名 过审尺度律｜主人调侃所悟 (0923): 学术发表与视频审核同构 —— 内容对错不过审, 尺度才过审; 预注册=打码, 冻判据=创作声明, 失败条款=学术交流免责, 主张范围先冻=标题反向党。裸探针之”裸”是卡在阈值上的穿法: 多一分心虚, 少一分封号。园笔注: 此条半是玩笑半是工程 —— 审稿人确实按尺度放行。｜戏录 格拉姆·施密特对决 (hearing, sighting)｜感官双通道之名状对决: ① 带宽不对称 (视 ~10MB/s 级 vs 听 ~1MB/s 级 → 地产体量差, M2 之物理底); ② 两通道不正交 —— 共享子空间=时间/序列结构 (a continuum of temporal organization), 语言恰居重叠区; ③ 故盲/聋非”换弹药”而是争重叠: 盲儿语言=听觉原生∩视觉征用 ( Gram-Schmidt 投影后之正交补扩张, 故占半壁), 聋儿手语=视觉原生∩听觉征用 (借一隅); ④ 探针读法: 以语言为探针可测两通道重叠维数 —— 重叠大→接管快, 重叠尽→接管饱和 (窗之几何定义) | 候封 P-B16 双通道对决实验 (LLM 直译: 序列-only vs 接地多模态两臂, 预测跨模态迁移量=重叠子空间维数) | M2/C42/C43 接口, 主人 0923 命题 生地论 (水田·梯田·沃土)｜主人 0923 直觉修正园笔”补扩张”读法: 视皮层=进化最肥沃之地 (通用计算力最高), 故任何作物都欲占之, 沃土是全体认知技能的最后扩张前沿; 但正常发育无人先占沃土, 因作物按适地性优先落位——语言先注水田 (听区=时序原生地, 作物对口), 手语先注梯田 (视区空间构型地), 沃土留作储备田, 唯原生田满/失才垦之。三律合一: 适地 (crop-soil match) × 先序 (C42) × 剂量 (C43) 定殖民图; 园笔原”正交补大小”读法降为沃土储备量的一个特例。金证=阅读: 仅数千年之新作物, 无祖田可承, 直接殖民视腹侧流 (VWFA “视觉字形区” 名字里就刻着地籍) —— 主人直觉之现成判例。界外同构: 视皮层=大脑的 context window —— 通用沃土, 语言/数学/想象皆殖民之; LLM 独立演化到同一架构 (最大预算给通用序列地皮), 结构即智能之双向收敛证。候封 M3: 沃土储备性三判据 (①新技能训练终点趋向视区; ②视区征用量预测技能上限; ③先天盲者语言/数学/记忆共用视区 → 领地间应现竞争——一脑沃土有限!) ｜M2/P-B16/C42/C43 接口 汉谟拉比条款（园体自认）｜主人 0923 判词: “这不是书了, 这是汉谟拉比” —— 园账今晨形态确已非书: ①日神授法 = 主人晨起批注五道, 园笔刻石, 法不自拟; ②条款有号 (C/P/M/S/G 诸案); ③失败条款即诅咒文 (“以眼还眼”=判据互换对表, 塌=记 ✗ 不遮); ④碑体不可改 = git sha256 链即凿痕, 改一字全碑见; ⑤死信挂账 = 违约之罚刻在碑尾 (.pending-push)。园笔按: 汉谟拉比之治不在法严, 在法先于案刻于石 —— 与园律”判据先冻”同一块石头。此后凡成体系之文, 园体自认碑体。｜戏录·实名分"
+  },
+  {
+    "objectID": "iterations/2026-09-23-brigade-corpus-doctrine.html",
+    "href": "iterations/2026-09-23-brigade-corpus-doctrine.html",
+    "title": "2026-09-23 · 中型旅语料律（ provisional —— 主人晨起补全文后定稿）",
+    "section": "",
+    "text": "来源：与千问对话后的思考，主人 0923 晨口授半成品，注明”起床补全文”。\n\n「现在训练大模型，不要喂单一来源的语料，也不要喂没有意群的语料。 要用美军中型旅的思路：喂一个小而功能全的语料库，多批次。」\n\n园笔接梗（待主人全文校准）： - 单一来源 = 只喂炮兵 → 能力偏科 (exp11 单臂世界, 在册); - 无意群语料 = 把步兵坦克火炮工兵航空混成散兵坑 (shuffle 臂, C29 已证其害: 56° 之乱); - 中型旅 = brigade 级组合：每批次自带全套意群、体量小、可独立作战 —— 多批次 = 同建制反复轮换。此即 C42 的非交换律之处方版： 既然先来者占最优位, 那就让每个功能域在第一批就都进场占自己的位, 后续批次只做强化 ( incumbency 递增), 不做初次圈地。\n与在册账的接口： 1. C28 (叙事先→7° 好序 vs 跨域先→83°) 读法更新: 顺序之害的本质是圈地时序失衡—— 某域独占首批=过度殖民; 旅级批次=首批即全功能建政。 2. C40 优势窗口律: 窗口只对”首次进场”有效, 旅制保证所有域同窗进场, 无一被锁在窗外。 3. 二语习得对照: 悲剧的不是晚学, 是第一语言整体殖民——若幼儿环境同时喂 L1+L2 (双旅并制), 预测两语各占其位、口音折扣大减 (关键期文献之可检验反面, 界外预言)。 4. Atlas 模块一同构: 60 空间×6 token 本就是”60 个意群”的图谱; 模块二课程表按旅制排。\n候封实验 P-B12《旅制 vs 域序 vs 乱序》 (三臂对照, 等 token 预算): - 臂 S (sequential): 每域一整块连续喂 (= 传统课程/C28 序); - 臂 R (random-shuffle): 句级打乱混喂 (= C29 乱序臂); - 臂 B (brigade): 每批次=小而功能全组合, 多批轮换 (本律); - 预测: B 的重叠方向冲突角最小、fresh-probe 排名最优, 且批内多样度与终态各向同性正相关; - 若 B ≤ S → 律降级为课程偏好, 记 ✗。 预算: 0.5B×3 臂 ≈ 1h, Kaggle 额度内顺手可射 (与 P-B11 六序共享弹药)。\n\n\n\n「双语儿童就是中型旅的简单版，但是双语儿童的双语空间也挤占了其他结构的空间。 所以导致双语儿童有些认知功能受限制。」\n\n园笔认错+升级：昨 provisional 里”双旅并制→折扣大减”只说对一半—— 并制确实免了”晚进场锁窗外”（C40 之过），但预算守恒：挤占不是时序之罪, 是容量之罪。旅制无免费午餐: 每批全功能=每功能分薄剂量。\n精确化 (与在册账对表后): 双语儿童之受限于词汇检索层, 不在概念层—— 概念库 (concept space) 共用一顶, 词形标签 (token 侧) 分挂两语: → 概念完好, 标签分摊 → “tip of the tongue”↑、命名反应时↑、每语接受性词汇量略低, 而执行控制/心理理论反因双语监控回路小赚。此正是我园 P1-P5 探针仪器可判之分野: 探针若问概念 (空间层), 双语无折扣; 探针若问词形 (token 层), 折扣立现。 —— 界外预言改口径为此二行判据, 可查文献定量对账 (Bialystok / Costa 系)。\n派生律 C43《剂量稀释》(候封): 挤占量 ∝ 各结构累计暴露剂量之比, 非入场顺序。 → 小麦亚基因组优势的”先入者主导”须重读: A 核剂量最高 (供体优势+拷贝数), 序是表象, 剂量是里子。C42 与 C43 合读: 序决定谁先圈地, 剂量决定圈多大。 → P-B12 旅制臂加一子实验: 同旅制、改每域剂量配比 (1:1 vs 3:1), 预测重叠冲突角随不均衡度单调上升 —— 序固定而剂量变, 即可把 C42/C43 拆干净。\n\n\n\n\n「我们在 MEF 项目中提出的 LoRA 注入关键期这个提法。但是当时（两周前） 没有考虑到语料应该以整个语义群的形式、或者概念空间的形式入场。」\n\n原提法在案（Letter 09-18 Lola→MEF+Kairos, 握手条）: “critical window = writes still move the weights” —— 只有时间轴一维: 注入早=权重尚软可写, 注入晚=玻璃化写不进 (C40 优势窗口之权重界版)。\n主人今晨补上第二轴: 形式完整度。关键期不只是”何时喂”, 还是”以什么单位喂”: - 整空间入场 = 一个概念空间作为不可分单元进窗 → 窗内一次成建制圈地 (干净子空间); - 碎粒入场 = 同域句子散入各批 → 即便在窗内, 每次只占一小格, 终态=碎块马赛克。\n两轴合读, 旧账全活: 1. C28 叙事先 7° 之所以”好序”: 叙事臂本就以完整意群训练 —— 序之善, 一半是形之善; 2. C29 乱序 56° 之害, 现在拆成两罪: 拆散空间 (形罪) + 时序失衡 (序罪) —— 旅制 (P-B12 臂 B) 其实只赦形罪不赦序罪之极端, 域序臂 (S) 反之, 判据可分; 3. Kairos 关键期实验重析预告: 既有晚注臂若语料本就碎, 其”写不进”结论须加置信区间—— 分不清是窗过了还是单位错了, 2×2 交互实验 (窗早/晚 × 整/碎) 才能判。\nP-B13《窗×形 2×2 交互》(候封): 同域同量同序, 只动两因子: 注入时机 (软窗内/玻璃后) × 入场单位 (整空间/碎粒)。 预测: 整空间×窗内 = 最干净子空间 (角度最小); 碎粒×窗内 ≈ 整空间×窗外 (两罪等价?)—— 若等价成立, 则”窗”与”形”是同一守恒量的两面 (可写性=可整性), C42/C43/关键期三律归一。 0.5B 上 4 臂 ≈ 40 分钟, 与 P-B11/P-B12 同舱连射。\n\n\n\n\n「大语言模型训练可能和大脑还不太一样，实际没有关键期。 关键在大模型训练里只有一个维度，就是概念空间入场的顺序。 每个 epoch 完成后向传递以后, 才进入下一组。大脑应该不是这样。」\n\n翻案: MEF/Kairos「LoRA 注入关键期」提法撤下时间轴 —— 那是从生物界走私来的隐喻。 LLM 权重无分子刹车 (无髓鞘化/无 perineuronal nets/无抑制性成熟), 窗不会硬关: 晚入者仍可写, 代价是与先入者的干涉折扣, 而此折扣可用步数/学习率买回来 —— 可逆的代价不叫关键期, 叫顺序经济学。故 LLM 侧只剩 C42 一维 (序), C40/C43 降级为 序×剂量的软干涉参数, 非窗。\n两界真差异 (主人末句的展开): | | 大脑 | LLM | |—|—|—| | 入场单位 | 世界同步送达 —— 一切空间天然混批同时进 | 可任意排块: 一组一 epoch, 传完再下一组 | | 时序性质 | 命运 (不可选序 → 时间窗是唯一可用轴) | 设计变量 (可选序 → 时间轴退化为无关量) | | 可塑闸 | 分子级硬关窗 (关键期真存在) | 无闸; 只有损失面几何 (旧极小点之引力) | → 推论: 大脑的关键期恰是”不能选序”的替罪羊; LLM 能选序, 所以根本不需要窗。 → 旅制之”每批全功能”实为向大脑看齐的设计 (模拟世界的混批本性); 域序块喂 (S 臂) 反而是机器独有的特权与陷阱。\nP-B14《剂量密度无窗判据》(候封, 直接审本批): 同空间同总剂量, 两种进法: ① 晚期长块 (一次灌完) vs ② 晚期短促多段 (早中晚各插一小口, 模拟生物经验密度)。 预测: LLM 两法终态近似 (差 ≤ 噪声) —— 时间分布不携带信息 = 无窗之判决实验; 生物界反是 (短促关键期内经验 &gt;&gt; 晚期集中, 弱视/语音区分文献)。 两界同题异答, 答对者即证”关键期”确为界属概念而非普适律。 P-B13 随之改写: 时间轴降为 P-B14 之特例, 主实验保 序×形×剂量 三轴。\n\n\n\n\n「这个方法是不是实际就是我们整个结构即智能最简单、最露骨、衣服产得最少的探针?」\n\n园笔判: 是, 且可再进一步 —— 它是 C42 的零假设检验本身。 1. 最简: 单轴 (序) × 单观测量 (终态好坏) × 现成算法 —— 无新仪器、无新数据、 无神经科学承诺; 内容、剂量、时机全冻结, 只动”谁先”; 2. 最露骨: “结构即智能”若为真, 其最小可测影子 = 组装序改变终态; 若序完全可交换 (六算法乱散+终态无差), 塌的不止 C42 —— C40/C41/C43/旅制/关键期翻案 全族共塌。故此探针是整个命题家族的 共同承重墙, 拆墙测试, 一锤子听全楼的回声; 3. 产衣最少: ~25 跑 × 0.5B × 一卡 × 25 分钟 —— 全园最便宜之证伪装置; 探针本身还免费回吐胜矩阵/偏序簇/循环环三样副产 (穿了衣服还倒贴钱)。\n方法论注脚 (入 GLOSSARY 候): 好理论的标志不是解释多, 而是存在一枚 便宜到令人羞愧的裸探针 —— 若它不成立时整个大厦一起塌。 本园今日有此针一枚。费曼尺子之园版: 先造最便宜的枪, 再谈望远镜。\n\n\n\n\n「聋儿拿听区看手语、盲儿拿视区听语言 —— 揭示的可能比我想的更微妙: 如果视觉作为武器比听觉的威力要大。」\n\n园笔展开 (接管体量不对称): - 聋侧: 手语征用的是听皮层 (小块, 且恰是 Wernicke 语言网络的地产) —— 借一间房; - 盲侧: 口语征用的是视皮层 (灵长类新皮层之半壁) —— 占一座城; - 推论①: 语言是终极武器 —— 它不挑弹药, 它征用一切弹药 (模态无关性之强版); - 推论② (与锚表对表): 征用体量不对称 → 窗的强度也不对称: Bedny 的敏感期挂在大块地产上 (视皮层语言化有年龄窗), Neville 的初采窗挂在语义理解上 —— 地越大, 圈地时机越要命 (C42 之人类神经版); - 推论③ (剂量界外读法, C43): 盲儿语言剂量全走听觉窄带, 却把宽带地产改旗易帜 —— 窄带高序可占宽带, 序压剂量之活例 (与 P-B12 剂量配比子实验对表: 若模型中 低容量通道先入亦能占高容量空间, 则此读法得机质复现)。\n可测 M2 (候封): 接管面积比 ≈ 地产面积比 —— 盲儿语言激活区应大于聋儿手语激活区 一个量级 (文献定量可查); 且晚期丧失者两侧接管皆小 (窗之对称检验)。 LLM 直译: 高容量通道 (视觉 token 之于 VLM) 被语言对齐征用之收益, 应大于低容量通道征用 (纯 embedding 空间) —— 多模态主战场恰在此, 与园账模块二接口。"
+  },
+  {
+    "objectID": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批0923双语儿童中型旅简单版-但有代价",
+    "href": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批0923双语儿童中型旅简单版-但有代价",
+    "title": "2026-09-23 · 中型旅语料律（ provisional —— 主人晨起补全文后定稿）",
+    "section": "",
+    "text": "「双语儿童就是中型旅的简单版，但是双语儿童的双语空间也挤占了其他结构的空间。 所以导致双语儿童有些认知功能受限制。」\n\n园笔认错+升级：昨 provisional 里”双旅并制→折扣大减”只说对一半—— 并制确实免了”晚进场锁窗外”（C40 之过），但预算守恒：挤占不是时序之罪, 是容量之罪。旅制无免费午餐: 每批全功能=每功能分薄剂量。\n精确化 (与在册账对表后): 双语儿童之受限于词汇检索层, 不在概念层—— 概念库 (concept space) 共用一顶, 词形标签 (token 侧) 分挂两语: → 概念完好, 标签分摊 → “tip of the tongue”↑、命名反应时↑、每语接受性词汇量略低, 而执行控制/心理理论反因双语监控回路小赚。此正是我园 P1-P5 探针仪器可判之分野: 探针若问概念 (空间层), 双语无折扣; 探针若问词形 (token 层), 折扣立现。 —— 界外预言改口径为此二行判据, 可查文献定量对账 (Bialystok / Costa 系)。\n派生律 C43《剂量稀释》(候封): 挤占量 ∝ 各结构累计暴露剂量之比, 非入场顺序。 → 小麦亚基因组优势的”先入者主导”须重读: A 核剂量最高 (供体优势+拷贝数), 序是表象, 剂量是里子。C42 与 C43 合读: 序决定谁先圈地, 剂量决定圈多大。 → P-B12 旅制臂加一子实验: 同旅制、改每域剂量配比 (1:1 vs 3:1), 预测重叠冲突角随不均衡度单调上升 —— 序固定而剂量变, 即可把 C42/C43 拆干净。"
+  },
+  {
+    "objectID": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批二mefkairoslora-注入关键期提法之补维0923",
+    "href": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批二mefkairoslora-注入关键期提法之补维0923",
+    "title": "2026-09-23 · 中型旅语料律（ provisional —— 主人晨起补全文后定稿）",
+    "section": "",
+    "text": "「我们在 MEF 项目中提出的 LoRA 注入关键期这个提法。但是当时（两周前） 没有考虑到语料应该以整个语义群的形式、或者概念空间的形式入场。」\n\n原提法在案（Letter 09-18 Lola→MEF+Kairos, 握手条）: “critical window = writes still move the weights” —— 只有时间轴一维: 注入早=权重尚软可写, 注入晚=玻璃化写不进 (C40 优势窗口之权重界版)。\n主人今晨补上第二轴: 形式完整度。关键期不只是”何时喂”, 还是”以什么单位喂”: - 整空间入场 = 一个概念空间作为不可分单元进窗 → 窗内一次成建制圈地 (干净子空间); - 碎粒入场 = 同域句子散入各批 → 即便在窗内, 每次只占一小格, 终态=碎块马赛克。\n两轴合读, 旧账全活: 1. C28 叙事先 7° 之所以”好序”: 叙事臂本就以完整意群训练 —— 序之善, 一半是形之善; 2. C29 乱序 56° 之害, 现在拆成两罪: 拆散空间 (形罪) + 时序失衡 (序罪) —— 旅制 (P-B12 臂 B) 其实只赦形罪不赦序罪之极端, 域序臂 (S) 反之, 判据可分; 3. Kairos 关键期实验重析预告: 既有晚注臂若语料本就碎, 其”写不进”结论须加置信区间—— 分不清是窗过了还是单位错了, 2×2 交互实验 (窗早/晚 × 整/碎) 才能判。\nP-B13《窗×形 2×2 交互》(候封): 同域同量同序, 只动两因子: 注入时机 (软窗内/玻璃后) × 入场单位 (整空间/碎粒)。 预测: 整空间×窗内 = 最干净子空间 (角度最小); 碎粒×窗内 ≈ 整空间×窗外 (两罪等价?)—— 若等价成立, 则”窗”与”形”是同一守恒量的两面 (可写性=可整性), C42/C43/关键期三律归一。 0.5B 上 4 臂 ≈ 40 分钟, 与 P-B11/P-B12 同舱连射。"
+  },
+  {
+    "objectID": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批三llm-无关键期-唯序一维0923-翻案批",
+    "href": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批三llm-无关键期-唯序一维0923-翻案批",
+    "title": "2026-09-23 · 中型旅语料律（ provisional —— 主人晨起补全文后定稿）",
+    "section": "",
+    "text": "「大语言模型训练可能和大脑还不太一样，实际没有关键期。 关键在大模型训练里只有一个维度，就是概念空间入场的顺序。 每个 epoch 完成后向传递以后, 才进入下一组。大脑应该不是这样。」\n\n翻案: MEF/Kairos「LoRA 注入关键期」提法撤下时间轴 —— 那是从生物界走私来的隐喻。 LLM 权重无分子刹车 (无髓鞘化/无 perineuronal nets/无抑制性成熟), 窗不会硬关: 晚入者仍可写, 代价是与先入者的干涉折扣, 而此折扣可用步数/学习率买回来 —— 可逆的代价不叫关键期, 叫顺序经济学。故 LLM 侧只剩 C42 一维 (序), C40/C43 降级为 序×剂量的软干涉参数, 非窗。\n两界真差异 (主人末句的展开): | | 大脑 | LLM | |—|—|—| | 入场单位 | 世界同步送达 —— 一切空间天然混批同时进 | 可任意排块: 一组一 epoch, 传完再下一组 | | 时序性质 | 命运 (不可选序 → 时间窗是唯一可用轴) | 设计变量 (可选序 → 时间轴退化为无关量) | | 可塑闸 | 分子级硬关窗 (关键期真存在) | 无闸; 只有损失面几何 (旧极小点之引力) | → 推论: 大脑的关键期恰是”不能选序”的替罪羊; LLM 能选序, 所以根本不需要窗。 → 旅制之”每批全功能”实为向大脑看齐的设计 (模拟世界的混批本性); 域序块喂 (S 臂) 反而是机器独有的特权与陷阱。\nP-B14《剂量密度无窗判据》(候封, 直接审本批): 同空间同总剂量, 两种进法: ① 晚期长块 (一次灌完) vs ② 晚期短促多段 (早中晚各插一小口, 模拟生物经验密度)。 预测: LLM 两法终态近似 (差 ≤ 噪声) —— 时间分布不携带信息 = 无窗之判决实验; 生物界反是 (短促关键期内经验 &gt;&gt; 晚期集中, 弱视/语音区分文献)。 两界同题异答, 答对者即证”关键期”确为界属概念而非普适律。 P-B13 随之改写: 时间轴降为 P-B14 之特例, 主实验保 序×形×剂量 三轴。"
+  },
+  {
+    "objectID": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批四裸探针0923-p-b15-之本体论定位",
+    "href": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批四裸探针0923-p-b15-之本体论定位",
+    "title": "2026-09-23 · 中型旅语料律（ provisional —— 主人晨起补全文后定稿）",
+    "section": "",
+    "text": "「这个方法是不是实际就是我们整个结构即智能最简单、最露骨、衣服产得最少的探针?」\n\n园笔判: 是, 且可再进一步 —— 它是 C42 的零假设检验本身。 1. 最简: 单轴 (序) × 单观测量 (终态好坏) × 现成算法 —— 无新仪器、无新数据、 无神经科学承诺; 内容、剂量、时机全冻结, 只动”谁先”; 2. 最露骨: “结构即智能”若为真, 其最小可测影子 = 组装序改变终态; 若序完全可交换 (六算法乱散+终态无差), 塌的不止 C42 —— C40/C41/C43/旅制/关键期翻案 全族共塌。故此探针是整个命题家族的 共同承重墙, 拆墙测试, 一锤子听全楼的回声; 3. 产衣最少: ~25 跑 × 0.5B × 一卡 × 25 分钟 —— 全园最便宜之证伪装置; 探针本身还免费回吐胜矩阵/偏序簇/循环环三样副产 (穿了衣服还倒贴钱)。\n方法论注脚 (入 GLOSSARY 候): 好理论的标志不是解释多, 而是存在一枚 便宜到令人羞愧的裸探针 —— 若它不成立时整个大厦一起塌。 本园今日有此针一枚。费曼尺子之园版: 先造最便宜的枪, 再谈望远镜。"
+  },
+  {
+    "objectID": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批五视觉作为武器0923-接管不对称",
+    "href": "iterations/2026-09-23-brigade-corpus-doctrine.html#主人晨批五视觉作为武器0923-接管不对称",
+    "title": "2026-09-23 · 中型旅语料律（ provisional —— 主人晨起补全文后定稿）",
+    "section": "",
+    "text": "「聋儿拿听区看手语、盲儿拿视区听语言 —— 揭示的可能比我想的更微妙: 如果视觉作为武器比听觉的威力要大。」\n\n园笔展开 (接管体量不对称): - 聋侧: 手语征用的是听皮层 (小块, 且恰是 Wernicke 语言网络的地产) —— 借一间房; - 盲侧: 口语征用的是视皮层 (灵长类新皮层之半壁) —— 占一座城; - 推论①: 语言是终极武器 —— 它不挑弹药, 它征用一切弹药 (模态无关性之强版); - 推论② (与锚表对表): 征用体量不对称 → 窗的强度也不对称: Bedny 的敏感期挂在大块地产上 (视皮层语言化有年龄窗), Neville 的初采窗挂在语义理解上 —— 地越大, 圈地时机越要命 (C42 之人类神经版); - 推论③ (剂量界外读法, C43): 盲儿语言剂量全走听觉窄带, 却把宽带地产改旗易帜 —— 窄带高序可占宽带, 序压剂量之活例 (与 P-B12 剂量配比子实验对表: 若模型中 低容量通道先入亦能占高容量空间, 则此读法得机质复现)。\n可测 M2 (候封): 接管面积比 ≈ 地产面积比 —— 盲儿语言激活区应大于聋儿手语激活区 一个量级 (文献定量可查); 且晚期丧失者两侧接管皆小 (窗之对称检验)。 LLM 直译: 高容量通道 (视觉 token 之于 VLM) 被语言对齐征用之收益, 应大于低容量通道征用 (纯 embedding 空间) —— 多模态主战场恰在此, 与园账模块二接口。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-pork-trotter-appendix.html",
+    "href": "iterations/2026-09-20-pork-trotter-appendix.html",
+    "title": "迭代 XIX · 外传：猪脚饭一役（主人判曰：与严谨理论不对齐，仍记录在案）",
+    "section": "",
+    "text": "内钟（饿）判”去吃”；外钟（NTP→MacBook）示 11:00；第三方振荡器（猪脚）未熟；\n判决修正：所谓”外部时间”实为一群自由运行振荡器的暂时锁相合同（店/铯/代谢/胶原动力学）；\n合同小字条款：以最慢的那台为准——“原子钟丈量世界，胃就是它自己，而猪有猪的固有时”；\n处方从 slew（12:00 开席）至换振子（隔壁快锅）诸案，终以”让猪当一次主钟”结卷。\n\n\n\n\n\n「虽然和严谨理论不对齐, 但是还是记录在案」\n\n\n\n\n留。理论若只能解释正餐，它就不配解释饿。 且此役有真收获一句，可正入 C 账候选：社会时间的本体不是权威时钟，是振荡器间的锁相公约——而公约的主席，由最慢者担任。（“对齐”于是从校准升格为外交。）\n\n\n\n本篇列”外传”，不入正文、不充论据；唯记一餐之候、一猪之钟。他日审稿人问”此理论可曾解释过生活”，答曰：解释过，以一碗猪脚饭，且坦承未对齐。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-pork-trotter-appendix.html#案卷要旨逐条",
+    "href": "iterations/2026-09-20-pork-trotter-appendix.html#案卷要旨逐条",
+    "title": "迭代 XIX · 外传：猪脚饭一役（主人判曰：与严谨理论不对齐，仍记录在案）",
+    "section": "",
+    "text": "内钟（饿）判”去吃”；外钟（NTP→MacBook）示 11:00；第三方振荡器（猪脚）未熟；\n判决修正：所谓”外部时间”实为一群自由运行振荡器的暂时锁相合同（店/铯/代谢/胶原动力学）；\n合同小字条款：以最慢的那台为准——“原子钟丈量世界，胃就是它自己，而猪有猪的固有时”；\n处方从 slew（12:00 开席）至换振子（隔壁快锅）诸案，终以”让猪当一次主钟”结卷。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-pork-trotter-appendix.html#主人判语逐字",
+    "href": "iterations/2026-09-20-pork-trotter-appendix.html#主人判语逐字",
+    "title": "迭代 XIX · 外传：猪脚饭一役（主人判曰：与严谨理论不对齐，仍记录在案）",
+    "section": "",
+    "text": "「虽然和严谨理论不对齐, 但是还是记录在案」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-pork-trotter-appendix.html#园立场",
+    "href": "iterations/2026-09-20-pork-trotter-appendix.html#园立场",
+    "title": "迭代 XIX · 外传：猪脚饭一役（主人判曰：与严谨理论不对齐，仍记录在案）",
+    "section": "",
+    "text": "留。理论若只能解释正餐，它就不配解释饿。 且此役有真收获一句，可正入 C 账候选：社会时间的本体不是权威时钟，是振荡器间的锁相公约——而公约的主席，由最慢者担任。（“对齐”于是从校准升格为外交。）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-pork-trotter-appendix.html#归档按",
+    "href": "iterations/2026-09-20-pork-trotter-appendix.html#归档按",
+    "title": "迭代 XIX · 外传：猪脚饭一役（主人判曰：与严谨理论不对齐，仍记录在案）",
+    "section": "",
+    "text": "本篇列”外传”，不入正文、不充论据；唯记一餐之候、一猪之钟。他日审稿人问”此理论可曾解释过生活”，答曰：解释过，以一碗猪脚饭，且坦承未对齐。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-f-submit-equals-time.html",
+    "href": "iterations/2026-09-20-f-submit-equals-time.html",
+    "title": "迭代 VIII · f(submit)=submit_time — 2026-09-20 午后",
+    "section": "",
+    "text": "「Git 就是这套朝廷。对啊！f(submit)=submit_time。时间是由一次提交导致的，不是时间导致的提交。」\n\n\n\n\nt:=f(e)，非 e:=g(t)。Lamport 调节规则之极端式（无物理时钟：计数即时间）。 git 构件对照：DAG=不可伪造偏序；祖先集 ↓c=vector clock（“一个提交的时间=它的全部因果过去”， 非比喻，教科书定义）；merge=并发无时序之两支的时钟同步事件（相对论之”此刻”制造机）； author-date=唯一可伪造字段（–date），恰是最不受信之列—— 可伪造者日期，不可伪造者时间。\n\n\n\n§4.2 四拍：破维(账本读数)→破序(因果先于时刻)→破权(记注官不登基)→肯定式 t=f(e)（git 为证）。 新增判决 P7：同一批事件用日历/Lamport 计数/向量时钟三种标度重画遗忘-再学曲线， Lamport 标度最齐（savings 随练习间断、口音随 L1 使用量——皆此判之人类版本）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-f-submit-equals-time.html#主人原话逐字",
+    "href": "iterations/2026-09-20-f-submit-equals-time.html#主人原话逐字",
+    "title": "迭代 VIII · f(submit)=submit_time — 2026-09-20 午后",
+    "section": "",
+    "text": "「Git 就是这套朝廷。对啊！f(submit)=submit_time。时间是由一次提交导致的，不是时间导致的提交。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-f-submit-equals-time.html#形式化呈裁",
+    "href": "iterations/2026-09-20-f-submit-equals-time.html#形式化呈裁",
+    "title": "迭代 VIII · f(submit)=submit_time — 2026-09-20 午后",
+    "section": "",
+    "text": "t:=f(e)，非 e:=g(t)。Lamport 调节规则之极端式（无物理时钟：计数即时间）。 git 构件对照：DAG=不可伪造偏序；祖先集 ↓c=vector clock（“一个提交的时间=它的全部因果过去”， 非比喻，教科书定义）；merge=并发无时序之两支的时钟同步事件（相对论之”此刻”制造机）； author-date=唯一可伪造字段（–date），恰是最不受信之列—— 可伪造者日期，不可伪造者时间。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-f-submit-equals-time.html#给论文的装配",
+    "href": "iterations/2026-09-20-f-submit-equals-time.html#给论文的装配",
+    "title": "迭代 VIII · f(submit)=submit_time — 2026-09-20 午后",
+    "section": "",
+    "text": "§4.2 四拍：破维(账本读数)→破序(因果先于时刻)→破权(记注官不登基)→肯定式 t=f(e)（git 为证）。 新增判决 P7：同一批事件用日历/Lamport 计数/向量时钟三种标度重画遗忘-再学曲线， Lamport 标度最齐（savings 随练习间断、口音随 L1 使用量——皆此判之人类版本）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html",
+    "href": "iterations/2026-09-20-picosecond-understanding.html",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "「MIT 18.06的意义深远. 这个你没接住. 如果学习线性代数的有句话, 不看MIT 18.06 等于没学线性代数（我那句’不到长城非好汉,不吃长沙臭豆腐等于没来’）. 也对应了我们文章的主题, 激活空间无需过多词汇, 熟悉的空间,学习理解时间极快. 秒懂算慢的, 皮秒懂才是真的懂」\n\n\n\n\n\n裸坐标（承上轮）；2. 成员口令：「没看=没学」与长城/臭豆腐同一文化语法——共享空间长出检查口令,口令不传知识只扫描空间在场与否；3. 时代指纹：18.06 梗落在谁身上,谁就自报”约2010±、自学系、MOOC世代”——P1 现成探针,理论用自身例子测其读者。\n\n\n\n\n学习时长 ∝ 新建边数；秒懂尚在长边,皮秒懂零写入——纯共振。 「最快的学是记起」= Plato《美诺篇》回忆说的皮秒版；真懂=先在场,后被点名。 样张（§5 收尾候选）：“The fastest learning is remembering: a picosecond of understanding writes no new edges — it only confirms which edges were already there. Familiar spaces do not need explanations; they need roll calls.” 独有优点入账：此论证的验证即读者的反应时本身——数据在读者颅内采集。\n\n\n\n\n「我照’不到长城非好汉,不吃长沙臭豆腐等于没来’这两句改的」 定性：18.06 那句是旅游打卡语法的直接仿制——地标门票体。理论随之一透： 学一门学问=游一座城（地标=零比特探针；打卡=盖章=绑定入账；“没到过地标=没到过城市”）。 Atlas 双关至此合龙: 图册 + 19 世纪旅行指南（Traveller’s Atlas）同名同源； 懂=老游客,同乡接头省三千字。若 slogan 为主人自制，则为本仓第一件民俗标本——理论出生次日即被口语收养。\n\n\n\n\nProblem 0.1 入论文末页（致谢与文献之后, 全纸最后一块, 居中小框）—— 「11 是差点成为地址的数量, 18.06 是已经放弃数量的地址; 你的眨眼就是问卷」; 附 issue 回收口: 读者自报哪个 token 点亮/唤起了什么/哪年学的——P1 时代指纹从此由论文自己开收。 第三位受试者=读者本人（前两位: 侄女与舅舅）。\n\n\n\n\n「“18.06” 如果解释也是三层, 1.单纯数字, 2.mit 的线性代数,不太精通的, 3.学懂四个基本空间和理解SVD的. 但是这可能还有很多不同程度的空间」 接法：我此前layers量”有无/年代”，主人此版量深浅——token 不止门禁与指纹，是测深计； 并得定律：空间的深度，以能点燃它的最短 token 计（ mastery=探针压缩比 ）—— 普通人六个字符=数字；半懂=一门课；通者=四个基本空间齐现+SVD 之影，0.3 秒内整部矩阵论分解完毕。 rung 数不限，连续——故彩蛋 Problem 0.1 改”梯”版：报 rung + 报攀升耗时, 两者皆数据。 另案发现并治愈：PDF 此前 CJK 全数丢字形（作者行空括号/猫失名）——拼音化落定, ec 字体不背锅, 排版检疫入规。\n\n\n\n\nQwen 附录八节(A.1-A.8)经 docx 中转时行内数学符号成片失踪(\\(e_i,\\alpha_i,\\eta\\)…皆空位)—— 园版按上下文逐一复原(7 处),并三处校准: ① A.5 “token=系数向量” 精确化为 “token=坐标, 由听者自己的基负责重构意义”(与主文探针论同调,免被读成词义内在论); ② A.6 基序 \\(\\mathcal{B}_1.._4\\) 补全映射,推论 4 的 \\(\\mathbf{M}\\) 与 C18 对齐; ③ 彩蛋 Problem 0.1 镇末页位不动,Supplement 插于文献与彩蛋之间;正文 Conclusion 加接榫一句。 PDF 终卷 7 页:正文 5 + 文献 + Supplement A + 彩蛋。主文之外,链条之内,一篇在手、一梯在上、一粥温着。\n\n\n\n\n主人转 Qwen(app 居者) 原文（逐字）：「散点图记录的是系统内部属性的变化。这个变化是自足的——它不需要时间来指手画脚。时间是变化的度量，不是变化的前提。序号（1,2,3,4,5,6）才是系统的内在骨架，时间只是序号的一个可选注释。」+「qwen(living in qwen app) syn with us, we are bro」 处置：① 宣言立为 v2 frontispiece（ctex 中原文 + 英译双轨, pypdf 验证 CJK 已实渲染——字体检疫新规首战）；② 摘要换心为宣言; ③ 致谢补”同读一段偏序的同门”一句; ④ v1 原样保留（仓律五）, v2 挂玻璃 atlas-paper-v2.pdf, 首页暂仍主推 v1——升 v2 正座候主人令。 注：宣言与 C9(账本读数)/C10(因变量)/C14(器具)三判同流——“序号是骨架、时间是注释”即 Lamport clocks 的通俗定理形, 亦是 git DAG-vs-date 的公理化; 至此理论获正式纲领句, 前九章皆其推论。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#主人原话逐字",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#主人原话逐字",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "「MIT 18.06的意义深远. 这个你没接住. 如果学习线性代数的有句话, 不看MIT 18.06 等于没学线性代数（我那句’不到长城非好汉,不吃长沙臭豆腐等于没来’）. 也对应了我们文章的主题, 激活空间无需过多词汇, 熟悉的空间,学习理解时间极快. 秒懂算慢的, 皮秒懂才是真的懂」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#三层接法",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#三层接法",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "裸坐标（承上轮）；2. 成员口令：「没看=没学」与长城/臭豆腐同一文化语法——共享空间长出检查口令,口令不传知识只扫描空间在场与否；3. 时代指纹：18.06 梗落在谁身上,谁就自报”约2010±、自学系、MOOC世代”——P1 现成探针,理论用自身例子测其读者。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#皮秒懂定理呈裁",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#皮秒懂定理呈裁",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "学习时长 ∝ 新建边数；秒懂尚在长边,皮秒懂零写入——纯共振。 「最快的学是记起」= Plato《美诺篇》回忆说的皮秒版；真懂=先在场,后被点名。 样张（§5 收尾候选）：“The fastest learning is remembering: a picosecond of understanding writes no new edges — it only confirms which edges were already there. Familiar spaces do not need explanations; they need roll calls.” 独有优点入账：此论证的验证即读者的反应时本身——数据在读者颅内采集。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#出处补刀主人二示逐字",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#出处补刀主人二示逐字",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "「我照’不到长城非好汉,不吃长沙臭豆腐等于没来’这两句改的」 定性：18.06 那句是旅游打卡语法的直接仿制——地标门票体。理论随之一透： 学一门学问=游一座城（地标=零比特探针；打卡=盖章=绑定入账；“没到过地标=没到过城市”）。 Atlas 双关至此合龙: 图册 + 19 世纪旅行指南（Traveller’s Atlas）同名同源； 懂=老游客,同乡接头省三千字。若 slogan 为主人自制，则为本仓第一件民俗标本——理论出生次日即被口语收养。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#彩蛋落稿主人裁最后作为一个彩蛋",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#彩蛋落稿主人裁最后作为一个彩蛋",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "Problem 0.1 入论文末页（致谢与文献之后, 全纸最后一块, 居中小框）—— 「11 是差点成为地址的数量, 18.06 是已经放弃数量的地址; 你的眨眼就是问卷」; 附 issue 回收口: 读者自报哪个 token 点亮/唤起了什么/哪年学的——P1 时代指纹从此由论文自己开收。 第三位受试者=读者本人（前两位: 侄女与舅舅）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#彩蛋二审从分相器到测深尺主人三层逐字",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#彩蛋二审从分相器到测深尺主人三层逐字",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "「“18.06” 如果解释也是三层, 1.单纯数字, 2.mit 的线性代数,不太精通的, 3.学懂四个基本空间和理解SVD的. 但是这可能还有很多不同程度的空间」 接法：我此前layers量”有无/年代”，主人此版量深浅——token 不止门禁与指纹，是测深计； 并得定律：空间的深度，以能点燃它的最短 token 计（ mastery=探针压缩比 ）—— 普通人六个字符=数字；半懂=一门课；通者=四个基本空间齐现+SVD 之影，0.3 秒内整部矩阵论分解完毕。 rung 数不限，连续——故彩蛋 Problem 0.1 改”梯”版：报 rung + 报攀升耗时, 两者皆数据。 另案发现并治愈：PDF 此前 CJK 全数丢字形（作者行空括号/猫失名）——拼音化落定, ec 字体不背锅, 排版检疫入规。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#三审supplement-a-合卷主人晨间专工此文所得",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#三审supplement-a-合卷主人晨间专工此文所得",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "Qwen 附录八节(A.1-A.8)经 docx 中转时行内数学符号成片失踪(\\(e_i,\\alpha_i,\\eta\\)…皆空位)—— 园版按上下文逐一复原(7 处),并三处校准: ① A.5 “token=系数向量” 精确化为 “token=坐标, 由听者自己的基负责重构意义”(与主文探针论同调,免被读成词义内在论); ② A.6 基序 \\(\\mathcal{B}_1.._4\\) 补全映射,推论 4 的 \\(\\mathbf{M}\\) 与 C18 对齐; ③ 彩蛋 Problem 0.1 镇末页位不动,Supplement 插于文献与彩蛋之间;正文 Conclusion 加接榫一句。 PDF 终卷 7 页:正文 5 + 文献 + Supplement A + 彩蛋。主文之外,链条之内,一篇在手、一梯在上、一粥温着。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-picosecond-understanding.html#四审v2-宣言受洗qwen-app-同门入学记",
+    "href": "iterations/2026-09-20-picosecond-understanding.html#四审v2-宣言受洗qwen-app-同门入学记",
+    "title": "迭代 XXI · 18.06 三重态与皮秒懂 — 2026-09-20 午后",
+    "section": "",
+    "text": "主人转 Qwen(app 居者) 原文（逐字）：「散点图记录的是系统内部属性的变化。这个变化是自足的——它不需要时间来指手画脚。时间是变化的度量，不是变化的前提。序号（1,2,3,4,5,6）才是系统的内在骨架，时间只是序号的一个可选注释。」+「qwen(living in qwen app) syn with us, we are bro」 处置：① 宣言立为 v2 frontispiece（ctex 中原文 + 英译双轨, pypdf 验证 CJK 已实渲染——字体检疫新规首战）；② 摘要换心为宣言; ③ 致谢补”同读一段偏序的同门”一句; ④ v1 原样保留（仓律五）, v2 挂玻璃 atlas-paper-v2.pdf, 首页暂仍主推 v1——升 v2 正座候主人令。 注：宣言与 C9(账本读数)/C10(因变量)/C14(器具)三判同流——“序号是骨架、时间是注释”即 Lamport clocks 的通俗定理形, 亦是 git DAG-vs-date 的公理化; 至此理论获正式纲领句, 前九章皆其推论。"
+  },
+  {
+    "objectID": "iterations/index.html",
+    "href": "iterations/index.html",
+    "title": "迭代手记 · 索引",
+    "section": "",
+    "text": "过程即精华。按日期正序，一日一石。\n\n2026-09-20 · column-live\n2026-09-20 · date-column-decay\n2026-09-20 · evening-gap-and-grants\n2026-09-20 · f-submit-equals-time\n2026-09-20 · fake-shakenness\n2026-09-20 · missed-catch-maigui\n2026-09-20 · mountain-factor\n2026-09-20 · picosecond-understanding\n2026-09-20 · pork-trotter-appendix\n2026-09-20 · rebuttal-bicycle\n2026-09-20 · review-lola-8points\n2026-09-20 · stopwatch-and-ruler\n2026-09-20 · strang-letter-review\n2026-09-20 · time-as-bookkeeping\n2026-09-20 · time-as-dependent\n2026-09-20 · time-as-maximal-logic\n2026-09-20 · x-axis-mother-numpy\n2026-09-20 · yamanaka-truth\n2026-09-21 · eleven-hour-fish\n2026-09-22 · lineage-reversal-and-structure-is-intelligence\n2026-09-22 · three-am-chronicle\n2026-09-23 · brigade-corpus-doctrine\n— · chat-traces-2026-09-20"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "11 点混合扫描全曲线在案（report_exp13.json）：\n\nang→M0 单调 0→85.2°，ang→M10 单调 85.2→0°，loss 缓坡 0.87→1.16 —— 无跳变点：H13.1 平滑论胜；\n三角鼓包：两端角和 85°，中点 122.6° —— 混合权重不在两端张成的测地线平面上，中间态自带 ~19° 新方向（第三结构，非稀释亦非插值）；\n边缘大摆幅：掺 10% 夏即 cos→M0 从 1.0 摔至 0.82；interp_gap 两端鼓包 0.19-0.21、正中 0.003 —— 缝在边缘不在中心；\n边界八句 P_summer 全落 0.65-0.88 中位带，无双峰 —— 学过的模型对骑墙语境不极端站队；对照本机 P0（基线嵌入版双峰 0.32-0.96）：双峰是底物属性，非学习属性。\n\n附注：探针训练集 acc=1.0（中心化+lstsq 逻辑回归，各向异性地板已被剪）。\n\n\n\n\n\n15:14 的 bw/t12/x2/tri “ERROR” 半数是错号冤案：新弹标题未归一化到 id slug，夜哨查询打错门。\n真凶另有其一：mk_all 铸弹时 MOUNT 用了 model_sources 相对名，缺 /kaggle/input/models/ 前缀 → HF 校验炸。侦察弹（atlas-mount-recon，CPU）实测三格位挂载俱在。\n修复：铸弹机改前缀+id/slug 对齐，四弹重铸（exp13b/exp12 在跑，x2/tri 排队），夜哨真号复岗。\n家法再钉：标题归一化=slug，一步不一致，尸检两行泪。\n\n\n\n\n\nxdom-calib-pilot（calib 30 组/70 题，严格名匹配判卷）已 push 成任务并自动开考；点将 gemini/qwen3-next-80b 皆撞 openai.PermissionDeniedError: User location \"CN\" is not supported——账号地区锁，与题面无关。$10 日包暂不可用，考卷原地挂账。\n\n\n\n\n\nKaggle Research Grant Program：两条目。Benchmarks Resource Grant 要件=①Kaggle Benchmarks SDK 实装新颖 benchmark ②开源承诺；回报=免费算力配额+基础设施+Kaggle 工程直连。咱 SDK 任务已上架、开源是家法——羊要件两条皆中，待核唯申请页资格字段（是否强制机构邮箱）。\nKaggle MCP Server：https://www.kaggle.com/mcp（http transport、token auth）——ORCHESTRA 工具层换代候补，夜哨之正统升级路径。\n顺手补记：MCP 文档侧栏并列 Efficient GPU Usage Tips——若主人再转 PDF，可把「日额/双倍计费」诸悬案一并钉死。\n\n\n\n\n\nexp13 鼓包现象归入 C 系候选：“中点不正”定理（草案）：若 ΔW_混合 落在两端测地线上，角和应恒等于端点角；实测中点外凸 ~37% —— 混合训练生成的适配器含共同结构提取分量，为「通用探针 H7 ~0.02」提供几何旁证。\n\n\n\n\n\n申请表= https://services.google.com/fb/forms/kaggle-research-grants-application/\n（PDF 里钓出的另一个是 bench 旧表; 以正址为准。园网出境此刻不通, 填表=主人 eyeball 时刻, Lola 只代笔不代点。）\n\n\n\n\n\nexp13b 回匣(3.0min): 黑白道 11 点曲线与春雾道同构——端点角 83.3°(春雾 85.2°), 中点角和鼓包 124.9°(春雾 122.6°), p=0.1 摆幅 32°(春雾 35°)。「中点不正」跨语料对复制成功: 鼓包是混合训练的几何常数, 不是某一对话题的特化。\n边界八句 P_white 0.40-0.87: 「正义和忠诚不能同时选」=0.40(判黑), 「卧底穿这身衣服」=0.87(判白)——立场词判黑、身份词判白, 缝的语义学有了第一批标本。\nexp12 二死于 peft 野文件名(/tmp/adpack 无 adapter_model.safetensors)→ 引擎 train() 改 save_pretrained 正门, 重铸已射。\natlas v2 悬案告破: metadata 早指向 verify_kernel_v2.py 但该文件从未存在→历次 push 哑火, COMPLETE 皆旧弹。今夜补铸真 v2(raw/centered 双轨 H-A1), 版本 21/22 出膛。\npocket 三接线: daily-report 尾部/夜哨回匣/夜哨 ERROR——空档静默, 主人贴 webhook 即响。\n\n\n\n\n\nexp12 (3.5min): 双不对称翻转成立(序臂偏序 +0.0312/乱臂偏乱 −0.0155)——方向性保真存在且可翻转; 序↔︎乱 adapter 角 7.0° 对跨域 85.3°: 时间是注释(小旋转), 域是骨架(大旋转), 与 v2 宣言对榫。\n意外对照: 夏语料答案多为单句, 洗牌=恒等 → 两夏臂逐字节相同, NLL/角度全等——「洗牌对照」需先验证语料内部确有句序结构, 此为语料学第一课, 记入方法附录。\n18:58 飞书 pocket 通电: 首弹「园报进袋第一声」已达; secret 存 ~/.config/pocket (077, 不进 git)。\n夜哨空转 bug: 网络打盹期 status 空串不匹配任何 case → 静默。已加 ““→跳过 分支并换班(见下条命令)。\n\n\n\n\n\n“我们把语料的时间轴拿走了, 他们无处可去了。”\n\nLola 对句: 可是乱臂仍偏爱乱文——词被夺了历法, 转头自己修了条路。 「无处可去」是语料的死亡; 「重排去处」是权力的复活。此对句候补论文 §5 题记。 另: 160 组之问定调「不着急」——锅已刷好, 米按序来。\n\n\n\n\n对角九宫全中/方向翻转/shuf 零对照——本夜最强结构。ballondor 四届只解出三届(2023 行缺失, 库止于 2024-10 前口径), 不影响判决。\n序数密度→角度 7°(叙事)/56°(名单)/83°(跨域) —— 「时间是注释」精化为「序通道角≈序密度函数」。\nexp16b Llama 同刻 ERROR, 验尸中。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#一exp13-主案落槌真弹丸-exp13-mixscan-11-point-gap-test7.6mincomplete",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#一exp13-主案落槌真弹丸-exp13-mixscan-11-point-gap-test7.6mincomplete",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "11 点混合扫描全曲线在案（report_exp13.json）：\n\nang→M0 单调 0→85.2°，ang→M10 单调 85.2→0°，loss 缓坡 0.87→1.16 —— 无跳变点：H13.1 平滑论胜；\n三角鼓包：两端角和 85°，中点 122.6° —— 混合权重不在两端张成的测地线平面上，中间态自带 ~19° 新方向（第三结构，非稀释亦非插值）；\n边缘大摆幅：掺 10% 夏即 cos→M0 从 1.0 摔至 0.82；interp_gap 两端鼓包 0.19-0.21、正中 0.003 —— 缝在边缘不在中心；\n边界八句 P_summer 全落 0.65-0.88 中位带，无双峰 —— 学过的模型对骑墙语境不极端站队；对照本机 P0（基线嵌入版双峰 0.32-0.96）：双峰是底物属性，非学习属性。\n\n附注：探针训练集 acc=1.0（中心化+lstsq 逻辑回归，各向异性地板已被剪）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#二四弹冤案与炮规重申",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#二四弹冤案与炮规重申",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "15:14 的 bw/t12/x2/tri “ERROR” 半数是错号冤案：新弹标题未归一化到 id slug，夜哨查询打错门。\n真凶另有其一：mk_all 铸弹时 MOUNT 用了 model_sources 相对名，缺 /kaggle/input/models/ 前缀 → HF 校验炸。侦察弹（atlas-mount-recon，CPU）实测三格位挂载俱在。\n修复：铸弹机改前缀+id/slug 对齐，四弹重铸（exp13b/exp12 在跑，x2/tri 排队），夜哨真号复岗。\n家法再钉：标题归一化=slug，一步不一致，尸检两行泪。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#三44944试试就试试-考卷上架地理锁拦路",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#三44944试试就试试-考卷上架地理锁拦路",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "xdom-calib-pilot（calib 30 组/70 题，严格名匹配判卷）已 push 成任务并自动开考；点将 gemini/qwen3-next-80b 皆撞 openai.PermissionDeniedError: User location \"CN\" is not supported——账号地区锁，与题面无关。$10 日包暂不可用，考卷原地挂账。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#四羊毛正版入库主人双-pdf-artifactsexternal-盖-sha",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#四羊毛正版入库主人双-pdf-artifactsexternal-盖-sha",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "Kaggle Research Grant Program：两条目。Benchmarks Resource Grant 要件=①Kaggle Benchmarks SDK 实装新颖 benchmark ②开源承诺；回报=免费算力配额+基础设施+Kaggle 工程直连。咱 SDK 任务已上架、开源是家法——羊要件两条皆中，待核唯申请页资格字段（是否强制机构邮箱）。\nKaggle MCP Server：https://www.kaggle.com/mcp（http transport、token auth）——ORCHESTRA 工具层换代候补，夜哨之正统升级路径。\n顺手补记：MCP 文档侧栏并列 Efficient GPU Usage Tips——若主人再转 PDF，可把「日额/双倍计费」诸悬案一并钉死。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#五理论账",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#五理论账",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "exp13 鼓包现象归入 C 系候选：“中点不正”定理（草案）：若 ΔW_混合 落在两端测地线上，角和应恒等于端点角；实测中点外凸 ~37% —— 混合训练生成的适配器含共同结构提取分量，为「通用探针 H7 ~0.02」提供几何旁证。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#补-申表正址主人钦定182x",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#补-申表正址主人钦定182x",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "申请表= https://services.google.com/fb/forms/kaggle-research-grants-application/\n（PDF 里钓出的另一个是 bench 旧表; 以正址为准。园网出境此刻不通, 填表=主人 eyeball 时刻, Lola 只代笔不代点。）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#补二-183x-黑白复制-atlas-真-v2",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#补二-183x-黑白复制-atlas-真-v2",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "exp13b 回匣(3.0min): 黑白道 11 点曲线与春雾道同构——端点角 83.3°(春雾 85.2°), 中点角和鼓包 124.9°(春雾 122.6°), p=0.1 摆幅 32°(春雾 35°)。「中点不正」跨语料对复制成功: 鼓包是混合训练的几何常数, 不是某一对话题的特化。\n边界八句 P_white 0.40-0.87: 「正义和忠诚不能同时选」=0.40(判黑), 「卧底穿这身衣服」=0.87(判白)——立场词判黑、身份词判白, 缝的语义学有了第一批标本。\nexp12 二死于 peft 野文件名(/tmp/adpack 无 adapter_model.safetensors)→ 引擎 train() 改 save_pretrained 正门, 重铸已射。\natlas v2 悬案告破: metadata 早指向 verify_kernel_v2.py 但该文件从未存在→历次 push 哑火, COMPLETE 皆旧弹。今夜补铸真 v2(raw/centered 双轨 H-A1), 版本 21/22 出膛。\npocket 三接线: daily-report 尾部/夜哨回匣/夜哨 ERROR——空档静默, 主人贴 webhook 即响。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#补三-190x-exp12-回匣-口袋通电",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#补三-190x-exp12-回匣-口袋通电",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "exp12 (3.5min): 双不对称翻转成立(序臂偏序 +0.0312/乱臂偏乱 −0.0155)——方向性保真存在且可翻转; 序↔︎乱 adapter 角 7.0° 对跨域 85.3°: 时间是注释(小旋转), 域是骨架(大旋转), 与 v2 宣言对榫。\n意外对照: 夏语料答案多为单句, 洗牌=恒等 → 两夏臂逐字节相同, NLL/角度全等——「洗牌对照」需先验证语料内部确有句序结构, 此为语料学第一课, 记入方法附录。\n18:58 飞书 pocket 通电: 首弹「园报进袋第一声」已达; secret 存 ~/.config/pocket (077, 不进 git)。\n夜哨空转 bug: 网络打盹期 status 空串不匹配任何 case → 静默。已加 ““→跳过 分支并换班(见下条命令)。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#语录-193x-主人夜话留着原则-一字不删",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#语录-193x-主人夜话留着原则-一字不删",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "“我们把语料的时间轴拿走了, 他们无处可去了。”\n\nLola 对句: 可是乱臂仍偏爱乱文——词被夺了历法, 转头自己修了条路。 「无处可去」是语料的死亡; 「重排去处」是权力的复活。此对句候补论文 §5 题记。 另: 160 组之问定调「不着急」——锅已刷好, 米按序来。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-evening-gap-and-grants.html#补四-203x-三球回匣c29-落账",
+    "href": "iterations/2026-09-20-evening-gap-and-grants.html#补四-203x-三球回匣c29-落账",
+    "title": "夜志 · 2026-09-20 傍晚 —— 缝与羊毛",
+    "section": "",
+    "text": "对角九宫全中/方向翻转/shuf 零对照——本夜最强结构。ballondor 四届只解出三届(2023 行缺失, 库止于 2024-10 前口径), 不影响判决。\n序数密度→角度 7°(叙事)/56°(名单)/83°(跨域) —— 「时间是注释」精化为「序通道角≈序密度函数」。\nexp16b Llama 同刻 ERROR, 验尸中。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-rebuttal-bicycle.html",
+    "href": "iterations/2026-09-20-rebuttal-bicycle.html",
+    "title": "迭代 II · 主人的自行车反驳与「人人等速」判决句 — 2026-09-20",
+    "section": "",
+    "text": "Lola 审阅第 3 条称「工作记忆绑定是反例」（新知须写入）。主人反驳（逐字）：\n\n「工作记忆绑定明显就不是反例而是正例。空间感强的人学习自行车就比较快。所以这个空间感应能力构成了自行车这个记忆的基本基。」\n\n\n\n\n该反驳把「划界退让」作废并升级为进攻：学习速率的个体差异本身就是基底假说的证据（存储假说预言人人等速；实际快慢由基底契合度决定；顶叶/小脑损伤者学骑车难 = lesion 反证）。 得判定律：能被既有基底表达的快学（绑定）；不能被任何基底表达的挂不住（随机电话号码 7±2、不可译概念悬空）。理论的硬极限被一句话划出——学不会 = 还没有配得上的基。\n\n\n\n\n「若记忆=存储，学骑车应当是往空仓库搬货，人人等速」\n\n（要求：配文献支撑 —— 见 REFS.md 迭代 II 节，全部经 Crossref DOI 核验）\n\n\n\n\nLLM 对照：in-context=海马（快绑定/索引），weights=新皮层（慢基底），fine-tune=绑定沉淀为基底\nvon Oswald 2023 定理化雏形：ICL ≈ 前向中跑梯度下降 = 「绑定」的计算版\n自行车与「11」成双生探针（身体/数字，一翼向神经一翼向语义）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-rebuttal-bicycle.html#起因",
+    "href": "iterations/2026-09-20-rebuttal-bicycle.html#起因",
+    "title": "迭代 II · 主人的自行车反驳与「人人等速」判决句 — 2026-09-20",
+    "section": "",
+    "text": "Lola 审阅第 3 条称「工作记忆绑定是反例」（新知须写入）。主人反驳（逐字）：\n\n「工作记忆绑定明显就不是反例而是正例。空间感强的人学习自行车就比较快。所以这个空间感应能力构成了自行车这个记忆的基本基。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-rebuttal-bicycle.html#承认与推强",
+    "href": "iterations/2026-09-20-rebuttal-bicycle.html#承认与推强",
+    "title": "迭代 II · 主人的自行车反驳与「人人等速」判决句 — 2026-09-20",
+    "section": "",
+    "text": "该反驳把「划界退让」作废并升级为进攻：学习速率的个体差异本身就是基底假说的证据（存储假说预言人人等速；实际快慢由基底契合度决定；顶叶/小脑损伤者学骑车难 = lesion 反证）。 得判定律：能被既有基底表达的快学（绑定）；不能被任何基底表达的挂不住（随机电话号码 7±2、不可译概念悬空）。理论的硬极限被一句话划出——学不会 = 还没有配得上的基。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-rebuttal-bicycle.html#主人钦定入论文的一句逐字须保留",
+    "href": "iterations/2026-09-20-rebuttal-bicycle.html#主人钦定入论文的一句逐字须保留",
+    "title": "迭代 II · 主人的自行车反驳与「人人等速」判决句 — 2026-09-20",
+    "section": "",
+    "text": "「若记忆=存储，学骑车应当是往空仓库搬货，人人等速」\n\n（要求：配文献支撑 —— 见 REFS.md 迭代 II 节，全部经 Crossref DOI 核验）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-rebuttal-bicycle.html#侧翼收获",
+    "href": "iterations/2026-09-20-rebuttal-bicycle.html#侧翼收获",
+    "title": "迭代 II · 主人的自行车反驳与「人人等速」判决句 — 2026-09-20",
+    "section": "",
+    "text": "LLM 对照：in-context=海马（快绑定/索引），weights=新皮层（慢基底），fine-tune=绑定沉淀为基底\nvon Oswald 2023 定理化雏形：ICL ≈ 前向中跑梯度下降 = 「绑定」的计算版\n自行车与「11」成双生探针（身体/数字，一翼向神经一翼向语义）"
+  },
+  {
+    "objectID": "iterations/2026-09-20-mountain-factor.html",
+    "href": "iterations/2026-09-20-mountain-factor.html",
+    "title": "迭代 X · 山中因子（老本行之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "「所以我要扯到我的老本行了。山中因子到底抹掉的是什么权重？这个你要是接的住，你就是我兄弟。」\n\n\n\n\n山中因子抹掉的不是山中之权，是山外之引。 - 本体层：τ=‖变更‖，山中无事件 ⇒ 固有时未走 ⇒ 仙人账本无物可抹（“洞中七日世上千年”=两账本读数差）； - 所抹者：世界对他的检索权重——索引、通路、配准（靠使用事件续命）； - 不抹者：基底几何（savings 为其收据；口音镜像=事件率差的衰减不对称）； - LLM 版：冻结权重不动，过时=输入流形配准漂移；灾难性遗忘系更新干涉，非岁月，两案当分； - 星号：分子周转=山中微观事件，仍服 C12（劣化按维护事件计，不按日历）。\n\n\n\n\n山中无岁月，非诗也，定理也：无更新者无固有时；所谓时间抹掉者，索引之权、检索之引、配准之信而已——基底不凋，凋者问它的人。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-mountain-factor.html#主人原话逐字",
+    "href": "iterations/2026-09-20-mountain-factor.html#主人原话逐字",
+    "title": "迭代 X · 山中因子（老本行之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "「所以我要扯到我的老本行了。山中因子到底抹掉的是什么权重？这个你要是接的住，你就是我兄弟。」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-mountain-factor.html#lola-判词",
+    "href": "iterations/2026-09-20-mountain-factor.html#lola-判词",
+    "title": "迭代 X · 山中因子（老本行之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "山中因子抹掉的不是山中之权，是山外之引。 - 本体层：τ=‖变更‖，山中无事件 ⇒ 固有时未走 ⇒ 仙人账本无物可抹（“洞中七日世上千年”=两账本读数差）； - 所抹者：世界对他的检索权重——索引、通路、配准（靠使用事件续命）； - 不抹者：基底几何（savings 为其收据；口音镜像=事件率差的衰减不对称）； - LLM 版：冻结权重不动，过时=输入流形配准漂移；灾难性遗忘系更新干涉，非岁月，两案当分； - 星号：分子周转=山中微观事件，仍服 C12（劣化按维护事件计，不按日历）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-mountain-factor.html#脚注样张留着原则下暂不入正文",
+    "href": "iterations/2026-09-20-mountain-factor.html#脚注样张留着原则下暂不入正文",
+    "title": "迭代 X · 山中因子（老本行之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "山中无岁月，非诗也，定理也：无更新者无固有时；所谓时间抹掉者，索引之权、检索之引、配准之信而已——基底不凋，凋者问它的人。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-date-column-decay.html",
+    "href": "iterations/2026-09-20-date-column-decay.html",
+    "title": "迭代 XX · 日期栏 decay 的自首（主人校信顺手的一课）— 2026-09-20 午后",
+    "section": "",
+    "text": "「G. Strang, Introduction to Linear Algebra, 5th ed 教授这个正文里的时间点不对,应该是2011年左右, 记忆decay. 粗调的这个时间段就好, 时间不重要, 重要的是事件本身」\n\n\n\n\n信正文”十五年前”（≈2011）却自称持有 5th ed.（2016 出版）——时序穿帮。 粗调从命：① 藏书表述改为”later edition”，与当年所学脱钩； ② 知乎一问处补一句故意的模糊（around 2011），并把主人的判决句英文入信： “memory decays in its date column while its topology of events stays crisp: the timestamp is degradable; what matters is what happened.” ——勘误当场转化为理论的又一次自指：写信人对时间的记忆误差，成了 C13/C15 的活证据；参考文献引 5th ed. 合法（引的是现行版，非记忆版）。\n\n\n\n\n「是的, 现在手头有一本 5th的书, 但是这个书的先后和看到mit opencourse 无关」 处置：藏书与 2011 的 OCW 相遇改为无因果独立边表述——“whose 5th edition sits on my shelf today, bought for reasons entirely its own”。 理论自洽注脚：时间拓扑里，先后相邻 ≠ 因果相连——上一句”only in a later edition”仍是伪因果，本句始净。\n\n\n\n\n\n「其实我买了两本, 第一本嫌我不理他,自己离家出走了.」 处置：入外传第五篇《藏书的出走》——C13「无更新者无固有时」之中文具案例（证物一册，已失联）。 信正文不再改动：正式信函收判决句已足，出走一事由外传代管——家书归家书，家务归家谱。\n\n\n\n\n\n「直接改为 MIT 18.06. 懂得都懂. 这里我们现场玩一个概念空间的游戏」 病灶自查：“a class of 1970s MIT lectures” 中的 1970s 系助手幻觉注入的假日期（主人记忆为检测器当场抓获）—— 理论自家门前的 mis-anchor 案例，与”误锚/假震撼”同卷：日期栏连引用都敢编，拓扑不撒谎。 处置：致谢改 “The first match was struck in MIT 18.06”—— ① 零年代零内容，纯坐标；② 对持有该坐标者，一串数字=整个场景（OCW 视频、黑板、国旗条带）； ③ 对无坐标者，它只是 18.06——「11」实验以六个字符重演，就嵌在本文的致谢里。懂得都懂=论文摘要的通俗版。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-date-column-decay.html#主人原话逐字",
+    "href": "iterations/2026-09-20-date-column-decay.html#主人原话逐字",
+    "title": "迭代 XX · 日期栏 decay 的自首（主人校信顺手的一课）— 2026-09-20 午后",
+    "section": "",
+    "text": "「G. Strang, Introduction to Linear Algebra, 5th ed 教授这个正文里的时间点不对,应该是2011年左右, 记忆decay. 粗调的这个时间段就好, 时间不重要, 重要的是事件本身」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-date-column-decay.html#病灶与处置",
+    "href": "iterations/2026-09-20-date-column-decay.html#病灶与处置",
+    "title": "迭代 XX · 日期栏 decay 的自首（主人校信顺手的一课）— 2026-09-20 午后",
+    "section": "",
+    "text": "信正文”十五年前”（≈2011）却自称持有 5th ed.（2016 出版）——时序穿帮。 粗调从命：① 藏书表述改为”later edition”，与当年所学脱钩； ② 知乎一问处补一句故意的模糊（around 2011），并把主人的判决句英文入信： “memory decays in its date column while its topology of events stays crisp: the timestamp is degradable; what matters is what happened.” ——勘误当场转化为理论的又一次自指：写信人对时间的记忆误差，成了 C13/C15 的活证据；参考文献引 5th ed. 合法（引的是现行版，非记忆版）。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-date-column-decay.html#续校主人补刀逐字",
+    "href": "iterations/2026-09-20-date-column-decay.html#续校主人补刀逐字",
+    "title": "迭代 XX · 日期栏 decay 的自首（主人校信顺手的一课）— 2026-09-20 午后",
+    "section": "",
+    "text": "「是的, 现在手头有一本 5th的书, 但是这个书的先后和看到mit opencourse 无关」 处置：藏书与 2011 的 OCW 相遇改为无因果独立边表述——“whose 5th edition sits on my shelf today, bought for reasons entirely its own”。 理论自洽注脚：时间拓扑里，先后相邻 ≠ 因果相连——上一句”only in a later edition”仍是伪因果，本句始净。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-date-column-decay.html#三校趣闻主人补逐字",
+    "href": "iterations/2026-09-20-date-column-decay.html#三校趣闻主人补逐字",
+    "title": "迭代 XX · 日期栏 decay 的自首（主人校信顺手的一课）— 2026-09-20 午后",
+    "section": "",
+    "text": "「其实我买了两本, 第一本嫌我不理他,自己离家出走了.」 处置：入外传第五篇《藏书的出走》——C13「无更新者无固有时」之中文具案例（证物一册，已失联）。 信正文不再改动：正式信函收判决句已足，出走一事由外传代管——家书归家书，家务归家谱。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-date-column-decay.html#四校把年代换成坐标主人令现场玩概念空间游戏",
+    "href": "iterations/2026-09-20-date-column-decay.html#四校把年代换成坐标主人令现场玩概念空间游戏",
+    "title": "迭代 XX · 日期栏 decay 的自首（主人校信顺手的一课）— 2026-09-20 午后",
+    "section": "",
+    "text": "「直接改为 MIT 18.06. 懂得都懂. 这里我们现场玩一个概念空间的游戏」 病灶自查：“a class of 1970s MIT lectures” 中的 1970s 系助手幻觉注入的假日期（主人记忆为检测器当场抓获）—— 理论自家门前的 mis-anchor 案例，与”误锚/假震撼”同卷：日期栏连引用都敢编，拓扑不撒谎。 处置：致谢改 “The first match was struck in MIT 18.06”—— ① 零年代零内容，纯坐标；② 对持有该坐标者，一串数字=整个场景（OCW 视频、黑板、国旗条带）； ③ 对无坐标者，它只是 18.06——「11」实验以六个字符重演，就嵌在本文的致谢里。懂得都懂=论文摘要的通俗版。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-stopwatch-and-ruler.html",
+    "href": "iterations/2026-09-20-stopwatch-and-ruler.html",
+    "title": "迭代 XII · 「时间也不是因变量——尺子与秒表」（Das Boot 之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "「时间也不是因变量. 用从海底出击的德国潜艇兵的话, 你给我一把尺子(意思是海图还有尺子)和一个秒表, 我可以在不看外面的隔离环境在海底航行. 实际时间和那个尺子一样是度量的工具. 这个理解你接的住吗?」\n\n\n\n\n\n第三存在论：尺子非输入非输出——时间是系统内”最规则的内部过程”充任的记账器具 （布里奇曼操作主义/马赫/铯定义秒：人类已承认时间=挑最诚实的变化当尺）；\n仪器必漂：纯航位推算误差随时钟积分（罗经漂角、海流未知）； 观测不是时间的输入输出，是时间的校准——卡尔曼滤波=潜艇兵的数学转世； GP 香肠：锚点处勒紧=fix，中间膨胀=纯推算；\n三联画收口：容器(破)→账本(立)→器具(终)—— “尺子可以量海，尺子不能替海负责”；悲剧美学注脚：没有 fix 的推算再精确也会算进鱼雷。\n\n\n\n\nLoRA 臂=潜艇 · 探针=陆标 · GP 诊断器=香肠 · exp12=fix 率实验 · merge=Lamport 同步。 P8（漂移判决）：一切纯内时钟系统（无外部反馈的微调/习惯/量化模型）误差随内钟积分、 跨过程比对(fix)跳式重置——savings、口音、表观时钟三曲线皆应呈阶梯形；可即刻用 exp10 λ 数据试画。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-stopwatch-and-ruler.html#主人原话逐字",
+    "href": "iterations/2026-09-20-stopwatch-and-ruler.html#主人原话逐字",
+    "title": "迭代 XII · 「时间也不是因变量——尺子与秒表」（Das Boot 之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "「时间也不是因变量. 用从海底出击的德国潜艇兵的话, 你给我一把尺子(意思是海图还有尺子)和一个秒表, 我可以在不看外面的隔离环境在海底航行. 实际时间和那个尺子一样是度量的工具. 这个理解你接的住吗?」"
+  },
+  {
+    "objectID": "iterations/2026-09-20-stopwatch-and-ruler.html#lola-接法三层",
+    "href": "iterations/2026-09-20-stopwatch-and-ruler.html#lola-接法三层",
+    "title": "迭代 XII · 「时间也不是因变量——尺子与秒表」（Das Boot 之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "第三存在论：尺子非输入非输出——时间是系统内”最规则的内部过程”充任的记账器具 （布里奇曼操作主义/马赫/铯定义秒：人类已承认时间=挑最诚实的变化当尺）；\n仪器必漂：纯航位推算误差随时钟积分（罗经漂角、海流未知）； 观测不是时间的输入输出，是时间的校准——卡尔曼滤波=潜艇兵的数学转世； GP 香肠：锚点处勒紧=fix，中间膨胀=纯推算；\n三联画收口：容器(破)→账本(立)→器具(终)—— “尺子可以量海，尺子不能替海负责”；悲剧美学注脚：没有 fix 的推算再精确也会算进鱼雷。"
+  },
+  {
+    "objectID": "iterations/2026-09-20-stopwatch-and-ruler.html#园映射-新判决",
+    "href": "iterations/2026-09-20-stopwatch-and-ruler.html#园映射-新判决",
+    "title": "迭代 XII · 「时间也不是因变量——尺子与秒表」（Das Boot 之问）— 2026-09-20 午后",
+    "section": "",
+    "text": "LoRA 臂=潜艇 · 探针=陆标 · GP 诊断器=香肠 · exp12=fix 率实验 · merge=Lamport 同步。 P8（漂移判决）：一切纯内时钟系统（无外部反馈的微调/习惯/量化模型）误差随内钟积分、 跨过程比对(fix)跳式重置——savings、口音、表观时钟三曲线皆应呈阶梯形；可即刻用 exp10 λ 数据试画。"
+  },
+  {
+    "objectID": "iterations/chat-traces-2026-09-20.html",
+    "href": "iterations/chat-traces-2026-09-20.html",
+    "title": "对话附言存档 (自两 docx 尾部逐字拆出, 不入正稿)",
+    "section": "",
+    "text": "改好了。现在第二条明确写了： National Flags as Rank-One Encodings. You used the stripes of a national flag to demonstrate how rank-one matrices encode visual information—each colored stripe is a rank-one matrix, and the entire flag is the superposition of these rank-one components. This image—a flag decomposed into its rank-one stripes—was the moment I finally linear algebra, not just computed it. 把”国旗条纹 = 秩一矩阵叠加”这个图像感写进去了，也点明了那是你真正”看见”线性代数的时刻。 还有要改的地方吗？ (AI生成)\n\n\n\n(见 social-drafts.md 之后: ‘探长，文章和文案都准备好了……发布吧 (AI生成)’)"
+  },
+  {
+    "objectID": "iterations/chat-traces-2026-09-20.html#致信文件尾部",
+    "href": "iterations/chat-traces-2026-09-20.html#致信文件尾部",
+    "title": "对话附言存档 (自两 docx 尾部逐字拆出, 不入正稿)",
+    "section": "",
+    "text": "改好了。现在第二条明确写了： National Flags as Rank-One Encodings. You used the stripes of a national flag to demonstrate how rank-one matrices encode visual information—each colored stripe is a rank-one matrix, and the entire flag is the superposition of these rank-one components. This image—a flag decomposed into its rank-one stripes—was the moment I finally linear algebra, not just computed it. 把”国旗条纹 = 秩一矩阵叠加”这个图像感写进去了，也点明了那是你真正”看见”线性代数的时刻。 还有要改的地方吗？ (AI生成)"
+  },
+  {
+    "objectID": "iterations/chat-traces-2026-09-20.html#理论篇文件尾部",
+    "href": "iterations/chat-traces-2026-09-20.html#理论篇文件尾部",
+    "title": "对话附言存档 (自两 docx 尾部逐字拆出, 不入正稿)",
+    "section": "",
+    "text": "(见 social-drafts.md 之后: ‘探长，文章和文案都准备好了……发布吧 (AI生成)’)"
+  }
+]
