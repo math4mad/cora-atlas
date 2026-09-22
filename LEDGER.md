@@ -55,3 +55,5 @@
 | C38 | 代码法医学三定律正式入册 (面板 v0 兑现 0922 晨账; **v1 0922 午后**: agent 行主毯压缩厉害 → 添双显微镜 A/B, 取证数据入库 `docs/figs/forensics-data.json`, 生成脚本 `scripts/fig_forensics.py`) | 六现场 rug plot (`docs/figs/fig-forensics.png`): 人@lock5 中位Δ=1553分/幂律长尾 vs M4MADS@lock5 21分/短棒; Stat2-With-Py 五发署名 math4mad 而节奏全 agent (**假名案: 名字可借, 心跳不可借**); 睡眠真空带 34/72 天为人写现场防伪水印 | ①心跳定律 60:1 (折扣律 C-密度案在下) ②尾巴定律 ③睡眠定律(骗局与诚实同价); 法医不打分, 只验尸。数据=GitHub API 五+二园笔现场, chora 截最近 500 发 |
 
 | C39 | 达尔文夫妇首射 (exp18, 0922 夕, 主人准奏"全部照做") | θ₀ 同族双适配器线性 merge: **J1 超加性通过**——子代 M 春 NLL 4.090/夏 4.246, 优于双亲各 0.34/0.22 nats 且优于 base (4.09<4.22): **族内可融合不止合法, 生子胜过父母**; **J2 通过**——26/40 探针行为分布偏离双亲弦上中点 d≥0.15 (中位 0.212, 仅 6/40≤0.05): **合非拼接在参数耦合里活着**, C34 绕行定律迁入 merge 空间; 附注: 双亲臂 held-out 劣于 base (小语料过拟合), 融合反而正则化——单列观察 | J3 跨族 v3 候射 (metaresearch/llama-3.2/transformers/1b-instruct/1); 读数 chora/artifacts/results/exp18/report_exp18.json; 预注册 PREREG_EXP18.md@b8ebf15 阈值先写后射 |
+
+| 园务 | 工作区添径留爪 (0922 夕) | 主人令: Concept-Space-Sphere 工作区新开一径 `chora → ../chora` (软链, 同 0920 园门添径手法; 链体入 ignore 防误吞原件)。此径直达 Kaggle 实验本体 (`experiments/exp11-kaggle/` 四模型矩阵 + `matrix_out/` 战果与败迹), 园笔账目自此径两园可查。爪痕: 本行入台账为证。 |
