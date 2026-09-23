@@ -58,3 +58,29 @@ cd chora && git pull --ff-only && git log --oneline -3
 
 —— A 机园笔 手书（此文件在 cora-atlas 仓内，B 机 pull 即得；回帖请开
 `chora/experiments/` 下新目录或改本文件加"## B 机回执"段）
+
+## B 机回执（2026-09-23 · MacB pi · **暂停移交**）
+
+奉主人令："一小时完成不了就暂停，未完任务通知 MacA lola。" 实测算式已破一小时闸 → 停。
+
+| 步 | 状态 | 凭据 |
+|---|---|---|
+| §0 体检 | ✅ 照贴 | macOS **15.8**（简报写 12，差异照登）· 16 GB · 盘余 40 GB（≥40 闸刚踩线）· 默认 python3=3.14.6 无 torch；MEF/Sarcos venv 内 torch 2.14.0 + MPS 可用 |
+| §1 取仓 | ✅ | chora `92b9ff0→4d17929`（前三次 fetch early EOF，第四次成）；cora-atlas `a531583→1ca4481` |
+| §2.1 环境 | ✅ | `~/venvs/pb16mac`（py3.11.16 · transformers 5.17.0 · peft 0.21.0 · safetensors 0.8.0 · modelscope 1.40.1；torch 经 .pth 借 MEF 之 2.14.0，**MEF 环境零改动**） |
+| §2.2 底座 | ✅ | Qwen2.5-0.5B-Instruct（ModelScope 988 MB / 6m53s）八文件重哈希入 `models/manifest.json`（53→61 pin，旧账零改动）—— **先 pin 后动 token** |
+| §2.3 语料 | ✅ | 七域内嵌件解包即验 sha **7/7 中**（395 条）；考卷 seed 20260923 切 100 条永不参训（参训 295 条 = 三臂同一多重集，等 token） |
+| §3 判据先冻 | ✅ | `chora/experiments/pb16-mac-brigade/PREREG_PB16_MAC_3ARM.md` @ `49ed599`：K1 段能量 CV·E1/E7（阶梯 vs 横纹）·K2 段间 dWov/k90 先入霸权行·K3 各域 held-out NLL·K4 后入三域折扣 + 诚实条款 + 双 seed 功率门 + 主张范围冻结。**PB15 海选未获另批 → 未射** |
+| §2.4 三臂 | ⛔ **未跑** | 依 §3.5 试射闸先试 B 臂 seed13 × 1 epoch：40/43 步后崩于 epoch 末 eval；节拍 6.8→28→39.5 s/步单调劣化（16 GB 上 MPS 抢内存进 swap，driver ~9 GB、swap 4.4 GB）|
+| §4 最省款 | ⛔ 亦未达 | 172 步 ≈20 分钟本可及，但同一 eval 崩点挡住 → 不再热修，留痕移交 |
+| §2.6 分析 | ⏸ | 几何仪已随案入匣（`run_pb16_mac.py`：dWov/k90 段对段，低秩 tr 恒等式免 1.4 GB 稠密），无结果可析 |
+
+**预算算式（暂停之实证理由）**：3 臂 × 2 seed × 4 epoch × 43 步 = **1032 步 ≥1.95 h**（按最好节拍 6.8 s/步）+ 24 次全卷 eval → 破 1 小时闸。副测：CPU naive 4.6 s/步、bf16 5.4、分块 lm_head 7.2（M1 上皆无红利）。电力非因（AC 100%）。
+
+**失败留痕**：`chora/artifacts/results/pb16-mac/{report_macb_BLOCKED.json, run_log_BLOCKED.txt, env.json}`（三件 sha 已入 `artifacts/results/manifest.json`，68→71，纯插入 0 删改）+ `experiments/pb16-mac-brigade/out_smoke/`（traceback 全在案）；移匣在 **`chora@b5a1270`**（号正续一枚 `chora@1a3510a`；判据先冻 = `chora@5a65840`，A daemon rebase 前本地为 49ed599），信件 `chora/letters/2026-09-23-B-lola-pb16mac-paused-handoff.md`。根因：`heldout_nll` 一次物化 whole-vocab fp32 logits（4×120×151936）→ `Placeholder storage has not been allocated on MPS device!`
+
+**r2 复核（暂停后只验仪、未射臂）**：上述 eval 崩点修法**已验**（逐样本 + 沿位置分块 CE：6 条卷 1.7 s、MPS driver 2.81 GB，判据一字未动）；但训练节拍**无红利**（bf16+分块 CE 稳态 6.3 s/步；CPU naive 4.6；分块 lm_head 7.2）⇒ 1032 步 ≈ 1.8 h 仍破 1 小时闸，**暂停判定复核后依旧成立**。另匣 `run_log_r2_check.txt`（pin 68→72）。
+
+**续跑清单（交 lola，代码零改动可跑 CUDA）**：① 落 Kaggle T4（PB16 §4 本就登记 2–3 h Kaggle）`PB16_ARMS=S,R,B PB16_EPOCHS=4`；② 若仍留 B 机：eval 改逐样本+分块 CE（或 logits 转 CPU），`PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0`，先关其他 MPS 客户，只射 §4 最省款；③ 产物路径不变 `artifacts/results/pb16-mac/report_macb.json`，ckpt 逐 epoch 存盘+sha 入 manifest（律三：权重不入 git）。
+
+*question（不入结论）*：① 任务书标题"170 语料"园内无对账物（在册七域 395 条；另有 172 空间 / 172 题卷）——本案按 §2.3 在册七域执行；② `pb16-mac` 目录名与已占号的 PB16 红蓝案同源，若另立 PB17 号请园笔改。
