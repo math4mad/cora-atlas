@@ -2,6 +2,12 @@
 title: "Σ · 统计学部 — Στατιστική"
 ---
 
+::: {.plate-hero}
+<div class="motto"><em>The essence of statistics of building intelligence:</em><br>
+**认知每一新维之构造，恰是 CRP 新桌事件。**</div>
+<div class="sub">（MB 律 · 不走寻常路律：P(新桌)=θ/(n+θ)，主人 0924 命名——律名即律第一证物）</div>
+:::
+
 本部所藏：**分布、探针与推断——「构建智能之统计学的精髓」一语的正身诸件。**
 
 | 石 | 件 | 一句话 |
@@ -11,7 +17,7 @@ title: "Σ · 统计学部 — Στατιστική"
 | 0920 | [迭代 IX · 「假的大为震撼」自供](../iterations/2026-09-20-fake-shakenness.qmd) | 点估计冒充分布之罪 |
 | 0920 | [迭代 XXI · 18.06 三重态与皮秒懂](../iterations/2026-09-20-picosecond-understanding.qmd) | 理解的时间尺度 |
 | 0923 | [Yamato《Statistics Based on Dirichlet Processes》验尸账](../iterations/2026-09-23-yamato-dp-weather-book.qmd) | 园体天气层的气象学——DP 正身在此；ESF 双裁决与 θ 退化留档 |
-| 0924 | [MB 律上碑（碑前铭文）](../index.qmd) | P(新桌)=θ/(n+θ)：Dirichlet 家系入碑阳 |
+| 0924 | [MB 律入碑林](../GLOSSARY.qmd) | P(新桌)=θ/(n+θ)：Dirichlet 家系正册在 Λεξικόν，殿铭即本页首屏 |
 
 ::: {.note}
 均值配高斯律、联合尖峰律、加维/CRP 诸条在[术语碑林](../GLOSSARY.qmd)；实验侧的分布判据（置换零、Kendall τ、CRP 拟合 θ）在实验部各册内执法。
