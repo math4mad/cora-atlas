@@ -17,16 +17,17 @@
   targets = q/k/v/o + gate/up/down_proj, lr 1e-4, batch 2×accum 4, seed 13,
   6 epochs/arm, base Qwen2.5-0.5B-instruct（exp11/18 两案同方, 在册）。
 
-**§1.2 书目两处**：
-- 《Doing Bayesian Analysis》→ 正名 **Gelman et al., Bayesian Data Analysis**
-  （或 Kruschke 的书名才是 Doing Bayesian ……二选一，Crossref 核后落 DOI）；
-- "日本学者切蛋糕" **验讫落档 (0923 主人指架)**: **小岛宽之**『統計学、何それおいしいの？』
-  中译《统计学关我什么事：生活中的极简统计学》(日版畅销 10 万册) —— 在架 iCloud
-  ☁️BayesianStat (epub, OEBPS 元数据核讫, creator=小岛宽之)。英文版引用格式:
-  *Kojima, H. (2018). Statistics, What Does It Have To Do With Us? — the cake-cutting
-  metaphor of information-based probability redistribution* (中译本名 *统计学关我什么事*)。
-  可选加固: 同段并引 Jaynes《Probability Theory》之"信息即概率测度的更新"作英文正统锚,
-  小岛为科普锚 —— 双锚各表其位, 不混。
+**§1.2 书目两处 —— 0923 复审改判: 原句本无错, 园笔误判, 此条转为落档**：
+- 正源 = **Kruschke, Doing Bayesian Data Analysis, 2e, Academic Press 2014**，
+  §2.1 节标题原文: *"Bayesian inference is reallocation of credibility across possibilities"*
+  —— **在架核讫** (iCloud ☁️BayesianStat, PDF p.18-21 逐字验, p.21 并见 Holmes 语);
+  主人 MB 稿 "probability redistribution" 系该标题之忠实转写, 英文定稿建议径引原词
+  **reallocation of credibility** (Kruschke 语, 一字不改), 引注格式照此;
+- 切蛋糕喻 = **小岛宽之**《统计学关我什么事》(前条已验, epub OEBPS 核 creator) ——
+  双锚各就各位: Kruschke 为教科书锚, 小岛为科普锚;
+- **园笔自纠记档**: 昨判 "§1.2 需正名" 属未查先判 —— 两书皆在架上, 一个字节都不用猜;
+  芦荟/凯奇之后第三犯, 罪同: **先验抢跑, 后验偷懒**。新硬程序入律: 凡判"引用待核",
+  先扫主人书架 (iCloud 路径在册), 扫不到才开候核哨。
 
 **§2.2 Neutral JS 案例** —— 园账查无此案（无日期、无 pin、无 log 引文）。
 两条路选一：① 补挂进 LEDGER（何日、何 agent、注入原文、前后行为差），升格为
