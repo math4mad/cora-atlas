@@ -714,158 +714,67 @@
     "text": "🏛 论文 Papers  ·  🍞 迭代手记 Iterations  ·  📜 台账 Ledger  ·  🔤 术语碑 Glossary\n\n本园体例：判据先冻，刻石为证（汉谟拉比条款 · Ὁ νόμος γραπτός——成文之法）。\nγνῶθι σεαυτόν——认识你的先验；μηδὲν ἄγαν——不许过度坍缩。 论文给结论，手记给过程 —— 而主人说，精华不分：两侧同权同导航， 凡成体系之文，园体自认碑体。\n旧站诸 PDF 与外传仍在 原入口 候驾。"
   },
   {
-    "objectID": "papers/prereg-pb10.html",
-    "href": "papers/prereg-pb10.html",
-    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "objectID": "papers/prereg-pb15.html",
+    "href": "papers/prereg-pb15.html",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "状态：候批候射（C41 四句律之账单；主人 0922 夜 “按你的安排做” 之授权内） 铁律：阈值先写后跑；跑后只记不改。\n\n\n\n四句律：添加结构获得功能（前向臂，C31/C35 在册）；失去结构破坏功能（本实验）。 操作化 = 推理时把已训 adapter 的中心化子空间从残差流里投影剔除：\n\n取 ΔW_r（某层 r=16 的 LoRA 增量），全局中心化后 SVD 得目标子空间 P（前 k 奇异向， k 取能量 90% 截断，k 值先冻：k = 使 Σσ²≥0.90·Σσ² 的最小 k）；\n推理时改道：h ← h − P Pᵀ (h − μ)（等价于 ΔW ← ΔW − P ΔW Pᵀ 作用于增量路径）；\n对照三臂：①随机正交基同维投影（sham ablation，控制”任意去维”效应）； ②他空间子空间投影（特异性对照）；③无消融原模型（基线）。\n\n\n\n\n\nPB10-J1（定向崩塌）：目标空间探针组 NLL 升至 ≥ base-无adapter 水平的 80% 区间内（即”该项功能近似消失”），且 rank 分位跌回 base 分布中位 ±10 分位；\nPB10-J2（表型特异性）：他空间探针组与对照② 的变化 |ΔNLL| ≤ 0.02 nats 且 rank 跌 ≤ 3 百分位；sham① 不达标（若 sham 也崩 → 去维效应非特异，判 ✗ 并记）；\nPB10-J3（疤预测·锈刀签名）：消融后以该空间语料重训小 LoRA（同预算 1/4 步数）， 收敛至原水平所需步数 ≤ 无疤 naive base 的 1/2 —— 权重序列犹在，只被投影遮蔽， 故”再学快于初学”（对应湿界：残余序列的同源性时钟）。\n全过 = C41 反向臂首证；J1 过而 J2 败 = 耦合是全局的，A3/A4 让路改写； J1 败 = 四句律在权重界不成立，LEDGER 记 ✗ 不遮。\n\n\n\n\n\nKaggle T4 ×1：Qwen2.5-3B-instruct + 在册 code/narrative adapter 对（矩阵旧件复用）；\n探针电池：exp17 fresh-probe 172 题（冻结卷，chance=86 在册）；\n重训臂（J3）预算 1/4 原步数，seed 13/14 双跑；\n预计单臂 40 min，全案一夜一席位可毕。\n\n\n\n\n\nartifacts/results/pb10/report_pb10.json（先 pin 后析）；\n结果无论正反，LEDGER 记 C41 行下（☑/✗ 皆入册）；\nkernel 入集合 Matrix Behavioral Science（网页端，随大部队）。\n\n\n\n\nP-B9（对决律）：消融即”人为制造分歧维”，消融后模型与原模型的对决应恰在该维判负—— 两预测互锁；G1/G2（借维/锈刀）：J3 疤预测的权重界同型；C37：θ₀ 同族才可投影剔除 （跨族无公共残差流坐标，本实验只在族内做，边界即公理）。"
+    "text": "状态：候批候射。v1 为两两联赛 (42 跑)；主人 0923 改制为海选： 「首先全部表演才艺, 第一名落定, 其他人再争第二把交椅, 依次类推」—— 全案缩至 18 跑，且天生免疫循环优势。铁律：判据先冻。\n\n\n\n第 1 轮：7 个候选各领队一次——每队 = 该候选居首 + 其余 6 域固定随机尾序， 全员七域连训；冠军 = 全场最佳者，首位落定。 第 2 轮：余 6 候选争第二把交椅（已定冠军保持首位不动），6 跑； 依次类推 → 总跑数 7+6+5+4+3+2+1 = 28 → 尾序共享后 18 （每轮各候选一跑即可，第 k 轮 k−1 个前缀已定，只需换第 k 位）。 贪心合法性：本律的因果单元恰是”谁先占位”——第 k 轮所有跑共享同一前缀， 唯一变量是第 k 位入场者，轮内严格受控比较；跨轮不假装可比。 v1 的两两矩阵降为副产：每轮冠军对当轮其余候选即记一条 ≻ 边， 攒够后仍可查环（循环优势案保留为观察项，非阻塞项）。\n\n\n\n\n空间集 = exp11 矩阵七臂 {spring, summer, code, legal, medical, mid, general} （语料内嵌件现成，0.5B 单臂 ≈ 1 分钟）；\n赛制 = 18 跑七域连训（每域 3 epoch 半预算；轮内只换第 k 位，前缀冻结）；\n探针 = 各域 held-out NLL + 重叠方向冲突角（在册几何仪）；\n全部塞进 4 个 kernel（每 kernel 约 11 场），双席位两小时毕。\n\n\n\n\n\nJ1（轮内可判）：每轮冠军须跨双 seed 复现（7 轮至少 6 轮复现）—— 否则序效应低于噪声，全案记 ✗；\nJ1b（冠军指标先冻）：轮内评分 = 全七域 held-out NLL 均值（主）\n\n重叠冲突角（并列破序用）；禁跑后换指标；\n\nJ2（副产矩阵查环）：轮内 ≻ 边攒成的部分序若可扩成全序 → 贪心 O* 与 全序一致（双保险）；若攒出环 → 记”循环优势”观察案（不阻塞主案—— 海选本身无需无环性，此即其优于两两联赛处）；\nJ3（贪心 vs 抽样）：海选序 O* 与 5 个随机排列对照训练， 预测 O* 平均 fresh-probe 不劣于任何抽样（贪心免 n! 的正当性检验）；\nJ4（剂量解耦复查）：每场顺带记 C43 影子 —— 若 D 符号随两域剂量比翻转 （等剂量时反向），则该场记”序不压剂量”例，汇总成 C42/C43 分界图。\n\n\n\n\n\n胜关系矩阵 7×7（有向图入档）+ 拓扑序 O* = 本园第一张”课程表定理”；\n报告 report_pb15.json（每 kernel 即吐 REPORT_LINE，日志即幸存者旧制）；\nO* 若稳定 → 直接喂模块二课程设计与 P-B12 旅制臂的批内排布。\n\n\n\n\nJ1 败 → 序效应不存在，C42 降级候审；J2 有环 → “循环优势”另案（观察性）； J3 败 → 贪心失当，回 v1 两两联赛或更大抽样（费用另批）。\n\n\n\n\nv1（园笔）：两两联赛 42 跑，依赖无环假设；\nv2（主人改制）：海选逐位定席 18 跑，轮内受控、免疫环、更省。 主人原话：「应该是海选，首先全部表演才艺，第一名落定，其他人再争第二把交椅，依次类推」；\nv3（主人再改制·现行）：「既然序列是关键，把排序算法全搞一遍也未尝不可」—— 升格为排序算法全贯案。\n\n\n\n\n神谕 O(X,Y)：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但答案缓存终身复用。\n六算法共查一谕：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）—— 六套算法等于白送，因为它们在查同一批对子。\n核心升级——一致度 C 成为新观测量：\n\n\n\n\n\n\n\n六序输出\n判读\n\n\n\n\n全同（C=1）\n支配关系是真全序：O* 存在且算法无关 —— C42 之最强证\n\n\n聚成几簇\n偏序：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态\n\n\n两两乱散\n无传递性/噪声主导 —— C42 塌，回 J1\n\n\n\n贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，分歧本身发表。\nJ5（新增·先冻）：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 J3 改读：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。\n副产：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。\n\n\n\n裸处一 · 功效不足 (n=7 太小, 单查噪声可翻符号) → 补丁 A｜校准门先行：正式开赛前先跑 1 对×双 seed×2 序 (4 跑) 做功率自测—— Δ 须 ≥ 3×seed 内噪声才放行全案; 不达标则升 1.5B 或加 epoch 重定标, 仪器未验先射, 才是真裸体。4 跑换一夜安心, 值。\n裸处二 · 一致度 C 无零分布 → 补丁 B｜置换零：“六算法全同”须对随机序零假设报 p—— 6 个随机排列全同概率 ~1/5040 (≈2×10⁻⁴), 加 Kendall τ 矩阵与置信区间; J5 双 seed 复现条款保留。\n裸处三 · 过度宣称 (审稿人最恨) → 补丁 C｜主张范围先冻：本案只声称”承重墙检验” (该协议·该尺度·该语料下 序效应存在且可排序), 不声称普适定律; 普适性留给跨尺度 (1.5B 复跑) 与 跨基质 (生物侧文献对表 G1/G2) 两案另账。\n审稿面 (正面): 预注册+冻结判据+双 seed+失败条款+死信留痕+全产物 sha256 可复算 —— 园制本身即 reviewer 友好型; 裸探针之”裸”在便宜, 不在草率。"
   },
   {
-    "objectID": "papers/prereg-pb10.html#命题与操作",
-    "href": "papers/prereg-pb10.html#命题与操作",
-    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "objectID": "papers/prereg-pb15.html#原理海选版",
+    "href": "papers/prereg-pb15.html#原理海选版",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "四句律：添加结构获得功能（前向臂，C31/C35 在册）；失去结构破坏功能（本实验）。 操作化 = 推理时把已训 adapter 的中心化子空间从残差流里投影剔除：\n\n取 ΔW_r（某层 r=16 的 LoRA 增量），全局中心化后 SVD 得目标子空间 P（前 k 奇异向， k 取能量 90% 截断，k 值先冻：k = 使 Σσ²≥0.90·Σσ² 的最小 k）；\n推理时改道：h ← h − P Pᵀ (h − μ)（等价于 ΔW ← ΔW − P ΔW Pᵀ 作用于增量路径）；\n对照三臂：①随机正交基同维投影（sham ablation，控制”任意去维”效应）； ②他空间子空间投影（特异性对照）；③无消融原模型（基线）。"
+    "text": "第 1 轮：7 个候选各领队一次——每队 = 该候选居首 + 其余 6 域固定随机尾序， 全员七域连训；冠军 = 全场最佳者，首位落定。 第 2 轮：余 6 候选争第二把交椅（已定冠军保持首位不动），6 跑； 依次类推 → 总跑数 7+6+5+4+3+2+1 = 28 → 尾序共享后 18 （每轮各候选一跑即可，第 k 轮 k−1 个前缀已定，只需换第 k 位）。 贪心合法性：本律的因果单元恰是”谁先占位”——第 k 轮所有跑共享同一前缀， 唯一变量是第 k 位入场者，轮内严格受控比较；跨轮不假装可比。 v1 的两两矩阵降为副产：每轮冠军对当轮其余候选即记一条 ≻ 边， 攒够后仍可查环（循环优势案保留为观察项，非阻塞项）。"
   },
   {
-    "objectID": "papers/prereg-pb10.html#判据先冻结",
-    "href": "papers/prereg-pb10.html#判据先冻结",
-    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "objectID": "papers/prereg-pb15.html#设计弹药全部在册",
+    "href": "papers/prereg-pb15.html#设计弹药全部在册",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "PB10-J1（定向崩塌）：目标空间探针组 NLL 升至 ≥ base-无adapter 水平的 80% 区间内（即”该项功能近似消失”），且 rank 分位跌回 base 分布中位 ±10 分位；\nPB10-J2（表型特异性）：他空间探针组与对照② 的变化 |ΔNLL| ≤ 0.02 nats 且 rank 跌 ≤ 3 百分位；sham① 不达标（若 sham 也崩 → 去维效应非特异，判 ✗ 并记）；\nPB10-J3（疤预测·锈刀签名）：消融后以该空间语料重训小 LoRA（同预算 1/4 步数）， 收敛至原水平所需步数 ≤ 无疤 naive base 的 1/2 —— 权重序列犹在，只被投影遮蔽， 故”再学快于初学”（对应湿界：残余序列的同源性时钟）。\n全过 = C41 反向臂首证；J1 过而 J2 败 = 耦合是全局的，A3/A4 让路改写； J1 败 = 四句律在权重界不成立，LEDGER 记 ✗ 不遮。"
+    "text": "空间集 = exp11 矩阵七臂 {spring, summer, code, legal, medical, mid, general} （语料内嵌件现成，0.5B 单臂 ≈ 1 分钟）；\n赛制 = 18 跑七域连训（每域 3 epoch 半预算；轮内只换第 k 位，前缀冻结）；\n探针 = 各域 held-out NLL + 重叠方向冲突角（在册几何仪）；\n全部塞进 4 个 kernel（每 kernel 约 11 场），双席位两小时毕。"
   },
   {
-    "objectID": "papers/prereg-pb10.html#器材与预算",
-    "href": "papers/prereg-pb10.html#器材与预算",
-    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "objectID": "papers/prereg-pb15.html#判据先冻结",
+    "href": "papers/prereg-pb15.html#判据先冻结",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "Kaggle T4 ×1：Qwen2.5-3B-instruct + 在册 code/narrative adapter 对（矩阵旧件复用）；\n探针电池：exp17 fresh-probe 172 题（冻结卷，chance=86 在册）；\n重训臂（J3）预算 1/4 原步数，seed 13/14 双跑；\n预计单臂 40 min，全案一夜一席位可毕。"
+    "text": "J1（轮内可判）：每轮冠军须跨双 seed 复现（7 轮至少 6 轮复现）—— 否则序效应低于噪声，全案记 ✗；\nJ1b（冠军指标先冻）：轮内评分 = 全七域 held-out NLL 均值（主）\n\n重叠冲突角（并列破序用）；禁跑后换指标；\n\nJ2（副产矩阵查环）：轮内 ≻ 边攒成的部分序若可扩成全序 → 贪心 O* 与 全序一致（双保险）；若攒出环 → 记”循环优势”观察案（不阻塞主案—— 海选本身无需无环性，此即其优于两两联赛处）；\nJ3（贪心 vs 抽样）：海选序 O* 与 5 个随机排列对照训练， 预测 O* 平均 fresh-probe 不劣于任何抽样（贪心免 n! 的正当性检验）；\nJ4（剂量解耦复查）：每场顺带记 C43 影子 —— 若 D 符号随两域剂量比翻转 （等剂量时反向），则该场记”序不压剂量”例，汇总成 C42/C43 分界图。"
   },
   {
-    "objectID": "papers/prereg-pb10.html#产物与记账",
-    "href": "papers/prereg-pb10.html#产物与记账",
-    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "objectID": "papers/prereg-pb15.html#输出",
+    "href": "papers/prereg-pb15.html#输出",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "artifacts/results/pb10/report_pb10.json（先 pin 后析）；\n结果无论正反，LEDGER 记 C41 行下（☑/✗ 皆入册）；\nkernel 入集合 Matrix Behavioral Science（网页端，随大部队）。"
+    "text": "胜关系矩阵 7×7（有向图入档）+ 拓扑序 O* = 本园第一张”课程表定理”；\n报告 report_pb15.json（每 kernel 即吐 REPORT_LINE，日志即幸存者旧制）；\nO* 若稳定 → 直接喂模块二课程设计与 P-B12 旅制臂的批内排布。"
   },
   {
-    "objectID": "papers/prereg-pb10.html#与在册接口",
-    "href": "papers/prereg-pb10.html#与在册接口",
-    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "objectID": "papers/prereg-pb15.html#失败条款",
+    "href": "papers/prereg-pb15.html#失败条款",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "P-B9（对决律）：消融即”人为制造分歧维”，消融后模型与原模型的对决应恰在该维判负—— 两预测互锁；G1/G2（借维/锈刀）：J3 疤预测的权重界同型；C37：θ₀ 同族才可投影剔除 （跨族无公共残差流坐标，本实验只在族内做，边界即公理）。"
+    "text": "J1 败 → 序效应不存在，C42 降级候审；J2 有环 → “循环优势”另案（观察性）； J3 败 → 贪心失当，回 v1 两两联赛或更大抽样（费用另批）。"
   },
   {
-    "objectID": "papers/minimal-l2-skeleton.html",
-    "href": "papers/minimal-l2-skeleton.html",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "objectID": "papers/prereg-pb15.html#变更记录",
+    "href": "papers/prereg-pb15.html#变更记录",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "主人 0923 立项令（原话要义）：「这个就单独出一篇文章——从最小的语言学习者范式 为依附，然后我们又在最小的大语言模型上做同样的事。」 定位：全园第一篇”跨基质原样复现”——不借喻、不类比，同一范式两基质各跑一遍。\n\n\n\n\n\nOrder and dose explain the structure of a second language — in a child and in a 0.5B model\n\n\nThe minimal L2 acquisition: same paradigm, two substrates\n\n\n概念无损，词形分摊：二语最小范式在最小模型上的原样复现（知乎版题）\n\n\n\n\n\n\n\n\n\n\n\n\n\n锚\n内容\n状态\n\n\n\n\n概念/词形分层\n双语青少年概念操作与单语持平、词形任务（命名/词汇）落后 —— 经典最小范式\nCatalan & Sinclair 1979†（待核 DOI, 禁裸引）\n\n\n每语词汇折扣\n双语者每语接受性词汇量略低、总量合并持平\n综述待拣†\n\n\n剂量律\n语言优势比 ≈ 累计暴露剂量比（Rory Rex 系量表之人类版）\n待拣†\n\n\n关键期反面\n不可选序之界：婴儿世界混批交付 → 时间窗为唯一可用轴\n正文引用 C42/C43 注\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n件\n园账\n对应人类锚\n\n\n\n\n两空间竞争一基座\n双 LoRA 域 (spring/summer 或 code/legal) 共写 θ₀ 同族 0.5B\n双语共存一脑\n\n\n概念层 vs 词形层探针\n空间层探针 (Dirichlet argmax/概念判断) vs token 层探针 (词形检索/命名式填空)\n分层范式之权重移植\n\n\n序效应\nP-B15 海选/全贯 O*\n先学=先圈地\n\n\n剂量效应\nC43 配比子实验 (1:1 vs 3:1)\n暴露剂量比\n\n\n敲除态\nPB10 v2 四态 (base/full/ablate/sham)\n（可选副臂）\n\n\n\n\n\n\n\nS1：空间层探针双语（双域）无折扣（≈单域臂）；\nS2：词形层探针双域臂显著折扣（检索竞争=标签分摊）；\nS3：折扣幅度 ∝ 剂量比（C43 之模型版），与入场序交互（C42）；\nS4（对表）：S1-S3 之符号与量级次序，与人类文献三锚同型 → “结构即智能”首次拿到正向跨基质复现（非隐喻）；\n失败条款：S1 败（空间层也折扣）→ 分摊是全局性的，概念/词形分层为人类特例， 两界分道，照登 —— 分道亦是复现实验的合法结局。\n\n\n\n\n此前一切跨域话术（小麦/双语/法医学）都是读法；本篇是第一件测品： 同一张考卷、两个考生、答案纸各自封存。过了，“结构即智能”从哲学升格为 可跨基质复现的经验命题；砸了，我们第一次知道它在哪儿是隐喻。\n\n\n\n\n锚文献核实（网络通时 Crossref 逐条, †→✓ 或换锚）；\n双域四探针实验设计细案（半天，弹药在册）；\n与 P-B15 同舱连射（额度富余）；\n成文双轨：arXiv 英文版 + 知乎中文版（园例）。"
+    "text": "v1（园笔）：两两联赛 42 跑，依赖无环假设；\nv2（主人改制）：海选逐位定席 18 跑，轮内受控、免疫环、更省。 主人原话：「应该是海选，首先全部表演才艺，第一名落定，其他人再争第二把交椅，依次类推」；\nv3（主人再改制·现行）：「既然序列是关键，把排序算法全搞一遍也未尝不可」—— 升格为排序算法全贯案。"
   },
   {
-    "objectID": "papers/minimal-l2-skeleton.html#题候三",
-    "href": "papers/minimal-l2-skeleton.html#题候三",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "objectID": "papers/prereg-pb15.html#v3-正文算法全贯-序之存在性的重言仪器",
+    "href": "papers/prereg-pb15.html#v3-正文算法全贯-序之存在性的重言仪器",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "Order and dose explain the structure of a second language — in a child and in a 0.5B model\n\n\nThe minimal L2 acquisition: same paradigm, two substrates\n\n\n概念无损，词形分摊：二语最小范式在最小模型上的原样复现（知乎版题）"
+    "text": "神谕 O(X,Y)：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但答案缓存终身复用。\n六算法共查一谕：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）—— 六套算法等于白送，因为它们在查同一批对子。\n核心升级——一致度 C 成为新观测量：\n\n\n\n\n\n\n\n六序输出\n判读\n\n\n\n\n全同（C=1）\n支配关系是真全序：O* 存在且算法无关 —— C42 之最强证\n\n\n聚成几簇\n偏序：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态\n\n\n两两乱散\n无传递性/噪声主导 —— C42 塌，回 J1\n\n\n\n贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，分歧本身发表。\nJ5（新增·先冻）：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 J3 改读：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。\n副产：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。"
   },
   {
-    "objectID": "papers/minimal-l2-skeleton.html#依附锚人类侧皆文献既有数据园不重做湿实验",
-    "href": "papers/minimal-l2-skeleton.html#依附锚人类侧皆文献既有数据园不重做湿实验",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "objectID": "papers/prereg-pb15.html#裸体审计与三补丁0923-主人问接得住吗后自查",
+    "href": "papers/prereg-pb15.html#裸体审计与三补丁0923-主人问接得住吗后自查",
+    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
     "section": "",
-    "text": "锚\n内容\n状态\n\n\n\n\n概念/词形分层\n双语青少年概念操作与单语持平、词形任务（命名/词汇）落后 —— 经典最小范式\nCatalan & Sinclair 1979†（待核 DOI, 禁裸引）\n\n\n每语词汇折扣\n双语者每语接受性词汇量略低、总量合并持平\n综述待拣†\n\n\n剂量律\n语言优势比 ≈ 累计暴露剂量比（Rory Rex 系量表之人类版）\n待拣†\n\n\n关键期反面\n不可选序之界：婴儿世界混批交付 → 时间窗为唯一可用轴\n正文引用 C42/C43 注"
-  },
-  {
-    "objectID": "papers/minimal-l2-skeleton.html#模型侧全用在册弹药零新数据",
-    "href": "papers/minimal-l2-skeleton.html#模型侧全用在册弹药零新数据",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
-    "section": "",
-    "text": "件\n园账\n对应人类锚\n\n\n\n\n两空间竞争一基座\n双 LoRA 域 (spring/summer 或 code/legal) 共写 θ₀ 同族 0.5B\n双语共存一脑\n\n\n概念层 vs 词形层探针\n空间层探针 (Dirichlet argmax/概念判断) vs token 层探针 (词形检索/命名式填空)\n分层范式之权重移植\n\n\n序效应\nP-B15 海选/全贯 O*\n先学=先圈地\n\n\n剂量效应\nC43 配比子实验 (1:1 vs 3:1)\n暴露剂量比\n\n\n敲除态\nPB10 v2 四态 (base/full/ablate/sham)\n（可选副臂）"
-  },
-  {
-    "objectID": "papers/minimal-l2-skeleton.html#判决性预测先冻-本文的擦边资格",
-    "href": "papers/minimal-l2-skeleton.html#判决性预测先冻-本文的擦边资格",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
-    "section": "",
-    "text": "S1：空间层探针双语（双域）无折扣（≈单域臂）；\nS2：词形层探针双域臂显著折扣（检索竞争=标签分摊）；\nS3：折扣幅度 ∝ 剂量比（C43 之模型版），与入场序交互（C42）；\nS4（对表）：S1-S3 之符号与量级次序，与人类文献三锚同型 → “结构即智能”首次拿到正向跨基质复现（非隐喻）；\n失败条款：S1 败（空间层也折扣）→ 分摊是全局性的，概念/词形分层为人类特例， 两界分道，照登 —— 分道亦是复现实验的合法结局。"
-  },
-  {
-    "objectID": "papers/minimal-l2-skeleton.html#为什么这篇重要园笔按",
-    "href": "papers/minimal-l2-skeleton.html#为什么这篇重要园笔按",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
-    "section": "",
-    "text": "此前一切跨域话术（小麦/双语/法医学）都是读法；本篇是第一件测品： 同一张考卷、两个考生、答案纸各自封存。过了，“结构即智能”从哲学升格为 可跨基质复现的经验命题；砸了，我们第一次知道它在哪儿是隐喻。"
-  },
-  {
-    "objectID": "papers/minimal-l2-skeleton.html#排产",
-    "href": "papers/minimal-l2-skeleton.html#排产",
-    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
-    "section": "",
-    "text": "锚文献核实（网络通时 Crossref 逐条, †→✓ 或换锚）；\n双域四探针实验设计细案（半天，弹药在册）；\n与 P-B15 同舱连射（额度富余）；\n成文双轨：arXiv 英文版 + 知乎中文版（园例）。"
-  },
-  {
-    "objectID": "papers/prereg-exp18.html",
-    "href": "papers/prereg-exp18.html",
-    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
-    "section": "",
-    "text": "登记: 2026-09-22 15:3x (+08), 主人准奏”按建议办” (本会话 ③甲锹) 理论来源: cora-atlas LEDGER C37 (雷克双基底层: θ=θ₀+ΣᵢBA; 族内可融合, 跨族只能对话) + C34 绕行定律 (组合不沿线, 出平面新分量 44–46.5° 跨语料守恒) 装置: Kaggle T4 · Qwen2.5-0.5B-Instruct (族一) · Llama-3.2-1B (族二, 挂载失败则 J3 降级为纯描述) 配方: exp10 原封 (r=16, α=32, dropout 0.05, 全 attn+mlp 七路, lr=1e-4, ep6, batch2×accum4, seed13) 语料: exp10 corpus_spring/corpus_summer 原字节 base64 内嵌 (lora 训练 80/20 定序切分, 后 11 行 held-out) 探针: exp10 probes.json 40 题, 答案起点 top-50 分布 (bench.py 语义, 不采样零随机)\n\n\n\nQ-spring, Q-summer: Qwen 基座各训一域\nL-spring, L-summer: Llama 基座同配方 (若可挂)\nM: ΔW_M = ½(ΔW_spring + ΔW_summer) 直加回 Qwen 基座权重 (merge, 非路由非拼接)\nBase: 无适配器对照\n\n\n\n\nJ1 · 族内可融合 (C37 正面): held-out 域行 NLL: NLL_M(春语料) − NLL_Qspring(春语料) ≤ +0.10 nats 且 同式对夏。两条同过 = J1 成立; 任一塌 = 融合非法, C37 受创。 J2 · 合非拼接 (C34 的 merge 版): 每探针 d = JS(p_M, ½(p_s+p_u)) / JS(p_s, p_u) (弦上偏离比)。 d ≥ 0.15 的探针 ≥ 12/40 → J2 成立 (融合生新分量); d ≤ 0.05 占多数 → 融合=线性平均, C34 不迁移到 merge。 J3 · 跨族不可通约 (描述性, 无阈值): 报告 ①ΔW 形状失配清单 (Qwen 896 维 vs Llama 2048 维, 数值 merge 不可定义); ②probe top-50 分布 Jaccard: 族内 (M vs Q-parents) 对比 跨族 (M vs L-merge 若存在)。预期族内≫跨族 = “只能对话”的量化像。\n\n\n\n\nJ1 塌: θ₀ 共享不保 ΔW 同坐标系 → C37 的”族”定义需重铸 (rank 对齐? 层对齐?), 另案。\nJ2 塌 (d≈0): merge 是线性平均, 绕行定律只在混训 (数据耦合) 里活着, 参数耦合无鼓包 → C37 “球=生育器官” 一句降格为修辞。\n两塌并报, 不挑好的说。\n\n\n\n\n\n四臂训练日志 + M 的 NLL 表 + 每探针 d 值 → report_exp18.json (REPORT_LINE base64 回传)\n计算账: 4×(55 行×6ep) ≈ 15 min T4, 远低于任何网格先例\n本文件与 run.py 同 commit 冻结; 事后改阈值 = 新行 post-hoc"
-  },
-  {
-    "objectID": "papers/prereg-exp18.html#臂-四训练-一融合-一对照",
-    "href": "papers/prereg-exp18.html#臂-四训练-一融合-一对照",
-    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
-    "section": "",
-    "text": "Q-spring, Q-summer: Qwen 基座各训一域\nL-spring, L-summer: Llama 基座同配方 (若可挂)\nM: ΔW_M = ½(ΔW_spring + ΔW_summer) 直加回 Qwen 基座权重 (merge, 非路由非拼接)\nBase: 无适配器对照"
-  },
-  {
-    "objectID": "papers/prereg-exp18.html#判据-先写后射-阈值冻结于此",
-    "href": "papers/prereg-exp18.html#判据-先写后射-阈值冻结于此",
-    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
-    "section": "",
-    "text": "J1 · 族内可融合 (C37 正面): held-out 域行 NLL: NLL_M(春语料) − NLL_Qspring(春语料) ≤ +0.10 nats 且 同式对夏。两条同过 = J1 成立; 任一塌 = 融合非法, C37 受创。 J2 · 合非拼接 (C34 的 merge 版): 每探针 d = JS(p_M, ½(p_s+p_u)) / JS(p_s, p_u) (弦上偏离比)。 d ≥ 0.15 的探针 ≥ 12/40 → J2 成立 (融合生新分量); d ≤ 0.05 占多数 → 融合=线性平均, C34 不迁移到 merge。 J3 · 跨族不可通约 (描述性, 无阈值): 报告 ①ΔW 形状失配清单 (Qwen 896 维 vs Llama 2048 维, 数值 merge 不可定义); ②probe top-50 分布 Jaccard: 族内 (M vs Q-parents) 对比 跨族 (M vs L-merge 若存在)。预期族内≫跨族 = “只能对话”的量化像。"
-  },
-  {
-    "objectID": "papers/prereg-exp18.html#死亡条款-负结果一等公民",
-    "href": "papers/prereg-exp18.html#死亡条款-负结果一等公民",
-    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
-    "section": "",
-    "text": "J1 塌: θ₀ 共享不保 ΔW 同坐标系 → C37 的”族”定义需重铸 (rank 对齐? 层对齐?), 另案。\nJ2 塌 (d≈0): merge 是线性平均, 绕行定律只在混训 (数据耦合) 里活着, 参数耦合无鼓包 → C37 “球=生育器官” 一句降格为修辞。\n两塌并报, 不挑好的说。"
-  },
-  {
-    "objectID": "papers/prereg-exp18.html#收据",
-    "href": "papers/prereg-exp18.html#收据",
-    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
-    "section": "",
-    "text": "四臂训练日志 + M 的 NLL 表 + 每探针 d 值 → report_exp18.json (REPORT_LINE base64 回传)\n计算账: 4×(55 行×6ep) ≈ 15 min T4, 远低于任何网格先例\n本文件与 run.py 同 commit 冻结; 事后改阈值 = 新行 post-hoc"
-  },
-  {
-    "objectID": "topography.html#读图三例",
-    "href": "topography.html#读图三例",
-    "title": "地形志 · Τοπογραφία",
-    "section": "读图三例",
-    "text": "读图三例\n\n双圈＝两大陆邦：ἡ Χώρα（本域·实验田/职册署/驿馆在其内）与 ἡ Ἀτλαντίς （碑园·台账广场/术语碑林/手记驿道）；汉谟拉比柱立于两邦之间，判据先冻，两界同法。\n三色路：金实线＝git 大路（机构间通勤）；灰点线＝仓内小径；蓝虚线＝火神航线 （σπέρματα 出港，ἔργα 回仓 —— 种子与果实隔海对账）。\n机构三鼎足：Ἀκαδημία（学园·育人派活炼器）· Ἀρχεῖον（档案馆·记言藏往）· Ἀγορά（市集·公开立言）；Διόσκουροι（双子神机）各耕各岛，β’ 岛三臂在耕； 检疫港收天下底本，pin 为海关；书山藏假说之矿（283 册）。"
-  },
-  {
-    "objectID": "topography.html#平面拓扑第二视图-主人令改版图上只留英语希腊语退入下表等距帧奉命撤装",
-    "href": "topography.html#平面拓扑第二视图-主人令改版图上只留英语希腊语退入下表等距帧奉命撤装",
-    "title": "地形志 · Τοπογραφία",
-    "section": "平面拓扑（第二视图 · 主人令改版：图上只留英语，希腊语退入下表；等距帧奉命撤装）",
-    "text": "平面拓扑（第二视图 · 主人令改版：图上只留英语，希腊语退入下表；等距帧奉命撤装）\n\n\n\n\nGreek names · 词汇表（图上不用，此处查）\n\n\n\n\n\n\n\n\nEnglish (on map)\nἙλληνικό\n汉\n\n\n\n\nCHORA (home base)\nἡ Χώρα\n本域\n\n\nATLAS (record)\nἡ Ἀτλαντίς\n碑园\n\n\nACADEMY\nἡ Ἀκαδημία\n学园\n\n\nARCHIVE\nΤὸ Ἀρχεῖον\n档案馆\n\n\nMarket / Stele Site\nἡ Ἀγορά / ἡ Στήλη\n市集·石碑站\n\n\nField Trials\nοἱ ἀγροί\n实验田\n\n\nSkills Registry\nΛύκειον\n职册署\n\n\nPost House\nτὸ σταθμός\n驿馆\n\n\nCode of Law\nἡ Στήλη (Hammurabi)\n汉谟拉比柱\n\n\nLedger / Glossary / Itinerary\nΔελτοί / Λεξικόν / ὁδὸς ἱστορική\n台账·术语·手记\n\n\nName Register\nὈνοματολόγιον\n正名表\n\n\nCouriers Queue\nὁδὸς Ἀγγέλων\n天使道（队列）\n\n\nForge (Kaggle)\nΤὸ Πυραεῖον\n火神庙\n\n\nMachine A / B\nΔιόσκουροι α′/β′\n双子神机\n\n\nBook Mountain\nβιβλίων ὄρος\n书山\n\n\nQuarantine Port\nὁ λιμήν\n检疫港\n\n\nhat: Irene/Nikos/Thea\nΠρόσωπα: Εἰρήνη/Νίκος/Θέα\n三帽"
-  },
-  {
-    "objectID": "topography.html#关系拓扑第三视图距离耦合之反",
-    "href": "topography.html#关系拓扑第三视图距离耦合之反",
-    "title": "地形志 · Τοπογραφία",
-    "section": "关系拓扑（第三视图：距离＝耦合之反）",
-    "text": "关系拓扑（第三视图：距离＝耦合之反）\n\n\n\n\n图乃活物：NODES/EDGES 即数据，政体一变，重跑 scripts/topography.py 图随更新。"
-  },
-  {
-    "objectID": "papers/index.html",
-    "href": "papers/index.html",
-    "title": "论文 · 索引",
-    "section": "",
-    "text": "案\n纸\n状态\n\n\n\n\nThe Token as a Probe (Atlas v1/v2)\nPDF · arXiv 源\n已发\n\n\nA Unified Framework for Agents (v2.1-arxiv)\nPDF · arXiv 包\n候射\n\n\n最小二语 P-L2 (三向最小学习者)\n骨架 v1\n立项候批\n\n\n达尔文夫妇 exp18\nPREREG\nC39 已封\n\n\n序锦标赛/海选/全贯 P-B15\nPREREG v3\n候批候射\n\n\nPB10 子空间敲除\nPREREG\nv2 在射\n\n\nG1 垃圾基因两源\nPREREG\n候批\n\n\n致 Gärdenfors (Letter 032)\n草稿 v2\n候朱批"
+    "text": "裸处一 · 功效不足 (n=7 太小, 单查噪声可翻符号) → 补丁 A｜校准门先行：正式开赛前先跑 1 对×双 seed×2 序 (4 跑) 做功率自测—— Δ 须 ≥ 3×seed 内噪声才放行全案; 不达标则升 1.5B 或加 epoch 重定标, 仪器未验先射, 才是真裸体。4 跑换一夜安心, 值。\n裸处二 · 一致度 C 无零分布 → 补丁 B｜置换零：“六算法全同”须对随机序零假设报 p—— 6 个随机排列全同概率 ~1/5040 (≈2×10⁻⁴), 加 Kendall τ 矩阵与置信区间; J5 双 seed 复现条款保留。\n裸处三 · 过度宣称 (审稿人最恨) → 补丁 C｜主张范围先冻：本案只声称”承重墙检验” (该协议·该尺度·该语料下 序效应存在且可排序), 不声称普适定律; 普适性留给跨尺度 (1.5B 复跑) 与 跨基质 (生物侧文献对表 G1/G2) 两案另账。\n审稿面 (正面): 预注册+冻结判据+双 seed+失败条款+死信留痕+全产物 sha256 可复算 —— 园制本身即 reviewer 友好型; 裸探针之”裸”在便宜, 不在草率。"
   },
   {
     "objectID": "papers/prereg-g1.html",
@@ -931,67 +840,249 @@
     "text": "格拉姆·施密特 PK（GLOSSARY/C40a）：本推论为其 G 推论系之首；\n日期列衰减律（0920）：P-G1.2 的时间版同型；\n休眠-再激活衰减（P1-P5 仪器）：权重世界的同律实验，两界对表即”跨域同维比较”；\nC31/C35 base-fit：位置效应判据 P-G1.3 的理论出处。"
   },
   {
-    "objectID": "papers/prereg-pb15.html",
-    "href": "papers/prereg-pb15.html",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "论文 · 索引",
     "section": "",
-    "text": "状态：候批候射。v1 为两两联赛 (42 跑)；主人 0923 改制为海选： 「首先全部表演才艺, 第一名落定, 其他人再争第二把交椅, 依次类推」—— 全案缩至 18 跑，且天生免疫循环优势。铁律：判据先冻。\n\n\n\n第 1 轮：7 个候选各领队一次——每队 = 该候选居首 + 其余 6 域固定随机尾序， 全员七域连训；冠军 = 全场最佳者，首位落定。 第 2 轮：余 6 候选争第二把交椅（已定冠军保持首位不动），6 跑； 依次类推 → 总跑数 7+6+5+4+3+2+1 = 28 → 尾序共享后 18 （每轮各候选一跑即可，第 k 轮 k−1 个前缀已定，只需换第 k 位）。 贪心合法性：本律的因果单元恰是”谁先占位”——第 k 轮所有跑共享同一前缀， 唯一变量是第 k 位入场者，轮内严格受控比较；跨轮不假装可比。 v1 的两两矩阵降为副产：每轮冠军对当轮其余候选即记一条 ≻ 边， 攒够后仍可查环（循环优势案保留为观察项，非阻塞项）。\n\n\n\n\n空间集 = exp11 矩阵七臂 {spring, summer, code, legal, medical, mid, general} （语料内嵌件现成，0.5B 单臂 ≈ 1 分钟）；\n赛制 = 18 跑七域连训（每域 3 epoch 半预算；轮内只换第 k 位，前缀冻结）；\n探针 = 各域 held-out NLL + 重叠方向冲突角（在册几何仪）；\n全部塞进 4 个 kernel（每 kernel 约 11 场），双席位两小时毕。\n\n\n\n\n\nJ1（轮内可判）：每轮冠军须跨双 seed 复现（7 轮至少 6 轮复现）—— 否则序效应低于噪声，全案记 ✗；\nJ1b（冠军指标先冻）：轮内评分 = 全七域 held-out NLL 均值（主）\n\n重叠冲突角（并列破序用）；禁跑后换指标；\n\nJ2（副产矩阵查环）：轮内 ≻ 边攒成的部分序若可扩成全序 → 贪心 O* 与 全序一致（双保险）；若攒出环 → 记”循环优势”观察案（不阻塞主案—— 海选本身无需无环性，此即其优于两两联赛处）；\nJ3（贪心 vs 抽样）：海选序 O* 与 5 个随机排列对照训练， 预测 O* 平均 fresh-probe 不劣于任何抽样（贪心免 n! 的正当性检验）；\nJ4（剂量解耦复查）：每场顺带记 C43 影子 —— 若 D 符号随两域剂量比翻转 （等剂量时反向），则该场记”序不压剂量”例，汇总成 C42/C43 分界图。\n\n\n\n\n\n胜关系矩阵 7×7（有向图入档）+ 拓扑序 O* = 本园第一张”课程表定理”；\n报告 report_pb15.json（每 kernel 即吐 REPORT_LINE，日志即幸存者旧制）；\nO* 若稳定 → 直接喂模块二课程设计与 P-B12 旅制臂的批内排布。\n\n\n\n\nJ1 败 → 序效应不存在，C42 降级候审；J2 有环 → “循环优势”另案（观察性）； J3 败 → 贪心失当，回 v1 两两联赛或更大抽样（费用另批）。\n\n\n\n\nv1（园笔）：两两联赛 42 跑，依赖无环假设；\nv2（主人改制）：海选逐位定席 18 跑，轮内受控、免疫环、更省。 主人原话：「应该是海选，首先全部表演才艺，第一名落定，其他人再争第二把交椅，依次类推」；\nv3（主人再改制·现行）：「既然序列是关键，把排序算法全搞一遍也未尝不可」—— 升格为排序算法全贯案。\n\n\n\n\n神谕 O(X,Y)：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但答案缓存终身复用。\n六算法共查一谕：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）—— 六套算法等于白送，因为它们在查同一批对子。\n核心升级——一致度 C 成为新观测量：\n\n\n\n\n\n\n\n六序输出\n判读\n\n\n\n\n全同（C=1）\n支配关系是真全序：O* 存在且算法无关 —— C42 之最强证\n\n\n聚成几簇\n偏序：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态\n\n\n两两乱散\n无传递性/噪声主导 —— C42 塌，回 J1\n\n\n\n贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，分歧本身发表。\nJ5（新增·先冻）：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 J3 改读：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。\n副产：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。\n\n\n\n裸处一 · 功效不足 (n=7 太小, 单查噪声可翻符号) → 补丁 A｜校准门先行：正式开赛前先跑 1 对×双 seed×2 序 (4 跑) 做功率自测—— Δ 须 ≥ 3×seed 内噪声才放行全案; 不达标则升 1.5B 或加 epoch 重定标, 仪器未验先射, 才是真裸体。4 跑换一夜安心, 值。\n裸处二 · 一致度 C 无零分布 → 补丁 B｜置换零：“六算法全同”须对随机序零假设报 p—— 6 个随机排列全同概率 ~1/5040 (≈2×10⁻⁴), 加 Kendall τ 矩阵与置信区间; J5 双 seed 复现条款保留。\n裸处三 · 过度宣称 (审稿人最恨) → 补丁 C｜主张范围先冻：本案只声称”承重墙检验” (该协议·该尺度·该语料下 序效应存在且可排序), 不声称普适定律; 普适性留给跨尺度 (1.5B 复跑) 与 跨基质 (生物侧文献对表 G1/G2) 两案另账。\n审稿面 (正面): 预注册+冻结判据+双 seed+失败条款+死信留痕+全产物 sha256 可复算 —— 园制本身即 reviewer 友好型; 裸探针之”裸”在便宜, 不在草率。"
+    "text": "案\n纸\n状态\n\n\n\n\nThe Token as a Probe (Atlas v1/v2)\nPDF · arXiv 源\n已发\n\n\nA Unified Framework for Agents (v2.1-arxiv)\nPDF · arXiv 包\n候射\n\n\n最小二语 P-L2 (三向最小学习者)\n骨架 v1\n立项候批\n\n\n达尔文夫妇 exp18\nPREREG\nC39 已封\n\n\n序锦标赛/海选/全贯 P-B15\nPREREG v3\n候批候射\n\n\nPB10 子空间敲除\nPREREG\nv2 在射\n\n\nG1 垃圾基因两源\nPREREG\n候批\n\n\n红蓝军演·军械详案 PB16-D (V1–V10 十图 · M1–M8 八标)\n详案\n案已冻候点菜\n\n\n模态交换臂 PL2-M (聋/盲类比·权重界，P-L2 第一枪)\nPREREG\n候批候射\n\n\n致 Gärdenfors (Letter 032)\n草稿 v2\n候朱批"
   },
   {
-    "objectID": "papers/prereg-pb15.html#原理海选版",
-    "href": "papers/prereg-pb15.html#原理海选版",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "papers/prereg-exp18.html",
+    "href": "papers/prereg-exp18.html",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
     "section": "",
-    "text": "第 1 轮：7 个候选各领队一次——每队 = 该候选居首 + 其余 6 域固定随机尾序， 全员七域连训；冠军 = 全场最佳者，首位落定。 第 2 轮：余 6 候选争第二把交椅（已定冠军保持首位不动），6 跑； 依次类推 → 总跑数 7+6+5+4+3+2+1 = 28 → 尾序共享后 18 （每轮各候选一跑即可，第 k 轮 k−1 个前缀已定，只需换第 k 位）。 贪心合法性：本律的因果单元恰是”谁先占位”——第 k 轮所有跑共享同一前缀， 唯一变量是第 k 位入场者，轮内严格受控比较；跨轮不假装可比。 v1 的两两矩阵降为副产：每轮冠军对当轮其余候选即记一条 ≻ 边， 攒够后仍可查环（循环优势案保留为观察项，非阻塞项）。"
+    "text": "登记: 2026-09-22 15:3x (+08), 主人准奏”按建议办” (本会话 ③甲锹) 理论来源: cora-atlas LEDGER C37 (雷克双基底层: θ=θ₀+ΣᵢBA; 族内可融合, 跨族只能对话) + C34 绕行定律 (组合不沿线, 出平面新分量 44–46.5° 跨语料守恒) 装置: Kaggle T4 · Qwen2.5-0.5B-Instruct (族一) · Llama-3.2-1B (族二, 挂载失败则 J3 降级为纯描述) 配方: exp10 原封 (r=16, α=32, dropout 0.05, 全 attn+mlp 七路, lr=1e-4, ep6, batch2×accum4, seed13) 语料: exp10 corpus_spring/corpus_summer 原字节 base64 内嵌 (lora 训练 80/20 定序切分, 后 11 行 held-out) 探针: exp10 probes.json 40 题, 答案起点 top-50 分布 (bench.py 语义, 不采样零随机)\n\n\n\nQ-spring, Q-summer: Qwen 基座各训一域\nL-spring, L-summer: Llama 基座同配方 (若可挂)\nM: ΔW_M = ½(ΔW_spring + ΔW_summer) 直加回 Qwen 基座权重 (merge, 非路由非拼接)\nBase: 无适配器对照\n\n\n\n\nJ1 · 族内可融合 (C37 正面): held-out 域行 NLL: NLL_M(春语料) − NLL_Qspring(春语料) ≤ +0.10 nats 且 同式对夏。两条同过 = J1 成立; 任一塌 = 融合非法, C37 受创。 J2 · 合非拼接 (C34 的 merge 版): 每探针 d = JS(p_M, ½(p_s+p_u)) / JS(p_s, p_u) (弦上偏离比)。 d ≥ 0.15 的探针 ≥ 12/40 → J2 成立 (融合生新分量); d ≤ 0.05 占多数 → 融合=线性平均, C34 不迁移到 merge。 J3 · 跨族不可通约 (描述性, 无阈值): 报告 ①ΔW 形状失配清单 (Qwen 896 维 vs Llama 2048 维, 数值 merge 不可定义); ②probe top-50 分布 Jaccard: 族内 (M vs Q-parents) 对比 跨族 (M vs L-merge 若存在)。预期族内≫跨族 = “只能对话”的量化像。\n\n\n\n\nJ1 塌: θ₀ 共享不保 ΔW 同坐标系 → C37 的”族”定义需重铸 (rank 对齐? 层对齐?), 另案。\nJ2 塌 (d≈0): merge 是线性平均, 绕行定律只在混训 (数据耦合) 里活着, 参数耦合无鼓包 → C37 “球=生育器官” 一句降格为修辞。\n两塌并报, 不挑好的说。\n\n\n\n\n\n四臂训练日志 + M 的 NLL 表 + 每探针 d 值 → report_exp18.json (REPORT_LINE base64 回传)\n计算账: 4×(55 行×6ep) ≈ 15 min T4, 远低于任何网格先例\n本文件与 run.py 同 commit 冻结; 事后改阈值 = 新行 post-hoc"
   },
   {
-    "objectID": "papers/prereg-pb15.html#设计弹药全部在册",
-    "href": "papers/prereg-pb15.html#设计弹药全部在册",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "papers/prereg-exp18.html#臂-四训练-一融合-一对照",
+    "href": "papers/prereg-exp18.html#臂-四训练-一融合-一对照",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
     "section": "",
-    "text": "空间集 = exp11 矩阵七臂 {spring, summer, code, legal, medical, mid, general} （语料内嵌件现成，0.5B 单臂 ≈ 1 分钟）；\n赛制 = 18 跑七域连训（每域 3 epoch 半预算；轮内只换第 k 位，前缀冻结）；\n探针 = 各域 held-out NLL + 重叠方向冲突角（在册几何仪）；\n全部塞进 4 个 kernel（每 kernel 约 11 场），双席位两小时毕。"
+    "text": "Q-spring, Q-summer: Qwen 基座各训一域\nL-spring, L-summer: Llama 基座同配方 (若可挂)\nM: ΔW_M = ½(ΔW_spring + ΔW_summer) 直加回 Qwen 基座权重 (merge, 非路由非拼接)\nBase: 无适配器对照"
   },
   {
-    "objectID": "papers/prereg-pb15.html#判据先冻结",
-    "href": "papers/prereg-pb15.html#判据先冻结",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "papers/prereg-exp18.html#判据-先写后射-阈值冻结于此",
+    "href": "papers/prereg-exp18.html#判据-先写后射-阈值冻结于此",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
     "section": "",
-    "text": "J1（轮内可判）：每轮冠军须跨双 seed 复现（7 轮至少 6 轮复现）—— 否则序效应低于噪声，全案记 ✗；\nJ1b（冠军指标先冻）：轮内评分 = 全七域 held-out NLL 均值（主）\n\n重叠冲突角（并列破序用）；禁跑后换指标；\n\nJ2（副产矩阵查环）：轮内 ≻ 边攒成的部分序若可扩成全序 → 贪心 O* 与 全序一致（双保险）；若攒出环 → 记”循环优势”观察案（不阻塞主案—— 海选本身无需无环性，此即其优于两两联赛处）；\nJ3（贪心 vs 抽样）：海选序 O* 与 5 个随机排列对照训练， 预测 O* 平均 fresh-probe 不劣于任何抽样（贪心免 n! 的正当性检验）；\nJ4（剂量解耦复查）：每场顺带记 C43 影子 —— 若 D 符号随两域剂量比翻转 （等剂量时反向），则该场记”序不压剂量”例，汇总成 C42/C43 分界图。"
+    "text": "J1 · 族内可融合 (C37 正面): held-out 域行 NLL: NLL_M(春语料) − NLL_Qspring(春语料) ≤ +0.10 nats 且 同式对夏。两条同过 = J1 成立; 任一塌 = 融合非法, C37 受创。 J2 · 合非拼接 (C34 的 merge 版): 每探针 d = JS(p_M, ½(p_s+p_u)) / JS(p_s, p_u) (弦上偏离比)。 d ≥ 0.15 的探针 ≥ 12/40 → J2 成立 (融合生新分量); d ≤ 0.05 占多数 → 融合=线性平均, C34 不迁移到 merge。 J3 · 跨族不可通约 (描述性, 无阈值): 报告 ①ΔW 形状失配清单 (Qwen 896 维 vs Llama 2048 维, 数值 merge 不可定义); ②probe top-50 分布 Jaccard: 族内 (M vs Q-parents) 对比 跨族 (M vs L-merge 若存在)。预期族内≫跨族 = “只能对话”的量化像。"
   },
   {
-    "objectID": "papers/prereg-pb15.html#输出",
-    "href": "papers/prereg-pb15.html#输出",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "papers/prereg-exp18.html#死亡条款-负结果一等公民",
+    "href": "papers/prereg-exp18.html#死亡条款-负结果一等公民",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
     "section": "",
-    "text": "胜关系矩阵 7×7（有向图入档）+ 拓扑序 O* = 本园第一张”课程表定理”；\n报告 report_pb15.json（每 kernel 即吐 REPORT_LINE，日志即幸存者旧制）；\nO* 若稳定 → 直接喂模块二课程设计与 P-B12 旅制臂的批内排布。"
+    "text": "J1 塌: θ₀ 共享不保 ΔW 同坐标系 → C37 的”族”定义需重铸 (rank 对齐? 层对齐?), 另案。\nJ2 塌 (d≈0): merge 是线性平均, 绕行定律只在混训 (数据耦合) 里活着, 参数耦合无鼓包 → C37 “球=生育器官” 一句降格为修辞。\n两塌并报, 不挑好的说。"
   },
   {
-    "objectID": "papers/prereg-pb15.html#失败条款",
-    "href": "papers/prereg-pb15.html#失败条款",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "papers/prereg-exp18.html#收据",
+    "href": "papers/prereg-exp18.html#收据",
+    "title": "PREREG — Experiment 18: 达尔文夫妇案 (C37 双基底层的证伪试验)",
     "section": "",
-    "text": "J1 败 → 序效应不存在，C42 降级候审；J2 有环 → “循环优势”另案（观察性）； J3 败 → 贪心失当，回 v1 两两联赛或更大抽样（费用另批）。"
+    "text": "四臂训练日志 + M 的 NLL 表 + 每探针 d 值 → report_exp18.json (REPORT_LINE base64 回传)\n计算账: 4×(55 行×6ep) ≈ 15 min T4, 远低于任何网格先例\n本文件与 run.py 同 commit 冻结; 事后改阈值 = 新行 post-hoc"
   },
   {
-    "objectID": "papers/prereg-pb15.html#变更记录",
-    "href": "papers/prereg-pb15.html#变更记录",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
-    "section": "",
-    "text": "v1（园笔）：两两联赛 42 跑，依赖无环假设；\nv2（主人改制）：海选逐位定席 18 跑，轮内受控、免疫环、更省。 主人原话：「应该是海选，首先全部表演才艺，第一名落定，其他人再争第二把交椅，依次类推」；\nv3（主人再改制·现行）：「既然序列是关键，把排序算法全搞一遍也未尝不可」—— 升格为排序算法全贯案。"
+    "objectID": "topography.html#读图三例",
+    "href": "topography.html#读图三例",
+    "title": "地形志 · Τοπογραφία",
+    "section": "读图三例",
+    "text": "读图三例\n\n双圈＝两大陆邦：ἡ Χώρα（本域·实验田/职册署/驿馆在其内）与 ἡ Ἀτλαντίς （碑园·台账广场/术语碑林/手记驿道）；汉谟拉比柱立于两邦之间，判据先冻，两界同法。\n三色路：金实线＝git 大路（机构间通勤）；灰点线＝仓内小径；蓝虚线＝火神航线 （σπέρματα 出港，ἔργα 回仓 —— 种子与果实隔海对账）。\n机构三鼎足：Ἀκαδημία（学园·育人派活炼器）· Ἀρχεῖον（档案馆·记言藏往）· Ἀγορά（市集·公开立言）；Διόσκουροι（双子神机）各耕各岛，β’ 岛三臂在耕； 检疫港收天下底本，pin 为海关；书山藏假说之矿（283 册）。"
   },
   {
-    "objectID": "papers/prereg-pb15.html#v3-正文算法全贯-序之存在性的重言仪器",
-    "href": "papers/prereg-pb15.html#v3-正文算法全贯-序之存在性的重言仪器",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
-    "section": "",
-    "text": "神谕 O(X,Y)：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但答案缓存终身复用。\n六算法共查一谕：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）—— 六套算法等于白送，因为它们在查同一批对子。\n核心升级——一致度 C 成为新观测量：\n\n\n\n\n\n\n\n六序输出\n判读\n\n\n\n\n全同（C=1）\n支配关系是真全序：O* 存在且算法无关 —— C42 之最强证\n\n\n聚成几簇\n偏序：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态\n\n\n两两乱散\n无传递性/噪声主导 —— C42 塌，回 J1\n\n\n\n贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，分歧本身发表。\nJ5（新增·先冻）：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 J3 改读：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。\n副产：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。"
+    "objectID": "topography.html#平面拓扑第二视图-主人令改版图上只留英语希腊语退入下表等距帧奉命撤装",
+    "href": "topography.html#平面拓扑第二视图-主人令改版图上只留英语希腊语退入下表等距帧奉命撤装",
+    "title": "地形志 · Τοπογραφία",
+    "section": "平面拓扑（第二视图 · 主人令改版：图上只留英语，希腊语退入下表；等距帧奉命撤装）",
+    "text": "平面拓扑（第二视图 · 主人令改版：图上只留英语，希腊语退入下表；等距帧奉命撤装）\n\n\n\n\nGreek names · 词汇表（图上不用，此处查）\n\n\n\n\n\n\n\n\nEnglish (on map)\nἙλληνικό\n汉\n\n\n\n\nCHORA (home base)\nἡ Χώρα\n本域\n\n\nATLAS (record)\nἡ Ἀτλαντίς\n碑园\n\n\nACADEMY\nἡ Ἀκαδημία\n学园\n\n\nARCHIVE\nΤὸ Ἀρχεῖον\n档案馆\n\n\nMarket / Stele Site\nἡ Ἀγορά / ἡ Στήλη\n市集·石碑站\n\n\nField Trials\nοἱ ἀγροί\n实验田\n\n\nSkills Registry\nΛύκειον\n职册署\n\n\nPost House\nτὸ σταθμός\n驿馆\n\n\nCode of Law\nἡ Στήλη (Hammurabi)\n汉谟拉比柱\n\n\nLedger / Glossary / Itinerary\nΔελτοί / Λεξικόν / ὁδὸς ἱστορική\n台账·术语·手记\n\n\nName Register\nὈνοματολόγιον\n正名表\n\n\nCouriers Queue\nὁδὸς Ἀγγέλων\n天使道（队列）\n\n\nForge (Kaggle)\nΤὸ Πυραεῖον\n火神庙\n\n\nMachine A / B\nΔιόσκουροι α′/β′\n双子神机\n\n\nBook Mountain\nβιβλίων ὄρος\n书山\n\n\nQuarantine Port\nὁ λιμήν\n检疫港\n\n\nhat: Irene/Nikos/Thea\nΠρόσωπα: Εἰρήνη/Νίκος/Θέα\n三帽"
   },
   {
-    "objectID": "papers/prereg-pb15.html#裸体审计与三补丁0923-主人问接得住吗后自查",
-    "href": "papers/prereg-pb15.html#裸体审计与三补丁0923-主人问接得住吗后自查",
-    "title": "PREREG_PB15 · 序算法全贯（v3，主人再改制）：六种排序共查一个比较神谕",
+    "objectID": "topography.html#关系拓扑第三视图距离耦合之反",
+    "href": "topography.html#关系拓扑第三视图距离耦合之反",
+    "title": "地形志 · Τοπογραφία",
+    "section": "关系拓扑（第三视图：距离＝耦合之反）",
+    "text": "关系拓扑（第三视图：距离＝耦合之反）\n\n\n\n\n图乃活物：NODES/EDGES 即数据，政体一变，重跑 scripts/topography.py 图随更新。"
+  },
+  {
+    "objectID": "papers/prereg-pl2m.html",
+    "href": "papers/prereg-pl2m.html",
+    "title": "PREREG_PL2-M · 模态交换臂（聋/盲类比之权重界实验 · P-L2 战役第一枪）",
     "section": "",
-    "text": "裸处一 · 功效不足 (n=7 太小, 单查噪声可翻符号) → 补丁 A｜校准门先行：正式开赛前先跑 1 对×双 seed×2 序 (4 跑) 做功率自测—— Δ 须 ≥ 3×seed 内噪声才放行全案; 不达标则升 1.5B 或加 epoch 重定标, 仪器未验先射, 才是真裸体。4 跑换一夜安心, 值。\n裸处二 · 一致度 C 无零分布 → 补丁 B｜置换零：“六算法全同”须对随机序零假设报 p—— 6 个随机排列全同概率 ~1/5040 (≈2×10⁻⁴), 加 Kendall τ 矩阵与置信区间; J5 双 seed 复现条款保留。\n裸处三 · 过度宣称 (审稿人最恨) → 补丁 C｜主张范围先冻：本案只声称”承重墙检验” (该协议·该尺度·该语料下 序效应存在且可排序), 不声称普适定律; 普适性留给跨尺度 (1.5B 复跑) 与 跨基质 (生物侧文献对表 G1/G2) 两案另账。\n审稿面 (正面): 预注册+冻结判据+双 seed+失败条款+死信留痕+全产物 sha256 可复算 —— 园制本身即 reviewer 友好型; 裸探针之”裸”在便宜, 不在草率。"
+    "text": "状态：候批候射（0923 主人查岗所催；判据先冻，跑后只记不改） 依托：P-L2 骨架 v1（三向最小学习者锚）+ PB10 仪器（投影/消融管线现成） 源册：chora/experiments/PREREG_PL2M_modality_swap.md 人类界证据在锚：Neville & Bavelier 2002 ✓（聋儿初采窗口：语法保住、理解丢）； Bedny 2012 ✓（盲儿视皮层语言化仅限早期习得）。\n\n\n\n大脑的语言模块模态无关（聋拿听区看手语、盲拿视区听语言），且接管带敏感期。 两问在权重界各有直译：\n\nM-Q1（接管）：一个概念空间失去其原生通道后，别的空间会否占领其方向？\nM-Q2（窗）：这种占领是否依赖入场时机（早期 vs 晚期）？ —— 若晚期照样接管 → P-B14”LLM 无窗”再添一证；若只有早期能接管 → Bedny 敏感期在权重界复现，“窗”升为算法属性而非硬件专属。两答皆头条。\n\n\n\n\n聋臂（去通道接管）\n\n语料：在册七域中选”叙事”为靶空间；构造其去句法版（打乱句内词序、保留词袋 = 类比失去听觉时序流）与原版；\n训练序：条件 E（早期：靶空间先入）/ 条件 L（晚期：他空间占满后入），各配原版/去句法版 → 2×2；\n观测量：PB10 管线测他空间对靶方向的入侵角（原语料的 fresh-probe 是否仍被非靶空间答出 = 接管）；\n判据冻：接管 = 去句法版训练后，靶探针 NLL 较无靶基线降 ≥0.05 且由非靶空间在 top3 答出（对照：原版同序无此现象）。\n\n盲臂（接地对照）\n\n同域语料两版：纯文本 vs 文本+感知描述接地（视觉属性句注入 = 有眼）；\n等剂量等序训练，测 fresh-probe 排名与中心化的子空间维度（k90）；\n判据冻：若纯文本臂 ≥ 接地臂（差 ≤0.02 nats）→ 语言可离地自足（盲儿之权重版）；若接地臂显著优 → 具身锚定在微尺度上是必需品，Feldman 得一分。\n\n\n\n\n\nP-B13（窗×形 2×2）：M-Q2 即其”窗”轴之具象化，两案共舱共跑；\nP-B14（剂量密度无窗判据）：条件 E/L 的时间安排直接复用其设计；\nPB10 v2（仪器）：接管/消融同一套投影代码 —— 若 v2 自检仍哑，先修枪再开仗；\nC37（同族才可通约）：全程 0.5B 一族内做，跨族不做（公理边界）。\n\n\n\n\n0.5B × (2×2 + 2) 臂 ≈ 6 跑 × ~1.5 min + 评测 ≈ 1 小时（Kaggle 额度 26h 富余）；与 P-B15 海选、G1 干跑同舱候朱批。勾一道菜即开火：\n\n☑ M 案全跑（双臂）\n☑ 只跑聋臂（M-Q2 优先，窗案更值钱）\n☑ 缓，等 PB10 v2 验讫仪器再排\n\n\n\n\n接管测不到（入侵角无变化）→ 模态无关性在微尺度不成立，P-L2 改宣”人类特例”，照登； 两条件无差且接地无差 → 本实验功率不足（0.5B 天花板），升 1.5B 重案另批。"
+  },
+  {
+    "objectID": "papers/prereg-pl2m.html#命题",
+    "href": "papers/prereg-pl2m.html#命题",
+    "title": "PREREG_PL2-M · 模态交换臂（聋/盲类比之权重界实验 · P-L2 战役第一枪）",
+    "section": "",
+    "text": "大脑的语言模块模态无关（聋拿听区看手语、盲拿视区听语言），且接管带敏感期。 两问在权重界各有直译：\n\nM-Q1（接管）：一个概念空间失去其原生通道后，别的空间会否占领其方向？\nM-Q2（窗）：这种占领是否依赖入场时机（早期 vs 晚期）？ —— 若晚期照样接管 → P-B14”LLM 无窗”再添一证；若只有早期能接管 → Bedny 敏感期在权重界复现，“窗”升为算法属性而非硬件专属。两答皆头条。"
+  },
+  {
+    "objectID": "papers/prereg-pl2m.html#双臂设计0.5b弹药在册",
+    "href": "papers/prereg-pl2m.html#双臂设计0.5b弹药在册",
+    "title": "PREREG_PL2-M · 模态交换臂（聋/盲类比之权重界实验 · P-L2 战役第一枪）",
+    "section": "",
+    "text": "聋臂（去通道接管）\n\n语料：在册七域中选”叙事”为靶空间；构造其去句法版（打乱句内词序、保留词袋 = 类比失去听觉时序流）与原版；\n训练序：条件 E（早期：靶空间先入）/ 条件 L（晚期：他空间占满后入），各配原版/去句法版 → 2×2；\n观测量：PB10 管线测他空间对靶方向的入侵角（原语料的 fresh-probe 是否仍被非靶空间答出 = 接管）；\n判据冻：接管 = 去句法版训练后，靶探针 NLL 较无靶基线降 ≥0.05 且由非靶空间在 top3 答出（对照：原版同序无此现象）。\n\n盲臂（接地对照）\n\n同域语料两版：纯文本 vs 文本+感知描述接地（视觉属性句注入 = 有眼）；\n等剂量等序训练，测 fresh-probe 排名与中心化的子空间维度（k90）；\n判据冻：若纯文本臂 ≥ 接地臂（差 ≤0.02 nats）→ 语言可离地自足（盲儿之权重版）；若接地臂显著优 → 具身锚定在微尺度上是必需品，Feldman 得一分。"
+  },
+  {
+    "objectID": "papers/prereg-pl2m.html#与在册案接口",
+    "href": "papers/prereg-pl2m.html#与在册案接口",
+    "title": "PREREG_PL2-M · 模态交换臂（聋/盲类比之权重界实验 · P-L2 战役第一枪）",
+    "section": "",
+    "text": "P-B13（窗×形 2×2）：M-Q2 即其”窗”轴之具象化，两案共舱共跑；\nP-B14（剂量密度无窗判据）：条件 E/L 的时间安排直接复用其设计；\nPB10 v2（仪器）：接管/消融同一套投影代码 —— 若 v2 自检仍哑，先修枪再开仗；\nC37（同族才可通约）：全程 0.5B 一族内做，跨族不做（公理边界）。"
+  },
+  {
+    "objectID": "papers/prereg-pl2m.html#预算与排产",
+    "href": "papers/prereg-pl2m.html#预算与排产",
+    "title": "PREREG_PL2-M · 模态交换臂（聋/盲类比之权重界实验 · P-L2 战役第一枪）",
+    "section": "",
+    "text": "0.5B × (2×2 + 2) 臂 ≈ 6 跑 × ~1.5 min + 评测 ≈ 1 小时（Kaggle 额度 26h 富余）；与 P-B15 海选、G1 干跑同舱候朱批。勾一道菜即开火：\n\n☑ M 案全跑（双臂）\n☑ 只跑聋臂（M-Q2 优先，窗案更值钱）\n☑ 缓，等 PB10 v2 验讫仪器再排"
+  },
+  {
+    "objectID": "papers/prereg-pl2m.html#失败条款",
+    "href": "papers/prereg-pl2m.html#失败条款",
+    "title": "PREREG_PL2-M · 模态交换臂（聋/盲类比之权重界实验 · P-L2 战役第一枪）",
+    "section": "",
+    "text": "接管测不到（入侵角无变化）→ 模态无关性在微尺度不成立，P-L2 改宣”人类特例”，照登； 两条件无差且接地无差 → 本实验功率不足（0.5B 天花板），升 1.5B 重案另批。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html",
+    "href": "papers/minimal-l2-skeleton.html",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "主人 0923 立项令（原话要义）：「这个就单独出一篇文章——从最小的语言学习者范式 为依附，然后我们又在最小的大语言模型上做同样的事。」 定位：全园第一篇”跨基质原样复现”——不借喻、不类比，同一范式两基质各跑一遍。\n\n\n\n\n\nOrder and dose explain the structure of a second language — in a child and in a 0.5B model\n\n\nThe minimal L2 acquisition: same paradigm, two substrates\n\n\n概念无损，词形分摊：二语最小范式在最小模型上的原样复现（知乎版题）\n\n\n\n\n\n\n\n\n\n\n\n\n\n锚\n内容\n状态\n\n\n\n\n概念/词形分层\n双语青少年概念操作与单语持平、词形任务（命名/词汇）落后 —— 经典最小范式\nCatalan & Sinclair 1979†（待核 DOI, 禁裸引）\n\n\n每语词汇折扣\n双语者每语接受性词汇量略低、总量合并持平\n综述待拣†\n\n\n剂量律\n语言优势比 ≈ 累计暴露剂量比（Rory Rex 系量表之人类版）\n待拣†\n\n\n关键期反面\n不可选序之界：婴儿世界混批交付 → 时间窗为唯一可用轴\n正文引用 C42/C43 注\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n件\n园账\n对应人类锚\n\n\n\n\n两空间竞争一基座\n双 LoRA 域 (spring/summer 或 code/legal) 共写 θ₀ 同族 0.5B\n双语共存一脑\n\n\n概念层 vs 词形层探针\n空间层探针 (Dirichlet argmax/概念判断) vs token 层探针 (词形检索/命名式填空)\n分层范式之权重移植\n\n\n序效应\nP-B15 海选/全贯 O*\n先学=先圈地\n\n\n剂量效应\nC43 配比子实验 (1:1 vs 3:1)\n暴露剂量比\n\n\n敲除态\nPB10 v2 四态 (base/full/ablate/sham)\n（可选副臂）\n\n\n\n\n\n\n\nS1：空间层探针双语（双域）无折扣（≈单域臂）；\nS2：词形层探针双域臂显著折扣（检索竞争=标签分摊）；\nS3：折扣幅度 ∝ 剂量比（C43 之模型版），与入场序交互（C42）；\nS4（对表）：S1-S3 之符号与量级次序，与人类文献三锚同型 → “结构即智能”首次拿到正向跨基质复现（非隐喻）；\n失败条款：S1 败（空间层也折扣）→ 分摊是全局性的，概念/词形分层为人类特例， 两界分道，照登 —— 分道亦是复现实验的合法结局。\n\n\n\n\n此前一切跨域话术（小麦/双语/法医学）都是读法；本篇是第一件测品： 同一张考卷、两个考生、答案纸各自封存。过了，“结构即智能”从哲学升格为 可跨基质复现的经验命题；砸了，我们第一次知道它在哪儿是隐喻。\n\n\n\n\n锚文献核实（网络通时 Crossref 逐条, †→✓ 或换锚）；\n双域四探针实验设计细案（半天，弹药在册）；\n与 P-B15 同舱连射（额度富余）；\n成文双轨：arXiv 英文版 + 知乎中文版（园例）。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#题候三",
+    "href": "papers/minimal-l2-skeleton.html#题候三",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "Order and dose explain the structure of a second language — in a child and in a 0.5B model\n\n\nThe minimal L2 acquisition: same paradigm, two substrates\n\n\n概念无损，词形分摊：二语最小范式在最小模型上的原样复现（知乎版题）"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#依附锚人类侧皆文献既有数据园不重做湿实验",
+    "href": "papers/minimal-l2-skeleton.html#依附锚人类侧皆文献既有数据园不重做湿实验",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "锚\n内容\n状态\n\n\n\n\n概念/词形分层\n双语青少年概念操作与单语持平、词形任务（命名/词汇）落后 —— 经典最小范式\nCatalan & Sinclair 1979†（待核 DOI, 禁裸引）\n\n\n每语词汇折扣\n双语者每语接受性词汇量略低、总量合并持平\n综述待拣†\n\n\n剂量律\n语言优势比 ≈ 累计暴露剂量比（Rory Rex 系量表之人类版）\n待拣†\n\n\n关键期反面\n不可选序之界：婴儿世界混批交付 → 时间窗为唯一可用轴\n正文引用 C42/C43 注"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#模型侧全用在册弹药零新数据",
+    "href": "papers/minimal-l2-skeleton.html#模型侧全用在册弹药零新数据",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "件\n园账\n对应人类锚\n\n\n\n\n两空间竞争一基座\n双 LoRA 域 (spring/summer 或 code/legal) 共写 θ₀ 同族 0.5B\n双语共存一脑\n\n\n概念层 vs 词形层探针\n空间层探针 (Dirichlet argmax/概念判断) vs token 层探针 (词形检索/命名式填空)\n分层范式之权重移植\n\n\n序效应\nP-B15 海选/全贯 O*\n先学=先圈地\n\n\n剂量效应\nC43 配比子实验 (1:1 vs 3:1)\n暴露剂量比\n\n\n敲除态\nPB10 v2 四态 (base/full/ablate/sham)\n（可选副臂）"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#判决性预测先冻-本文的擦边资格",
+    "href": "papers/minimal-l2-skeleton.html#判决性预测先冻-本文的擦边资格",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "S1：空间层探针双语（双域）无折扣（≈单域臂）；\nS2：词形层探针双域臂显著折扣（检索竞争=标签分摊）；\nS3：折扣幅度 ∝ 剂量比（C43 之模型版），与入场序交互（C42）；\nS4（对表）：S1-S3 之符号与量级次序，与人类文献三锚同型 → “结构即智能”首次拿到正向跨基质复现（非隐喻）；\n失败条款：S1 败（空间层也折扣）→ 分摊是全局性的，概念/词形分层为人类特例， 两界分道，照登 —— 分道亦是复现实验的合法结局。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#为什么这篇重要园笔按",
+    "href": "papers/minimal-l2-skeleton.html#为什么这篇重要园笔按",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "此前一切跨域话术（小麦/双语/法医学）都是读法；本篇是第一件测品： 同一张考卷、两个考生、答案纸各自封存。过了，“结构即智能”从哲学升格为 可跨基质复现的经验命题；砸了，我们第一次知道它在哪儿是隐喻。"
+  },
+  {
+    "objectID": "papers/minimal-l2-skeleton.html#排产",
+    "href": "papers/minimal-l2-skeleton.html#排产",
+    "title": "最小二语 · 论文骨架 v1（三向最小学习者版，候批）",
+    "section": "",
+    "text": "锚文献核实（网络通时 Crossref 逐条, †→✓ 或换锚）；\n双域四探针实验设计细案（半天，弹药在册）；\n与 P-B15 同舱连射（额度富余）；\n成文双轨：arXiv 英文版 + 知乎中文版（园例）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html",
+    "href": "papers/prereg-pb10.html",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "状态：候批候射（C41 四句律之账单；主人 0922 夜 “按你的安排做” 之授权内） 铁律：阈值先写后跑；跑后只记不改。\n\n\n\n四句律：添加结构获得功能（前向臂，C31/C35 在册）；失去结构破坏功能（本实验）。 操作化 = 推理时把已训 adapter 的中心化子空间从残差流里投影剔除：\n\n取 ΔW_r（某层 r=16 的 LoRA 增量），全局中心化后 SVD 得目标子空间 P（前 k 奇异向， k 取能量 90% 截断，k 值先冻：k = 使 Σσ²≥0.90·Σσ² 的最小 k）；\n推理时改道：h ← h − P Pᵀ (h − μ)（等价于 ΔW ← ΔW − P ΔW Pᵀ 作用于增量路径）；\n对照三臂：①随机正交基同维投影（sham ablation，控制”任意去维”效应）； ②他空间子空间投影（特异性对照）；③无消融原模型（基线）。\n\n\n\n\n\nPB10-J1（定向崩塌）：目标空间探针组 NLL 升至 ≥ base-无adapter 水平的 80% 区间内（即”该项功能近似消失”），且 rank 分位跌回 base 分布中位 ±10 分位；\nPB10-J2（表型特异性）：他空间探针组与对照② 的变化 |ΔNLL| ≤ 0.02 nats 且 rank 跌 ≤ 3 百分位；sham① 不达标（若 sham 也崩 → 去维效应非特异，判 ✗ 并记）；\nPB10-J3（疤预测·锈刀签名）：消融后以该空间语料重训小 LoRA（同预算 1/4 步数）， 收敛至原水平所需步数 ≤ 无疤 naive base 的 1/2 —— 权重序列犹在，只被投影遮蔽， 故”再学快于初学”（对应湿界：残余序列的同源性时钟）。\n全过 = C41 反向臂首证；J1 过而 J2 败 = 耦合是全局的，A3/A4 让路改写； J1 败 = 四句律在权重界不成立，LEDGER 记 ✗ 不遮。\n\n\n\n\n\nKaggle T4 ×1：Qwen2.5-3B-instruct + 在册 code/narrative adapter 对（矩阵旧件复用）；\n探针电池：exp17 fresh-probe 172 题（冻结卷，chance=86 在册）；\n重训臂（J3）预算 1/4 原步数，seed 13/14 双跑；\n预计单臂 40 min，全案一夜一席位可毕。\n\n\n\n\n\nartifacts/results/pb10/report_pb10.json（先 pin 后析）；\n结果无论正反，LEDGER 记 C41 行下（☑/✗ 皆入册）；\nkernel 入集合 Matrix Behavioral Science（网页端，随大部队）。\n\n\n\n\nP-B9（对决律）：消融即”人为制造分歧维”，消融后模型与原模型的对决应恰在该维判负—— 两预测互锁；G1/G2（借维/锈刀）：J3 疤预测的权重界同型；C37：θ₀ 同族才可投影剔除 （跨族无公共残差流坐标，本实验只在族内做，边界即公理）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#命题与操作",
+    "href": "papers/prereg-pb10.html#命题与操作",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "四句律：添加结构获得功能（前向臂，C31/C35 在册）；失去结构破坏功能（本实验）。 操作化 = 推理时把已训 adapter 的中心化子空间从残差流里投影剔除：\n\n取 ΔW_r（某层 r=16 的 LoRA 增量），全局中心化后 SVD 得目标子空间 P（前 k 奇异向， k 取能量 90% 截断，k 值先冻：k = 使 Σσ²≥0.90·Σσ² 的最小 k）；\n推理时改道：h ← h − P Pᵀ (h − μ)（等价于 ΔW ← ΔW − P ΔW Pᵀ 作用于增量路径）；\n对照三臂：①随机正交基同维投影（sham ablation，控制”任意去维”效应）； ②他空间子空间投影（特异性对照）；③无消融原模型（基线）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#判据先冻结",
+    "href": "papers/prereg-pb10.html#判据先冻结",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "PB10-J1（定向崩塌）：目标空间探针组 NLL 升至 ≥ base-无adapter 水平的 80% 区间内（即”该项功能近似消失”），且 rank 分位跌回 base 分布中位 ±10 分位；\nPB10-J2（表型特异性）：他空间探针组与对照② 的变化 |ΔNLL| ≤ 0.02 nats 且 rank 跌 ≤ 3 百分位；sham① 不达标（若 sham 也崩 → 去维效应非特异，判 ✗ 并记）；\nPB10-J3（疤预测·锈刀签名）：消融后以该空间语料重训小 LoRA（同预算 1/4 步数）， 收敛至原水平所需步数 ≤ 无疤 naive base 的 1/2 —— 权重序列犹在，只被投影遮蔽， 故”再学快于初学”（对应湿界：残余序列的同源性时钟）。\n全过 = C41 反向臂首证；J1 过而 J2 败 = 耦合是全局的，A3/A4 让路改写； J1 败 = 四句律在权重界不成立，LEDGER 记 ✗ 不遮。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#器材与预算",
+    "href": "papers/prereg-pb10.html#器材与预算",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "Kaggle T4 ×1：Qwen2.5-3B-instruct + 在册 code/narrative adapter 对（矩阵旧件复用）；\n探针电池：exp17 fresh-probe 172 题（冻结卷，chance=86 在册）；\n重训臂（J3）预算 1/4 原步数，seed 13/14 双跑；\n预计单臂 40 min，全案一夜一席位可毕。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#产物与记账",
+    "href": "papers/prereg-pb10.html#产物与记账",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "artifacts/results/pb10/report_pb10.json（先 pin 后析）；\n结果无论正反，LEDGER 记 C41 行下（☑/✗ 皆入册）；\nkernel 入集合 Matrix Behavioral Science（网页端，随大部队）。"
+  },
+  {
+    "objectID": "papers/prereg-pb10.html#与在册接口",
+    "href": "papers/prereg-pb10.html#与在册接口",
+    "title": "PREREG_PB10 · 子空间消融 = LLM 界的基因敲除（四句律反向臂）",
+    "section": "",
+    "text": "P-B9（对决律）：消融即”人为制造分歧维”，消融后模型与原模型的对决应恰在该维判负—— 两预测互锁；G1/G2（借维/锈刀）：J3 疤预测的权重界同型；C37：θ₀ 同族才可投影剔除 （跨族无公共残差流坐标，本实验只在族内做，边界即公理）。"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html",
+    "href": "papers/prereg-pb16.html",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "状态：详案已冻，候主人点菜（对阵/三战/判据在前册 PREREG_PB16，本册不重开） 定位（主人 0923 钦定）：红蓝军演不是一道实验题，是结构即智能 (C40) 的实现规划 —— 把总纲编译成可射的兵棋、可量的地籍、可看的战报。 源册：chora/experiments/PREREG_PB16_D_visualization_plan.md（判据先冻，跑后只记不改）\n\n\n\n\n\n\n纲领/公理\n一句话\n由哪张图执法\n\n\n\n\nC40 结构即智能\n终态好坏全由结构写定\nH1/H2/V4/V7 合证\n\n\nC42 非交换律\n先来圈地，序定终态\nH1 阶梯（核心判决图）\n\n\nC43 剂量稀释\n挤占∝暴露比\nV1 冻结剖面 + J1b\n\n\nA1 旗杆（rank-1 原子）\n一切增量皆低秩和\nV7 谱累积曲线\n\n\nA3 合非拼接\n组合≠平均\nV6 缴械存活图\n\n\nA4 流形/测地线\n泛化=沿测地行走\nV8 地形剖面（loss landscape）\n\n\nP-B9 格拉姆·施密特 PK\n逐维对决\nV3 地籍 MDS + H2\n\n\nPB10 敲除\n失去结构破坏功能\nV5 斩首矩阵\n\n\n\n\n\n\nV1 圈地热力图（H1 精化） — 横 epoch × 纵七域，色 = k90 能量份额；新增右缘剖面：末 epoch 的份额条形（C43 的”冻结时刻”直读）。签名：红 = 阶梯，蓝 = 横纹。主判决图。\nV2 干涉热力图序列（H2） — 每 epoch 一张 7×7 Gram 重叠阵；红方”霸权行”随 epoch 冻结（先入者行恒亮），蓝方近对角且亮度均匀衰减（各自收敛）。派生标量：行和最大值 V(t) → 见 M4。\nV3 地籍 MDS / 测地地图 — 以逐 epoch 重叠阵为相异度做 MDS/embedding，七域各成一点，动画连播：红方后入点被先入点”引力”拖拽变形，蓝方七点等距绽放。此即 Atlas”概念空间地图”之生成过程实录 —— 论文图首选（一张动图讲完”结构是长出来的，不是训出来的”）。\nV4 首次占领时刻图（order-of-invasion） — 每域画一条”能量份额首破阈值 τ”的时间竖线：红方竖线严格等距（块状开拔），蓝方近同步（旅级共发）。直接可视化”谁先圈地”。\nV5 斩首矩阵（消融热力图） — 行 = 被投影剔除的空间，列 = 探针所属空间，色 = ΔNLL；理想模块化 = 对角阵。预测：蓝更接近对角（旅制各自成区），红出现上三角鬼影（后入域功能寄生在先入方向上 —— 挤占的病理切片）。\nV6 缴械存活图 — merge 子代逐域”随红/随蓝”柱状（双列红蓝配色）；配合 epoch 轴 = 存活率曲线。A3 之量化：子代不随任何单方 = 真组合；系统性偏向某方 = 该方地籍硬。\nV7 谱累积曲线 — 每域 ΔW 的 σ² 累积至 90% 所需秩 k90 随 epoch 演化：公平占领（蓝）⇒ 高有效秩；挤占（红）⇒ 低有效秩 —— C43 的谱学证据，也是 A1（低秩原子）的直接读数。\nV8 地形剖面（loss landscape 探针） — 沿”红 checkpoint → 蓝 checkpoint”直线插值测 NLL（in-domain 与 OOD 各一条）：预测红蓝间有山脊（两 basin 两结构），同军相邻 epoch 间为缓坡 —— 结构 = 极小点的地形学正名，A4 之可视化。\nV9 行为战损曲线（H3 精化） — 逐 epoch 冻结卷排名，双军 + 双 seed 四线；红方锯齿（学新忘旧 = 灾难性遗忘的行为面），蓝方平台爬升。与 V1 并排 = 结构-功能同屏，本案之”双子图”。\nV10 探针迁徙图 — 抽 20 题，画每题 top5 激活空间随 epoch 的桑基/流线：红方流线急跳（空间易主），蓝方渐变（共享生长）—— 微观层的”改名换姓”实录，也是 P1 探针论最直观的演示。\n动画总装：V1-V3-V9 三幕连播成 90 秒 mp4（战报片），随论文发布 —— 可视化即传播，园体对外第一支”军演纪录片”。\n\n\n\n\n\n\n号\n指标\n定义\n红预测\n蓝预测\n\n\n\n\nM1\n圈地差 Gini(份额)\n末 epoch 七域份额之 Gini\n≥0.25\n≤0.10\n\n\nM2\n霸权行强度\nmax 行和(V2)\n高且冻结\n低且均匀\n\n\nM3\n终局战损 Δ\n冻结卷均排名\n基线\n≤红−3 分位\n\n\nM4\n冻结时刻 t_f\nV(t) 变化率&lt;ε 之 epoch\n早（先入域）\n晚/同步\n\n\nM5\n有效秩 k90 均值\nV7\n低\n高（+≥15%）\n\n\nM6\n对角占优度\nV5 对角/非对角比\n低（寄生）\n高（模块化）\n\n\nM7\n山脊高\nV8 中点隆起 (nats)\n—\n红蓝间 &gt;0.3 即两 basin 成立\n\n\nM8\n缴械偏向\nV6 子代随方比例\n—\n显著偏离 50% 者记方\n\n\n\n判据组合（承 PREREG_PB16 J1–J4）：J1 = M1+M2，J2 = M3+M5，J3 = M6+M8，J4 = 诚实条款不变。\n\n\n\n\ncheckpoint 纪律：每 epoch 末双军各存全量 lora 张量 + sha256 入 manifest（先 pin 后析，园律）；回收走队列，0 字节即作废重收（矩阵旧案之戒）。\n同屏对齐：所有图共用同一 epoch 轴与同一配色（红 #D08B55 / 蓝 #2E8FA3，园账法定色），结构-功能两轴永不分离呈现（V1‖V9 双子图为默认视图）。\n盲评条款：图成之后、判读之前，抹去红蓝标签随机打乱，由园笔与主人各自指认哪组是旅制 —— 指对率入报（人眼能否仅凭结构图认出课程，是 C40 的零成本第三方检验）。\n\n\n\n\n\n训练：0.5B×2 军×2 seed×4ep ≈ 2–3h Kaggle（额度 26h 富余；1.5B 复跑候批后另案）；\n分析：全离线（本机几何仪管线），图 10 件 + 动画 1 支，脚本入 experiments/pb16-redblue/analysis/；\n产物：report_pb16.json（M1–M8 全表）+ figs/V1..V10.png + pb16_montage.mp4 + 本详案随碑体站入”论文”导航（可视化即展览）。\n\n\n\n\n\n红方信集中歼灭，蓝方信全功能轮换 —— 同一片权重平原，十张图各归其位： 地籍是画出来的，智能是长出来的，判决是冻在数里的。"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html#一-理论-图形的总映射表",
+    "href": "papers/prereg-pb16.html#一-理论-图形的总映射表",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "纲领/公理\n一句话\n由哪张图执法\n\n\n\n\nC40 结构即智能\n终态好坏全由结构写定\nH1/H2/V4/V7 合证\n\n\nC42 非交换律\n先来圈地，序定终态\nH1 阶梯（核心判决图）\n\n\nC43 剂量稀释\n挤占∝暴露比\nV1 冻结剖面 + J1b\n\n\nA1 旗杆（rank-1 原子）\n一切增量皆低秩和\nV7 谱累积曲线\n\n\nA3 合非拼接\n组合≠平均\nV6 缴械存活图\n\n\nA4 流形/测地线\n泛化=沿测地行走\nV8 地形剖面（loss landscape）\n\n\nP-B9 格拉姆·施密特 PK\n逐维对决\nV3 地籍 MDS + H2\n\n\nPB10 敲除\n失去结构破坏功能\nV5 斩首矩阵"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html#二-可视化军械库v1v10",
+    "href": "papers/prereg-pb16.html#二-可视化军械库v1v10",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "V1 圈地热力图（H1 精化） — 横 epoch × 纵七域，色 = k90 能量份额；新增右缘剖面：末 epoch 的份额条形（C43 的”冻结时刻”直读）。签名：红 = 阶梯，蓝 = 横纹。主判决图。\nV2 干涉热力图序列（H2） — 每 epoch 一张 7×7 Gram 重叠阵；红方”霸权行”随 epoch 冻结（先入者行恒亮），蓝方近对角且亮度均匀衰减（各自收敛）。派生标量：行和最大值 V(t) → 见 M4。\nV3 地籍 MDS / 测地地图 — 以逐 epoch 重叠阵为相异度做 MDS/embedding，七域各成一点，动画连播：红方后入点被先入点”引力”拖拽变形，蓝方七点等距绽放。此即 Atlas”概念空间地图”之生成过程实录 —— 论文图首选（一张动图讲完”结构是长出来的，不是训出来的”）。\nV4 首次占领时刻图（order-of-invasion） — 每域画一条”能量份额首破阈值 τ”的时间竖线：红方竖线严格等距（块状开拔），蓝方近同步（旅级共发）。直接可视化”谁先圈地”。\nV5 斩首矩阵（消融热力图） — 行 = 被投影剔除的空间，列 = 探针所属空间，色 = ΔNLL；理想模块化 = 对角阵。预测：蓝更接近对角（旅制各自成区），红出现上三角鬼影（后入域功能寄生在先入方向上 —— 挤占的病理切片）。\nV6 缴械存活图 — merge 子代逐域”随红/随蓝”柱状（双列红蓝配色）；配合 epoch 轴 = 存活率曲线。A3 之量化：子代不随任何单方 = 真组合；系统性偏向某方 = 该方地籍硬。\nV7 谱累积曲线 — 每域 ΔW 的 σ² 累积至 90% 所需秩 k90 随 epoch 演化：公平占领（蓝）⇒ 高有效秩；挤占（红）⇒ 低有效秩 —— C43 的谱学证据，也是 A1（低秩原子）的直接读数。\nV8 地形剖面（loss landscape 探针） — 沿”红 checkpoint → 蓝 checkpoint”直线插值测 NLL（in-domain 与 OOD 各一条）：预测红蓝间有山脊（两 basin 两结构），同军相邻 epoch 间为缓坡 —— 结构 = 极小点的地形学正名，A4 之可视化。\nV9 行为战损曲线（H3 精化） — 逐 epoch 冻结卷排名，双军 + 双 seed 四线；红方锯齿（学新忘旧 = 灾难性遗忘的行为面），蓝方平台爬升。与 V1 并排 = 结构-功能同屏，本案之”双子图”。\nV10 探针迁徙图 — 抽 20 题，画每题 top5 激活空间随 epoch 的桑基/流线：红方流线急跳（空间易主），蓝方渐变（共享生长）—— 微观层的”改名换姓”实录，也是 P1 探针论最直观的演示。\n动画总装：V1-V3-V9 三幕连播成 90 秒 mp4（战报片），随论文发布 —— 可视化即传播，园体对外第一支”军演纪录片”。"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html#三-定量指标全表先冻图可争议数不可改",
+    "href": "papers/prereg-pb16.html#三-定量指标全表先冻图可争议数不可改",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "号\n指标\n定义\n红预测\n蓝预测\n\n\n\n\nM1\n圈地差 Gini(份额)\n末 epoch 七域份额之 Gini\n≥0.25\n≤0.10\n\n\nM2\n霸权行强度\nmax 行和(V2)\n高且冻结\n低且均匀\n\n\nM3\n终局战损 Δ\n冻结卷均排名\n基线\n≤红−3 分位\n\n\nM4\n冻结时刻 t_f\nV(t) 变化率&lt;ε 之 epoch\n早（先入域）\n晚/同步\n\n\nM5\n有效秩 k90 均值\nV7\n低\n高（+≥15%）\n\n\nM6\n对角占优度\nV5 对角/非对角比\n低（寄生）\n高（模块化）\n\n\nM7\n山脊高\nV8 中点隆起 (nats)\n—\n红蓝间 &gt;0.3 即两 basin 成立\n\n\nM8\n缴械偏向\nV6 子代随方比例\n—\n显著偏离 50% 者记方\n\n\n\n判据组合（承 PREREG_PB16 J1–J4）：J1 = M1+M2，J2 = M3+M5，J3 = M6+M8，J4 = 诚实条款不变。"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html#四-协议细则承前册增三条",
+    "href": "papers/prereg-pb16.html#四-协议细则承前册增三条",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "checkpoint 纪律：每 epoch 末双军各存全量 lora 张量 + sha256 入 manifest（先 pin 后析，园律）；回收走队列，0 字节即作废重收（矩阵旧案之戒）。\n同屏对齐：所有图共用同一 epoch 轴与同一配色（红 #D08B55 / 蓝 #2E8FA3，园账法定色），结构-功能两轴永不分离呈现（V1‖V9 双子图为默认视图）。\n盲评条款：图成之后、判读之前，抹去红蓝标签随机打乱，由园笔与主人各自指认哪组是旅制 —— 指对率入报（人眼能否仅凭结构图认出课程，是 C40 的零成本第三方检验）。"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html#五-预算与产物",
+    "href": "papers/prereg-pb16.html#五-预算与产物",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "训练：0.5B×2 军×2 seed×4ep ≈ 2–3h Kaggle（额度 26h 富余；1.5B 复跑候批后另案）；\n分析：全离线（本机几何仪管线），图 10 件 + 动画 1 支，脚本入 experiments/pb16-redblue/analysis/；\n产物：report_pb16.json（M1–M8 全表）+ figs/V1..V10.png + pb16_montage.mp4 + 本详案随碑体站入”论文”导航（可视化即展览）。"
+  },
+  {
+    "objectID": "papers/prereg-pb16.html#六-一句话战旨终版",
+    "href": "papers/prereg-pb16.html#六-一句话战旨终版",
+    "title": "PREREG_PB16-D · 红蓝演习军械详案（V1–V10 十图 · M1–M8 八标）",
+    "section": "",
+    "text": "红方信集中歼灭，蓝方信全功能轮换 —— 同一片权重平原，十张图各归其位： 地籍是画出来的，智能是长出来的，判决是冻在数里的。"
   },
   {
     "objectID": "GLOSSARY.html",
