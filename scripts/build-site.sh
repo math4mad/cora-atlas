@@ -42,4 +42,6 @@ open("docs/gaiden.html","w").write(src)
 PY
 ( cd site && "$Q" render )
 rsync -a docs-quarto/ docs/ 2>/dev/null || cp -R docs-quarto/. docs/
+python3 scripts/shelf-links.py docs/GLOSSARY.html docs/LEDGER.html
+
 echo "✔ 碑体站成: docs/ ($(find docs -name '*.html' | wc -l | tr -d ' ') 页)"
