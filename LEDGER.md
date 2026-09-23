@@ -124,3 +124,4 @@
 | 定纲 | Multi-Agent-Cowork 三度定案=**希腊学院**: 人才培养/工作派遣/文献阅读/基础功能研发四部, 具体实验一律分离在外 | 器部试炼清单开列 (kaggle 接口/GPU 云/文献管线/couchdb 判定留档不扩散); 与 chora-Lyceum 分工: 学院养人, 职册领席; v1 三户 v2 起居皆院制前身, git 可溯 | 本地 folder 已正名 multi-coworker; 仓名是否改 academy 候主人示下 (改名即 redirect, 子模块链接不断) |
 | 立宪 | ὁμόνοια 对齐律 (主人: 减少概念空间摩擦须互相对齐): 理解定义反身施用——同探针电池互校 drill 入学园宪 §三之二 | 首期卷 12 fresh-probe+5 新词指认已冻; 摩擦分越限→正名表补丁 (希腊化=减摩器件之定性); 园笔白卷候明日交 | 仓名政体宣言已落: multi-humans-agents-community (gh api 改名成, 旧链自动 redirect) |
 | 开馆 | Τὸ Ἀρχεῖον 立 (github.com/math4mad/archeion, 主人令): 书面与通信归藏, 分流律=可全局者入馆/只本地者存目 | 首藏: 两园信件全宗+日报沉淀+正名表颁行件; 存目六卡 (external 检疫区/提醒系统/iCloud 书库/会话导出/手记正刊/死信账); 馆规三则: 入馆不可变/一枚一卡/检索走 git | 园体三机构成: 学园育人·档案馆记言·市集立言 (Ἀγορά=碑站)
+| 开炉 | 器部落一试炼: Blender 3D 门 (主人准 "可以") —— 走 API 门不走鼠标路 (bpy headless 先行, blender-mcp GUI 联动候装) | 队列双岗: forge-blender-install (cask 大件硬扛) + forge-uvsetup; 首件差事已定: 西部世界地下场景图 (主人手机持有, 自写 prompt 为原典) 入 external 后 → 园体地形志 3D 剖面版 (竖剖分层·轻轨横穿·十九点二十二楼各占一格) | 原理在册: agent 的手是代码, 眼是渲染回图 |
