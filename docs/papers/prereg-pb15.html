@@ -202,7 +202,34 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="v3-正文算法全贯-序之存在性的重言仪器">6. v3 正文：算法全贯 = 序之存在性的重言仪器</h2>
 <p><strong>神谕 O(X,Y)</strong>：最小场次对决——仅两域 {X,Y} 各 3ep 连训两跑（X先/Y先）， 胜者=先入应占之位。一次查询=2 跑，但<strong>答案缓存终身复用</strong>。</p>
 <p><strong>六算法共查一谕</strong>：插入（最坏21查）· 冒泡（21查）· 归并（≤17）· 快排（≤19）· 堆排（≤20）· 锦标赛（v2 海选即此，贪心）。n=7 时<strong>不同查询 ≤ C(7,2)=21 对 → 全案封顶 42 跑，缓存后实耗 ~25 跑 ≈ 25 分钟（0.5B）</strong>—— 六套算法等于白送，因为它们在查同一批对子。</p>
-<p><strong>核心升级——一致度 C 成为新观测量</strong>： | 六序输出 | 判读 | |—|—| | 全同（C=1） | 支配关系是<strong>真全序</strong>：O* 存在且算法无关 —— C42 之最强证 | | 聚成几簇 | <strong>偏序</strong>：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态 | | 两两乱散 | 无传递性/噪声主导 —— C42 塌，回 J1 | 贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，<strong>分歧本身发表</strong>。</p>
+<p><strong>核心升级——一致度 C 成为新观测量</strong>：</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>六序输出</th>
+<th>判读</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>全同（C=1）</td>
+<td>支配关系是<strong>真全序</strong>：O* 存在且算法无关 —— C42 之最强证</td>
+</tr>
+<tr class="even">
+<td>聚成几簇</td>
+<td><strong>偏序</strong>：可并行课程表（簇内无序, 簇间有序）—— 比全序更贴生态</td>
+</tr>
+<tr class="odd">
+<td>两两乱散</td>
+<td>无传递性/噪声主导 —— C42 塌，回 J1</td>
+</tr>
+</tbody>
+</table>
+<p>贪心(v2)与比较排序的分歧点 = 非传递性藏身之处，<strong>分歧本身发表</strong>。</p>
 <p><strong>J5（新增·先冻）</strong>：全同判据 C=1 须跨双 seed 复现；簇结构以 Kendall τ 矩阵呈现。 <strong>J3 改读</strong>：随机排列抽检仍留（5 跑），验”排序解”之终态确实优于乱序—— 算法一致只证关系存在，不自动证该关系优化终态，两事两账。</p>
 <p><strong>副产</strong>：全部已查对子 = v1 完整 7×7 胜矩阵（自动回收）；v2 海选=其中锦标赛一列。 三版一案，账不重花。</p>
 </section>

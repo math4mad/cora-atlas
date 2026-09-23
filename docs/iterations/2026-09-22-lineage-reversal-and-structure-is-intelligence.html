@@ -264,7 +264,43 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>「利用基因进化的同源性原理，比对序列设计引物（可以认为是均值序列）， 利用 PCR 把某个基因从生物组织里扩出来。完美的贝叶斯先验分布到后验坍缩， 获得最后后验分布——而这个过程不是用 matplotlib 画出来的，是用 DNA 画出来的。」</p>
 </blockquote>
-<p><strong>对号入座（图式=画，管式=画，同一张画）</strong>： | 贝叶斯件 | matplotlib 世界 | PCR 世界 | |—|—|—| | 先验 | 坐标轴范围/网格 | 简并引物 = 同源比对的<strong>均值序列±简并度</strong>（先验核） | | 似然 | 数据点 | 退火杂交 = 模板给定引物的匹配度（Tm 即对数似然面） | | 后验采样 | 画点 | 指数扩增 = 重要性采样重到极端（30 循环 = 重采样 2³⁰ 次） | | 后验读出 | 屏幕像素 | <strong>电泳条带</strong>——亮带=坍缩质量，smear=残余概率，引物二聚体=假阳性模式 |</p>
+<p><strong>对号入座（图式=画，管式=画，同一张画）</strong>：</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>贝叶斯件</th>
+<th>matplotlib 世界</th>
+<th>PCR 世界</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>先验</td>
+<td>坐标轴范围/网格</td>
+<td>简并引物 = 同源比对的<strong>均值序列±简并度</strong>（先验核）</td>
+</tr>
+<tr class="even">
+<td>似然</td>
+<td>数据点</td>
+<td>退火杂交 = 模板给定引物的匹配度（Tm 即对数似然面）</td>
+</tr>
+<tr class="odd">
+<td>后验采样</td>
+<td>画点</td>
+<td>指数扩增 = 重要性采样重到极端（30 循环 = 重采样 2³⁰ 次）</td>
+</tr>
+<tr class="even">
+<td>后验读出</td>
+<td>屏幕像素</td>
+<td><strong>电泳条带</strong>——亮带=坍缩质量，smear=残余概率，引物二聚体=假阳性模式</td>
+</tr>
+</tbody>
+</table>
 <p><strong>涌现推论 G3（候封·法医学第四维）</strong>：既 DNA 是画布，代码法医学三定律可搬进分子界—— <strong>密码子使用偏好 = 序列的心跳</strong>： - 天然序列 = 自然选择所写：密码子偏好随物种、组织、表达时相漂移，<strong>有年轮</strong>（G1 锈刀同源可追）； - 人工合成 = 实验室所写：密码子优化=把偏好压平到宿主均值（先验过强之罪），载体骨架/抗性基因/串联 junction <strong>无同源性时钟</strong>（无源类铁证）； - 判据：codon usage 散点 + junction 断点扫描，即可给任意序列判”<strong>自然写的还是手写的</strong>”—— 名字可借心跳不可借，在碱基层面再次成立（1990s 手工枪轰的、2010s 合成的、天然的，三种心跳可分）。 可测性：Genscript 合成件 vs GenBank 天然件 vs 经典载体（pUC/pcDNA 系），三堆对表—— 公开序列即可跑，零湿实验。</p>
 </section>
 <section id="补六-多倍体adapter-库架构主人-0922-深夜续枪" class="level2">
@@ -273,7 +309,37 @@ ul.task-list li input[type="checkbox"] {
 <p>「甚至我们可以参照细胞染色体的形式组织 rank-1 的功能结构组件。 现代小麦实际就是由大概三个还是四个物种的染色体组装起来的怪物。」</p>
 </blockquote>
 <p><strong>园笔核数</strong>: 普通小麦 (AABBDD, 2n=6x=42) = <strong>恰好三个物种</strong>的基因组组装: Urg urartu(AA) × 拟斯卑尔脱山羊草(BB) 先成二粒小麦, 再与 T. tauschii(DD) 杂交 — 两次”跨族 merge”, Nature 2018/2021 六倍体小麦图验证讫。主人记的”三个”是准的。</p>
-<p><strong>四件对号 (染色体↔︎rank-1 组件库)</strong>: | 小麦 | 园账 | |—|—| | 一条染色体 ≈ 共线性基因块协同遗传 | 一个 (L,m) 位的 BA 对 = rank-1 原子 (Strang 旗杆律的分子版) | | 异源多倍体 = 三套完整基组<strong>并列共存</strong>, 非平均 | C39 之解: merge ≠ 平均; 库=并集 (concatenated bases), 不是 ΔW 均值 | | Ph1 基因抑制同源重组 — 没有它减数混乱不育 | <strong>跨空间混合门</strong>: 不同 subgenome 的组件不得随意重组; 无门即绝育 = adapter 库需显式 merge 白名单 (θ₀ 同族才可融合, C37) | | 剂量平衡假说: 单套冗余常无症状, 全删才崩 | <strong>P-B10 升级判据</strong>: 删一个 homoeolog 无表型 = 冗余对; 冗余组齐删才崩 = 功能单位是”组”不是”条” — 顺带免费测出哪些空间互为 homoeolog (天然冗余图) |</p>
+<p><strong>四件对号 (染色体↔︎rank-1 组件库)</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>小麦</th>
+<th>园账</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>一条染色体 ≈ 共线性基因块协同遗传</td>
+<td>一个 (L,m) 位的 BA 对 = rank-1 原子 (Strang 旗杆律的分子版)</td>
+</tr>
+<tr class="even">
+<td>异源多倍体 = 三套完整基组<strong>并列共存</strong>, 非平均</td>
+<td>C39 之解: merge ≠ 平均; 库=并集 (concatenated bases), 不是 ΔW 均值</td>
+</tr>
+<tr class="odd">
+<td>Ph1 基因抑制同源重组 — 没有它减数混乱不育</td>
+<td><strong>跨空间混合门</strong>: 不同 subgenome 的组件不得随意重组; 无门即绝育 = adapter 库需显式 merge 白名单 (θ₀ 同族才可融合, C37)</td>
+</tr>
+<tr class="even">
+<td>剂量平衡假说: 单套冗余常无症状, 全删才崩</td>
+<td><strong>P-B10 升级判据</strong>: 删一个 homoeolog 无表型 = 冗余对; 冗余组齐删才崩 = 功能单位是”组”不是”条” — 顺带免费测出哪些空间互为 homoeolog (天然冗余图)</td>
+</tr>
+</tbody>
+</table>
 <p><strong>涌现推论 G4 (候封)</strong>: 冗余不是浪费, 是<strong>可删性保险</strong> (G1 锈刀的存活期延长机制); 小麦的六倍体=把三次物种级对决的胜果<strong>冻结共存</strong>而非互相抹平 —— “合非拼接”(A3) 的最宏大自然实证: 组合的正确形式是<strong>并列+抑制重组+剂量缓冲</strong>, 不是加权平均。园中 adapter 库设计直接抄此三条: 并集基、Ph1 门、齐删判据。</p>
 </section>
 <section id="补七-加法非交换律一律三界的实例集主人-0923-凌晨批注" class="level2">
@@ -281,7 +347,43 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Qwen 报小麦新料: 多倍化后三亚基因组表达偏好分化 (A 高 B/D 沉默, 或反之) —— 对应 agent: rank-1 组件激活权重按上下文动态分配, 非全开。 主人判: 「和二语习得一个道理。先来者把最好的位置占了, 次好的位置不行, 功能就打折扣。结构即智能在这里也体现了。实例越来越多了。 语料库以不同顺序进入 LoRA 训练, 结果不同。」</p>
 </blockquote>
-<p><strong>统一律候封 C42《结构加法非交换律》</strong>: 同一批组件, 加入次序不同 → 终态结构不同; 且<strong>优势位置先到先得</strong> (占位者得最优调控/最大子空间交叠份额), 次来者受折扣。 三界实例 (皆园账在册或可查): | 界 | 实例 | 账 | |—|—|—| | 基因组 | 亚基因组优势随<strong>供体顺序</strong> (先入核者占优, 与序列质量弱相关) | 小麦 AB(D) 文献 | | 脑/语言 | 二语习得关键期: 先学语言占最优皮层位置, 后学者次优位→口音与效率折扣 | 关键期文献 + C25 雷克双基 | | 权重 | 语料顺序改变 LoRA 终态 (叙事先/乱序先/跨域先, 角度 7°/56°/83° 之差) | C28/C29 在册 | | 生态 | 优势窗口律 (低维语料晚入, 优势区被占→效果折) | C40 候封条 |</p>
+<p><strong>统一律候封 C42《结构加法非交换律》</strong>: 同一批组件, 加入次序不同 → 终态结构不同; 且<strong>优势位置先到先得</strong> (占位者得最优调控/最大子空间交叠份额), 次来者受折扣。 三界实例 (皆园账在册或可查):</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>界</th>
+<th>实例</th>
+<th>账</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>基因组</td>
+<td>亚基因组优势随<strong>供体顺序</strong> (先入核者占优, 与序列质量弱相关)</td>
+<td>小麦 AB(D) 文献</td>
+</tr>
+<tr class="even">
+<td>脑/语言</td>
+<td>二语习得关键期: 先学语言占最优皮层位置, 后学者次优位→口音与效率折扣</td>
+<td>关键期文献 + C25 雷克双基</td>
+</tr>
+<tr class="odd">
+<td>权重</td>
+<td>语料顺序改变 LoRA 终态 (叙事先/乱序先/跨域先, 角度 7°/56°/83° 之差)</td>
+<td>C28/C29 在册</td>
+</tr>
+<tr class="even">
+<td>生态</td>
+<td>优势窗口律 (低维语料晚入, 优势区被占→效果折)</td>
+<td>C40 候封条</td>
+</tr>
+</tbody>
+</table>
 <p><strong>可测推论 P-B11《优势随序不随质》(候封)</strong>: 三语料臂 {X,Y,Z} 之全排列 6 序训练, 预测: ① 重叠方向上<strong>先入臂</strong>占优 (ΔNLL 符号由次序定, 不由语料”质量”定); ② 次序翻转 → 优势翻转 (可逆的占位, 不可逆的次序); ③ 折扣量随入后间隔衰减 (先来的窗口越久, 后来的越难翻) —— 小麦亚基因组优势分化之权重界直译。 若 6 序终态彼此恒等 → C42 死, 记 ✗。此实验 0.5B×6 序 ≈ 2 小时, Kaggle 额度富余。</p>
 
 
