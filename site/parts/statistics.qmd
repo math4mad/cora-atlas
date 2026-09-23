@@ -3,9 +3,9 @@ title: "Σ · 统计学部 — Στατιστική"
 ---
 
 ::: {.plate-hero}
-<div class="motto"><em>Point estimates are the corpses of concepts; the distribution is the living thing.</em><br>
+<div class="motto"><em>Point estimates are the corpses of concepts; distributions are the living.</em><br>
 **点估计是概念的死尸，分布才是活物——味儿全在协方差里。**</div>
-<div class="sub">（均值配高斯律，碑林 :42；"少许盐"案与省图脚臭案皆其判例——正宗=看锅气，det(Σ)≥θ 才有味儿）</div>
+<div class="sub">（均值配高斯律，碑林 :42；"少许盐"案、"盐"案）</div>
 :::
 
 本部所藏：**分布、探针与推断——「构建智能之统计学的精髓」一语的正身诸件。**
