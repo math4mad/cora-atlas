@@ -20,8 +20,13 @@
 **§1.2 书目两处**：
 - 《Doing Bayesian Analysis》→ 正名 **Gelman et al., Bayesian Data Analysis**
   （或 Kruschke 的书名才是 Doing Bayesian ……二选一，Crossref 核后落 DOI）；
-- "日本学者切蛋糕" = 小谷水元『確率とは何か』其书，英译版宜改引 **de Finetti** 或
-  **Jaynes** 并注 cake-cutting 为译本比喻，否则英文读者无从查证。
+- "日本学者切蛋糕" **验讫落档 (0923 主人指架)**: **小岛宽之**『統計学、何それおいしいの？』
+  中译《统计学关我什么事：生活中的极简统计学》(日版畅销 10 万册) —— 在架 iCloud
+  ☁️BayesianStat (epub, OEBPS 元数据核讫, creator=小岛宽之)。英文版引用格式:
+  *Kojima, H. (2018). Statistics, What Does It Have To Do With Us? — the cake-cutting
+  metaphor of information-based probability redistribution* (中译本名 *统计学关我什么事*)。
+  可选加固: 同段并引 Jaynes《Probability Theory》之"信息即概率测度的更新"作英文正统锚,
+  小岛为科普锚 —— 双锚各表其位, 不混。
 
 **§2.2 Neutral JS 案例** —— 园账查无此案（无日期、无 pin、无 log 引文）。
 两条路选一：① 补挂进 LEDGER（何日、何 agent、注入原文、前后行为差），升格为
