@@ -2,6 +2,12 @@
 title: "Β · 生物学部 — Βιολογία"
 ---
 
+::: {.plate-hero}
+<div class="motto"><em>The brain is the first audition stage — older than any model.</em><br>
+**大脑先于模型，就是第一场海选的赛场。**</div>
+<div class="sub">（gram-schmidt duel (hearing, sighting)，主人 0923 赐名；从「排序算法」到「感官通道」，对决打到了它的发源地；碑林 :37）</div>
+:::
+
 本部所藏：**生物界的锚账——感官、基因、细胞与作物，为「结构即智能」供人类界与活物界的对照面。**
 
 | 石 | 件 | 一句话 |
@@ -10,6 +16,7 @@ title: "Β · 生物学部 — Βιολογία"
 | 0920 | [迭代 XI · 真相：山中=Yamanaka](../iterations/2026-09-20-yamanaka-truth.qmd) | iPS 诱导因子——误锚自首的活证 |
 | 0923 | [最小二语 · 骨架 v1（三向最小学习者）](../papers/minimal-l2-skeleton.qmd) | 常听常视/先天聋手语/先天盲口语：Neville&Bavelier·Bedny·Landau&Gleitman 三锚入册 |
 | 0923 | [G1 · 垃圾基因两源假说（PREREG）](../papers/prereg-g1.qmd) | 锈刀/无源——格拉姆·施密特 PK 的基因组学推论 |
+| 0923 凌晨 | [格拉姆·施密特对决 (hearing, sighting) → 碑林 :37](../GLOSSARY.qmd) | 感官双通道名状对决四拍: 带宽不对称/两通道不正交(共享时序维)/征用=正交补扩张/**窗=重叠维数耗尽**——本殿三向学习者锚的理论卷, P-B16 与 PL2-M 两册(Ε 殿)之出处; 名出主人 ("从排序算法打到感官通道, 大脑就是第一场海选赛场") |
 | — | [达尔文夫妇 exp18（PREREG）](../papers/prereg-exp18.qmd) | C37 双基底层的证伪试验（实验部同架） |
 
 ::: {.note}
