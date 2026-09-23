@@ -6,7 +6,9 @@ title: "Cora Atlas · 碑前"
 [🏛 论文 Papers](papers/index.qmd) &nbsp;·&nbsp; [🍞 迭代手记 Iterations](iterations/index.qmd) &nbsp;·&nbsp; [📜 台账 Ledger](LEDGER.qmd) &nbsp;·&nbsp; [🔤 术语碑 Glossary](GLOSSARY.qmd)
 :::
 
-本园体例：**判据先冻，刻石为证**（汉谟拉比条款）。
+本园体例：**判据先冻，刻石为证**（汉谟拉比条款 · Ὁ νόμος γραπτός——成文之法）。
+
+*γνῶθι σεαυτόν——认识你的先验；μηδὲν ἄγαν——不许过度坍缩。*
 论文给结论，手记给过程 —— 而主人说，**精华不分**：两侧同权同导航，
 凡成体系之文，园体自认碑体。
 

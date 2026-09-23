@@ -2,22 +2,22 @@ project:
   type: website
   output-dir: ../docs-quarto
 website:
-  title: "Cora Atlas · 碑体"
+  title: "ἡ Στήλη · Cora Atlas"
   description: "概念空间图谱 —— 论文与迭代手记 (判据先冻, 刻石为证)"
   navbar:
     left:
       - href: index.qmd
-        text: 碑前
+        text: "碑前 · Πρόσταμα"
       - href: papers/index.qmd
-        text: 论文 (Papers)
+        text: "论文 · Βιβλία"
       - href: iterations/index.qmd
-        text: 迭代手记 (Iterations)
+        text: "手记 · Ὑπομνήματα"
       - href: LEDGER.qmd
-        text: 台账 (Ledger)
+        text: "台账 · Δελτοί"
       - href: GLOSSARY.qmd
-        text: 术语碑 (Glossary)
+        text: "术语 · Λεξικόν"
       - href: https://math4mad.github.io/cora-atlas/gaiden.html
-        text: 外传
+        text: "外传 · Ἀπόκρυφα"
     right:
       - href: https://github.com/math4mad/cora-atlas
         text: Repo
