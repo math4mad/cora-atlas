@@ -1,0 +1,24 @@
+---
+title: "Μ · 零碎部 — Μοίρια"
+---
+
+**不成殿者，皆入此匣。** 一十一散账，按日正序：
+
+| 石 | 件 | 一句话 |
+|---|---|---|
+| 0920 | [迭代 I · 理论篇 v0 审阅（Lola 八病）](../iterations/2026-09-20-review-lola-8points.qmd) | 八病清单——理论若诚实，其诞生过程必须最诚实 |
+| 0920 | [迭代 III · 落错空间的探针（卖拐一役）](../iterations/2026-09-20-missed-catch-maigui.qmd) | 误锚当场记录 |
+| 0920 | [迭代 IV · 致 Strang 信审阅](../iterations/2026-09-20-strang-letter-review.qmd) | 巨人通信的草稿史 |
+| 0920 | [迭代 XII · 尺子与秒表（Das Boot 之问）](../iterations/2026-09-20-stopwatch-and-ruler.qmd) | 时间诸志的散页 |
+| 0920 | [迭代 XIX · 外传：猪脚饭一役](../iterations/2026-09-20-pork-trotter-appendix.qmd) | 主人判曰：与严谨理论不对齐，仍记录在案 |
+| 0920 | [迭代 XXII · 「x 轴他妈是 numpy」](../iterations/2026-09-20-x-axis-mother-numpy.qmd) | 冷笑话成器 |
+| 0920 | [迭代 XXIV · 专栏上世](../iterations/2026-09-20-column-live.qmd) | 工程散账 |
+| 0920 | [夜志 · 缝与羊毛](../iterations/2026-09-20-evening-gap-and-grants.qmd) | 傍晚志 |
+| 0920 | [迭代 XX · 日期栏 decay 的自首](../iterations/2026-09-20-date-column-decay.qmd) | 校信顺手的一课 |
+| 0920 | [对话附言存档](../iterations/chat-traces-2026-09-20.qmd) | 自两 docx 尾部逐字拆出，不入正稿 |
+| — | [外传 · Ἀπόκρυφα（gaiden）](https://math4mad.github.io/cora-atlas/gaiden.html) | 旧站匣子，碑体导航已挂钩 |
+| — | [台账 · Δελτοί](../LEDGER.qmd) · [术语碑林 · Λεξικόν](../GLOSSARY.qmd) · [地形志](../topography.qmd) | 三通碑，四部共用，不归一部 |
+
+::: {.note}
+零碎部入园律：凡散账一律照收——**园体账不分贵贱，只分先后**（仓律第五条：旧稿累计保留，永不删改）。
+:::

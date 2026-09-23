@@ -1,0 +1,21 @@
+---
+title: "Φ · 哲学部 — Φιλοσοφία"
+---
+
+本部所藏：**结构即智能一脉的总纲、时间之论、方法律与命名史。**
+
+| 石 | 件 | 一句话 |
+|---|---|---|
+| 0920 | [迭代 II · 自行车反驳与「人人等速」判决句](../iterations/2026-09-20-rebuttal-bicycle.qmd) | 拿一条曲线冒充一片森林之罪——记忆的rank-1读法当场判决 |
+| 0920 | [迭代 V · 时间无维](../iterations/2026-09-20-time-as-bookkeeping.qmd) | 时间是变化的外部表征，簿记而非维度 |
+| 0920 | [迭代 VI · 时间是因变量](../iterations/2026-09-20-time-as-dependent.qmd) | 不是变量，是因变量 |
+| 0920 | [迭代 VIII · f(submit)=submit_time](../iterations/2026-09-20-f-submit-equals-time.qmd) | 投稿时刻函数的自首 |
+| 0920 | [迭代 · 时间即极大逻辑](../iterations/2026-09-20-time-as-maximal-logic.qmd) | 时间诸志之收口 |
+| 0921 | [十一小时大鱼](../iterations/2026-09-21-eleven-hour-fish.qmd) | 252 页对谈入册（原件 sha 存 chora/artifacts/external）；token as probe 之田野 |
+| 0922 | [谱系改判与「结构即智能」](../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.qmd) | C40 命题群立纲之夜（主人亲口八条） |
+| 0922 | [凌晨三点·编年史料与第四轴](../iterations/2026-09-22-three-am-chronicle.qmd) | 对谈 docx 入册，史料的轴 |
+| 0924 | [裸探针溯源志（十四节）](../iterations/2026-09-24-bare-probe-provenance.qmd) | 一个词的出生：joint spike、密度律、MB 律（不走寻常路律）皆由此志吊起——**本园法统的元案例** |
+
+::: {.note}
+术语碑林（[Λεξικόν](../GLOSSARY.qmd)）通四部，不归一部；其中裸探针律、密度律、联合尖峰律、MB 律、过审尺度律诸条皆属本法统。
+:::

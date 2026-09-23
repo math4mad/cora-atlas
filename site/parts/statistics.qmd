@@ -1,0 +1,18 @@
+---
+title: "Σ · 统计学部 — Στατιστική"
+---
+
+本部所藏：**分布、探针与推断——「构建智能之统计学的精髓」一语的正身诸件。**
+
+| 石 | 件 | 一句话 |
+|---|---|---|
+| — | [The Token as a Probe (Atlas v1/v2)](https://math4mad.github.io/cora-atlas/atlas-paper-v2.pdf) | 词元即探针——本园开山论文（arXiv 源在仓 papers/token-as-probe/） |
+| — | [A Unified Framework for Agents (v2.1-arxiv)](https://math4mad.github.io/cora-atlas/unified-agents-v2.pdf) | 候射（arXiv 包在仓） |
+| 0920 | [迭代 IX · 「假的大为震撼」自供](../iterations/2026-09-20-fake-shakenness.qmd) | 点估计冒充分布之罪 |
+| 0920 | [迭代 XXI · 18.06 三重态与皮秒懂](../iterations/2026-09-20-picosecond-understanding.qmd) | 理解的时间尺度 |
+| 0923 | [Yamato《Statistics Based on Dirichlet Processes》验尸账](../iterations/2026-09-23-yamato-dp-weather-book.qmd) | 园体天气层的气象学——DP 正身在此；ESF 双裁决与 θ 退化留档 |
+| 0924 | [MB 律上碑（碑前铭文）](../index.qmd) | P(新桌)=θ/(n+θ)：Dirichlet 家系入碑阳 |
+
+::: {.note}
+均值配高斯律、联合尖峰律、加维/CRP 诸条在[术语碑林](../GLOSSARY.qmd)；实验侧的分布判据（置换零、Kendall τ、CRP 拟合 θ）在实验部各册内执法。
+:::

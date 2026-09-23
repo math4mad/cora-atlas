@@ -3,24 +3,26 @@ project:
   output-dir: ../docs-quarto
 website:
   title: "ἡ Στήλη · Cora Atlas"
-  description: "概念空间图谱 —— 论文与迭代手记 (判据先冻, 刻石为证)"
+  description: "概念空间图谱 —— 四部一匣 (哲学·生物·统计·实验 + 零碎); 判据先冻, 刻石为证"
   navbar:
     left:
       - href: index.qmd
         text: "碑前 · Πρόσταμα"
-      - href: papers/index.qmd
-        text: "论文 · Βιβλία"
-      - href: iterations/index.qmd
-        text: "手记 · Ὑπομνήματα"
-      - href: LEDGER.qmd
-        text: "台账 · Δελτοί"
-      - href: GLOSSARY.qmd
-        text: "术语 · Λεξικόν"
-      - href: topography.qmd
-        text: "地形志 · Τοπογραφία"
-      - href: https://math4mad.github.io/cora-atlas/gaiden.html
-        text: "外传 · Ἀπόκρυφα"
+      - href: parts/philosophy.qmd
+        text: "Φ 哲学"
+      - href: parts/biology.qmd
+        text: "Β 生物"
+      - href: parts/statistics.qmd
+        text: "Σ 统计"
+      - href: parts/experiments.qmd
+        text: "Ε 实验"
+      - href: parts/fragments.qmd
+        text: "Μ 零碎"
     right:
+      - href: LEDGER.qmd
+        text: "台账"
+      - href: GLOSSARY.qmd
+        text: "术语碑"
       - href: https://github.com/math4mad/cora-atlas
         text: Repo
 format:
