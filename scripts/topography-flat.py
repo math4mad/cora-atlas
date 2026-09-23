@@ -32,6 +32,16 @@ S = {
 }
 HAT = {"ledger":"Irene","onom":"Nikos","macb":"Nikos","lyc":"Theuth","arch":"Thea","icloud":"Irene","stele":"Hammurabi"}
 
+# 三层架构 (主人 0924 令): 园体 → 项目群 → 个体站 —— 群表在此落户口
+GROUPS = {
+ "atlas":   ("ATLAS 碑园",   ["ledger","atlas","gloss","itiner","onom","stele"]),
+ "chora":   ("CHORA 实验田", ["chora","exp","kaggle","lyc","mail"]),
+ "academy": ("ACADEMY 学园", ["akad","angel","maca","macb"]),
+ "archive": ("ARCHIVE 馆港", ["arch","ext","icloud"]),
+ "agora":   ("AGORA 市集",   ["agora"]),
+}
+ST2GRP = {k: g for g, (_, ks) in GROUPS.items() for k in ks}
+
 # 线路表: (名, 色, 站点序列) —— 每段自动走 横/45°/竖 地铁三向
 LINES = [
  ("chora lane",  LANE, ["exp","chora","mail","lyc"]),
@@ -73,36 +83,45 @@ def metro(a, b):
     ax2, ay2 = x1 + sx*d2, y1 + sy*rest2 + sy*d2
     return f'M{x1},{y1} L{ax1},{ay1} L{ax2},{ay2} L{x2},{y2}'
 
-s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">',
+import json
+_GJ = json.dumps({g: {"label": lab, "members": ks} for g, (lab, ks) in GROUPS.items()}, ensure_ascii=False).replace('"', '&quot;')
+s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" id="garden-metro" data-groups="{_GJ}">',
      f'<rect width="{W}" height="{H}" fill="{BG}"/>',
+     '<style>.st{cursor:pointer}.st.dim{opacity:.16}.st.kin{opacity:.5}.st.kin .mark{stroke:' + "#c9a959" + ';stroke-opacity:.9}.st.here .mark{stroke:#8a6a1f;stroke-width:5.5;filter:drop-shadow(0 0 7px #ffd97a)}.st.here .lbl{fill:#8a6a1f;font-weight:800}#lnwrap.dim{opacity:.14}.lines path{transition:opacity .3s} g.st{transition:opacity .3s}</style>',
      f'<text x="{W/2}" y="46" text-anchor="middle" font-size="25" fill="{INK}" font-weight="700" letter-spacing="4">THE GARDEN METRO · 园体运行图</text>',
      f'<text x="{W/2}" y="68" text-anchor="middle" font-size="11.5" fill="{MUT}" letter-spacing="4">距离与时间无关紧要 · 位置关系才是信息本身</text>']
 # 线路
+s.append('<g id="lnwrap" class="lines">')
 for name, col, stops in LINES:
     for a, b in zip(stops, stops[1:]):
         dash = ' stroke-dasharray="9 7"' if col == SEA else ""
-        s.append(f'<path d="{metro(a,b)}" fill="none" stroke="{col}" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"{dash} opacity=".88"/>')
-# 车站
+        s.append(f'<path d="{metro(a,b)}" data-via="{a} {b}" fill="none" stroke="{col}" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"{dash} opacity=".88"/>')
+s.append('</g>')
+# 车站（三层户口: class=st, id=st-站, data-group=群）
 for k, (en, c, r, kind) in S.items():
     x, y = pt(k)
+    g = ST2GRP.get(k, "none")
+    s.append(f'<g class="st" id="st-{k}" data-group="{g}" data-name="{en}">')
     if kind == "po":
-        s.append(f'<path d="M{x},{y-11} L{x+11},{y} L{x},{y+11} L{x-11},{y} Z" fill="{BG}" stroke="{HAT}" stroke-width="3.4"/>')
-        s.append(f'<text x="{x}" y="{y-19}" text-anchor="middle" font-size="14.5" fill="{INK}" font-weight="700" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
+        s.append(f'<path class="mark" d="M{x},{y-11} L{x+11},{y} L{x},{y+11} L{x-11},{y} Z" fill="{BG}" stroke="{HAT}" stroke-width="3.4"/>')
+        s.append(f'<text class="lbl" x="{x}" y="{y-19}" text-anchor="middle" font-size="14.5" fill="{INK}" font-weight="700" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
     elif kind == "ix":
-        s.append(f'<circle cx="{x}" cy="{y}" r="9" fill="{BG}" stroke="{INK}" stroke-width="3.4"/>')
-        s.append(f'<text x="{x}" y="{y-16}" text-anchor="middle" font-size="13" fill="{INK}" font-weight="600" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
+        s.append(f'<circle class="mark" cx="{x}" cy="{y}" r="9" fill="{BG}" stroke="{INK}" stroke-width="3.4"/>')
+        s.append(f'<text class="lbl" x="{x}" y="{y-16}" text-anchor="middle" font-size="13" fill="{INK}" font-weight="600" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
     else:
-        s.append(f'<circle cx="{x}" cy="{y}" r="6.5" fill="{BG}" stroke="{INK}" stroke-width="2.6"/>')
-        s.append(f'<text x="{x}" y="{y-12}" text-anchor="middle" font-size="12.5" fill="{INK}" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
+        s.append(f'<circle class="mark" cx="{x}" cy="{y}" r="6.5" fill="{BG}" stroke="{INK}" stroke-width="2.6"/>')
+        s.append(f'<text class="lbl" x="{x}" y="{y-12}" text-anchor="middle" font-size="12.5" fill="{INK}" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
     if k in HAT:
         s.append(f'<text x="{x}" y="{y+24}" text-anchor="middle" font-size="9.5" fill="{HAT}" font-weight="600">hat·{HAT[k]}</text>')
+    s.append('</g>')
 # 图例
 lg = f'<g transform="translate(70,{H-46})">'
 lg += f'<line x1="0" y1="0" x2="42" y2="0" stroke="{GIT}" stroke-width="4.5" stroke-linecap="round"/><text x="50" y="4" font-size="12" fill="{MUT}">git trunk (机构大路)</text>'
 lg += f'<line x1="250" y1="0" x2="292" y2="0" stroke="{SEA}" stroke-width="4.5" stroke-dasharray="9 7" stroke-linecap="round"/><text x="300" y="4" font-size="12" fill="{MUT}">sea route (火神航线)</text>'
 lg += f'<line x1="500" y1="0" x2="542" y2="0" stroke="{LANE}" stroke-width="4.5" stroke-linecap="round"/><text x="550" y="4" font-size="12" fill="{MUT}">in-repo lane (仓内小径)</text>'
 lg += f'<circle cx="760" cy="0" r="9" fill="{BG}" stroke="{INK}" stroke-width="3.4"/><text x="778" y="4" font-size="12" fill="{MUT}">interchange 换乘</text>'
-lg += f'<path d="M920,-10 L930,0 L920,10 L910,0 Z" fill="{BG}" stroke="{HAT}" stroke-width="3.4"/><text x="940" y="4" font-size="12" fill="{MUT}">polity 政体</text></g>'
+lg += f'<path d="M920,-10 L930,0 L920,10 L910,0 Z" fill="{BG}" stroke="{HAT}" stroke-width="3.4"/><text x="940" y="4" font-size="12" fill="{MUT}">polity 政体</text>'
+lg += f'<text x="1080" y="4" font-size="11" fill="{MUT}">点站定位 / ?at=站id</text></g>'
 s.append(lg)
 s.append('</svg>')
 open("docs/figs/topos-flat.svg", "w").write("\n".join(s))

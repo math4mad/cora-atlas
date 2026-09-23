@@ -40,10 +40,12 @@ if "cora-nav" not in src:
     src=src.replace("</h1>","</h1>"+nav) if "</h1>" in src else src.replace("<body>","<body>"+nav)
 open("docs/gaiden.html","w").write(src)
 PY
+python3 scripts/topography-flat.py   # 地铁图再生 (三层户口, 主人 0924 令)
 # 台账同源归化: LEDGER.md → site/LEDGER.qmd (孤行账行转鎏刻体, 免被 pandoc 吐成裸竖线)
 python3 scripts/ledger-normalize.py LEDGER.md site/LEDGER.qmd
 ( cd site && "$Q" render )
 rsync -a docs-quarto/ docs/ 2>/dev/null || cp -R docs-quarto/. docs/
 python3 scripts/shelf-links.py docs/GLOSSARY.html docs/LEDGER.html
+python3 scripts/map-inline.py   # 地铁图内联+定位光照 (只动此图)
 
 echo "✔ 碑体站成: docs/ ($(find docs -name '*.html' | wc -l | tr -d ' ') 页)"
