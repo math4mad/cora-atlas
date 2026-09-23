@@ -9,7 +9,7 @@ title: "Σ · 统计学部 — Στατιστική"
 
 <div class="motto" style="margin-top:1.6rem"><em>Data are whispers; distributions are long poems.</em><br>
 **数据是呢喃，分布是长诗。**</div>
-<div class="sub">（主人 0924 补句定铭——前句判死生，此句分量体；英文对句园笔代配，候改）</div>
+<div class="sub">（主人 0924 补句定铭——前句判死生，此句分量体；英文对句经主人勾定 'true brother' 升正，夹角度数候表）</div>
 :::
 
 本部所藏：**分布、探针与推断——「构建智能之统计学的精髓」一语的正身诸件。**
