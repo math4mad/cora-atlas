@@ -16,6 +16,8 @@ website:
         text: "台账 · Δελτοί"
       - href: GLOSSARY.qmd
         text: "术语 · Λεξικόν"
+      - href: topography.qmd
+        text: "地形志 · Τοπογραφία"
       - href: https://math4mad.github.io/cora-atlas/gaiden.html
         text: "外传 · Ἀπόκρυφα"
     right:
