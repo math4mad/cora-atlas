@@ -1,97 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1240" height="800" viewBox="0 0 1240 800" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
 <rect width="1240" height="800" fill="#fbf7ec"/>
-<rect x="126" y="114" width="428" height="180" rx="34" fill="#6f8f5a" opacity="0.07"/>
-<rect x="126" y="114" width="428" height="180" rx="34" fill="none" stroke="#6f8f5a" stroke-dasharray="5 6" opacity=".5"/>
-<text x="138" y="136" font-size="12" fill="#6f8f5a" letter-spacing="2" opacity=".9">POLITY · CHORA</text>
-<rect x="26" y="418" width="528" height="332" rx="34" fill="#7a6a52" opacity="0.07"/>
-<rect x="26" y="418" width="528" height="332" rx="34" fill="none" stroke="#7a6a52" stroke-dasharray="5 6" opacity=".5"/>
-<text x="38" y="440" font-size="12" fill="#7a6a52" letter-spacing="2" opacity=".9">POLITY · ATLAS</text>
-<rect x="626" y="190" width="128" height="104" rx="34" fill="#b0762a" opacity="0.07"/>
-<rect x="626" y="190" width="128" height="104" rx="34" fill="none" stroke="#b0762a" stroke-dasharray="5 6" opacity=".5"/>
-<text x="638" y="212" font-size="12" fill="#b0762a" letter-spacing="2" opacity=".9"></text>
-<rect x="626" y="418" width="128" height="104" rx="34" fill="#b0762a" opacity="0.07"/>
-<rect x="626" y="418" width="128" height="104" rx="34" fill="none" stroke="#b0762a" stroke-dasharray="5 6" opacity=".5"/>
-<text x="638" y="440" font-size="12" fill="#b0762a" letter-spacing="2" opacity=".9"></text>
-<path d="M290,242 L240.0,242 L240.0,166 L190,166" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,242 L390.0,242 L390.0,166 L490,166" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,242 L340.0,242 L340.0,242 L390,242" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,546 L240.0,546 L240.0,470 L190,470" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,546 L190.0,546 L190.0,546 L90,546" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,546 L240.0,546 L240.0,622 L190,622" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,546 L340.0,546 L340.0,698 L390,698" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,546 L340.0,546 L340.0,394 L390,394" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M290,242 L340.0,242 L340.0,394 L390,394" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M490,546 L440.0,546 L440.0,394 L390,394" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M490,546 L440.0,546 L440.0,698 L390,698" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M690,242 L690.0,242 L690.0,470 L690,470" fill="none" stroke="#b0762a" stroke-width="3" stroke-dasharray="0" opacity="0.9"/>
-<path d="M690,242 L590.0,242 L590.0,546 L490,546" fill="none" stroke="#b0762a" stroke-width="3" stroke-dasharray="0" opacity="0.9"/>
-<path d="M690,242 L840.0,242 L840.0,546 L990,546" fill="none" stroke="#b0762a" stroke-width="3" stroke-dasharray="0" opacity="0.9"/>
-<path d="M690,242 L790.0,242 L790.0,698 L890,698" fill="none" stroke="#b0762a" stroke-width="3" stroke-dasharray="0" opacity="0.9"/>
-<path d="M690,470 L840.0,470 L840.0,546 L990,546" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M690,470 L940.0,470 L940.0,546 L1190,546" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M990,546 L1040.0,546 L1040.0,242 L1090,242" fill="none" stroke="#2E8FA3" stroke-width="2" stroke-dasharray="7 6" opacity="0.9"/>
-<path d="M890,698 L990.0,698 L990.0,242 L1090,242" fill="none" stroke="#2E8FA3" stroke-width="2" stroke-dasharray="7 6" opacity="0.9"/>
-<path d="M890,698 L1040.0,698 L1040.0,546 L1190,546" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M1090,774 L1140.0,774 L1140.0,546 L1190,546" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<path d="M890,394 L990.0,394 L990.0,242 L1090,242" fill="none" stroke="#b0762a" stroke-width="3" stroke-dasharray="0" opacity="0.9"/>
-<path d="M890,394 L790.0,394 L790.0,470 L690,470" fill="none" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5" opacity="0.75"/>
-<circle cx="190" cy="166" r="11" fill="#fbf7ec" stroke="#6f8f5a" stroke-width="2.6"/>
-<circle cx="190" cy="166" r="3.4" fill="#6f8f5a"/>
-<text x="190" y="148" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Field Trials</text>
-<circle cx="490" cy="166" r="11" fill="#fbf7ec" stroke="#6f8f5a" stroke-width="2.6"/>
-<circle cx="490" cy="166" r="3.4" fill="#6f8f5a"/>
-<text x="490" y="148" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Skills Registry</text>
-<text x="490" y="192" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Theuth</text>
-<circle cx="390" cy="242" r="11" fill="#fbf7ec" stroke="#6f8f5a" stroke-width="2.6"/>
-<circle cx="390" cy="242" r="3.4" fill="#6f8f5a"/>
-<text x="390" y="224" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Post House</text>
-<circle cx="290" cy="242" r="11" fill="#fbf7ec" stroke="#6f8f5a" stroke-width="2.6"/>
-<circle cx="290" cy="242" r="3.4" fill="#6f8f5a"/>
-<text x="290" y="224" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">CHORA (home base)</text>
-<circle cx="390" cy="394" r="7" fill="#fbf7ec" stroke="#b0762a" stroke-width="2.6"/>
-<text x="390" y="380" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Code of Law</text>
-<text x="390" y="416" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Hammurabi</text>
-<circle cx="190" cy="470" r="11" fill="#fbf7ec" stroke="#7a6a52" stroke-width="2.6"/>
-<circle cx="190" cy="470" r="3.4" fill="#7a6a52"/>
-<text x="190" y="452" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Ledger</text>
-<text x="190" y="496" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Irene</text>
-<circle cx="90" cy="546" r="11" fill="#fbf7ec" stroke="#7a6a52" stroke-width="2.6"/>
-<circle cx="90" cy="546" r="3.4" fill="#7a6a52"/>
-<text x="90" y="528" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Glossary Steles</text>
-<circle cx="190" cy="622" r="11" fill="#fbf7ec" stroke="#7a6a52" stroke-width="2.6"/>
-<circle cx="190" cy="622" r="3.4" fill="#7a6a52"/>
-<text x="190" y="604" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Itinerary Notes</text>
-<circle cx="290" cy="546" r="11" fill="#fbf7ec" stroke="#7a6a52" stroke-width="2.6"/>
-<circle cx="290" cy="546" r="3.4" fill="#7a6a52"/>
-<text x="290" y="528" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">ATLAS (record)</text>
-<circle cx="390" cy="698" r="11" fill="#fbf7ec" stroke="#7a6a52" stroke-width="2.6"/>
-<circle cx="390" cy="698" r="3.4" fill="#7a6a52"/>
-<text x="390" y="680" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Name Register</text>
-<text x="390" y="724" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Nikos</text>
-<circle cx="490" cy="546" r="11" fill="#fbf7ec" stroke="#7a6a52" stroke-width="2.6"/>
-<circle cx="490" cy="546" r="3.4" fill="#7a6a52"/>
-<text x="490" y="528" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Market / Stele Site</text>
-<circle cx="690" cy="242" r="11" fill="#fbf7ec" stroke="#8c2f2f" stroke-width="2.6"/>
-<circle cx="690" cy="242" r="3.4" fill="#8c2f2f"/>
-<text x="690" y="224" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">ACADEMY</text>
-<circle cx="690" cy="470" r="11" fill="#fbf7ec" stroke="#8c2f2f" stroke-width="2.6"/>
-<circle cx="690" cy="470" r="3.4" fill="#8c2f2f"/>
-<text x="690" y="452" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">ARCHIVE</text>
-<text x="690" y="496" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Thea</text>
-<circle cx="890" cy="394" r="7" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
-<text x="890" y="380" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Couriers Queue</text>
-<circle cx="1090" cy="242" r="7" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
-<text x="1090" y="228" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Forge (Kaggle)</text>
-<circle cx="990" cy="546" r="7" fill="#fbf7ec" stroke="#2E8FA3" stroke-width="2.6"/>
-<text x="990" y="532" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Machine A</text>
-<circle cx="890" cy="698" r="7" fill="#fbf7ec" stroke="#2E8FA3" stroke-width="2.6"/>
-<text x="890" y="684" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Machine B</text>
-<text x="890" y="720" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Nikos</text>
-<circle cx="1090" cy="774" r="7" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
-<text x="1090" y="760" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Book Mountain</text>
-<text x="1090" y="796" text-anchor="middle" font-size="10" fill="#8c2f2f">hat: Irene</text>
-<circle cx="1190" cy="546" r="7" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
-<text x="1190" y="532" text-anchor="middle" font-size="13.5" fill="#2f2a24" font-weight="600">Quarantine Port</text>
-<text x="620.0" y="44" text-anchor="middle" font-size="24" fill="#2f2a24" font-weight="700" letter-spacing="3">TOPOGRAPHY · the garden, as topology</text>
-<g transform="translate(60,742)"><line x1="0" y1="0" x2="46" y2="0" stroke="#b0762a" stroke-width="3"/><text x="52" y="4" font-size="11.5" fill="#7a6f5e">git road (inter-polity)</text><line x1="230" y1="0" x2="276" y2="0" stroke="#2E8FA3" stroke-width="2" stroke-dasharray="7 6"/><text x="282" y="4" font-size="11.5" fill="#7a6f5e">sea route (compute abroad)</text><line x1="490" y1="0" x2="536" y2="0" stroke="#b3a88f" stroke-width="1.4" stroke-dasharray="2 5"/><text x="542" y="4" font-size="11.5" fill="#7a6f5e">in-repo lane</text><circle cx="700" cy="0" r="10" fill="#fbf7ec" stroke="#8c2f2f" stroke-width="2.6"/><circle cx="700" cy="0" r="3.4" fill="#8c2f2f"/><text x="716" y="4" font-size="11.5" fill="#7a6f5e">polity / institution</text></g>
+<text x="620.0" y="46" text-anchor="middle" font-size="25" fill="#2f2a24" font-weight="700" letter-spacing="4">THE GARDEN METRO · 园体运行图</text>
+<text x="620.0" y="68" text-anchor="middle" font-size="11.5" fill="#6f6558" letter-spacing="4">距离与时间无关紧要 · 位置关系才是信息本身</text>
+<path d="M194,120 L246,120 L350,224 L350,224" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M350,224 L506,224 L506,224 L506,224" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M506,224 L506,120 L506,120 L506,120" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M142,328 L194,328 L246,380 L246,380" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M246,380 L194,380 L142,432 L142,432" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M246,380 L246,536 L246,536 L246,536" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M350,224 L350,224 L402,276 L402,276" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M402,276 L402,380 L402,380 L402,380" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M402,380 L402,484 L402,484 L402,484" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M402,484 L350,484 L246,380 L246,380" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M402,380 L610,380 L610,380 L610,380" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M610,276 L610,380 L610,380 L610,380" fill="none" stroke="#b0762a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M610,276 L506,276 L402,380 L402,380" fill="none" stroke="#b0762a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M610,276 L714,276 L766,328 L766,328" fill="none" stroke="#b0762a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M766,328 L766,380 L610,536 L610,536" fill="none" stroke="#b0762a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M662,328 L662,224 L766,120 L766,120" fill="none" stroke="#b0762a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M766,328 L766,120 L766,120 L766,120" fill="none" stroke="#2E8FA3" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 7" opacity=".88"/>
+<path d="M610,536 L610,276 L766,120 L766,120" fill="none" stroke="#2E8FA3" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 7" opacity=".88"/>
+<path d="M610,380 L714,380 L766,432 L766,432" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M766,536 L766,432 L766,432 L766,432" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M610,536 L662,536 L766,432 L766,432" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<path d="M662,328 L662,328 L610,380 L610,380" fill="none" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+<circle cx="194" cy="120" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="194" y="108" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Field Trials</text>
+<circle cx="506" cy="120" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="506" y="108" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Skills Registry</text>
+<text x="506" y="144" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Theuth</text>
+<circle cx="766" cy="120" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="766" y="108" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Forge · Kaggle</text>
+<path d="M350,213 L361,224 L350,235 L339,224 Z" fill="#fbf7ec" stroke="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" stroke-width="3.4"/>
+<text x="350" y="205" text-anchor="middle" font-size="14.5" fill="#2f2a24" font-weight="700" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">CHORA</text>
+<circle cx="506" cy="224" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="506" y="212" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Post House</text>
+<circle cx="402" cy="276" r="9" fill="#fbf7ec" stroke="#2f2a24" stroke-width="3.4"/>
+<text x="402" y="260" text-anchor="middle" font-size="13" fill="#2f2a24" font-weight="600" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Code of Law</text>
+<text x="402" y="300" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Hammurabi</text>
+<path d="M610,265 L621,276 L610,287 L599,276 Z" fill="#fbf7ec" stroke="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" stroke-width="3.4"/>
+<text x="610" y="257" text-anchor="middle" font-size="14.5" fill="#2f2a24" font-weight="700" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">ACADEMY</text>
+<circle cx="662" cy="328" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="662" y="316" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Couriers</text>
+<circle cx="766" cy="328" r="9" fill="#fbf7ec" stroke="#2f2a24" stroke-width="3.4"/>
+<text x="766" y="312" text-anchor="middle" font-size="13" fill="#2f2a24" font-weight="600" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Machine A</text>
+<circle cx="142" cy="328" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="142" y="316" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Ledger</text>
+<text x="142" y="352" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Irene</text>
+<path d="M246,369 L257,380 L246,391 L235,380 Z" fill="#fbf7ec" stroke="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" stroke-width="3.4"/>
+<text x="246" y="361" text-anchor="middle" font-size="14.5" fill="#2f2a24" font-weight="700" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">ATLAS</text>
+<path d="M610,369 L621,380 L610,391 L599,380 Z" fill="#fbf7ec" stroke="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" stroke-width="3.4"/>
+<text x="610" y="361" text-anchor="middle" font-size="14.5" fill="#2f2a24" font-weight="700" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">ARCHIVE</text>
+<text x="610" y="404" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Thea</text>
+<circle cx="402" cy="380" r="9" fill="#fbf7ec" stroke="#2f2a24" stroke-width="3.4"/>
+<text x="402" y="364" text-anchor="middle" font-size="13" fill="#2f2a24" font-weight="600" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Market/Stele Site</text>
+<circle cx="142" cy="432" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="142" y="420" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Glossary Steles</text>
+<circle cx="766" cy="432" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="766" y="420" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Quarantine Port</text>
+<circle cx="402" cy="484" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="402" y="472" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Name Register</text>
+<text x="402" y="508" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Nikos</text>
+<circle cx="246" cy="536" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="246" y="524" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Itinerary Notes</text>
+<circle cx="610" cy="536" r="9" fill="#fbf7ec" stroke="#2f2a24" stroke-width="3.4"/>
+<text x="610" y="520" text-anchor="middle" font-size="13" fill="#2f2a24" font-weight="600" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Machine B</text>
+<text x="610" y="560" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Nikos</text>
+<circle cx="766" cy="536" r="6.5" fill="#fbf7ec" stroke="#2f2a24" stroke-width="2.6"/>
+<text x="766" y="524" text-anchor="middle" font-size="12.5" fill="#2f2a24" stroke="#fbf7ec" stroke-width="4" paint-order="stroke">Book Mountain</text>
+<text x="766" y="560" text-anchor="middle" font-size="9.5" fill="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" font-weight="600">hat·Irene</text>
+<g transform="translate(70,754)"><line x1="0" y1="0" x2="42" y2="0" stroke="#b0762a" stroke-width="4.5" stroke-linecap="round"/><text x="50" y="4" font-size="12" fill="#6f6558">git trunk (机构大路)</text><line x1="250" y1="0" x2="292" y2="0" stroke="#2E8FA3" stroke-width="4.5" stroke-dasharray="9 7" stroke-linecap="round"/><text x="300" y="4" font-size="12" fill="#6f6558">sea route (火神航线)</text><line x1="500" y1="0" x2="542" y2="0" stroke="#9a8f7a" stroke-width="4.5" stroke-linecap="round"/><text x="550" y="4" font-size="12" fill="#6f6558">in-repo lane (仓内小径)</text><circle cx="760" cy="0" r="9" fill="#fbf7ec" stroke="#2f2a24" stroke-width="3.4"/><text x="778" y="4" font-size="12" fill="#6f6558">interchange 换乘</text><path d="M920,-10 L930,0 L920,10 L910,0 Z" fill="#fbf7ec" stroke="{'ledger': 'Irene', 'onom': 'Nikos', 'macb': 'Nikos', 'lyc': 'Theuth', 'arch': 'Thea', 'icloud': 'Irene', 'stele': 'Hammurabi'}" stroke-width="3.4"/><text x="940" y="4" font-size="12" fill="#6f6558">polity 政体</text></g>
 </svg>

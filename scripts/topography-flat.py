@@ -1,80 +1,109 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""topography-flat.py — 园体拓扑·平面版 (English labels only, no buildings)
-主人 09-23 令: 等距缩微效果不佳 → 平面化; 图内希腊词 → 英语, 希腊语入单独 glossary。
-输出 docs/figs/topos-flat.svg"""
+"""topography-flat.py — 园体地铁图 (metro map 正典: 45° 折线/等宽/换乘环)
+主人 09-23 定纲: 拓扑图里距离与时间一样无关紧要, 对象之间的位置关系才是信息本身。
+—— 这正是地铁图的公理: 乘客要的是拓扑, 不是里程。"""
 
 W, H = 1240, 800
-BG, INK, MUT = "#fbf7ec", "#2f2a24", "#7a6f5e"
-GIT, SEA, LANE, HAT = "#b0762a", "#2E8FA3", "#b3a88f", "#8c2f2f"
+BG, INK, MUT = "#fbf7ec", "#2f2a24", "#6f6558"
+GIT, SEA, LANE, HAT = "#b0762a", "#2E8FA3", "#9a8f7a", "#8c2f2f"
 
-# id, English, gx, gy, group, hat
-N = [
- ("exp",     "Field Trials",      1, 1, "chora", ""),
- ("lyc",     "Skills Registry",   4, 1, "chora", "Theuth"),
- ("mail",    "Post House",        3, 2, "chora", ""),
- ("chora",   "CHORA (home base)", 2, 2, "chora", ""),
- ("stele",   "Code of Law",       3, 4, "bridge", "Hammurabi"),
- ("ledger",  "Ledger",            1, 5, "atlas", "Irene"),
- ("gloss",   "Glossary Steles",   0, 6, "atlas", ""),
- ("itiner",  "Itinerary Notes",   1, 7, "atlas", ""),
- ("atlas",   "ATLAS (record)",    2, 6, "atlas", ""),
- ("onom",    "Name Register",     3, 8, "atlas", "Nikos"),
- ("agora",   "Market / Stele Site",4, 6, "atlas", ""),
- ("akad",    "ACADEMY",           6, 2, "polity", ""),
- ("arch",    "ARCHIVE",           6, 5, "polity", "Thea"),
- ("angel",   "Couriers Queue",    8, 4, "infra", ""),
- ("kaggle",  "Forge (Kaggle)",    10, 2, "infra", ""),
- ("maca",    "Machine A",         9, 6, "machine", ""),
- ("macb",    "Machine B",         8, 8, "machine", "Nikos"),
- ("icloud",  "Book Mountain",     10, 9, "infra", "Irene"),
- ("ext",     "Quarantine Port",   11, 6, "infra", ""),
+# 站表: id -> (English, col, row, kind)  kind: st=普通站 po=政体(大菱形) ix=换乘环
+S = {
+ "exp":    ("Field Trials",        2, 0, "st"),
+ "lyc":    ("Skills Registry",     8, 0, "st"),
+ "kaggle": ("Forge · Kaggle",     13, 0, "st"),
+ "chora":  ("CHORA",               5, 2, "po"),
+ "mail":   ("Post House",          8, 2, "st"),
+ "stele":  ("Code of Law",         6, 3, "ix"),
+ "akad":   ("ACADEMY",            10, 3, "po"),
+ "angel":  ("Couriers",           11, 4, "st"),
+ "maca":   ("Machine A",          13, 4, "ix"),
+ "ledger": ("Ledger",              1, 4, "st"),
+ "atlas":  ("ATLAS",               3, 5, "po"),
+ "arch":   ("ARCHIVE",            10, 5, "po"),
+ "agora":  ("Market/Stele Site",   6, 5, "ix"),
+ "gloss":  ("Glossary Steles",     1, 6, "st"),
+ "ext":    ("Quarantine Port",    13, 6, "st"),
+ "onom":   ("Name Register",       6, 7, "st"),
+ "itiner": ("Itinerary Notes",     3, 8, "st"),
+ "macb":   ("Machine B",          10, 8, "ix"),
+ "icloud": ("Book Mountain",      13, 8, "st"),
+}
+HAT = {"ledger":"Irene","onom":"Nikos","macb":"Nikos","lyc":"Theuth","arch":"Thea","icloud":"Irene","stele":"Hammurabi"}
+
+# 线路表: (名, 色, 站点序列) —— 每段自动走 横/45°/竖 地铁三向
+LINES = [
+ ("chora lane",  LANE, ["exp","chora","mail","lyc"]),
+ ("atlas lane",  LANE, ["ledger","atlas","gloss"]),
+ ("atlas spur",  LANE, ["atlas","itiner"]),
+ ("law loop",    LANE, ["chora","stele","agora","onom","atlas"]),
+ ("market link", LANE, ["agora","arch"]),
+ ("git trunk",   GIT,  ["akad","arch"]),
+ ("git south",   GIT,  ["akad","agora"]),
+ ("git east",    GIT,  ["akad","maca"]),
+ ("git south-e", GIT,  ["maca","macb"]),
+ ("courier exp", GIT,  ["angel","kaggle"]),
+ ("sea north",   SEA,  ["maca","kaggle"]),
+ ("sea south",   SEA,  ["macb","kaggle"]),
+ ("archive lane",LANE, ["arch","ext"]),
+ ("book lane",   LANE, ["icloud","ext"]),
+ ("quar lane",   LANE, ["macb","ext"]),
+ ("courier ln",  LANE, ["angel","arch"]),
 ]
-E = [
- ("chora","exp",LANE),("chora","lyc",LANE),("chora","mail",LANE),
- ("atlas","ledger",LANE),("atlas","gloss",LANE),("atlas","itiner",LANE),("atlas","onom",LANE),
- ("atlas","stele",LANE),("chora","stele",LANE),("agora","stele",LANE),("agora","onom",LANE),
- ("akad","arch",GIT),("akad","agora",GIT),("akad","maca",GIT),("akad","macb",GIT),
- ("arch","maca",LANE),("arch","ext",LANE),
- ("maca","kaggle",SEA),("macb","kaggle",SEA),("macb","ext",LANE),
- ("icloud","ext",LANE),("angel","kaggle",GIT),("angel","arch",LANE),
-]
-pos = {n[0]: (90 + n[2]*100, 90 + n[3]*76) for n in N}
+G = 52; OX, OY = 90, 120
+def pt(k):
+    _, c, r, _ = S[k]; return (OX + c*G, OY + r*G)
+
+def metro(a, b):
+    """三向走线: 先横, 再 45°, 后竖 —— 地铁图正典。"""
+    x1, y1 = pt(a); x2, y2 = pt(b)
+    dx, dy = x2-x1, y2-y1
+    adx, ady = abs(dx), abs(dy)
+    sx, sy = (1 if dx>0 else -1), (1 if dy>0 else -1)
+    d = min(adx, ady)                       # 45° 段投影
+    rest = adx - d
+    # 拐点分配: 横->斜->竖
+    mx1, my1 = x1 + sx*rest, y1
+    mx2, my2 = x1 + sx*rest + sx*d, y1 + sy*d
+    if adx >= ady:
+        return f'M{x1},{y1} L{mx1},{my1} L{mx2},{my2} L{x2},{y2}'
+    d2 = min(adx, ady); rest2 = ady - d2
+    ax1, ay1 = x1, y1 + sy*rest2
+    ax2, ay2 = x1 + sx*d2, y1 + sy*rest2 + sy*d2
+    return f'M{x1},{y1} L{ax1},{ay1} L{ax2},{ay2} L{x2},{y2}'
 
 s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">',
-     f'<rect width="{W}" height="{H}" fill="{BG}"/>']
-# 政体软底
-def blob(ids, color, name, ny):
-    xs=[pos[i][0] for i in ids]; ys=[pos[i][1] for i in ids]
-    x0,x1,y0,y1=min(xs)-64,max(xs)+64,min(ys)-52,max(ys)+52
-    s.append(f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" rx="34" fill="{color}" opacity="0.07"/>')
-    s.append(f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" rx="34" fill="none" stroke="{color}" stroke-dasharray="5 6" opacity=".5"/>')
-    s.append(f'<text x="{x0+12}" y="{y0+22}" font-size="12" fill="{color}" letter-spacing="2" opacity=".9">{name}</text>')
-blob(["exp","lyc","mail","chora"], "#6f8f5a", "POLITY · CHORA", 0)
-blob(["ledger","gloss","itiner","atlas","agora","onom"], "#7a6a52", "POLITY · ATLAS", 0)
-blob(["akad"], "#b0762a", "", 0); blob(["arch"], "#b0762a", "", 0)
-# 边 (直角折线, 地铁图笔法)
-for a,b,c in E:
-    x1,y1=pos[a]; x2,y2=pos[b]
-    mx = (x1+x2)/2
-    s.append(f'<path d="M{x1},{y1} L{mx},{y1} L{mx},{y2} L{x2},{y2}" fill="none" stroke="{c}" stroke-width="{3 if c==GIT else (2 if c==SEA else 1.4)}" stroke-dasharray="{"7 6" if c==SEA else ("2 5" if c==LANE else "0")}" opacity="{0.9 if c!=LANE else 0.75}"/>')
-# 节点
-for n in N:
-    x,y=pos[n[0]]
-    r = 11 if n[4] in ("polity","chora","atlas") else 7
-    col = {"polity":HAT,"chora":"#6f8f5a","atlas":"#7a6a52","infra":INK,"machine":SEA,"bridge":GIT}[n[4]]
-    s.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{BG}" stroke="{col}" stroke-width="2.6"/>')
-    if r>10: s.append(f'<circle cx="{x}" cy="{y}" r="3.4" fill="{col}"/>')
-    s.append(f'<text x="{x}" y="{y-r-7}" text-anchor="middle" font-size="13.5" fill="{INK}" font-weight="600">{n[1]}</text>')
-    if n[5]: s.append(f'<text x="{x}" y="{y+r+15}" text-anchor="middle" font-size="10" fill="{HAT}">hat: {n[5]}</text>')
-s.append(f'<text x="{W/2}" y="44" text-anchor="middle" font-size="24" fill="{INK}" font-weight="700" letter-spacing="3">TOPOGRAPHY · the garden, as topology</text>')
+     f'<rect width="{W}" height="{H}" fill="{BG}"/>',
+     f'<text x="{W/2}" y="46" text-anchor="middle" font-size="25" fill="{INK}" font-weight="700" letter-spacing="4">THE GARDEN METRO · 园体运行图</text>',
+     f'<text x="{W/2}" y="68" text-anchor="middle" font-size="11.5" fill="{MUT}" letter-spacing="4">距离与时间无关紧要 · 位置关系才是信息本身</text>']
+# 线路
+for name, col, stops in LINES:
+    for a, b in zip(stops, stops[1:]):
+        dash = ' stroke-dasharray="9 7"' if col == SEA else ""
+        s.append(f'<path d="{metro(a,b)}" fill="none" stroke="{col}" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"{dash} opacity=".88"/>')
+# 车站
+for k, (en, c, r, kind) in S.items():
+    x, y = pt(k)
+    if kind == "po":
+        s.append(f'<path d="M{x},{y-11} L{x+11},{y} L{x},{y+11} L{x-11},{y} Z" fill="{BG}" stroke="{HAT}" stroke-width="3.4"/>')
+        s.append(f'<text x="{x}" y="{y-19}" text-anchor="middle" font-size="14.5" fill="{INK}" font-weight="700" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
+    elif kind == "ix":
+        s.append(f'<circle cx="{x}" cy="{y}" r="9" fill="{BG}" stroke="{INK}" stroke-width="3.4"/>')
+        s.append(f'<text x="{x}" y="{y-16}" text-anchor="middle" font-size="13" fill="{INK}" font-weight="600" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
+    else:
+        s.append(f'<circle cx="{x}" cy="{y}" r="6.5" fill="{BG}" stroke="{INK}" stroke-width="2.6"/>')
+        s.append(f'<text x="{x}" y="{y-12}" text-anchor="middle" font-size="12.5" fill="{INK}" stroke="{BG}" stroke-width="4" paint-order="stroke">{en}</text>')
+    if k in HAT:
+        s.append(f'<text x="{x}" y="{y+24}" text-anchor="middle" font-size="9.5" fill="{HAT}" font-weight="600">hat·{HAT[k]}</text>')
 # 图例
-lg = f'<g transform="translate(60,{H-58})">'
-lg += f'<line x1="0" y1="0" x2="46" y2="0" stroke="{GIT}" stroke-width="3"/><text x="52" y="4" font-size="11.5" fill="{MUT}">git road (inter-polity)</text>'
-lg += f'<line x1="230" y1="0" x2="276" y2="0" stroke="{SEA}" stroke-width="2" stroke-dasharray="7 6"/><text x="282" y="4" font-size="11.5" fill="{MUT}">sea route (compute abroad)</text>'
-lg += f'<line x1="490" y1="0" x2="536" y2="0" stroke="{LANE}" stroke-width="1.4" stroke-dasharray="2 5"/><text x="542" y="4" font-size="11.5" fill="{MUT}">in-repo lane</text>'
-lg += f'<circle cx="700" cy="0" r="10" fill="{BG}" stroke="{HAT}" stroke-width="2.6"/><circle cx="700" cy="0" r="3.4" fill="{HAT}"/><text x="716" y="4" font-size="11.5" fill="{MUT}">polity / institution</text></g>'
+lg = f'<g transform="translate(70,{H-46})">'
+lg += f'<line x1="0" y1="0" x2="42" y2="0" stroke="{GIT}" stroke-width="4.5" stroke-linecap="round"/><text x="50" y="4" font-size="12" fill="{MUT}">git trunk (机构大路)</text>'
+lg += f'<line x1="250" y1="0" x2="292" y2="0" stroke="{SEA}" stroke-width="4.5" stroke-dasharray="9 7" stroke-linecap="round"/><text x="300" y="4" font-size="12" fill="{MUT}">sea route (火神航线)</text>'
+lg += f'<line x1="500" y1="0" x2="542" y2="0" stroke="{LANE}" stroke-width="4.5" stroke-linecap="round"/><text x="550" y="4" font-size="12" fill="{MUT}">in-repo lane (仓内小径)</text>'
+lg += f'<circle cx="760" cy="0" r="9" fill="{BG}" stroke="{INK}" stroke-width="3.4"/><text x="778" y="4" font-size="12" fill="{MUT}">interchange 换乘</text>'
+lg += f'<path d="M920,-10 L930,0 L920,10 L910,0 Z" fill="{BG}" stroke="{HAT}" stroke-width="3.4"/><text x="940" y="4" font-size="12" fill="{MUT}">polity 政体</text></g>'
 s.append(lg)
 s.append('</svg>')
-open("docs/figs/topos-flat.svg","w").write("\n".join(s))
-print("wrote docs/figs/topos-flat.svg")
+open("docs/figs/topos-flat.svg", "w").write("\n".join(s))
+print("wrote docs/figs/topos-flat.svg (metro 版)")
