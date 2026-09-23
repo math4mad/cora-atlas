@@ -16,11 +16,37 @@ title: "地形志 · Τοπογραφία"
   Ἀγορά（市集·公开立言）；**Διόσκουροι**（双子神机）各耕各岛，**β'** 岛三臂在耕；
   **检疫港**收天下底本，pin 为海关；**书山**藏假说之矿（283 册）。
 
-## 等距微缩（第三视图：平面化·建筑缩小·间距收紧·只留拓扑）
+## 平面拓扑（第三视图 · 主人令改版：两帧平面化：等距 45°（无建筑，纯拓扑）与正交拓扑，图上只留英语，希腊语入下表）
+
+::: {style="overflow-x:auto"}
+![](figs/topos-flat.svg)
+:::
 
 ::: {style="overflow-x:auto"}
 ![](figs/topos-iso.svg)
 :::
+
+### Greek names · 词汇表（图上不用，此处查）
+
+| English (on map) | Ἑλληνικό | 汉 |
+|---|---|---|
+| CHORA (home base) | ἡ Χώρα | 本域 |
+| ATLAS (record) | ἡ Ἀτλαντίς | 碑园 |
+| ACADEMY | ἡ Ἀκαδημία | 学园 |
+| ARCHIVE | Τὸ Ἀρχεῖον | 档案馆 |
+| Market / Stele Site | ἡ Ἀγορά / ἡ Στήλη | 市集·石碑站 |
+| Field Trials | οἱ ἀγροί | 实验田 |
+| Skills Registry | Λύκειον | 职册署 |
+| Post House | τὸ σταθμός | 驿馆 |
+| Code of Law | ἡ Στήλη (Hammurabi) | 汉谟拉比柱 |
+| Ledger / Glossary / Itinerary | Δελτοί / Λεξικόν / ὁδὸς ἱστορική | 台账·术语·手记 |
+| Name Register | Ὀνοματολόγιον | 正名表 |
+| Couriers Queue | ὁδὸς Ἀγγέλων | 天使道（队列） |
+| Forge (Kaggle) | Τὸ Πυραεῖον | 火神庙 |
+| Machine A / B | Διόσκουροι α′/β′ | 双子神机 |
+| Book Mountain | βιβλίων ὄρος | 书山 |
+| Quarantine Port | ὁ λιμήν | 检疫港 |
+| hat: Irene/Nikos/Thea | Πρόσωπα: Εἰρήνη/Νίκος/Θέα | 三帽 |
 
 ## 关系拓扑（第四视图：距离＝耦合之反）
 
