@@ -78,7 +78,7 @@ friendship, needs a physical layer.
 
 With respect to both of you,
 
-[Owner's name — YiWei, to be signed by the owner]
+YiWei
 Independent Research Garden (Concept-Space-Sphere), China
 
 ---
