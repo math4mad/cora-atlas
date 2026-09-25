@@ -1,0 +1,71 @@
+Dear Professor MacWhinney, dear Dr. Zhang,
+
+Brian — thank you for a reply that arrived faster than our download attempts
+ever succeeded. Three things you confirmed we will carry carefully:
+developmental profiles built on large corpora is the right direction, derived
+measures may be published, and the Chinese holdings of CHILDES are larger than
+we had dared to hope. And thank you for making the introduction explicit —
+that is the most useful thing a corpus steward can do.
+
+Brian — may I ask one small favor for our related-work section: could you
+name the earlier developmental-profile work you recall? We would much rather
+cite it properly than reconstruct it from a fog bank. And with your permission
+we would like to cite your note ("large corpora … that is important") as a
+personal communication — it is, honestly, the best one-sentence motivation we
+could hope for.
+
+Yibin — let me introduce the garden briefly. We are a small independent
+research group in China (led by a former statistics teacher, no institution,
+no commercial interest). Our object of study is the concept space as a
+measurable geometry: concepts are regions, categorization is a
+maximum-similarity anchoring decision, and learning is sequential Bayesian
+updating that never resets — today's posterior is tomorrow's prior. Read
+through this machinery, the anchor mechanism turns out to be exactly what
+developmental psychology calls centration: the engine is, by construction, a
+child's mind — so we decided to give it a child's education.
+
+The experiment is called the AGE-LADDER: an age-tiered curriculum (board-book
+catalogs and public-domain readers for 0–5; CHILDES-style child-directed
+speech as the dialogue layer; historical graded readers like McGuffey for
+6–15; adult web text only as the "terminal snapshot" control). The central
+test is deliberately minimal: the same bag of data, the same seeds, two
+feeding orders — stage-ordered versus shuffled — and the readout is not
+benchmark scores but the trajectory of internal parameters: interference
+waves in held-out cross-entropy, Ebbinghaus-style savings on re-exposure, and
+the migration of concept regions in weight space. On a 0.5B model the
+order-effect has already passed pre-registered criteria 3/3 on a toddler bag,
+and 2/3 on an adult seven-domain bag with a dose-response in schedule
+granularity. We are not competing with scale; we are measuring what order
+leaves behind.
+
+This is where we need a friend on the ground, and Brian says you are the one.
+Three concrete asks:
+
+1. The Chinese layer. Which Mandarin/Cantonese collections in CHILDES
+   carry usable age labels, and which are longitudinal? A Chinese dialogue
+   layer would let the ladder be built in the language our engine actually
+   thinks in — and your own corpora, if any are open to us, would be equally
+   welcome. All use follows TalkBank rules: per-corpus citation,
+   acknowledgment of NICHD support, derived measures only, no re-hosting of
+   raw CHAT files, and absolutely no commercial use.
+2. A mainland-side path. Our connection can browse TalkBank but bulk
+   operations (the getCHAT endpoint, @Explore downloads) reset persistently
+   from here. Is there a mirror, a batch-transfer arrangement, or an ECNU-side
+   route through which a registered user could legitimately obtain the
+   collections we cite? We are patient and small — we just need one door that
+   stays open.
+3. A reciprocal offer. Everything we build on this — the ladder metrics
+   (interference-wave asymmetry, savings amplitude, order-dose curves), the
+   pre-registration templates, the analysis code — will be released for use
+   on child corpora, including yours. A measurement instrument is only as
+   good as the data it has been tested on, and Chinese child-directed speech
+   is the largest gap in that testing today.
+
+If any of this is worth a conversation, I am happy to send a one-page
+summary of the protocol, or to travel to Shanghai when bandwidth, like
+friendship, needs a physical layer.
+
+With respect to both of you,
+
+YiWei
+Independent Research Garden (Concept-Space-Sphere), China
