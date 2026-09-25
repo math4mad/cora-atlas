@@ -12,6 +12,8 @@ title: "Ε · 实验部 — Πειράματα"
 | P-B15 | [序算法全贯 v3（六排序共查一神谕）](../papers/prereg-pb15.qmd) | 候批候射——**裸探针首例** |
 | PB16-D | [红蓝演习军械详案（V1–V10 十图·M1–M8 八标）](../papers/prereg-pb16.qmd) | 案已冻候点菜（MacB 首射崩→r3 补丁回函） |
 | PL2-M | [模态交换臂（聋/盲类比·权重界）](../papers/prereg-pl2m.qmd) | 候批候射（P-L2 第一枪） |
+| P-B18 | [尾部承载假说（头=低频档/尾=高频档·三臂消融+跨seed裁决）](https://github.com/math4mad/chora/blob/main/experiments/PREREG_PB18_tail_resolution.md) | 判据先冻（C47 随碑案，零新训） |
+| E26 | [双端同步侦察（认知探针·黑臂零GPU）](https://github.com/math4mad/chora/blob/main/experiments/PREREG_E26_cross_client_sync.md) | 协议已冻候射（存在性/时延两维分离） |
 
 **读数之志**
 
@@ -19,6 +21,7 @@ title: "Ε · 实验部 — Πειράματα"
 |---|---|---|
 | 0922 | [Atlas 模块一 · 夜核读数志](../iterations/2026-09-22-atlas-m1-readout.qmd) | 172 空间·1032 token：H-A1 两发未过——图谱大体可分、个别成对粘连、模块二缓行 |
 | 0923 | [中型旅语料律](../iterations/2026-09-23-brigade-corpus-doctrine.qmd) | 军制类比的语料侧定纲 |
+| 0925 | [分辨率即泛化（C47 双锤）](../iterations/2026-09-25-resolution-is-generalization.qmd) | 「实际分辨率提高了, 而不是老化眼了」+「细节界线没分开, 谈何大是大非」—— 大边界是小边界的极限情形 |
 
 ::: {.note}
 实验仪器与夜哨规程（Kaggle 双席位、疫苗、回收）住在姊妹仓 [chora](https://math4mad.github.io/chora/)——碑园管账与判词，实验田管跑与读数，两界同法于汉谟拉比柱。

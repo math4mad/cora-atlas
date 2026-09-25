@@ -26,4 +26,6 @@ title: "迭代手记 · 索引"
 - **2026-09-22** · [lineage-reversal-and-structure-is-intelligence](../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.qmd)
 - **2026-09-22** · [three-am-chronicle](../iterations/2026-09-22-three-am-chronicle.qmd)
 - **2026-09-23** · [brigade-corpus-doctrine](../iterations/2026-09-23-brigade-corpus-doctrine.qmd)
+- **2026-09-24** · [bare-probe-provenance](../iterations/2026-09-24-bare-probe-provenance.qmd)
+- **2026-09-25** · [resolution-is-generalization (C47 双锤立碑)](../iterations/2026-09-25-resolution-is-generalization.qmd)
 - **—** · [chat-traces-2026-09-20](../iterations/chat-traces-2026-09-20.qmd)
