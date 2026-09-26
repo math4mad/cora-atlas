@@ -29,3 +29,5 @@ title: "迭代手记 · 索引"
 - **2026-09-24** · [bare-probe-provenance](../iterations/2026-09-24-bare-probe-provenance.qmd)
 - **2026-09-25** · [resolution-is-generalization (C47 双锤立碑)](../iterations/2026-09-25-resolution-is-generalization.qmd)
 - **—** · [chat-traces-2026-09-20](../iterations/chat-traces-2026-09-20.qmd)
+
+- **2026-09-26** · [confession-unverified-claim（悔过书：有的中译本）](../iterations/2026-09-26-confession-unverified-claim.qmd)
