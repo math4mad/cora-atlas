@@ -23,7 +23,9 @@ def shelf(path):
         rid = re.sub(r"<tr", f'<tr id="sr{i}"', r, count=1) if "id=" not in r else r
         prev = f'<a href="#sr{i-1}" title="{label(body[i-1])}">⬆ 上一架</a>' if i > 0 else "▲ 架首"
         nxt = f'<a href="#sr{i+1}" title="{label(body[i+1])}">下一架 ⬇</a>' if i < n-1 else "▼ 架尾"
-        newrows[r] = rid + f'<div class="shelfbar">{prev} · 同架串门 · {nxt}</div>'
+        ncol = max(1, r.count("<td"))
+        # 合法化: 串门条自成一 tr (div 直入 tr 会被浏览器剥出表外——未套上病根)
+        newrows[r] = rid + f'<tr class="shelfbar-row"><td colspan="{ncol}"><div class="shelfbar">{prev} · 同架串门 · {nxt}</div></td></tr>'
     cnt = 0
     def sub(m):
         nonlocal cnt
@@ -33,9 +35,10 @@ def shelf(path):
             return newrows[g]
         return g
     html2 = pat.sub(sub, html)
-    css = ("<style>.shelfbar{font-size:.78em;color:#8a7a5f;text-align:right;"
-           "padding:.1rem .4rem;border-bottom:1px dashed #e5dcc8}"
-           ".shelfbar a{color:#b05f24;text-decoration:none}</style>")
+    css = ("<style>.shelfbar{font-size:.78em;color:#8a7a5f;text-align:right;}"
+           ".shelfbar a{color:#c9a959;text-decoration:none}"
+           ".shelfbar-row td{border-top:1px dashed #2a2620;padding:.05rem .4rem !important;background:transparent}"
+           ".shelfbar-row{outline:none}</style>")
     html2 = html2.replace("</head>", css, 1)
     open(path, "w", encoding="utf-8").write(html2)
     print(f"同架条注入: {path} ({cnt} 行)")
