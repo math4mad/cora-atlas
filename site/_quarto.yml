@@ -29,6 +29,8 @@ website:
         text: Repo
 format:
   html:
+    includes:
+      after-body: partials/after-body.html
     theme: flatly
     css: style.css
     lang: zh
