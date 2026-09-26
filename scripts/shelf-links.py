@@ -35,8 +35,8 @@ def shelf(path):
             return newrows[g]
         return g
     html2 = pat.sub(sub, html)
-    css = ("<style>.shelfbar{font-size:.78em;color:#8a7a5f;text-align:right;}"
-           ".shelfbar a{color:#c9a959;text-decoration:none}"
+    css = ("<style>.shelfbar{font-size:.78em;color:#cdbd94;text-align:right;}"
+           ".shelfbar a{color:#e8c56d;text-decoration:none}"
            ".shelfbar-row td{border-top:1px dashed #2a2620;padding:.05rem .4rem !important;background:transparent}"
            ".shelfbar-row{outline:none}</style>")
     html2 = html2.replace("</head>", css, 1)
