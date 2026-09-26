@@ -46,6 +46,16 @@ python3 scripts/ledger-normalize.py LEDGER.md site/LEDGER.qmd
 ( cd site && "$Q" render )
 rsync -a docs-quarto/ docs/ 2>/dev/null || cp -R docs-quarto/. docs/
 python3 scripts/shelf-links.py docs/GLOSSARY.html docs/LEDGER.html
+# 凡例 side-screen 强注: LEDER/拓扑页走 rsync 合流, 不吃 render partial, 此处手工补尾
+for pg in docs/LEDGER.html; do
+  grep -q numerorum "$pg" || python3 -c "
+import sys
+body=open('site/partials/after-body.html').read()
+t=open('$pg').read()
+t=t.replace('</body>', body+'</body>',1) if '</body>' in t else t+body
+open('$pg','w').write(t)"
+done
+
 python3 scripts/map-inline.py   # 地铁图内联+定位光照 (只动此图)
 
 echo "✔ 碑体站成: docs/ ($(find docs -name '*.html' | wc -l | tr -d ' ') 页)"

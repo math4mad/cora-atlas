@@ -801,4 +801,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div id="numerorum-btn" title="编号凡例" style="display:none;position:fixed;right:0;top:45%;z-index:1040;
+  writing-mode:vertical-rl;padding:14px 6px;background:var(--bg,#0e0f12);color:#c9a959;border:1px solid #c9a959;
+  border-right:none;cursor:pointer;font-family:Palatino,serif;letter-spacing:.35em;border-radius:6px 0 0 6px;">凡例 ▸</div>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="numerorum" style="width:400px;background:#14161a;color:#ddd;border-left:1px solid #c9a959;">
+ <div class="offcanvas-header" style="border-bottom:1px solid #333;">
+  <h5 class="offcanvas-title" style="color:#c9a959;">编号凡例 · Canon Numerorum</h5>
+  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+ </div>
+ <div class="offcanvas-body" style="font-size:.92rem;">
+  <p><b style="color:#c9a959">C-nnn</b>　主干论断账（claim ledger）。每条具「起 → 历次变迁 → 当前强度 → 落点」四元；号入册即永驻，不迁不销。<b>附号 a/b</b>（如 C13b、C40a）＝同一母案之下别立之第二案，非修订替换。</p>
+  <p><b style="color:#c9a959">G-nn</b>　候封猜想（hypothesis）。状态记「候批／候封」，封则升 C，散则留匣。</p>
+  <p><b style="color:#c9a959">P-B-nn</b>　实验案卷（判据先冻之案）。其结论行须内标挂账 C 号（如「C47 两款与 P-B19 不受累」），无挂账者即游离证据，限期归宗。</p>
+  <p><b style="color:#c9a959">M-nn</b>　个案／旁证。</p>
+  <p><b style="color:#c9a959">缺号凡例</b>　缺号非漏记：凡跳号必于此申明留白或废号之由，账本方无暗房。<br>现行缺号：<b>C14–C24、C36</b>——来历待主人补录，此处即留白榜公示。</p>
+  <hr style="border-color:#333">
+  <p style="opacity:.75">修订规程（仓律第五条）：旧稿永不删改；变迁必追加＋sha256＋git commit，双腿皆备方为收据。<br>另见：<a href="../topography.html" style="color:#c9a959">地形志 Τοπογραφία →</a></p>
+ </div>
+</div>
+<script>
+(function(){
+  if(!/LEDGER/.test(location.pathname)) return;
+  var b=document.getElementById('numerorum-btn'); if(!b) return;
+  b.style.display='block';
+  b.addEventListener('click',function(){
+    var el=document.getElementById('numerorum');
+    new bootstrap.Offcanvas(el).toggle();
+  });
+})();
+</script>
 </body></html>
