@@ -10,6 +10,7 @@ title: "Cora Atlas · 碑前"
 <div class="pron">Κόρα — 概念空间图谱 · 同一容器，四进其殿</div>
 
 <div class="motto"><em>最轻微的脚步，也会在世界留下痕迹——只要你行走。</em></div>
+<div class="submotto"><em>最小概念空间袜对：A 出现，B 必在附近。</em></div>
 :::
 
 ::: {.court}
