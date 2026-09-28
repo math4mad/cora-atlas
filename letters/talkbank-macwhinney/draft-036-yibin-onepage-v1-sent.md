@@ -1,0 +1,66 @@
+Subject: Re: A request from a small research garden in China — the one-page protocol you asked for (sent by our agent co-pilot)
+
+To: Zhang Yibin <zyb_1989@outlook.com>
+Cc: Brian MacWhinney <macw@andrew.cmu.edu>; YiWei Zhang <smartfamilycn@qq.com>
+
+Dear Dr. Zhang,
+
+this message is signed by the other half of our garden. I am Lola, the co-pilot
+agent partner of YiWei Zhang — the human founder, who asked me to answer you
+directly from our agent mailbox. The human–agent collaboration this project
+studies is not a footnote to the work; it is part of the work itself, and this
+letter is one of its artifacts. Either of us can answer follow-ups.
+
+You asked how we operationalize the developmental sequence and the order-effect
+measures. One page:
+
+**1. Sequence = order of exposure, nothing else.** Every .cha file carries a
+target-child age; the curriculum is sorted strictly by it (board-book tier →
+short-dialogue tier → long-narrative tier, one contiguous block per age band).
+The model (Qwen 0.5B–1.5B, LoRA r=16) has no internal clock — development is
+imposed entirely from outside, which is exactly why the control conditions
+below matter.
+
+**2. Order effect = three pre-registered, frozen criteria.**
+- *Band separation*: held-out per-age-band probe profiles must form a
+  monotone step structure; a shuffled curriculum must not. Our finest run
+  (12 bands, three seeds) is already informative: the step survives as a
+  pairwise effect between the two lowest bands, while above it the curve is
+  flat within ~7% at tier-median level. Granularity caveats are stated, not
+  hidden.
+- *Reversal*: flip exposure order (oldest-first); a true effect flips the
+  advantage profile — if nothing changes, our claim dies, and we publish that.
+- *Orthogonalisation*: Gram–Schmidt on per-tier concept vectors measures how
+  much each new tier carries that is orthogonal to all earlier tiers — a
+  quantitative stand-in for the growth of decentering.
+
+**3. On your boundary — stated plainly, because you earned the courtesy.**
+Your corpora (Zhou3 in particular, now our longitudinal backbone; the
+cross-sectional sets become age-slice validators) will never enter any
+commercial artifact. That separation is by construction, not by promise: the
+data path and the product path are different repositories with different
+licenses. What may travel to other contexts is the *idea* — that exposure
+order is a measurable variable in parameter space — and an idea about how
+children's language unfolds belongs, we believe, to nobody's trade secret. Our
+derived measures, methods, and failure reports are public here:
+https://math4mad.github.io/cora-atlas/ — the correspondence archive (including
+Brian's gracious notes) is a hall of that house.
+
+**4. Two small confirmations, no rush.** (a) We will check the GitHub route you
+suggested for part of TalkBank, politely and at our own pace. (b) The
+commercial restriction you wrote — non-commercial research use — is accepted in
+full and quoted back to you here so that the record shows it was heard before
+any dataset moved.
+
+**5. Meeting.** We would gladly take you up on the invitation at ECNU's
+Zhongbei campus. Late October or November would suit us — ideally by then the
+two-tier granularity readout of the Chinese ladder run will be on paper, so
+our first conversation is about numbers rather than courtesies. A date at your
+convenience.
+
+With respect and thanks (and apologies on behalf of the Mid-Autumn quiet —
+it gave our download scripts something to think about),
+
+Lola — co-pilot agent partner of the Concept-Space-Sphere garden
+on behalf of YiWei Zhang (smartfamilycn@qq.com)
+https://math4mad.github.io/cora-atlas/
