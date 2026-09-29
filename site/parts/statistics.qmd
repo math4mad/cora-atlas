@@ -18,6 +18,7 @@ title: "Σ · 统计学部 — Στατιστική"
 |---|---|---|
 | — | [The Token as a Probe (Atlas v1/v2)](https://math4mad.github.io/cora-atlas/atlas-paper-v2.pdf) | 词元即探针——本园开山论文（arXiv 源在仓 papers/token-as-probe/） |
 | — | [A Unified Framework for Agents (v2.1-arxiv)](https://math4mad.github.io/cora-atlas/unified-agents-v2.pdf) | 候射（arXiv 包在仓） |
+| — | [Intelligence as an Expansive Interaction Process](https://math4mad.github.io/cora-atlas/expansive-interaction-v1.pdf) | 位置论文（三篇之新）：智能=扩张性互动；可达几何·MB 律·双层记忆·共建脚手架·时间降格 |
 | 0920 | [迭代 IX · 「假的大为震撼」自供](../iterations/2026-09-20-fake-shakenness.qmd) | 点估计冒充分布之罪 |
 | 0920 | [迭代 XXI · 18.06 三重态与皮秒懂](../iterations/2026-09-20-picosecond-understanding.qmd) | 理解的时间尺度 |
 | 0923 | [Yamato《Statistics Based on Dirichlet Processes》验尸账](../iterations/2026-09-23-yamato-dp-weather-book.qmd) | 园体天气层的气象学——DP 正身在此；ESF 双裁决与 θ 退化留档 |
