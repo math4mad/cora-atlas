@@ -32,3 +32,4 @@ title: "迭代手记 · 索引"
 
 - **2026-09-26** · [confession-unverified-claim（悔过书：有的中译本）](../iterations/2026-09-26-confession-unverified-claim.qmd)
 - **2026-09-29** · [expansive-eight-experiments（位置论文 §5 八实验 × 园中弹道对表 ＋ 排产总览）](../iterations/2026-09-29-expansive-eight-experiments.qmd)
+- **2026-09-29** · [sparrow-dog-two-buildings（麻雀·狗与两栋楼——可达几何的第一次人生现场）](../iterations/2026-09-29-sparrow-dog-two-buildings.qmd)
