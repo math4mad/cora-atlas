@@ -22,6 +22,7 @@ title: "Ε · 实验部 — Πειράματα"
 | 0922 | [Atlas 模块一 · 夜核读数志](../iterations/2026-09-22-atlas-m1-readout.qmd) | 172 空间·1032 token：H-A1 两发未过——图谱大体可分、个别成对粘连、模块二缓行 |
 | 0923 | [中型旅语料律](../iterations/2026-09-23-brigade-corpus-doctrine.qmd) | 军制类比的语料侧定纲 |
 | 0925 | [分辨率即泛化（C47 双锤）](../iterations/2026-09-25-resolution-is-generalization.qmd) | 「实际分辨率提高了, 而不是老化眼了」+「细节界线没分开, 谈何大是大非」—— 大边界是小边界的极限情形 |
+| 0929 | [位置论文 §5 八实验 × 园中弹道对表 ＋ 排产总览（Φ 手记）](../iterations/2026-09-29-expansive-eight-experiments.qmd) | 八条对到园中现有弹道；新案 **P-B26 袜对麻雀可达基准**（先冻稿候批）、**G3 增撤架臂**（候并） |
 
 ::: {.note}
 实验仪器与夜哨规程（Kaggle 双席位、疫苗、回收）住在姊妹仓 [chora](https://math4mad.github.io/chora/)——碑园管账与判词，实验田管跑与读数，两界同法于汉谟拉比柱。

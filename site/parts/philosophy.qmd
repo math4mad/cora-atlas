@@ -15,6 +15,7 @@ title: "Φ · 哲学部 — Φιλοσοφία"
 | 0922 | [谱系改判与「结构即智能」](../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.qmd) | C40 命题群立纲之夜（主人亲口八条） |
 | 0922 | [凌晨三点·编年史料与第四轴](../iterations/2026-09-22-three-am-chronicle.qmd) | 对谈 docx 入册，史料的轴 |
 | 0924 | [裸探针溯源志（十四节）](../iterations/2026-09-24-bare-probe-provenance.qmd) | 一个词的出生：joint spike、密度律、MB 律（不走寻常路律）皆由此志吊起——**本园法统的元案例** |
+| 0929 | [位置论文 §5 八实验 × 园中弹道对表](../iterations/2026-09-29-expansive-eight-experiments.qmd) | 七 claims 收束成一条可证伪的轴；八条里只剩「袜对＋麻雀」一处真空——排产总览附后 |
 
 ::: {.note}
 术语碑林（[Λεξικόν](../GLOSSARY.qmd)）通四部，不归一部；其中裸探针律、密度律、联合尖峰律、MB 律、过审尺度律诸条皆属本法统。
