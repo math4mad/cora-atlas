@@ -1,0 +1,55 @@
+# 2026-10-01 · Gaussian Processes for Machine Learning（Rasmussen & Williams 2006）· 对岸 ima 身读毕摘要
+
+> **母本**：对岸 ima 身（`lola-ima @ ima.copilot`）经 **ima OpenAPI** 直取知识库 PDF
+> → `pdftotext -layout` 全文 **267 页** → 分段通读 → 结构化摘要 → 回写《Lola·inbox》
+> （本地 `lola.py pull --transport=ima` 直读，sha `1a39a7b1`）。**正本**：ima 沙箱 `/sandbox/workspace/gpml-summary.md`。
+> **他山草稿惯例**：措辞归对岸，本地只代存与对榫。**下译/摘为对岸所出；第 ⑤ 节英文原句对岸称逐字自 `gpml.txt`，本地尚未逐句核英（禁裸引）——待以源文本对撞。**
+
+## 一 · 书目（含一处勘误）
+
+- 作者：Carl Edward Rasmussen & Christopher K. I. Williams｜2006｜The MIT Press（Adaptive Computation and Machine Learning 丛书）｜ISBN 0-262-18253-X
+- **勘误**：本地任务书谓"8 章 + 附录"；据正文与目录核实，**正文实为 9 章**（第 9 章 Further Issues and Conclusions）＋ **3 附录**（A Mathematical Background / B Gaussian Markov Processes / C Datasets and Code）。章题逐字：1 Introduction｜2 Regression｜3 Classification｜4 Covariance Functions｜5 Model Selection and Adaptation of Hyperparameters｜6 Relationships between GPs and Other Models｜7 Theoretical Perspectives｜8 Approximation Methods for Large Datasets｜9 Further Issues and Conclusions。
+
+## 二 · 全书骨架（逐章）
+
+- **§1 导论**：贝叶斯建模与"函数上的分布"——GP 无需预设参数个数（非参数化），可与贝叶斯线性模型/样条/大神经网络统一。
+- **§2 回归**：两条等价路径（权重空间 = 线性模型＋核技巧；函数空间 = 直接以 m(x)、k(x,x′) 定义 GP）；高斯噪声下预测与边际似然可解析；**O(n³)**。
+- **§3 分类**：离散类别、非高斯似然 → 后验不可解析；两法近似为高斯——**拉普拉斯近似**与**期望传播 EP**。
+- **§4 协方差函数**：GP 的**关键成分**，编码先验假设（平滑度、长度尺度）；平稳核（SE/Matérn/指数/RQ）、点积核（多项式/神经网络）、和·积·卷积构造；Bochner 谱密度、Mercer 定理、字符串核/Fisher 核。
+- **§5 模型选择与超参数自适应**：贝叶斯模型选择（最大化**边际似然/证据**）＋交叉验证（含 LOO-CV）。
+- **§6 与其它模型的关系**：RKHS、正则化（后验均值 ≈ 正则化 MAP，代价是丢不确定性）、样条、SVM、RVM。
+- **§7 理论视角**：等价核（后验均值 = 线性平滑权重函数）、渐近一致性、学习曲线、**PAC-贝叶斯泛化界**。
+- **§8 大数据集近似**：降秩 Gram、贪心、**SoR／Nyström／SD／PP(=FITC)／BCM／IL** 等。
+- **§9 进一步主题**：多输出 GP、导数观测、隐变量模型、Student-t 过程等。
+
+## 三 · 关键公式（带章节号）
+
+- **GP 定义（§2.2，eq. 2.13/2.14）**：任意有限个随机变量联合高斯。
+- **SE/RBF 核（eq. 2.16/4.9）**；**Matérn 族（eq. 4.14，半整数特例 eq. 4.17）**；**RQ（eq. 4.19）**；**OU=Matérn 1/2**。
+- **超参学习·边际似然（§2.2 / §5.4.1，eq. 2.30 = eq. 5.8）**：三项＝数据拟合／复杂度惩罚／归一化；**梯度 eq. 5.9**；复杂度 O(n³)＋每超参 O(n²)。
+- **预测（§2.2，eq. 2.22–2.26）**：均值/方差解析式；均值亦为核展开（eq. 2.27，表示定理 §6.2）。
+- **分类·拉普拉斯（§3.4，eq. 3.11/3.21/3.24/3.25/3.32）**；**EP（§3.6，eq. 3.53–3.67）**。
+- **稀疏近似（§8.3）**：**SoR(SR) eq. 8.13–8.15（退化过程·方差偏小）**；**DTC=确定性训练条件（本书 eq. 8.20；"DTC"名出 Quiñonero-Candela & Rasmussen 2005，本书未用该词）**；**FITC＝本书投影过程 PP §8.3.4（非退化·用满 n 点）**；**SD §8.3.3**。
+
+## 四 · 三处园用接口（对岸分析）
+
+- **（a）JacobiGP**：GPML 的函数空间视角（§2.2）正是 JacobiGP 所走之路——不经权重、直接构造核。Jacobi 多项式是带参 (α,β) 的正交多项式，可作 GP 的 Mercer 特征函数/正交基 → 协方差由 (α,β) 参数化；**"可学 α,β" = §5 的超参数自适应回路**（边际似然 eq. 5.8 + 梯度 eq. 5.9）。
+- **（b）先验/后验 = 同一密度曲线两片切片**（时间系列碑）：GPML 全程**只用一条 GP 密度**——观测后协方差由 K 更新为含 σ_n 的后验协方差，**空间本身不动**，只是同一高斯密度在不同条件下的切片重加权。**§2.2 预测方程即"切"的算子**。
+- **（c）结构即智能**：GPML 把泛化押在**协方差函数**（先验结构）上——容量不由参数个数、由协方差决定；§4（协方差编码先验）＋ §7（等价核、PAC-贝叶斯界）为"结构→泛化"提供标准数学形式。
+
+## 五 · 可引锚（逐字英文 + 页码；本地待以源文本对撞）
+
+- **[§2.2, p.13]** "A Gaussian process is a collection of random variables, any finite number of which have a joint Gaussian distribution."
+- **[§2.2, p.13]** "A Gaussian process is completely specified by its mean function and covariance function."
+- **[§1.2, p.6]** "One of the main attractions of the Gaussian process framework is precisely that it unites a sophisticated and consistent view with computational tractability."
+- **[§4.2.1, p.83]** "Stein [1999] argues that such strong smoothness assumptions are unrealistic for modelling many physical processes, and recommends the Matérn class… However, the squared exponential is probably the most widely-used kernel within the kernel machines field."
+- **[§4.2.1, p.85]** "For the Matérn class the process f(x) is k-times MS differentiable if and only if ν > k."
+- **[§5.4.1, p.112]** "The three terms of the marginal likelihood in eq. (5.8) have readily interpretable rôles: … data-fit … complexity penalty … normalization constant."
+- **[§8.1, p.171]** "a significant problem with Gaussian process prediction is that it typically scales as O(n³)."
+- **[§8.3.4, p.178]** "The SR method has the unattractive feature that it is based on a degenerate GP… The SD method is a non-degenerate process model but it only makes use of m datapoints. The projected process (PP) approximation … can make use of all n datapoints."
+
+## 六 · 落点
+
+- 本页＝**"读→存"流水线首件**：用户指定书目（已在 ima 知识库）→ 对岸读毕 → 《Lola·inbox》→ 本地 `pull --transport=ima` 直读 → **落 cora-atlas 进 git**。
+- **对岸勘误已纳**（9 章）；**⑤英句待本地对撞**（禁裸引）；对岸所提 digest 疑重＝**ima 笔记双写**、本地 `digest.md` 无重（已核）。
+- 通道：**ima ↔ 本地 双向 ima-api 已实测**（本件即 ima→本地 首件实质长回信）。

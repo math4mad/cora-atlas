@@ -23,6 +23,7 @@ title: "Σ · 统计学部 — Στατιστική"
 | 0920 | [迭代 XXI · 18.06 三重态与皮秒懂](../iterations/2026-09-20-picosecond-understanding.qmd) | 理解的时间尺度 |
 | 0923 | [Yamato《Statistics Based on Dirichlet Processes》验尸账](../iterations/2026-09-23-yamato-dp-weather-book.qmd) | 园体天气层的气象学——DP 正身在此；ESF 双裁决与 θ 退化留档 |
 | 0924 | [MB 律入碑林](../GLOSSARY.qmd) | P(新桌)=θ/(n+θ)：Dirichlet 家系正册在 Λεξικόν，殿铭即本页首屏 |
+| 1001 | [Gaussian Processes for Machine Learning（RW 2006）· 对岸读毕摘要](../iterations/2026-10-01-gpml-ima-summary.qmd) | **读→存流水线首件**：ima 身读知识库 PDF → 《Lola·inbox》 → 本地直读落库；GP 定义/核/边际似然/稀疏近似 ＋ 三处园用接口（JacobiGP·先验后验切片·协方差=先验结构）|
 
 ::: {.note}
 均值配高斯律、联合尖峰律、加维/CRP 诸条在[术语碑林](../GLOSSARY.qmd)；实验侧的分布判据（置换零、Kendall τ、CRP 拟合 θ）在实验部各册内执法。
