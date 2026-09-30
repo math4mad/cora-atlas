@@ -53,3 +53,11 @@
 - Takahashi, K. & Yamanaka, S. (2006). *Cell* 126(4):663–676. DOI:10.1016/j.cell.2006.07.024 ✓
 - Kim, K. et al. (2010). Epigenetic memory in induced pluripotent stem cells. *Nature* 467(7313):285–290. DOI:10.1038/nature09342 ✓
 - Stadtfeld, M. & Hochedlinger, K. (2010). *Genes & Development* 24:2239–2263. DOI:10.1101/gad.1963910 ✓（综述·背景）
+
+## 时间之箭 · 底本六种（0930 主人下载；`~/Downloads/DownLoad_Temp/time-space-concept-space`；external 检疫区，**只登目不上传**）
+- Davies, P., Lineweaver, C. & Ruse, M. (eds.) (2017). *Complexity and the Arrow of Time*. Cambridge UP.
+- Price, H. (1997). *Time's Arrow and Archimedes' Point*. Oxford UP. —— **直接对手**：热力学箭头之经典批评（Roberts Ch7.4「The Price Critique」同线）。
+- Roberts, B. W. (2022). *Reversing the Arrow of Time*. Cambridge UP.（DOI:10.1017/9781009122139）—— **直接对手兼亲**：Ch5「Arrows That Misfire」（电磁/统计/宇宙/量子/因果 皆假箭头）＋ **Ch6「There Is No Thermodynamic Arrow」**；其 Ch2「**Representation View**」↔ 园中「时间符号表征律」。主旨：真箭头在**时间本身之结构**，独立于物质能量之偶然事实，可经验检验。
+- López, C. & Lombardi, O. (eds.) (2025). *The Arrow of Time: From Local Systems to the Whole Universe*. Cambridge UP.
+- Zuchowski, L. (2024). *From Randomness and Entropy to the Arrow of Time*. Cambridge UP.
+- Gould, S. J. (1988). *Time's Arrow, Time's Cycle*. Harvard UP.
