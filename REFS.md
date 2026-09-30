@@ -46,3 +46,10 @@
 - **Alexandrov 拓扑** † —— 有限预序 ⇄ 有限拓扑（开集＝上集），可达＝**特化预序**；「麻雀撞玻璃」之代数骨架。
 - Tenenbaum, de Silva & Langford (2000) Isomap —— 内在（测地）度量以图上最短路代欧氏；论文 §3.3 已锚。
 - （数学本体，无须引）图距离核 exp(−d/τ)、热核 e^{−tL}：狗的「气味场」稳态 ≈ 内在地距之物理实现。
+
+## 时间系列 · 科学锚（0930 核验落定，Crossref 对撞 ✓）
+- Eddington, A. S. *The Nature of the Physical World*（Gifford Lectures 1927; Cambridge UP, 1928）—— 「时间之箭」见第 IV 章 The Running-Down of the Universe。
+- Hawking, S. *A Brief History of Time*（1988）第 9 章「时间箭头」—— 热力学／心理学／宇宙学三箭头；**指向一致为条件命题**（无边界＋弱人择），收缩相下热力学与宇宙学箭头可不一致。
+- Takahashi, K. & Yamanaka, S. (2006). *Cell* 126(4):663–676. DOI:10.1016/j.cell.2006.07.024 ✓
+- Kim, K. et al. (2010). Epigenetic memory in induced pluripotent stem cells. *Nature* 467(7313):285–290. DOI:10.1038/nature09342 ✓
+- Stadtfeld, M. & Hochedlinger, K. (2010). *Genes & Development* 24:2239–2263. DOI:10.1101/gad.1963910 ✓（综述·背景）
