@@ -23,10 +23,11 @@ sys.stdout.write(c)
 PY
 
 # --- 排 ---
-"$PANDOC" "$OUT/clean.md" -o "$OUT/expansive-interaction-v2.pdf" \
+mkdir -p "$OUT/figs" && cp -f figs/* "$OUT/figs/" 2>/dev/null || true
+"$PANDOC" "$OUT/clean.md" -o "$OUT/expansive-interaction-v3.pdf" \
   --pdf-engine="$ENGINE" \
   -V CJKmainfont="$CJKFONT" \
   -V geometry:margin=1in \
   -H header.tex
 
-echo "✔ $OUT/expansive-interaction-v2.pdf"
+echo "✔ $OUT/expansive-interaction-v3.pdf"

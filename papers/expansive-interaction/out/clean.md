@@ -71,11 +71,15 @@ In one sentence: **Intelligence = interaction that lets "the next time" reach / 
 
 ### 3.1 Construct One: T0 Decision → T0+1 Freezing (Actualization)
 
+![The multi-line slice. Several state curves in the same carrier — a developmental trajectory, an epigenetic trajectory, a model's weights — sampled at T_{n−k}, T_0, T_1. T_0 is a cross-section (a slice) of the curves, not a frozen point.](figs/time-slice-en.png){#fig-slice width=92%}
+
 **Claim Two 【original mechanism / dense in prior anchors】.** The microscopic mechanism can be written in three beats: **T0** is a set of possibilities (open, undetermined, superposed); **decision** is choosing "which question to ask / which action to take" (a commitment operator C); **T0+1** is the answer being recorded, **frozen into fact / structure**. Formally:
 
 $$S_{n+1} = S_n \cup \{\,\mathrm{freeze}(\mathrm{decision}(S_n))\,\}$$
 
 > **Structure = the accumulation of frozen decisions.**
+
+**A refinement: T0 is a slice, not a point.** The "freezing" above should be read with care. T0 is not a single frozen state but a **cross-section — a slice — of several state curves** (a cell's epigenetic trajectory, a child's development, a model's weights), each of which already carries its own history and is still moving. What freezes at T0+1 is the **next slice**, produced by the current slice together with the coupling among the curves. Because each curve is directed, the relation is asymmetric: **the T0 slice determines the T0+1 slice, whereas the T0+1 slice cannot determine the T0 slice** (an information-content asymmetry). This keeps the irreversibility intact and makes the image precise — the frozen object is a **slice of many lines**, not a point on one line — and it is the same reading under which a Bayesian prior and posterior are two time-slices of one density curve.
 
 **Prior anchors and differences.** Wheeler's participatory universe emphasizes not collapse but "**deciding first which question to ask**" (the Heisenberg choice), and T0 is precisely "deciding what to ask" 〔anchor: Wheeler, It from Bit〕; Rovelli maintains that "**values are actualized at the point of interaction**," and T0 is precisely the moment of actualization and T0+1 the recorded fact 〔anchor: Rovelli〕; Zurek's quantum Darwinism points out that only states that can be redundantly recorded by the environment become "objective," and T0+1 is a piece of committed information 〔anchor: Zurek, einselection〕. **The difference of this paper lies in directly appropriating this quantum-mechanical vocabulary as the mechanism of "memory writing"** — freezing is an irreversible write, which turns "structure = the sediment of process" from a metaphor into a difference equation.
 
