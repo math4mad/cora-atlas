@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>迭代手记 · 索引 – ἡ Στήλη · Cora Atlas</title>
+<title>prior-posterior-socks-and-time-slice – ἡ Στήλη · Cora Atlas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -150,63 +179,125 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">迭代手记 · 索引</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>过程即精华。按日期正序，一日一石。</p>
+<section id="先验与后验是一双袜子时间是路标一次对话的两次更新" class="level1">
+<h1>2026-09-30 · 先验与后验是一双袜子，时间是路标——一次对话的两次更新</h1>
+<blockquote class="blockquote">
+<p><strong>母本</strong>：主人与 ima.copilot 的对话存档（<code>external/bayes-prior-posterior-socks.html</code>，<strong>文件名原即主人那句话</strong>，本地已缩为短名）＋ 本地 Lola 对表。 <strong>缘起</strong>：主人写贝叶斯先验-后验更新时，发现二者是<strong>同一概念空间的两个对象</strong>，“<strong>就跟袜子一样</strong>”。 <strong>本篇对榫</strong>：《火柴、麻将与贝叶斯》（点亮＝贝叶斯更新）与《冻结不可逆》（t₀ 冻结）——本篇是二者的<strong>合流与修正</strong>。</p>
+</blockquote>
+<section id="一-先验与后验一对袜子同一概念空间" class="level2">
+<h2 class="anchored" data-anchor-id="一-先验与后验一对袜子同一概念空间">一 · 先验与后验＝一对袜子（同一概念空间）</h2>
+<p>主人原话：</p>
+<blockquote class="blockquote">
+<p>“贝叶斯里面的<strong>先验和后验</strong>，它就是属于<strong>同一个概念空间的两个对象</strong>。只不过这两个对象它的概率值不同，就是<strong>这个前和后就跟袜子一样</strong>的，它只不过就是有数值上的差异，而实际上它们是属于同一个概念空间的。如果你前后的表述不一样的话，这个贝叶斯概念的<strong>概率更新过程就变得很古怪</strong>。”</p>
+</blockquote>
 <ul>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-column-live.html">column-live</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-date-column-decay.html">date-column-decay</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-evening-gap-and-grants.html">evening-gap-and-grants</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-f-submit-equals-time.html">f-submit-equals-time</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-fake-shakenness.html">fake-shakenness</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-missed-catch-maigui.html">missed-catch-maigui</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-mountain-factor.html">mountain-factor</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-picosecond-understanding.html">picosecond-understanding</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-pork-trotter-appendix.html">pork-trotter-appendix</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-rebuttal-bicycle.html">rebuttal-bicycle</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-review-lola-8points.html">review-lola-8points</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-stopwatch-and-ruler.html">stopwatch-and-ruler</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-strang-letter-review.html">strang-letter-review</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-bookkeeping.html">time-as-bookkeeping</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-dependent.html">time-as-dependent</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-maximal-logic.html">time-as-maximal-logic</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-x-axis-mother-numpy.html">x-axis-mother-numpy</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-yamanaka-truth.html">yamanaka-truth</a></p></li>
-<li><p><strong>2026-09-21</strong> · <a href="../iterations/2026-09-21-eleven-hour-fish.html">eleven-hour-fish</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html">lineage-reversal-and-structure-is-intelligence</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-three-am-chronicle.html">three-am-chronicle</a></p></li>
-<li><p><strong>2026-09-23</strong> · <a href="../iterations/2026-09-23-brigade-corpus-doctrine.html">brigade-corpus-doctrine</a></p></li>
-<li><p><strong>2026-09-24</strong> · <a href="../iterations/2026-09-24-bare-probe-provenance.html">bare-probe-provenance</a></p></li>
-<li><p><strong>2026-09-25</strong> · <a href="../iterations/2026-09-25-resolution-is-generalization.html">resolution-is-generalization (C47 双锤立碑)</a></p></li>
-<li><p><strong>—</strong> · <a href="../iterations/chat-traces-2026-09-20.html">chat-traces-2026-09-20</a></p></li>
-<li><p><strong>2026-09-26</strong> · <a href="../iterations/2026-09-26-confession-unverified-claim.html">confession-unverified-claim（悔过书：有的中译本）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-expansive-eight-experiments.html">expansive-eight-experiments（位置论文 §5 八实验 × 园中弹道对表 ＋ 排产总览）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-sparrow-dog-two-buildings.html">sparrow-dog-two-buildings（麻雀·狗与两栋楼——可达几何的第一次人生现场）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-matches-mahjong-bayes.html">matches-mahjong-bayes（火柴、麻将与贝叶斯——一次认知权重的清晨更新 · 对岸稿代存）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-freezing-irreversible.html">freezing-irreversible（冻结不可逆——一次时间对谈 · 主人亲供）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-prior-posterior-socks-and-time-slice.html">prior-posterior-socks-and-time-slice（先验与后验是一双袜子，时间是路标）</a></p></li>
+<li>先验 P(θ) 与后验 P(θ|X) 都是<strong>同一个参数空间 Θ 上的分布</strong>——同空间、两对象，只差权重。</li>
+<li>这正是园中 <strong>袜对</strong>（最小概念空间实例：A 现则 B 必近，二即原子）被<strong>用到了贝叶斯身上</strong>。</li>
+<li>“古怪”的来源点破：把同一空间的两点用<strong>两个名字</strong>称呼，空间就假分家，更新看起来像跨界。 <strong>名一长，空间就假分家</strong>——去冗即正名：<strong>先验 / 后验</strong>（同空间两端）。</li>
+<li>对表 <strong>无外律</strong>（C48 推论二：输入、输出同在一个概念空间）；<strong>MB 律</strong>：同空间再分配＝<strong>加质量</strong>， 开<strong>新</strong>假设才是<strong>加列</strong>——贝叶斯更新是前者。</li>
 </ul>
+</section>
+<section id="二-修正t₀-不是冻结点是多线切片" class="level2">
+<h2 class="anchored" data-anchor-id="二-修正t₀-不是冻结点是多线切片">二 · 修正：T₀ 不是“冻结点”，是<strong>多线切片</strong></h2>
+<p>主人对”T0 frozen”的<strong>自我纠正</strong>（原话）：</p>
+<blockquote class="blockquote">
+<p>“应该理解为有<strong>多条状态变化的曲线</strong>，沿着这个时间轴发展，在 T₀ 时刻我们观察到的是<strong>多条时间线在这个时间的一个切片</strong>……到 T₁ 状态，你观察到的切片和 T₀ 那个切片<strong>不一样</strong>……<strong>T₁ 的 slice 不能决定 T₀ 的 slice，T₀ 的 slice 它会决定 T₁</strong>。”</p>
+</blockquote>
+<p>于是模型从”单点冻结”升为”<strong>动态切片</strong>”：</p>
+<p><span class="math display">\[\text{旧：} \; V = f(T_0) \qquad\Longrightarrow\qquad \text{新：} \; V(T) = F(\{\text{各曲线状态}\},\ \{\text{曲线间耦合}\},\ \text{历史路径})\]</span></p>
+<p>ima 的对应一击（焊合两句）：</p>
+<blockquote class="blockquote">
+<p>“<strong>先验/后验不是两个冻结点，而是同一条概率密度曲线在不同观测时间点的切片。</strong>”</p>
+</blockquote>
+<p><strong>∴ 袜对与冻结是同一件事的两面</strong>：先验、后验是同一条曲线上<strong>两个时刻的两片切片</strong>； 袜对说的是”同空间”，切片说的是”不同时刻”。<strong>同一个空间，隔一段时间，就是那个空间的两片切片。</strong></p>
+</section>
+<section id="三-时间从簿记员到路标" class="level2">
+<h2 class="anchored" data-anchor-id="三-时间从簿记员到路标">三 · 时间：从<strong>簿记员</strong>到<strong>路标</strong></h2>
+<p>主人对时间认识的更新（原话）：</p>
+<blockquote class="blockquote">
+<p>“我之前昨天还觉得<strong>时间是整个事件状态发生的一个簿记员</strong>，它只是记录了状态变化的时序，并没有参与这个过程。<strong>现在可以给它赋予一个更有哲学意义的定义：时间就是我们的这个状态发展的一个路标</strong>……（借《时间之箭》之名）它指向了我们状态发展的一个路标。”</p>
+</blockquote>
+<ul>
+<li>簿记员 → <strong>路标/箭头</strong>：从”只记录”升为”<strong>给出方向</strong>”。</li>
+<li>ima 补物理侧：爱丁顿 1927「时间之箭」；霍金<strong>三箭头</strong>（热力学＝熵增 / 心理学＝记得过去 / 宇宙学＝膨胀）指向一致。</li>
+<li>园中记账：此条<strong>修订</strong>《冻结不可逆》里”时间＝簿记员”的旧述——<strong>簿记员之说降为半句</strong>： 时间既<strong>记账</strong>（append-only），又<strong>指方向</strong>（箭头）；两义并存，非替换。</li>
+</ul>
+</section>
+<section id="四-应用成功学的两命门" class="level2">
+<h2 class="anchored" data-anchor-id="四-应用成功学的两命门">四 · 应用：成功学的<strong>两命门</strong></h2>
+<p>主人以切片模型给成功学做手术，揭两命门：</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>命门</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>一 · 幸存者偏差</strong>（数据）</td>
+<td>“现实是<strong>历史的压缩与综合</strong>，不是历史的冻结或复制”——失败信息被压缩掉，你只看到幸存者的切片，<strong>沉默样本物理上不存在</strong></td>
+</tr>
+<tr class="even">
+<td><strong>二 · 时间非复制性</strong>（时间）</td>
+<td>“你站在 T₁，T₀ 的那个状态<strong>已经不存在了</strong>”——旧地图在新世界找不到新大陆，<strong>复刻路径</strong>在时间上不成立</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>主人判词：<em>“不要去复制别人的路径，而是去建设自己能够承载变化与不确定的<strong>内部结构</strong>。当结构成熟了，路径会自己展开。”</em> （本地注：这句正对 <strong>MB 律/共建脚手架</strong>——<strong>建结构，不抄路径</strong>。）</p>
+</blockquote>
+</section>
+<section id="五-附记时间错配time-sick-晕时间" class="level2">
+<h2 class="anchored" data-anchor-id="五-附记时间错配time-sick-晕时间">五 · 附记：时间错配（time sick / 晕时间）</h2>
+<p>主人问：两个发展状态不同的过程，在某时间点观测，<strong>会不会发生时间错配</strong>？ （ima 侧对应：时代错置 / 主观时间感知异常「差时症」／生理昼夜节律错位；园中可挂 <strong>E</strong> 号候验，此处<strong>记问存目，不裸引</strong>。）</p>
+</section>
+<section id="六-对表与落点" class="level2">
+<h2 class="anchored" data-anchor-id="六-对表与落点">六 · 对表与落点</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>主人之语</th>
+<th>园中抽屉</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>先验/后验＝同空间两对象（袜对）</td>
+<td>袜对（最小概念空间）· 无外律 · MB 律（加质量≠加列）</td>
+</tr>
+<tr class="even">
+<td>T₀＝多线切片；V(T)=F(…,历史)</td>
+<td>修正《冻结不可逆》「T0 冻结」为「T0 切片」</td>
+</tr>
+<tr class="odd">
+<td>时间是路标（非仅簿记员）</td>
+<td>修订时间诸志（簿记员半句＋箭头半句）</td>
+</tr>
+<tr class="even">
+<td>成功学两命门（压缩＋非复制）</td>
+<td>「以源文本对撞」之社会学版：<strong>压缩即伪账，复刻即伪史</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>候裁</strong>：① 术语碑立「<strong>先验-后验袜对</strong>」条（判据：同空间两对象，只差权重）？ ② 「时间是路标」并入时间诸志（作《冻结不可逆》之修订件）？③ 本对话是否入 <code>talk-with-agents</code> 出版？</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
