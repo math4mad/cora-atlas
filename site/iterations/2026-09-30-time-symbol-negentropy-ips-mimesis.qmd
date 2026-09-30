@@ -20,6 +20,8 @@
 
 ## 三 · 收束：**时间＝状态的符号表征**
 
+![多线切片：状态＝各曲线在 t 处的剖面快照；T₀ 是切片，不是冻结点。](../figs/time-slice-of-status.svg){#fig-timeslice2 width=100%}
+
 拆四件：
 
 | 件 | 义 |
