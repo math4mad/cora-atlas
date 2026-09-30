@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -269,6 +298,14 @@ ul.task-list li input[type="checkbox"] {
 <li>其二：<strong>大象头 ＝「盲人摸象」那颗头</strong>——摸到一条腿就敢说”这是柱子”，摸到”总量”就敢说”你不吃亏”。</li>
 </ul>
 <p>而这一夜，主人恰恰把记性<strong>用对了地方</strong>：<strong>记在账上，只往前写。</strong></p>
+</section>
+<section id="八-修订0930" class="level2">
+<h2 class="anchored" data-anchor-id="八-修订0930">八 · 修订（0930）</h2>
+<ul>
+<li><strong>「时间＝簿记员」修订为半句</strong>：主人 0930 于 ima 对话中更新——时间不仅<strong>记账</strong>，更<strong>指方向</strong>（时间之箭）。 <strong>簿记员半句（有传无育）＋ 路标半句（有指有向）</strong>，两义并存，非替换。</li>
+<li><strong>T₀「冻结点」修正为「多线切片」</strong>：<span class="math inline">\(V(T)=F(\{\text{各曲线状态}\},\{\text{耦合}\},\text{历史路径})\)</span>；<strong>T₁ 的 slice 不能决定 T₀ 的 slice</strong>。</li>
+<li>详见 Φ 殿 <a href="../iterations/2026-09-30-prior-posterior-socks-and-time-slice.html">《先验与后验是一双袜子，时间是路标》</a>； 术语碑添 <strong>「先验-后验袜对」</strong> 与 <strong>「时间路标律」</strong> 两条。</li>
+</ul>
 
 
 </section>
