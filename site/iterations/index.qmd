@@ -36,3 +36,4 @@ title: "迭代手记 · 索引"
 - **2026-09-29** · [matches-mahjong-bayes（火柴、麻将与贝叶斯——一次认知权重的清晨更新 · 对岸稿代存）](../iterations/2026-09-29-matches-mahjong-bayes.qmd)
 - **2026-09-29** · [freezing-irreversible（冻结不可逆——一次时间对谈 · 主人亲供）](../iterations/2026-09-29-freezing-irreversible.qmd)
 - **2026-09-30** · [prior-posterior-socks-and-time-slice（先验与后验是一双袜子，时间是路标）](../iterations/2026-09-30-prior-posterior-socks-and-time-slice.qmd)
+- **2026-09-30** · [time-symbol-negentropy-ips-mimesis（时间、结构、负熵与 iPS 拟态——一条思维链·刻碑）](../iterations/2026-09-30-time-symbol-negentropy-ips-mimesis.qmd)
