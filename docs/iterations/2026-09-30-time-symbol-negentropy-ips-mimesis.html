@@ -484,6 +484,24 @@ window.Quarto = {
 <p><strong>（三）两把尺，一条映射</strong> - <strong>主观时间</strong>＝标号（<span class="math inline">\(\phi\)</span> 的像）；<strong>客观时间</strong>＝参数 <span class="math inline">\(t\)</span>。 - <span class="math inline">\(\phi\)</span> <strong>只在 <span class="math inline">\(S\neq\varnothing\)</span> 上有定义</strong>；<span class="math inline">\(\phi\)</span> 断，标号丢；对表，<span class="math inline">\(\phi\)</span> 复。</p>
 <p><strong>（四）刷新律（推论②之式）</strong>：符号链需以速率 <span class="math inline">\(r&gt;\rho_{\min}\)</span> 持续刷新（记忆写入／可感差分）；<span class="math inline">\(r\to0\)</span>（睡／昏迷／失感）即失效；恢复＝外部锚注入 <span class="math inline">\(\Delta_{\mathrm{ext}}\)</span> 使 <span class="math inline">\(r\)</span> 回升。</p>
 <p><strong>（五）边界（承主观性边界）</strong>：<span class="math inline">\(S\)</span> 与 <span class="math inline">\(\phi\)</span> 皆<strong>主体内</strong>；<span class="math inline">\(t\)</span> 与熵增<strong>主体外</strong>。<strong>睡梦检验</strong>：<span class="math inline">\(S\equiv\varnothing\Rightarrow\phi\)</span> 无定义，而 <span class="math inline">\(t\)</span> 不变——<strong>箭头是 <span class="math inline">\(\phi\)</span> 的性质，不是 <span class="math inline">\(t\)</span> 的属性。</strong></p>
+</section>
+<section id="十七-续推0930-主人命名主观流逝率律-the-subj-flux-law" class="level2">
+<h2 class="anchored" data-anchor-id="十七-续推0930-主人命名主观流逝率律-the-subj-flux-law">十七 · 续推（0930 主人·命名）：<strong>主观流逝率律 the subj-flux law</strong></h2>
+<blockquote class="blockquote">
+<p>主观时间仍以<strong>客观秒</strong>为单位，只是让”感受到的时间流速”可变——物理钟照走， <span class="math display">\[t_{subj}=\int r(t)\,dt,\qquad r(t)=\omega(\text{事件})\]</span> <strong>事件＝可感知的状态变化</strong>；无事件（睡眠、静止）→ <span class="math inline">\(r\approx0\)</span> → 主观时间停走（标记消失）；有事件（清醒、活动差）→ <span class="math inline">\(r\)</span> 抬升 → 恢复走动。</p>
+</blockquote>
+<p><strong>三推论</strong>：① <strong>rate-weighting 非 recalibrating</strong>——不改时间轴刻度，只乘一个由感知权重驱动的权重；故”睡眠停走”是<strong>权重归零</strong>，非世界停转；② <strong>相位须重锚</strong>——睡眠期间主观钟与外部钟累积相位差 <span class="math inline">\(\Delta\)</span>，起床对表＝把 <span class="math inline">\(t_{subj}\)</span> <strong>重新锚回世界相位</strong>（数值积分的重设初值）；不锚则相位漂移继承；③ <strong>事件＝乘的输入</strong>——事件驱动下，感知函数只取”状态差分非零”这一<strong>布尔量</strong>，无需量化生理信号。</p>
+<p><strong>验证</strong>（事件驱动时钟，<code>chora/experiments/subj-flux-clock/verify.py</code>）：睡眠 2h → 相位差 <span class="math inline">\(\Delta=2\text{h}\)</span>；<strong>对表抹平</strong>（不对表则继承 2h）；醒后斜率 <span class="math inline">\(\approx1\)</span>。</p>
+<div id="fig-subjflux" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-subjflux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/subj-flux.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-subjflux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;3: 主观流逝率律 · 事件驱动验证：睡眠停走、醒则涨、对表复位
+</figcaption>
+</figure>
+</div>
 
 
 </section>

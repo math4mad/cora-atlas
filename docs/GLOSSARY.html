@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.css">
 <style>.shelfbar{font-size:.78em;color:#cdbd94;text-align:right;}.shelfbar a{color:#e8c56d;text-decoration:none}.shelfbar-row td{border-top:1px dashed #2a2620;padding:.05rem .4rem !important;background:transparent}.shelfbar-row{outline:none}</style>
@@ -1020,7 +1049,28 @@ ul.task-list li input[type="checkbox"] {
 <td><strong>按表律 the clk-resync law（亦可作 clock-resync）</strong></td>
 <td><strong>主观时间链的复位律</strong>（主人 0930 亲述·命名，思维链刻碑）：时间是智能体<strong>主观感受到的状态变化符号链</strong>。<strong>睡眠＝感知刷新中断</strong>，符号链在主观感知处<strong>断链</strong>，此时「时间标记不存在」（t₀、t₁ 无从贴，箭头消失）。<strong>恢复意识＝对表</strong>：以<strong>客观熵流（钟、光、世界的演化）</strong>为外部锚，把断掉的主观符号链<strong>重新挂回物理层</strong>，时间标记才重新「存在」。三推论：①<strong>标记主观、熵流客观</strong>——不感知时消失的是你这端的符号标记，不是世界的熵增；对表＝两者重新挂接；②<strong>符号链需持续刷新</strong>——不只关乎「有没有」，更关乎「能否被持续刷新」；刷新断裂→失效，需外部锚复位；③<strong>时间之路标有复位口</strong>——路标可以指，也必须能被<strong>重校</strong>，否则失去锚定。</td>
 <td>承 时间符号表征律（断链处）· 时间路标律（路标＝对表近亲）· 负熵分支律（熵流客观）；术语：熵增（客观熵流）／物理时间（t）；Φ 殿 2026-09-30 篇</td>
-</tr><tr class="shelfbar-row"><td colspan="3"><div class="shelfbar"><a href="#sr93" title="时间主观奠基律 the subjective-f…">⬆ 上一架</a> · 同架串门 · ▼ 架尾</div></td></tr>
+</tr><tr class="shelfbar-row"><td colspan="3"><div class="shelfbar"><a href="#sr93" title="时间主观奠基律 the subjective-f…">⬆ 上一架</a> · 同架串门 · <a href="#sr95" title="主观流逝率律 the subj-flux law…">下一架 ⬇</a></div></td></tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>术语</th>
+<th>义</th>
+<th>账</th>
+</tr>
+</thead>
+<tbody>
+<tr id="sr95" class="odd">
+<td><strong>主观流逝率律 the subj-flux law</strong></td>
+<td><strong>时间之流速权重</strong>（主人 0930 思维链·命名，刻碑）：主观时间仍以<strong>客观秒</strong>为单位，只是让「感受到的时间流速」可变——物理钟照走，<span class="math inline">\(t_{subj}=\int r(t)\,dt\)</span>，其中 <span class="math inline">\(r(t)=\omega(\text{事件})\)</span>；<strong>事件＝可感知的状态变化</strong>；无事件（睡眠、静止）→ <span class="math inline">\(r\approx0\)</span> → 主观时间停走（标记消失）；有事件（清醒、活动差）→ <span class="math inline">\(r\)</span> 抬升 → 恢复走动。三推论：① <strong>rate-weighting 非 recalibrating</strong>——不改时间轴刻度，只乘由感知权重驱动的权重，故「睡眠停走」是<strong>权重归零</strong>、非世界停转；② <strong>相位须重锚</strong>——睡眠期间主观钟与外部钟累积相位差 <span class="math inline">\(\Delta\)</span>，起床对表＝把 <span class="math inline">\(t_{subj}\)</span> 重新锚回世界相位（数值积分重设初值）；不锚则相位漂移继承；③ <strong>事件＝乘的输入</strong>——事件驱动下感知函数只取「状态差分非零」这一<strong>布尔量</strong>，无需量化生理信号，天然贴合「时间＝感知变化之累加」。</td>
+<td>承 按表律（对表＝重设相位/边界）· 时间符号表征律（事件＝可贴标签的差分）· 负熵分支律（感知自由度越大→r 越高→主观时越长）；<strong>验证</strong>（事件驱动时钟 0930）：睡眠 2h→Δ=2h、对表抹平、醒后斜率≈1；Φ 殿 2026-09-30 篇</td>
+</tr><tr class="shelfbar-row"><td colspan="3"><div class="shelfbar"><a href="#sr94" title="按表律 the clk-resync law（亦…">⬆ 上一架</a> · 同架串门 · ▼ 架尾</div></td></tr>
 </tbody>
 </table>
 
