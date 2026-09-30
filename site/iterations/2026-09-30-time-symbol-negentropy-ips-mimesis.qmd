@@ -228,3 +228,25 @@ $$\mathrm{Dom}(t_\bullet)=\{\,t\ :\ S(t)\neq\varnothing\,\}$$
 **验证**（事件驱动时钟，`chora/experiments/subj-flux-clock/verify.py`）：睡眠 2h → 相位差 $\Delta=2\text{h}$；**对表抹平**（不对表则继承 2h）；醒后斜率 $\approx1$。
 
 ![主观流逝率律 · 事件驱动验证：睡眠停走、醒则涨、对表复位](../figs/subj-flux.png){#fig-subjflux width=100%}
+
+## 十八 · 续推（0930 主人）：**事件密度谱律 the event-density-spectrum law**
+
+> $r$ 不是**布尔开关**，而是**事件密度** $\dot N$ 的函数：$$r(t)=\omega(\dot N(t)),\quad \omega\ \text{单调},\ \omega(0)=0;\qquad dt_{subj}=\omega(\dot N)\,dt$$
+
+**流速成连续谱**：
+
+| 态 | $\dot N$ | $r$ | 感 |
+|---|---|---|---|
+| 睡 | $\approx0$ | $\approx0$ | 停走 |
+| 半睡／发呆 | 低 | 小 | 慢 |
+| 日常清醒 | $\dot N_0$ | $\approx1$ | 常速 |
+| 心流／兴奋 | 高 | $>1$ | 飞逝 |
+| 等待／乏味 | 极低（微事件） | $<1$ | 拉长 |
+
+**三推论**：① **连续替布尔**——"忽快忽慢"＝ $r(t)$ 的波动；② **时间感＝事件采样率**；③ **瞬时/回顾可分**——当下的流速（$r$）与记忆里的时长（$\approx$平均事件密度）是两件事。
+
+**验证**（密度驱动时钟，`chora/experiments/subj-flux-clock/verify_density.py`）：睡／醒／心流三段 $r$ 中位 = **0 / 1 / 2**，主观-物理曲线三段斜率 $0\to1\to2$。
+
+![事件密度谱律 · 流速是事件密度的函数：睡停 / 醒常 / 心流飞](../figs/subj-flux-density.png){#fig-subjfluxdens width=100%}
+
+**诚实牌**：经验对应（filled-duration illusion、主观时长压缩等）**† 候核，禁裸引**；此为**构模型**，非实证。
