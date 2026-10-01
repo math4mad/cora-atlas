@@ -38,3 +38,4 @@ title: "迭代手记 · 索引"
 - **2026-09-30** · [prior-posterior-socks-and-time-slice（先验与后验是一双袜子，时间是路标）](../iterations/2026-09-30-prior-posterior-socks-and-time-slice.qmd)
 - **2026-09-30** · [time-symbol-negentropy-ips-mimesis（时间、结构、负熵与 iPS 拟态——一条思维链·刻碑）](../iterations/2026-09-30-time-symbol-negentropy-ips-mimesis.qmd)
 - **2026-10-01** · [gpml-ima-summary（GPML 对岸读毕摘要——读→存流水线首件）](../iterations/2026-10-01-gpml-ima-summary.qmd)
+- **2026-10-01** · [plastic-stool-joint-slice（塑胶凳：切片上的联合分布 · 拓扑环面积∝概率 · 世界＝概念空间的线性组合）](../iterations/2026-10-01-plastic-stool-joint-slice.qmd)
