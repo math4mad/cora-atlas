@@ -4,3 +4,7 @@ docs-quarto/
 # 建站残件 (真输出在 docs/); site/ 只放源
 site/*.html
 site/site_libs/
+
+# macOS
+.DS_Store
+**/.DS_Store
