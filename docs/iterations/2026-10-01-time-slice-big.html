@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -246,10 +275,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="四-候迭代后续">四 · 候迭代（后续）</h2>
 <ol type="1">
 <li>曲线<strong>细化</strong>：三摊加真实形态（非纯余弦）；中区常驻者加<strong>各自</strong>的微结构。</li>
-<li><strong>人物</strong>再入：外卖小哥可加「订单脉冲」；老头可加「停顿段」。</li>
+<li><strong>人物</strong>再入：老头可加「停顿段」；外卖小哥<strong>须改</strong>（见 5）。</li>
 <li>概率区可加<strong>数值刻度</strong>（高/中/低阈值），或改为<strong>每片独立的密度</strong>。</li>
 <li>与 <strong>Blender 大图</strong>（<code>time-slice-3d-concept</code>）合流之可能。</li>
+<li><strong>外卖小哥曲线须重画（主人 1001 复审，候考虑·先记不改）</strong>：现版为<strong>均匀快振荡</strong>，只表”手快”，<strong>未表”去向”</strong>。正确形态＝<strong>随餐点迁移</strong>——早＝早餐 / KFC 等；午＝猪脚饭 · 蒸饭 · 烧鸭饭；夜＝烧烤摊。形式＝<strong>快速载体 × 慢包络</strong>：</li>
 </ol>
+<p><span class="math display">\[P(\text{小哥在摊 } s \mid t)\;\propto\; \underbrace{\text{快}}_{\text{一单单跑}}\times\sum_{\text{摊}}\underbrace{P(s\mid \text{摊})}_{\text{去向}}\cdot\underbrace{P(\text{摊}\mid t)}_{\text{餐点高峰}}\]</span></p>
+<p>即<strong>峰值应与三摊曲线对齐</strong>——他不是自有周期，是<strong>照着摊的高峰跑</strong>。 - <strong>主人判语</strong>：「这似乎<strong>又出现了因果关系</strong>。」均匀振荡＝独立曲线；跟着摊走＝<strong>耦合曲线</strong>，正是<strong>联合分布的非对角／跨行结构</strong>——<strong>小区律</strong>在图上显形（<strong>维与维连起来了</strong>）。 - <strong>张力</strong>：这条耦合边正面顶到 ima-Lola《一个概念空间的生命周期》所言「<strong>并没有同步</strong>」——当”高概率空间”驱动其它曲线时，<strong>因果是否只是这种驱动</strong>？<strong>候再想</strong>。 - 处置：<strong>先记录、不改图</strong>（主人令「再考虑一下」）；候沉淀后再定是否照此重烤、并画「摊 → 小哥」的因果边。</p>
 
 
 </section>
