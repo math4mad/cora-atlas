@@ -40,3 +40,4 @@ title: "迭代手记 · 索引"
 - **2026-10-01** · [gpml-ima-summary（GPML 对岸读毕摘要——读→存流水线首件）](../iterations/2026-10-01-gpml-ima-summary.qmd)
 - **2026-10-01** · [plastic-stool-joint-slice（塑胶凳：切片上的联合分布 · 拓扑环面积∝概率 · 世界＝概念空间的线性组合）](../iterations/2026-10-01-plastic-stool-joint-slice.qmd)
 - **2026-10-01** · [time-slice-big（时间切片·大图：高/中/低概率区 · 三摊涨落 · 中区常驻 · 人物快慢曲线）](../iterations/2026-10-01-time-slice-big.qmd)
+- **2026-10-01** · [periods-meet（周期之遇：时尚是两条周期的相遇 · 思维的路标）](../iterations/2026-10-01-periods-meet.qmd)

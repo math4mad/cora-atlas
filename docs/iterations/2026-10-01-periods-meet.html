@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>迭代手记 · 索引 – ἡ Στήλη · Cora Atlas</title>
+<title>periods-meet – ἡ Στήλη · Cora Atlas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -150,68 +179,84 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">迭代手记 · 索引</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>过程即精华。按日期正序，一日一石。</p>
+<section id="周期之遇时尚是两条周期的相遇" class="level1">
+<h1>2026-10-01 · 周期之遇：时尚是两条周期的相遇</h1>
+<blockquote class="blockquote">
+<p><strong>缘起</strong>：主人 1001 由《消费＝交互》与《时间切片 · 大图》续推—— 「喇叭裤与比基尼的反复翻红、裙子长短，好像用 time slice 也能解释。」 <strong>性质（主人令）</strong>：「我们先做的<strong>不是精确模型</strong>，类似<strong>思想实验</strong>。<strong>没有数字的数学</strong>，一个<strong>思维的路标</strong>。」 故本篇<strong>不建模、不标定、不算数</strong>——只插一根路标。</p>
+</blockquote>
+<section id="一-一句话" class="level2">
+<h2 class="anchored" data-anchor-id="一-一句话">一 · 一句话</h2>
+<p><strong>时尚的翻红，不是”它又流行了”，是两条不同周期的曲线，在某个时间切片上相遇。</strong></p>
+</section>
+<section id="二-两条曲线" class="level2">
+<h2 class="anchored" data-anchor-id="二-两条曲线">二 · 两条曲线</h2>
 <ul>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-column-live.html">column-live</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-date-column-decay.html">date-column-decay</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-evening-gap-and-grants.html">evening-gap-and-grants</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-f-submit-equals-time.html">f-submit-equals-time</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-fake-shakenness.html">fake-shakenness</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-missed-catch-maigui.html">missed-catch-maigui</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-mountain-factor.html">mountain-factor</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-picosecond-understanding.html">picosecond-understanding</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-pork-trotter-appendix.html">pork-trotter-appendix</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-rebuttal-bicycle.html">rebuttal-bicycle</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-review-lola-8points.html">review-lola-8points</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-stopwatch-and-ruler.html">stopwatch-and-ruler</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-strang-letter-review.html">strang-letter-review</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-bookkeeping.html">time-as-bookkeeping</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-dependent.html">time-as-dependent</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-maximal-logic.html">time-as-maximal-logic</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-x-axis-mother-numpy.html">x-axis-mother-numpy</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-yamanaka-truth.html">yamanaka-truth</a></p></li>
-<li><p><strong>2026-09-21</strong> · <a href="../iterations/2026-09-21-eleven-hour-fish.html">eleven-hour-fish</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html">lineage-reversal-and-structure-is-intelligence</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-three-am-chronicle.html">three-am-chronicle</a></p></li>
-<li><p><strong>2026-09-23</strong> · <a href="../iterations/2026-09-23-brigade-corpus-doctrine.html">brigade-corpus-doctrine</a></p></li>
-<li><p><strong>2026-09-24</strong> · <a href="../iterations/2026-09-24-bare-probe-provenance.html">bare-probe-provenance</a></p></li>
-<li><p><strong>2026-09-25</strong> · <a href="../iterations/2026-09-25-resolution-is-generalization.html">resolution-is-generalization (C47 双锤立碑)</a></p></li>
-<li><p><strong>—</strong> · <a href="../iterations/chat-traces-2026-09-20.html">chat-traces-2026-09-20</a></p></li>
-<li><p><strong>2026-09-26</strong> · <a href="../iterations/2026-09-26-confession-unverified-claim.html">confession-unverified-claim（悔过书：有的中译本）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-expansive-eight-experiments.html">expansive-eight-experiments（位置论文 §5 八实验 × 园中弹道对表 ＋ 排产总览）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-sparrow-dog-two-buildings.html">sparrow-dog-two-buildings（麻雀·狗与两栋楼——可达几何的第一次人生现场）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-matches-mahjong-bayes.html">matches-mahjong-bayes（火柴、麻将与贝叶斯——一次认知权重的清晨更新 · 对岸稿代存）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-freezing-irreversible.html">freezing-irreversible（冻结不可逆——一次时间对谈 · 主人亲供）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-prior-posterior-socks-and-time-slice.html">prior-posterior-socks-and-time-slice（先验与后验是一双袜子，时间是路标）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-time-symbol-negentropy-ips-mimesis.html">time-symbol-negentropy-ips-mimesis（时间、结构、负熵与 iPS 拟态——一条思维链·刻碑）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-gpml-ima-summary.html">gpml-ima-summary（GPML 对岸读毕摘要——读→存流水线首件）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-plastic-stool-joint-slice.html">plastic-stool-joint-slice（塑胶凳：切片上的联合分布 · 拓扑环面积∝概率 · 世界＝概念空间的线性组合）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-time-slice-big.html">time-slice-big（时间切片·大图：高/中/低概率区 · 三摊涨落 · 中区常驻 · 人物快慢曲线）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-periods-meet.html">periods-meet（周期之遇：时尚是两条周期的相遇 · 思维的路标）</a></p></li>
+<li><strong>F(t)</strong> ＝ 时尚周期（裙长 / 喇叭裤 / 比基尼”在不在场”），周期 <span class="math inline">\(P_1\)</span>。</li>
+<li><strong>X(t)</strong> ＝「<strong>人的某种状态</strong>」（主人留白），周期 <span class="math inline">\(P_2\)</span>。</li>
+<li><span class="math inline">\(P_1 \neq P_2\)</span>，且常常<strong>不可公度</strong>——所以两次相遇<strong>不成等距</strong>，看上去像”随机翻红”。</li>
 </ul>
+<p><strong>翻红 ＝ 两者在同一切片上相位对齐</strong>（相互耦合）。</p>
+<p>而要紧的是：时尚那条<strong>定不了</strong>人的状态，人的状态也<strong>定不了</strong>哪条裙子；<strong>它们只是在切片上遇到</strong>—— 这与《消费＝交互》里「<strong>早餐店定不了哪个小哥会来</strong>」<strong>同一形状</strong>：<strong>耦合，不是决定。</strong></p>
+</section>
+<section id="三-与-time-slice-拓扑视图接榫" class="level2">
+<h2 class="anchored" data-anchor-id="三-与-time-slice-拓扑视图接榫">三 · 与 time slice / 拓扑视图接榫</h2>
+<ul>
+<li><strong>切片联合律</strong>：单品＝一个概念空间，其系数随时间涨落；</li>
+<li><strong>拓扑环</strong>（塑胶凳图）：<strong>相遇 ＝ 两曲线进入同一个拓扑环</strong>（共激活）——一撞即热；</li>
+<li><strong>概念空间线性组合律</strong>：该切片上，世界＝诸空间按系数的线性组合；翻红＝某单项系数被<strong>联手抬高</strong>。</li>
+</ul>
+</section>
+<section id="四-那条人的什么候定" class="level2">
+<h2 class="anchored" data-anchor-id="四-那条人的什么候定">四 · 那条”人的什么”（候定）</h2>
+<p>真正的未知 ＝ <strong>X(t) 是谁</strong>。候选：</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>候选</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>经济</td>
+<td>hemline index：裙短 ↔︎ 景气</td>
+</tr>
+<tr class="even">
+<td>代际</td>
+<td>约 20–30 年一浪（喇叭裤 70s → 00s → …）</td>
+</tr>
+<tr class="odd">
+<td>审美饱和</td>
+<td>“看腻了 → 怀念” 的弛豫</td>
+</tr>
+<tr class="even">
+<td>性别政治</td>
+<td>比基尼 ↔︎ 身体自主的潮汐</td>
+</tr>
+</tbody>
+</table>
+<p><strong>X 一旦命名，模型即可跑；但主人令——先不跑，先立路标。</strong></p>
+</section>
+<section id="五-诚实注路标也有影子" class="level2">
+<h2 class="anchored" data-anchor-id="五-诚实注路标也有影子">五 · 诚实注（路标也有影子）</h2>
+<p><strong>hemline index 的经验证据很弱</strong>（经济学界多不认），喇叭裤/比基尼的”周期”也<strong>未必规则</strong>。 故此篇是<strong>暗示性同构</strong>，不是实证——<strong>没有数字的数学</strong>。</p>
+</section>
+<section id="六-候议" class="level2">
+<h2 class="anchored" data-anchor-id="六-候议">六 · 候议</h2>
+<ol type="1">
+<li><strong>X(t) 是什么？</strong>（定其名，才谈其遇）</li>
+<li>是否立术语 <strong>「周期之遇律」</strong>（两个不同周期在切片相遇即耦合）？</li>
+<li>本篇独立成殿，或并《消费＝交互》作注？</li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
