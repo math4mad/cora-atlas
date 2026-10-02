@@ -66,4 +66,7 @@ done
 
 python3 scripts/map-inline.py   # 地铁图内联+定位光照 (只动此图)
 
+# 术语碑镜像 → ima (保持最新; 碑变即镜像变; 失败不阻断建站)
+python3 "$HOME/Programming/code-2026/chora/lola/mirror_glossary.py" >/dev/null 2>&1 || true
+
 echo "✔ 碑体站成: docs/ ($(find docs -name '*.html' | wc -l | tr -d ' ') 页)"
