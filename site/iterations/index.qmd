@@ -49,3 +49,4 @@ title: "迭代手记 · 索引"
 - **2026-10-02** · [external-view-ii-saga-verification（外视角·二：saga、投影与验证 —— 台账=store／笔记=props；四层同源之拷问；验证锚=源）](../iterations/2026-10-02-external-view-ii-saga-verification.qmd)
 - **2026-10-02** · [reread-log-2020-ml-corpus（重读志 · 2020 统计与线代 → 2026 园：六年后重走绿皮火车路）](../iterations/2026-10-02-reread-log-2020-ml-corpus.qmd)
 - **2026-10-02** · [prediction-surface-go2-lte（候验预测 P-GO2：Surface Go 2 LTE 神机论 — 断电断网不死）](../iterations/2026-10-02-prediction-surface-go2-lte.qmd)
+- **2026-10-02** · [prediction-dashboard（预测仪表盘：四枚哨 ＋ 前置观察窗 — Apple 的「芯—模块复用」史）](../iterations/2026-10-02-prediction-dashboard.qmd)
