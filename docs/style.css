@@ -49,3 +49,10 @@ footer{color:var(--dim)}
 .plate-hero .submotto{margin:.4rem 0 0;font-size:.92em;color:var(--gold,#c9a959);opacity:.85;letter-spacing:.06em;font-style:normal}
 
 .plate-hero .submotto em{color:var(--gold);font-style:italic}
+
+.predict{margin:2.6rem 0;padding:1.1rem 1.3rem;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.predict h3{margin:.1rem 0 .6rem;color:var(--gold);font-weight:500;letter-spacing:.05em}
+.predict ul{margin:.3rem 0 .2rem;padding-left:1.1rem}
+.predict li{font-size:.95em;color:var(--dim);margin:.3rem 0}
+.predict li b{color:var(--ink);font-weight:500}
+.predict .more{font-size:.92em;color:var(--dim)}
