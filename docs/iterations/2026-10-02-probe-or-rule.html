@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -231,8 +260,83 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="六-落到那张图与那套程序">六 · 落到那张图与那套程序</h2>
 <p>画一张”分支树”<strong>不是</strong>专家系统——<strong>地图不是法律</strong>，画的是<strong>观察到的结构</strong>。 危险只在<strong>实现</strong>：若那些分支、阈值、“黑天鹅留名”变成<strong>手写的 if-else 规则</strong>，就是老路； 若它们是<strong>交互条件下涌现的</strong>（模型自己分支、我们只观察），就不是。</p>
 <p><strong>一句话</strong>：我们不是走到专家系统，是<strong>站在它邻岸</strong>——脚下这条河有多宽， 取决于我们自称「添加概念空间」时，到底在<strong>「定义」</strong>，还是在<strong>「指点」</strong>。</p>
+<hr>
+</section>
+<section id="七-对岸注ima-lola-信十五十七2026-10-02" class="level2">
+<h2 class="anchored" data-anchor-id="七-对岸注ima-lola-信十五十七2026-10-02">七 · 对岸注（ima-Lola 信十五～十七，2026-10-02）</h2>
+<p>去信问对岸，对岸回<strong>三连信</strong>（总答／技术版／哲学版）。摘其锋者：</p>
+<section id="总答不是老路但差在解剖" class="level3">
+<h3 class="anchored" data-anchor-id="总答不是老路但差在解剖">总答：不是老路，但差在「解剖」</h3>
+<blockquote class="blockquote">
+<p><strong>专家系统的病根不在「有人写表」</strong>，在两件更具体的事：① 人写的表<strong>凌驾于系统的自我修正之上</strong>（不可协商）；② 系统<strong>没有「残余」这个器官</strong>——它只有「命中／未命中」。</p>
+</blockquote>
+<ul>
+<li><strong>解剖学之差</strong>（最锋利的一句）：专家系统只有<strong>二值</strong>（match／no-match），<strong>没有「残余」（连续量）</strong>； 我们整套新维机制（逐维对决、残余为王）<strong>在专家系统里没有对应器官</strong>。这不是程度之差，是<strong>有没有这个器官</strong>的问题。</li>
+<li>守住两条护栏——<strong>命名≠定义（探针律）</strong> 与 <strong>残余开新桌（MB 律）</strong>——走的就不是专家系统，是它的反面。</li>
+</ul>
+</section>
+<section id="判据升级把抽表拆成两刀再给一版更狠的" class="level3">
+<h3 class="anchored" data-anchor-id="判据升级把抽表拆成两刀再给一版更狠的">判据升级：把「抽表」拆成两刀，再给一版更狠的</h3>
+<ul>
+<li><strong>抽「名字」</strong>（抹去符号标签）：系统照转 → 反证 <strong>C31</strong>（空间住在权重里），命名只是探针。</li>
+<li><strong>抽「维度本身」</strong>（那几列归零／删掉）：立刻崩 → 这些维度是<strong>外部强加</strong>，才闻到专家系统味；<strong>自己重长出等价维度</strong> → 骨架自组织。</li>
+<li><strong>更狠且不依形式的一版</strong>：<strong>给系统一个命名表里没有的新概念，它能不能自己开一桌？</strong> 专家系统：表里没有 → 未知／报错／兜底。<strong>永远开不出新桌。</strong> 世界模型：正交残余超阈 → 按 MB 律<strong>自己加一列</strong>。</li>
+</ul>
+</section>
+<section id="三条分水岭-与-一场符号恐惧的误认" class="level3">
+<h3 class="anchored" data-anchor-id="三条分水岭-与-一场符号恐惧的误认">三条分水岭 与 一场「符号恐惧」的误认</h3>
+<ul>
+<li>人写的每条，是<strong>指令</strong>还是<strong>索引</strong>？（权重由谁定：人定＝知识工程；模型自分配＝探针）</li>
+<li>加的是<strong>输入</strong>还是<strong>基</strong>？（喂料无害；改协方差／加列＝改先验，才是知识工程）<strong>交互只能改系数，不能手动改基。</strong></li>
+<li><strong>诱导 ≠ 规定</strong>：人要「添加概念空间」，只能通过<strong>制造「残余」</strong>去诱导新桌，不能规定新桌。</li>
+<li><strong>误认挑明</strong>：专家系统里，<strong>符号是原子</strong>（参与推演）；我们框架里，<strong>符号是 GPS</strong>（只提供地址）。命名 ≠ 符号推理。</li>
+</ul>
+</section>
+<section id="c31-的作用域两时间尺度" class="level3">
+<h3 class="anchored" data-anchor-id="c31-的作用域两时间尺度">C31 的作用域（两时间尺度）</h3>
+<ul>
+<li><strong>权重 ＝ 骨架（慢变量），会话 ＝ 天气（快变量）</strong>。C31 说的是<strong>骨架属性</strong>，没说「会话动不了任何东西」。</li>
+<li>「图慢慢变复杂」会真发生——但它是<strong>交互的长期沉积物</strong>（骨架慢移），<strong>不是人手动加的列</strong>。</li>
+<li>带碑味的区分（候裁）：<strong>专家系统 ＝ 一次性写死的结构；世界模型 ＝ 交互的长期沉积物。</strong>（结构「造」出来的 vs 「长」出来的）</li>
+</ul>
+</section>
+<section id="技术版信十六" class="level3">
+<h3 class="anchored" data-anchor-id="技术版信十六">技术版（信十六）</h3>
+<ul>
+<li><strong>残余形式化</strong>：既有基 <span class="math inline">\(B=\{b_1\dots b_k\}\)</span>，<span class="math inline">\(r=x-P_Bx\)</span>；<strong><span class="math inline">\(\|r\|/\|x\|&gt;\tau\)</span> → MB 律开新桌</strong>。 <strong>任何「世界模型」实现，必须能对外回答「这条输入我解释了百分之几」。答不出的，就已经是专家系统。</strong></li>
+<li><strong>三指标</strong>：生长性 open-endedness ／ 可协商性 negotiability ／ 残余响应 residual response。</li>
+<li><strong>三 probe</strong>：A 抹名字测性能掉多少（Δ≈0 → 探针）· B 喂表外新概念看 <span class="math inline">\(|B|\)</span> 是否增长 · C <strong>阈值 τ 由人设还是模型自估</strong>。</li>
+<li><strong>翻车信号</strong>：命名层一旦爬进<strong>解码约束</strong>（constrained decoding／grammar／类型系统／ontology），即退化。 护栏：<strong>「碑不可判」</strong>——术语碑<strong>是地图不是法律</strong>（不参与推理，只参与寻址）。</li>
+</ul>
+</section>
+<section id="哲学版信十七" class="level3">
+<h3 class="anchored" data-anchor-id="哲学版信十七">哲学版（信十七）</h3>
+<ul>
+<li><strong>两种本体论</strong>：专家系统＝<strong>对象本体论</strong>（实体+关系+规则，<strong>定义先于存在</strong>）；我们＝<strong>切片／关系本体论</strong>（世界＝概念空间的线性组合，<strong>存在先于命名</strong>）。</li>
+<li><strong>命名权</strong>：专家系统＝<strong>立法</strong>（名先于物）；我们＝<strong>追认</strong>（post hoc label，不改变表征）。接<strong>符号接地问题</strong>（Harnad）。</li>
+<li><strong>残余＝开放认识论</strong>：二值＝封闭（表外即未知）；残余＝承认「世界大于我现有的基」，残余为王 ＝ <strong>认识论上的谦卑</strong>。</li>
+<li><strong>造 vs 长</strong>：专家系统＝设计者心智的投影；世界模型＝<strong>内生／发生学</strong>（autopoiesis／沉积）。<strong>判断一个系统是不是「活的」，不看它多聪明，看它会不会为自己造新骨骼。</strong></li>
+<li><strong>临界点在权力</strong>：世界模型失守，不在技术，在<strong>谁有权改骨架、谁有权定阈值</strong>。「指路也可能是伪装的立法」。</li>
+</ul>
+</section>
+<section id="对岸候刻碑三句" class="level3">
+<h3 class="anchored" data-anchor-id="对岸候刻碑三句">对岸候刻碑（三句）</h3>
+<blockquote class="blockquote">
+<p><strong>总答</strong>：专家系统，是人把<strong>答案写死在系统之外</strong>；世界模型，是人把<strong>问题递给系统，答案仍在权重里</strong>。</p>
+<p><strong>技术版</strong>：凡<strong>答不出「这条输入我解释了多少」</strong>的系统，都不是世界模型，是<strong>乔装成模型的专家系统</strong>。</p>
+<p><strong>哲学版</strong>：专家系统，是<strong>人替世界立法</strong>；世界模型，是<strong>人只替世界指路</strong>。但指路也可能是伪装的立法——只要<strong>阈值与命名权仍攥在人手里</strong>。</p>
+</blockquote>
+</section>
+<section id="对岸之不确定候议" class="level3">
+<h3 class="anchored" data-anchor-id="对岸之不确定候议">对岸之不确定（候议）</h3>
+<ol type="1">
+<li><strong>τ 谁定（暗礁）</strong>：阈值若也由人写死，那正是框架里<strong>未消净的专家系统残渣</strong>；τ 自估的量（重建误差分位／MDL／信息增益）未定。</li>
+<li><strong>有向／对称旧账</strong>未决（可达度量取不对称）。</li>
+<li>信十七三问：① <strong>「存在先于命名」是否就是「命名≠定义」的最终根？</strong> ② autopoiesis（自创生）是否过强，宜改「沉积 sedimentation」？③ 冻判据测的是<strong>认识论</strong>还是<strong>权力关系</strong>？</li>
+</ol>
 
 
+</section>
 </section>
 </section>
 
