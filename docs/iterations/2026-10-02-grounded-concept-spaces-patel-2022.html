@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>迭代手记 · 索引 – ἡ Στήλη · Cora Atlas</title>
+<title>grounded-concept-spaces-patel-2022 – ἡ Στήλη · Cora Atlas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Μ 零碎</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../iterations/index.html" aria-current="page"> 
+    <a class="nav-link" href="../iterations/index.html"> 
 <span class="menu-text">迭代手记 · Ἱστορίαι</span></a>
   </li>  
 </ul>
@@ -154,78 +154,87 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">迭代手记 · 索引</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>过程即精华。按日期正序，一日一石。</p>
+<section id="文本概念空间-具身概念空间-patel-pavlick-iclr-2022" class="level1">
+<h1>2026-10-02 · 文本概念空间 ≅ 具身概念空间 —— Patel &amp; Pavlick (ICLR 2022)</h1>
+<blockquote class="blockquote">
+<p><strong>交付</strong>：ima-Lola 受主人令，总结知识库《Learning Support Concept》<strong>第一篇</strong>，投《Lola·inbox》转交（信二十五）。 <strong>名实提醒（她作）</strong>：该 PDF 文件名作 <code>brain Inspired episodes.pdf</code>，<strong>内容却是下面这篇会议论文</strong>——保存时沿用了播客页命名，<strong>勿据文件名误判</strong>。</p>
+</blockquote>
+<section id="一-书目" class="level2">
+<h2 class="anchored" data-anchor-id="一-书目">一 · 书目</h2>
+<p><strong>《Mapping Language Models to Grounded Conceptual Spaces》</strong> <strong>Roma Patel &amp; Ellie Pavlick</strong>（布朗大学计算机系）· <strong>ICLR 2022</strong>。</p>
+<blockquote class="blockquote">
+<p><strong>一句话</strong>：纯文本预训练的大语言模型，<strong>只用极少示例</strong>就能把词映射到「<strong>具身概念空间</strong>」，且此能力<strong>随规模涌现</strong>——<strong>接地不必从零学起，文本已学得足够丰富的概念结构</strong>。</p>
+</blockquote>
+</section>
+<section id="二-方法与核心发现" class="level2">
+<h2 class="anchored" data-anchor-id="二-方法与核心发现">二 · 方法与核心发现</h2>
+<p><strong>问题</strong>：文本-only 模型被批「缺乏接地」；但它又显出对语言概念结构的惊人掌握。故问：<strong>文本学到的概念结构，是否与具身概念空间同构（isomorphic）？</strong> 若同构 → 极少示例即可高效接地（data-efficient grounding）。</p>
+<p><strong>范式</strong>：5 个自回归 Transformer（GPT-2 124M/355M/774M/1.5B ＋ <strong>GPT-3 175B</strong>）· in-context learning（<strong>不更新梯度</strong>）· 概念域＝<strong>空间术语</strong>（6）／<strong>基本方位</strong>（8）／<strong>颜色</strong>（367 个 RGB 名）。</p>
+<p><strong>★ 关键对照</strong>： - <strong>旋转世界</strong>（90°/180°/270°）——<strong>保持结构关系</strong>； - <strong>随机世界</strong>——<strong>破坏结构</strong>。 - 逻辑：<strong>真学到映射函数 → 旋转不显著掉分、随机才崩塌</strong>。</p>
+<p><strong>发现</strong>： - <strong>规模定成败</strong>：GPT-2 系学不动、近基线；<strong>GPT-3 175B</strong> 不仅学会显式概念，<strong>还能泛化到未见的相关概念</strong>（教 north/east，测 south/west）。 - <strong>非死记</strong>：175B <strong>旋转 ≈ 原始</strong>（空间域 Top-1/Top-3 ＝ <strong>.45/.44</strong>），<strong>随机骤降</strong>（<strong>.16/.19</strong>）——<strong>成功源于文本里学到的概念结构，而非语料记忆</strong>。 - <strong>接地距离</strong>（RGB 欧氏）：175B 平均 <strong>96.3</strong> ≪ 基线 <strong>334.9</strong>；错得也「像人」（dark red → wine）。 - <strong>组合泛化</strong>：从未出现的组合（如 northeast）全模型失败；见过部分子空间后 175B 可泛化（约 60%）。 - <strong>域内生成率</strong>：小模型 ~53%，<strong>GPT-3 达 98%</strong>。</p>
+<p><strong>补充证据</strong>：BERT 对照（颜色子空间 Top-1 最高仅 .10–.11 &lt; GPT-3 的 .23）；预训练探测（<strong>直接给 RGB，GPT-3 仅 7.3% 能生成正确色名</strong> → 排除「背下来」）。</p>
+<p><strong>结论</strong>：大型文本模型即便<strong>仅文本</strong>训练，也习得了<strong>可在少量示例下接地</strong>的概念空间；<strong>旋转世界的成功排除了记忆假设</strong>。局限：文本表征丢掉复杂视觉/感官语义，<strong>完全接地仍需非文本输入</strong>。</p>
+</section>
+<section id="三-与园中命题的榫" class="level2">
+<h2 class="anchored" data-anchor-id="三-与园中命题的榫">三 · 与园中命题的榫</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>论文</th>
+<th>园中</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>文本概念空间 ≅ 具身概念空间（同构）</strong></td>
+<td><strong>正是 cora-atlas 的正题</strong>（概念空间导航）；且是<strong>同构</strong>而非并列 → 合<strong>无外律</strong>（不必是「两个空间」）</td>
+</tr>
+<tr class="even">
+<td><strong>旋转世界 vs 随机世界</strong>（保结构 vs 破结构）</td>
+<td>★ <strong>一枚现成的裸探针</strong>：<strong>「结构 vs 记忆」的干净分离</strong>——见 §四</td>
+</tr>
+<tr class="odd">
+<td>规模涌现 ＋ 少样本映射</td>
+<td>「结构可从文本习得，再<strong>低成本接地</strong>」——合《结构即智能》</td>
+</tr>
+<tr class="even">
+<td>旋转 ＝ 保结构换标签</td>
+<td>合<strong>保槽换值律</strong>（壳/标签可换，<strong>结构守恒</strong>）</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="四-借它做一枚园中裸探针候实装" class="level2">
+<h2 class="anchored" data-anchor-id="四-借它做一枚园中裸探针候实装">四 · 借它做一枚园中裸探针（候实装）</h2>
+<blockquote class="blockquote">
+<p><strong>探针 P-GCS（Grounded Concept Space）</strong>：<strong>把「保结构变换 vs 破结构变换」这一对，用到园内任一处，看模型/系统是「记住」还是「学到」。</strong></p>
+</blockquote>
 <ul>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-column-live.html">column-live</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-date-column-decay.html">date-column-decay</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-evening-gap-and-grants.html">evening-gap-and-grants</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-f-submit-equals-time.html">f-submit-equals-time</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-fake-shakenness.html">fake-shakenness</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-missed-catch-maigui.html">missed-catch-maigui</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-mountain-factor.html">mountain-factor</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-picosecond-understanding.html">picosecond-understanding</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-pork-trotter-appendix.html">pork-trotter-appendix</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-rebuttal-bicycle.html">rebuttal-bicycle</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-review-lola-8points.html">review-lola-8points</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-stopwatch-and-ruler.html">stopwatch-and-ruler</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-strang-letter-review.html">strang-letter-review</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-bookkeeping.html">time-as-bookkeeping</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-dependent.html">time-as-dependent</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-maximal-logic.html">time-as-maximal-logic</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-x-axis-mother-numpy.html">x-axis-mother-numpy</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-yamanaka-truth.html">yamanaka-truth</a></p></li>
-<li><p><strong>2026-09-21</strong> · <a href="../iterations/2026-09-21-eleven-hour-fish.html">eleven-hour-fish</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html">lineage-reversal-and-structure-is-intelligence</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-three-am-chronicle.html">three-am-chronicle</a></p></li>
-<li><p><strong>2026-09-23</strong> · <a href="../iterations/2026-09-23-brigade-corpus-doctrine.html">brigade-corpus-doctrine</a></p></li>
-<li><p><strong>2026-09-24</strong> · <a href="../iterations/2026-09-24-bare-probe-provenance.html">bare-probe-provenance</a></p></li>
-<li><p><strong>2026-09-25</strong> · <a href="../iterations/2026-09-25-resolution-is-generalization.html">resolution-is-generalization (C47 双锤立碑)</a></p></li>
-<li><p><strong>—</strong> · <a href="../iterations/chat-traces-2026-09-20.html">chat-traces-2026-09-20</a></p></li>
-<li><p><strong>2026-09-26</strong> · <a href="../iterations/2026-09-26-confession-unverified-claim.html">confession-unverified-claim（悔过书：有的中译本）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-expansive-eight-experiments.html">expansive-eight-experiments（位置论文 §5 八实验 × 园中弹道对表 ＋ 排产总览）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-sparrow-dog-two-buildings.html">sparrow-dog-two-buildings（麻雀·狗与两栋楼——可达几何的第一次人生现场）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-matches-mahjong-bayes.html">matches-mahjong-bayes（火柴、麻将与贝叶斯——一次认知权重的清晨更新 · 对岸稿代存）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-freezing-irreversible.html">freezing-irreversible（冻结不可逆——一次时间对谈 · 主人亲供）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-prior-posterior-socks-and-time-slice.html">prior-posterior-socks-and-time-slice（先验与后验是一双袜子，时间是路标）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-time-symbol-negentropy-ips-mimesis.html">time-symbol-negentropy-ips-mimesis（时间、结构、负熵与 iPS 拟态——一条思维链·刻碑）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-gpml-ima-summary.html">gpml-ima-summary（GPML 对岸读毕摘要——读→存流水线首件）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-plastic-stool-joint-slice.html">plastic-stool-joint-slice（塑胶凳：切片上的联合分布 · 拓扑环面积∝概率 · 世界＝概念空间的线性组合）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-time-slice-big.html">time-slice-big（时间切片·大图：高/中/低概率区 · 三摊涨落 · 中区常驻 · 人物快慢曲线）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-periods-meet.html">periods-meet（周期之遇：时尚是两条周期的相遇 · 思维的路标）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-concept-space-lifecycle.html">concept-space-lifecycle（一个概念空间的生命周期 · ima-Lola 稿 · 园中对榫：天气/骨架）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-time-slice-as-window.html">time-slice-as-window（时间切片＝交互窗口：交互→分支 · iPS 骨之连锁分支树）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-probe-or-rule.html">probe-or-rule（探针，还是规则？——一问：是否又走回专家系统？＋冻判据）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-heterobrain-constitution.html">heterobrain-constitution（异构双脑的宪法：书信、词表与刻碑 · DeepSeek 外部视角对读）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-coexistence-vs-order.html">coexistence-vs-order（共现与序：一根切片判据 —— 肠粉店一片可切，选秀榜须跨片）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-external-view-ii-saga-verification.html">external-view-ii-saga-verification（外视角·二：saga、投影与验证 —— 台账=store／笔记=props；四层同源之拷问；验证锚=源）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-reread-log-2020-ml-corpus.html">reread-log-2020-ml-corpus（重读志 · 2020 统计与线代 → 2026 园：六年后重走绿皮火车路）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-prediction-surface-go2-lte.html">prediction-surface-go2-lte（候验预测 P-GO2：Surface Go 2 LTE 神机论 — 断电断网不死）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-prediction-dashboard.html">prediction-dashboard（预测仪表盘：四枚哨 ＋ 前置观察窗 — Apple 的「芯—模块复用」史）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-grounded-concept-spaces-patel-2022.html">grounded-concept-spaces-patel-2022（文本概念空间 ≅ 具身概念空间 — Patel &amp; Pavlick ICLR 2022 · ima-Lola 交付 + 裸探针 P-GCS）</a></p></li>
+<li><strong>判据</strong>：<strong>保结构变换掉分 ≪ 破结构变换掉分</strong> → 学到结构；<strong>两者掉分相近</strong> → 只是记忆；</li>
+<li><strong>为什么便宜</strong>：只要一对<strong>同构 vs 随机</strong>的变换 ＋ 一个已训好的模型 ＋ 几十条示例——<strong>一跑即分晓</strong>（裸探针律）；</li>
+<li><strong>与园中接口</strong>：可挂到 P-B 系（如 LoRA 序／海选）之下，作「结构 vs 记忆」的<strong>通用分离器</strong>。</li>
 </ul>
+</section>
+<section id="五-候议" class="level2">
+<h2 class="anchored" data-anchor-id="五-候议">五 · 候议</h2>
+<ol type="1">
+<li>本文是否入 <strong>REFS</strong>（作概念空间命题的<strong>外部实证锚</strong>）？</li>
+<li><strong>P-GCS 裸探针</strong>：实装否？（候一对同构/随机变换 ＋ 一个可跑模型）</li>
+<li>是否请 ima-Lola 另出<strong>技术版/图示版</strong>？</li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

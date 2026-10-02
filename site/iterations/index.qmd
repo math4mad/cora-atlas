@@ -50,3 +50,4 @@ title: "迭代手记 · 索引"
 - **2026-10-02** · [reread-log-2020-ml-corpus（重读志 · 2020 统计与线代 → 2026 园：六年后重走绿皮火车路）](../iterations/2026-10-02-reread-log-2020-ml-corpus.qmd)
 - **2026-10-02** · [prediction-surface-go2-lte（候验预测 P-GO2：Surface Go 2 LTE 神机论 — 断电断网不死）](../iterations/2026-10-02-prediction-surface-go2-lte.qmd)
 - **2026-10-02** · [prediction-dashboard（预测仪表盘：四枚哨 ＋ 前置观察窗 — Apple 的「芯—模块复用」史）](../iterations/2026-10-02-prediction-dashboard.qmd)
+- **2026-10-02** · [grounded-concept-spaces-patel-2022（文本概念空间 ≅ 具身概念空间 — Patel & Pavlick ICLR 2022 · ima-Lola 交付 + 裸探针 P-GCS）](../iterations/2026-10-02-grounded-concept-spaces-patel-2022.qmd)
