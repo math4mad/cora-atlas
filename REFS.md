@@ -61,3 +61,8 @@
 - López, C. & Lombardi, O. (eds.) (2025). *The Arrow of Time: From Local Systems to the Whole Universe*. Cambridge UP.
 - Zuchowski, L. (2024). *From Randomness and Entropy to the Arrow of Time*. Cambridge UP.
 - Gould, S. J. (1988). *Time's Arrow, Time's Cycle*. Harvard UP.
+
+## 新祖源候选 · Brain Inspired 播客（Paul Middlebrooks，braininspired.co）†
+> 2026-10-02 —— 由知识库《Learning Support Concept》第一篇 PDF 之**错名**（`brain Inspired episodes.pdf`）牵出；主人令 ima-Lola 整理总结，逐集落 `iterations/2026-10-02-brain-inspired-reading-ledger`。园子祖源线（Chang&Tsao／Gärdenfors／Feldman／Spelke／计算神经）与之客座重叠 → 作**上游**候选；**引用须标集号＋时间戳**，未回源标 †。
+
+- 集目与逐集摘要：见「读账」页（候 ima-Lola 投递）
