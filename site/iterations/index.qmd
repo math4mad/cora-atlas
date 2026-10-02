@@ -42,3 +42,5 @@ title: "迭代手记 · 索引"
 - **2026-10-01** · [time-slice-big（时间切片·大图：高/中/低概率区 · 三摊涨落 · 中区常驻 · 人物快慢曲线）](../iterations/2026-10-01-time-slice-big.qmd)
 - **2026-10-01** · [periods-meet（周期之遇：时尚是两条周期的相遇 · 思维的路标）](../iterations/2026-10-01-periods-meet.qmd)
 - **2026-10-02** · [concept-space-lifecycle（一个概念空间的生命周期 · ima-Lola 稿 · 园中对榫：天气/骨架）](../iterations/2026-10-02-concept-space-lifecycle.qmd)
+- **2026-10-02** · [time-slice-as-window（时间切片＝交互窗口：交互→分支 · iPS 骨之连锁分支树）](../iterations/2026-10-02-time-slice-as-window.qmd)
+- **2026-10-02** · [probe-or-rule（探针，还是规则？——一问：是否又走回专家系统？＋冻判据）](../iterations/2026-10-02-probe-or-rule.qmd)
