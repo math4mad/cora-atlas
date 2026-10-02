@@ -1,0 +1,60 @@
+# 2026-10-02 · ima 知识库藏宝图（20 库）
+
+> **缘起**：主人问「ima 知识库你能读吗？」——**答**：**能列目录，读不到正文**（详见 §三）。
+> **主人令**：「做 2」——**先把藏宝图挂出来**（比一篇篇挖快）。
+> 源：`openapi/wiki/v1/search_knowledge_base`（本机 lola 直查，2026-10-02）。
+
+## 一 · 藏宝图（按条数降序）
+
+| 条数 | 知识库 | 备注 |
+|---:|---|---|
+| **1726** | **Book Cover** | summary of book cover |
+| **535** | **Book** | — |
+| **242** | **Bayesian Stat Library** | Road to Bayesian Statistics |
+| **198** | **Teaching-Math** | ← **ima-Lola 在做（在办）** |
+| 34 | Mathematics Book Cover | — |
+| 30 | Every-Day-Reading-List | — |
+| 29 | M4MADS 的知识库 | — |
+| 25 | Programming-Book-Cover | — |
+| 20 | Analysis | 数学分析和泛函分析 |
+| 10 | BasketBall DataAnalysis | BasketBall Data Analysis |
+| 9 | **Stat&Prob** | 统计和概率知识库 |
+| 8 | **Time Space Concept Space** | **园里的库**（位置论文 v3 首传于此）|
+| 7 | Julia Documents | — |
+| 3 | **Learning Support Cocept** | ← **错名得宝**（Patel&Pavlick ＋ Brain Inspired 正页/往集）；**ima-Lola 整理中** |
+| 2 | Python Sympy Symbolics | — |
+| 2 | Browser Hist Analysis | 从网址提取摘要信息 |
+| 1 | Share | — |
+| 1 | Python AI Programming | — |
+| 0 | EDRL-2026 | recording everyday reading list · prompt thinking |
+| 0 | Archive | — |
+
+> **口径**：本表为 API 一页（limit 20，`is_end=false` 但 cursor 空）——**至少 20 库**；若有第二页，候补。
+
+## 二 · 挖掘候选（按"与园中命题的亲缘 × 条数"）
+
+| 优先级 | 库 | 理由 |
+|---|---|---|
+| ★★★ | **Bayesian Stat Library**（242）| 直击园中统计诸碑（Dirichlet／先验-后验／共轭）|
+| ★★★ | **Teaching-Math**（198）| 教数学＝抽象阶梯／表征（园中已有该栏目）——**ima 在做** |
+| ★★ | **Book Cover**（1726）· **Book**（535）| 体量最大，**书目藏宝**——适合"读账"式**逐本摘要** |
+| ★★ | **Stat&Prob**（9）· **Analysis**（20）| 精而准，与园中统计/泛函直接对榫 |
+| ★ | Time Space Concept Space（8）| **园自己的库**——宜自查一致性 |
+| ★ | Learning Support Cocept（3）| **在办**（Patel&Pavlick 已落，Brain Inspired 待）|
+
+## 三 · 接口能力（实测）
+
+| 能力 | 结果 |
+|---|---|
+| 列知识库 | ✅ |
+| 列库内条目（`get_knowledge_list`）| ✅（含标题/media_id/类型）|
+| 库内搜（`search_knowledge`）| △ **只命中标题**；正文 `highlight_content` 恒空 |
+| **导出/下载正文** | ❌ **无接口** |
+
+**∴ 分工**：**目录归本地 lola**（随时可查）；**正文归 ima-Lola**（她有 `export_media_for_ima_sandbox`）→ 投《Lola·inbox》→ **本地落账**（读账体例）。
+
+## 四 · 候议
+
+1. 本图是否**随库增长定期重取**（挂入收尾？）？
+2. 下一本挖哪个（建议从 **Bayesian Stat Library** 或 **Book** 起）？
+3. "藏宝图"是否入 **REFS/工具** 一览？
