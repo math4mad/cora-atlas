@@ -47,3 +47,4 @@ title: "迭代手记 · 索引"
 - **2026-10-02** · [heterobrain-constitution（异构双脑的宪法：书信、词表与刻碑 · DeepSeek 外部视角对读）](../iterations/2026-10-02-heterobrain-constitution.qmd)
 - **2026-10-02** · [coexistence-vs-order（共现与序：一根切片判据 —— 肠粉店一片可切，选秀榜须跨片）](../iterations/2026-10-02-coexistence-vs-order.qmd)
 - **2026-10-02** · [external-view-ii-saga-verification（外视角·二：saga、投影与验证 —— 台账=store／笔记=props；四层同源之拷问；验证锚=源）](../iterations/2026-10-02-external-view-ii-saga-verification.qmd)
+- **2026-10-02** · [reread-log-2020-ml-corpus（重读志 · 2020 统计与线代 → 2026 园：六年后重走绿皮火车路）](../iterations/2026-10-02-reread-log-2020-ml-corpus.qmd)
