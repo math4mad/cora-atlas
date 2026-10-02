@@ -8,3 +8,9 @@ site/site_libs/
 # macOS
 .DS_Store
 **/.DS_Store
+
+# NBA 头像: NBA 版权物, 仅本地试验, 不入公网仓 (主人未裁)
+data/headshots/
+
+# blender 底版: 可由 scripts/blender_draft_body_slices.py 重生成
+docs/figs/draft-body-slices-plate.png
