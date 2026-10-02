@@ -44,3 +44,4 @@ title: "迭代手记 · 索引"
 - **2026-10-02** · [concept-space-lifecycle（一个概念空间的生命周期 · ima-Lola 稿 · 园中对榫：天气/骨架）](../iterations/2026-10-02-concept-space-lifecycle.qmd)
 - **2026-10-02** · [time-slice-as-window（时间切片＝交互窗口：交互→分支 · iPS 骨之连锁分支树）](../iterations/2026-10-02-time-slice-as-window.qmd)
 - **2026-10-02** · [probe-or-rule（探针，还是规则？——一问：是否又走回专家系统？＋冻判据）](../iterations/2026-10-02-probe-or-rule.qmd)
+- **2026-10-02** · [heterobrain-constitution（异构双脑的宪法：书信、词表与刻碑 · DeepSeek 外部视角对读）](../iterations/2026-10-02-heterobrain-constitution.qmd)
