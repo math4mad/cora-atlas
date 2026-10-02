@@ -12,16 +12,24 @@ out=[]; buf=[]
 def flush():
     if buf:
         out.append("")
-        out.append("| 术语 | 义 | 账 |"); out.append("|---|---|---|")
+        out.append("| 术语 | 义 | 非此／不包含 | 账 |"); out.append("|---|---|---|---|")
         for ln in buf:
             parts=[p.strip() for p in re.split("｜|\|", ln) if p.strip()]
             if len(parts)>=3:
-                t,e,a=parts[0], " ｜ ".join(parts[1:-1]), parts[-1]
+                t,a,mid=parts[0],parts[-1],parts[1:-1]
             elif len(parts)==2:
-                t,e,a=parts[0],parts[1],"—"
+                t,a,mid=parts[0],"—",[parts[1]]
             else:
-                t,e,a=parts[0] if parts else "","—","—"
-            out.append(f"| **{t}** | {e} | {a} |")
+                t,a,mid=(parts[0] if parts else ""),"—",[]
+            ni="—"; body=[]
+            for p in mid:
+                m=re.match(r'^\*{0,2}非此(?:\／不包含)?\*{0,2}[:：]\s*(.*)$', p)
+                if m:
+                    ni=m.group(1).strip() or "—"
+                else:
+                    body.append(p)
+            e=" ｜ ".join(body) if body else "—"
+            out.append(f"| **{t}** | {e} | {ni} | {a} |")
         buf.clear(); out.append("")
 for ln in src:
     if ("｜" in ln or ("|" in ln and not ln.startswith("#"))) and not ln.startswith("|---"):
