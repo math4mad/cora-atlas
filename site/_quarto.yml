@@ -18,6 +18,8 @@ website:
         text: "Ε 实验"
       - href: parts/fragments.qmd
         text: "Μ 零碎"
+      - href: iterations/index.qmd
+        text: "迭代手记 · Ἱστορίαι"
     right:
       - href: topography.qmd
         text: "地形 · Τοπογραφία"
