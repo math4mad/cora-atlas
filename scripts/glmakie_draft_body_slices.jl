@@ -9,8 +9,8 @@
 # 用法: julia -t 4 scripts/glmakie_draft_body_slices.jl
 const DIR = "/Users/mac/Programming/code-2026/cora-atlas"
 const OUT = DIR * "/docs/figs"
-using GLMakie, FileIO, Colors, GeometryBasics
-using GeometryBasics: Vec2f, Vec3f, Point2f, Point3f, TriangleFace, meta
+using GLMakie, FileIO, Colors
+using GeometryBasics: Mesh, TriangleFace, uv_normal_mesh
 
 GLMakie.activate!(ssao = true, px_per_unit = 1)
 GLMakie.closeall()
@@ -30,7 +30,7 @@ function panel(x, y, z, w, h)
     v = [Point3f(x, y - w / 2, z - h / 2), Point3f(x, y + w / 2, z - h / 2),
          Point3f(x, y + w / 2, z + h / 2), Point3f(x, y - w / 2, z + h / 2)]
     uv = [Vec2f(0, 1), Vec2f(1, 1), Vec2f(1, 0), Vec2f(0, 0)]
-    return Mesh(meta(v; uv = uv), [TriangleFace(1, 2, 3), TriangleFace(1, 3, 4)])
+    return Mesh(v, [TriangleFace(1, 2, 3), TriangleFace(1, 3, 4)]; uv = uv)
 end
 
 # 面朝相机 (billboard): 在 YZ 平面内自转, 使法向指向 cam
@@ -38,7 +38,7 @@ function billboard(x, y, z, w, cam)
     v = [Point3f(x, y - w / 2, z - w / 2), Point3f(x, y + w / 2, z - w / 2),
          Point3f(x, y + w / 2, z + w / 2), Point3f(x, y - w / 2, z + w / 2)]
     uv = [Vec2f(0, 1), Vec2f(1, 1), Vec2f(1, 0), Vec2f(0, 0)]
-    return Mesh(meta(v; uv = uv), [TriangleFace(1, 2, 3), TriangleFace(1, 3, 4)])
+    return Mesh(v, [TriangleFace(1, 2, 3), TriangleFace(1, 3, 4)]; uv = uv)
 end
 
 const FACE = csvrows(joinpath(DIR, "data", "draft-class-faces.csv"))
@@ -53,12 +53,20 @@ ax.scene.ssao.radius[] = 5.0
 # ── 本体: 半透明长条 (P2) ─────────────────────────────────────────
 bx = (X0 + X1) / 2
 mesh!(ax, Rect3f(Point3f(X0, -HI_Y, -HI_Z), Vec3f(X1 - X0, 2HI_Y, 2HI_Z));
-      color = RGBAf(0.62, 0.68, 0.80, 0.06), transparency = true, ssao = false)
-for (sx, sy, sz, w, d, h) in [(X0, -HI_Y, -HI_Z, X1 - X0, 2HI_Y, 0.03),
-                              (X0, -HI_Y, HI_Z, X1 - X0, 2HI_Y, 0.03),
-                              (X0, -HI_Y, -HI_Z, X1 - X0, 0.03, 2HI_Z),
-                              (X0, HI_Y, -HI_Z, X1 - X0, 0.03, 2HI_Z)]
-    mesh!(ax, Rect3f(Point3f(sx, sy, sz), Vec3f(w, d, h)); color = GOLD, ssao = true)
+      color = RGBAf(0.62, 0.68, 0.80, 0.05), transparency = true, ssao = false)
+# 棱线: 12 条 (不是实心薄板 —— 薄板会成金墙把里面全遮住)
+for (y, z) in [(-HI_Y, -HI_Z), (HI_Y, -HI_Z), (HI_Y, HI_Z), (-HI_Y, HI_Z)]
+    lines!(ax, [Point3f(X0, y, z), Point3f(X1, y, z)]; color = GOLD, linewidth = 2.0)
+end
+for x in (X0, X1), (y, z) in [(-HI_Y, -HI_Z), (HI_Y, -HI_Z), (HI_Y, HI_Z), (-HI_Y, HI_Z)]
+    nothing
+end
+for x in (X0, X1)
+    for i in 1:4
+        a = [(-HI_Y, -HI_Z), (HI_Y, -HI_Z), (HI_Y, HI_Z), (-HI_Y, HI_Z)][i]
+        b = a0 = [(-HI_Y, -HI_Z), (HI_Y, -HI_Z), (HI_Y, HI_Z), (-HI_Y, HI_Z)][i % 4 + 1]
+        lines!(ax, [Point3f(x, a[1], a[2]), Point3f(x, b[1], b[2])]; color = GOLD, linewidth = 2.0)
+    end
 end
 
 ntile = 0
@@ -90,8 +98,10 @@ for yr in YEARS
     println("  $yr: faces=", length(fam), " crowd=", n)
 end
 
-update_cam!(ax.scene, Vec3f(49.3, -53.2, 18.6), Vec3f(4.6, 0, -0.9))
-ax.scene.camera.projection[] = Makie.PerspectiveProjection(15.2)
+# 调焦: 直接缩相机距离 (zoom! 会引出 GLFW 显示器枚举 segfault)
+tgt = Vec3f(4.6, 0, -0.9)
+eye = tgt + (Vec3f(49.3, -53.2, 18.6) - tgt) * 0.36
+update_cam!(ax.scene, eye, tgt)
 
 mkpath(OUT)
 save(OUT * "/makie-draft-body-slices-probe.png", fig)
