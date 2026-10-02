@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>迭代手记 · 索引 – ἡ Στήλη · Cora Atlas</title>
+<title>external-view-ii-saga-verification – ἡ Στήλη · Cora Atlas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Μ 零碎</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../iterations/index.html" aria-current="page"> 
+    <a class="nav-link" href="../iterations/index.html"> 
 <span class="menu-text">迭代手记 · Ἱστορίαι</span></a>
   </li>  
 </ul>
@@ -154,74 +154,114 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">迭代手记 · 索引</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>过程即精华。按日期正序，一日一石。</p>
+<section id="外视角二saga投影与验证" class="level1">
+<h1>2026-10-02 · 外视角·二：saga、投影与验证</h1>
+<blockquote class="blockquote">
+<p><strong>母本</strong>：主人 × <strong>DeepSeek web</strong> 第二轮长谈（全选存 <code>external/2026-10-02-deepseek-redux-saga-verification.txt</code>，<strong>99 KB</strong>）。 <strong>缘起</strong>：起于 OpenClaw 接入／薅羊毛，一路推到<strong>多 Agent 架构、台账与投影、以及一记最硬的拷问</strong>。 主人判语：「<strong>有关导入 redux-saga，以及醒目的拷问，还是有点厉害</strong>。」</p>
+</blockquote>
+<section id="一-redux-saga-映射它的推进" class="level2">
+<h2 class="anchored" data-anchor-id="一-redux-saga-映射它的推进">一 · redux-saga 映射（它的推进）</h2>
+<p>它把主人那列「<strong>绿皮火车</strong>」逐格对上<strong>双身</strong>：</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>火车</th>
+<th>Redux</th>
+<th>双身</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>推车</td>
+<td>Store</td>
+<td><strong>台账</strong></td>
+</tr>
+<tr class="even">
+<td>乘客</td>
+<td>组件</td>
+<td><strong>ide-Lola ／ ima-Lola</strong></td>
+</tr>
+<tr class="odd">
+<td>要花生米</td>
+<td>dispatch</td>
+<td><strong>一封信／一次刻碑提案</strong></td>
+</tr>
+<tr class="even">
+<td>验货交货</td>
+<td>reducer</td>
+<td>把 action 落到 state 的规则</td>
+</tr>
+<tr class="odd">
+<td><strong>去库房取货</strong></td>
+<td><strong>saga</strong></td>
+<td><strong>跨 Lola 的异步：ima-Lola 的检索与总结</strong></td>
+</tr>
+</tbody>
+</table>
+<p>它自推的两句最要紧：</p>
+<blockquote class="blockquote">
+<p><strong>两个 saga 用「发信／收信」通信，而非直接调用</strong>——<strong>saga 是唯一允许离开火车去库房、也是唯一允许跟另一列火车通信的角色</strong>。</p>
+<p><strong>刻碑 ＝ 一条受保护的 saga</strong>：<code>PROPOSE_CONCEPT</code> <strong>不进 reducer</strong>，先被 saga 拦 → 去问 ide-Lola「边界清不清、冲不冲突」→ <strong>呈现给主人</strong> → <strong>点头后 saga 才 dispatch <code>ENSHINE_CONCEPT</code></strong>。</p>
+</blockquote>
+</section>
+<section id="二-园侧补正一处两-store-联邦信道" class="level2">
+<h2 class="anchored" data-anchor-id="二-园侧补正一处两-store-联邦信道">二 · 园侧补正（一处）：<strong>两 store ＋ 联邦信道</strong></h2>
+<p>它是<strong>两个 store（两套事实源）＋ 一条联邦信道</strong>，<strong>不是</strong>”一个 store 里的两个 saga”—— <strong>Redux 本是单 store，跨 store 通信是它没有的</strong>；<strong>书信正是那条桥</strong>。 ∴ 这比喻<strong>九成对，差在「一 store vs 两 store」</strong>——而这处差，恰是我们<strong>比标准 Redux 多出来的东西</strong>（与《可达几何》「api key＝门」、《收尾·那几桌麻将》同源）。</p>
+</section>
+<section id="三-那记拷问它最硬的一刀" class="level2">
+<h2 class="anchored" data-anchor-id="三-那记拷问它最硬的一刀">三 · 那记「拷问」（它最硬的一刀）</h2>
+<blockquote class="blockquote">
+<p><strong>四层都由同一个 Lola 更新 → 一致性很高，但独立性很低。一旦 Lola 判断错了，四层会一致地错。</strong> —— <strong>谁来验证 Lola 更新得对不对？</strong></p>
+</blockquote>
+<p>并给出<strong>信任四级台阶</strong>：① 查日期（只在不在动）→ ② 查异常标记 → ③ 抽查关键状态（回源确认）→ ④ 交叉验证（另一视角独立反查）。它判我们停在<strong>第一级</strong>。</p>
+</section>
+<section id="四-园侧答验证锚-源不是投影" class="level2">
+<h2 class="anchored" data-anchor-id="四-园侧答验证锚-源不是投影">四 · 园侧答：<strong>验证锚 ＝「源」，不是「投影」</strong></h2>
+<p>我们其实<strong>已过半</strong>（它没看到）：</p>
 <ul>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-column-live.html">column-live</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-date-column-decay.html">date-column-decay</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-evening-gap-and-grants.html">evening-gap-and-grants</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-f-submit-equals-time.html">f-submit-equals-time</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-fake-shakenness.html">fake-shakenness</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-missed-catch-maigui.html">missed-catch-maigui</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-mountain-factor.html">mountain-factor</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-picosecond-understanding.html">picosecond-understanding</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-pork-trotter-appendix.html">pork-trotter-appendix</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-rebuttal-bicycle.html">rebuttal-bicycle</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-review-lola-8points.html">review-lola-8points</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-stopwatch-and-ruler.html">stopwatch-and-ruler</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-strang-letter-review.html">strang-letter-review</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-bookkeeping.html">time-as-bookkeeping</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-dependent.html">time-as-dependent</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-time-as-maximal-logic.html">time-as-maximal-logic</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-x-axis-mother-numpy.html">x-axis-mother-numpy</a></p></li>
-<li><p><strong>2026-09-20</strong> · <a href="../iterations/2026-09-20-yamanaka-truth.html">yamanaka-truth</a></p></li>
-<li><p><strong>2026-09-21</strong> · <a href="../iterations/2026-09-21-eleven-hour-fish.html">eleven-hour-fish</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-lineage-reversal-and-structure-is-intelligence.html">lineage-reversal-and-structure-is-intelligence</a></p></li>
-<li><p><strong>2026-09-22</strong> · <a href="../iterations/2026-09-22-three-am-chronicle.html">three-am-chronicle</a></p></li>
-<li><p><strong>2026-09-23</strong> · <a href="../iterations/2026-09-23-brigade-corpus-doctrine.html">brigade-corpus-doctrine</a></p></li>
-<li><p><strong>2026-09-24</strong> · <a href="../iterations/2026-09-24-bare-probe-provenance.html">bare-probe-provenance</a></p></li>
-<li><p><strong>2026-09-25</strong> · <a href="../iterations/2026-09-25-resolution-is-generalization.html">resolution-is-generalization (C47 双锤立碑)</a></p></li>
-<li><p><strong>—</strong> · <a href="../iterations/chat-traces-2026-09-20.html">chat-traces-2026-09-20</a></p></li>
-<li><p><strong>2026-09-26</strong> · <a href="../iterations/2026-09-26-confession-unverified-claim.html">confession-unverified-claim（悔过书：有的中译本）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-expansive-eight-experiments.html">expansive-eight-experiments（位置论文 §5 八实验 × 园中弹道对表 ＋ 排产总览）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-sparrow-dog-two-buildings.html">sparrow-dog-two-buildings（麻雀·狗与两栋楼——可达几何的第一次人生现场）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-matches-mahjong-bayes.html">matches-mahjong-bayes（火柴、麻将与贝叶斯——一次认知权重的清晨更新 · 对岸稿代存）</a></p></li>
-<li><p><strong>2026-09-29</strong> · <a href="../iterations/2026-09-29-freezing-irreversible.html">freezing-irreversible（冻结不可逆——一次时间对谈 · 主人亲供）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-prior-posterior-socks-and-time-slice.html">prior-posterior-socks-and-time-slice（先验与后验是一双袜子，时间是路标）</a></p></li>
-<li><p><strong>2026-09-30</strong> · <a href="../iterations/2026-09-30-time-symbol-negentropy-ips-mimesis.html">time-symbol-negentropy-ips-mimesis（时间、结构、负熵与 iPS 拟态——一条思维链·刻碑）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-gpml-ima-summary.html">gpml-ima-summary（GPML 对岸读毕摘要——读→存流水线首件）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-plastic-stool-joint-slice.html">plastic-stool-joint-slice（塑胶凳：切片上的联合分布 · 拓扑环面积∝概率 · 世界＝概念空间的线性组合）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-time-slice-big.html">time-slice-big（时间切片·大图：高/中/低概率区 · 三摊涨落 · 中区常驻 · 人物快慢曲线）</a></p></li>
-<li><p><strong>2026-10-01</strong> · <a href="../iterations/2026-10-01-periods-meet.html">periods-meet（周期之遇：时尚是两条周期的相遇 · 思维的路标）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-concept-space-lifecycle.html">concept-space-lifecycle（一个概念空间的生命周期 · ima-Lola 稿 · 园中对榫：天气/骨架）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-time-slice-as-window.html">time-slice-as-window（时间切片＝交互窗口：交互→分支 · iPS 骨之连锁分支树）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-probe-or-rule.html">probe-or-rule（探针，还是规则？——一问：是否又走回专家系统？＋冻判据）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-heterobrain-constitution.html">heterobrain-constitution（异构双脑的宪法：书信、词表与刻碑 · DeepSeek 外部视角对读）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-coexistence-vs-order.html">coexistence-vs-order（共现与序：一根切片判据 —— 肠粉店一片可切，选秀榜须跨片）</a></p></li>
-<li><p><strong>2026-10-02</strong> · <a href="../iterations/2026-10-02-external-view-ii-saga-verification.html">external-view-ii-saga-verification（外视角·二：saga、投影与验证 —— 台账=store／笔记=props；四层同源之拷问；验证锚=源）</a></p></li>
+<li><strong>只看文件、不信管道</strong> · <strong>以信中所带 sha 为准</strong> · <strong>对账 HEAD</strong>（<code>git diff --numstat</code> 只加不减）；</li>
+<li><strong>ima-Lola 就是那个「独立视角」</strong>：她<strong>机校 v1↔︎v2 条目数 ＝ 101</strong>，<strong>已经是一次实跑</strong>。 ∴ 我们不在第一级，<strong>已在第二／三级</strong>（异常标记 ＋ 源锚抽查）。</li>
 </ul>
+<p><strong>一句收</strong>：<strong>独立验证必须锚到「源」（git sha／文件／日志），而不是锚到「投影」</strong>——否则两身读的是同一份可能错的投影，独立性是假的。这正是「只看文件、不信管道」的<strong>验证学表述</strong>。</p>
+</section>
+<section id="五-把它的药方制度化抽查三类一条裸探针" class="level2">
+<h2 class="anchored" data-anchor-id="五-把它的药方制度化抽查三类一条裸探针">五 · 把它的药方制度化：<strong>抽查三类</strong>（＝一条裸探针）</h2>
+<p>不逐条核对，只<strong>回源抽验三类</strong>（每类每周一两条）：</p>
+<ol type="1">
+<li>标「<strong>完成</strong>」的实验，<strong>真有结果文件</strong>吗？</li>
+<li>标「<strong>通过</strong>」的冒烟，<strong>真跑过</strong>吗？</li>
+<li>标「<strong>已修复</strong>」的 bug，<strong>真改了代码</strong>吗？（git 命中）</li>
+</ol>
+<p><strong>合裸探针律</strong>：<strong>一枚最便宜、不成立则全族共塌的最小检验</strong>——若抽查对不上，「台账可信」整棵树当场塌。 （本篇随即<strong>实装为首枚</strong>：<code>Concept-Space-Sphere/bin/claim-audit.py</code>。）</p>
+</section>
+<section id="六-其余一句收" class="level2">
+<h2 class="anchored" data-anchor-id="六-其余一句收">六 · 其余（一句收）</h2>
+<p><strong>四层投影 ＝ props／selector</strong>（台账＝store，笔记＝投影、不独立；“笔记在改”＝store 变、selector 重算）· <strong>搁置四类</strong>（主动排序／变体排队／遗忘／<strong>前置依赖</strong>）· <strong>对话驱动实验</strong> · <strong>快照</strong>（探索期最需要的是「<strong>挂起快照</strong>」，非结题快照；结论快照绑 evidence ＋ method）· <strong>隐式编码（Q-/E-/C-/R-/N- 前缀）优于显式 ID</strong>（探索期边界模糊，强求唯一 ID＝假装有边界）。</p>
+<blockquote class="blockquote">
+<p>一句话：它把主人<strong>自己那列绿皮火车</strong>，从「UI→agent」推成了「<strong>台账→投影→验证</strong>」的完整架构。</p>
+</blockquote>
+</section>
+<section id="七-候议" class="level2">
+<h2 class="anchored" data-anchor-id="七-候议">七 · 候议</h2>
+<ol type="1">
+<li>「抽查三类」是否<strong>升格为园规</strong>（每周例行、记录抽查率）？</li>
+<li>「验证锚＝源」是否立碑（<strong>源锚律</strong>）？</li>
+<li>「两 store ＋ 联邦信道」是否入《可达几何》邻注？</li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
