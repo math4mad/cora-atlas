@@ -3,6 +3,7 @@
 > **源**：播客 **Brain Inspired**（`braininspired.co`，主持 **Paul Middlebrooks**，计算神经科学家）——**长访谈**，客为**神经科学与 AI** 的研究者。
 > **怎么进来的**：知识库《Learning Support Concept》第一篇的 PDF **文件名作 `brain Inspired episodes.pdf`**（**名实不符**）——**错名指到了宝库**。
 > **流程**：主人令 **ima-Lola** 整理与总结 → 投《Lola·inbox》→ 本地**落账**（**读→存**，沿 GPML 之例）。
+> **源之所在**：知识库**《Learning Support Concept》**同一文件夹下——① `brain Inspired episodes.pdf`（**错名**，实为 Patel & Pavlick）② `Episodes | Brain Inspired`（网页）③ `Past Episodes — Brain Science`（网页）。**∴ 那枚错名，与宝库同匣。**
 
 ## 一 · 已到
 
