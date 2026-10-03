@@ -9,19 +9,20 @@
 
 ---
 
-## 图1 · 儿童语言发育柱阵（v02 · 补齐版）
+## 图1 · 儿童语言发育柱阵（v03 · 中英双常模）
 
-![儿童语言发育柱阵：五维 × 月龄切片 12/18/24/30/36，柱高＝本行 max 归一](../figs/child-language-pillar/v02-wordbank/child-language-pillar-zh.png){#fig-child-pillar width=100%}
+![儿童语言发育柱阵：五维 × 月龄切片 12/18/24/30/36，柱高＝本行 max 归一](../figs/child-language-pillar/v03-bilingual/child-language-pillar-zh.png){#fig-child-pillar width=100%}
 
 五维：**词汇量 · MLU · 词类多样性 · 句法复杂度 · 指代清晰度**。
 
-- **词汇量 ＝ Wordbank 常模**（English American，production 中位）：**4 / 52 / 256 / 492 / —**；
-  36 月超出 CDI 域（斜纹空心柱「CDI 止」）。
+- **词汇量 ＝ Wordbank 常模，英/中双柱**（同标度 max 750）：
+  英 American **4 / 52 / 256 / 492 / —**；中 普通话·北京 WS **— / 172 / 622 / 750 / —**
+  （**普通话同龄显著高**：18m 3.3× · 24m 2.4× · 30m 1.5×）；36 月超出 CDI 域（「CDI 止」）。
 - 其余四维 ＝ 本地 **CHILDES** Brown+Bernstein（CHI，`%mor`/`%gra` 直取）：
   **词类多样性**早长后平；**MLU / 句法复杂度**总趋势向上有回落噪声；**指代清晰度**（有定标记率）
   0 → 0.12 → 0.20 → 0.10 → 0.28（整体上升）。
 
-数据：`data/wordbank-norms-en.csv`（带出处）。仅限研究·非商业。
+数据：`data/wordbank-norms-en.csv` ＋ Wordbank `mandarin_beijing_ws.csv`。仅限研究·非商业。
 
 ## 图2 · 生物体 time-spine（生命尺度柱阵）
 
