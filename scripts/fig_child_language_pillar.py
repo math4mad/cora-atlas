@@ -26,7 +26,9 @@ os.makedirs(OUT, exist_ok=True)
 CHAT = "/Users/mac/Programming/code-2026/Concept-Space-Sphere/corpus/ladder05/layers/childes/chat"
 
 SLICES = [12, 18, 24, 30, 36]
-DIMS = ["词汇量", "平均句长 MLU", "词类多样性", "句法复杂度", "指代清晰度"]
+DIMS = ["词汇量·Wordbank", "平均句长 MLU", "词类多样性", "句法复杂度", "指代清晰度"]
+# Wordbank 常模（English American, production 中位；CDI 止于 30）
+WORDBANK = {12: 4, 18: 52, 24: 256, 30: 492, 36: None}
 CONTENT = set("noun verb adj adv propn".split())
 PRON = set("pron".split())
 NOUN = set("noun propn".split())
@@ -77,7 +79,7 @@ def gra_edges(line):
 def main():
     # per bin accumulators
     acc = [dict(tok=0, utt=0, len=0, types=set(), pos=collections.Counter(),
-                verb=0, noun=0, pron=0, gra=0) for _ in SLICES]
+                verb=0, noun=0, pron=0, gra=0, noun_tot=0, det_noun=0) for _ in SLICES]
     nsess = [0] * 5
     for f in sorted(glob.glob(os.path.join(CHAT, "*.cha"))):
         txt = open(f, encoding="utf-8", errors="ignore").read()
@@ -105,6 +107,11 @@ def main():
                     r["verb"] += sum(1 for p in P if p == "verb")
                     r["noun"] += sum(1 for p in P if p in NOUN)
                     r["pron"] += sum(1 for p in P if p in PRON)
+                    for k, p in enumerate(P):                 # 有定标记：det + noun
+                        if p in NOUN:
+                            r["noun_tot"] += 1
+                            if k > 0 and P[k - 1] == "det":
+                                r["det_noun"] += 1
                 if j < len(lines) and lines[j].startswith("%gra:"):
                     r["gra"] += gra_edges(lines[j])
 
@@ -115,19 +122,20 @@ def main():
         r = acc[b]
         u = max(r["utt"], 1)
         cumtypes |= r["types"]
-        vals["词汇量"].append(len(cumtypes))            # 累计词汇量（单调爬坡）
+        # 词汇量 → Wordbank 常模（本地累计词型另存作对照）
+        vals["词汇量·Wordbank"].append(WORDBANK[SLICES[b]])
         vals["平均句长 MLU"].append(r["len"] / u)
         tot = sum(r["pos"].values()) or 1              # 词类多样性 ＝ POS 熵（nats）
         vals["词类多样性"].append(-sum(c / tot * math.log(c / tot) for c in r["pos"].values()))
         vals["句法复杂度"].append(r["gra"] / u)          # 每话轮依存边数
-        denom = r["noun"] + r["pron"]                    # 指代清晰度 ＝ 显名率
-        vals["指代清晰度"].append(r["noun"] / denom if denom else 0.0)
+        # 指代清晰度 → 有定标记率 = det+noun / noun（正向代理）
+        vals["指代清晰度"].append(r["det_noun"] / max(r["noun_tot"], 1))
 
-    # 归一化到本行 max（柱高＝掌握度/频率的相对高度）
+    # 归一化到本行 max（柱高＝掌握度/频率的相对高度；Wordbank 行的 None 不参与）
     norm = {}
     for d in DIMS:
-        v = np.array(vals[d], float)
-        mx = v.max() if v.max() > 0 else 1.0
+        v = np.array([x if x is not None else np.nan for x in vals[d]], float)
+        mx = np.nanmax(v) if np.any(~np.isnan(v)) and np.nanmax(v) > 0 else 1.0
         norm[d] = v / mx
         print(f"[{d}] raw={np.round(v,3)}  norm={np.round(v/mx,3)}")
 
@@ -150,20 +158,29 @@ def main():
     for ri, d in enumerate(DIMS):
         ybase = (4 - ri)          # 顶行(词汇量)在最上
         for ci in range(5):
-            h = float(norm[d][ci]) * 0.86
+            nv = norm[d][ci]
+            if np.isnan(nv):                          # Wordbank 无值（CDI 止于 30）
+                ax.add_patch(Rectangle((ci - 0.27, ybase + 0.06), 0.54, 0.10,
+                                       facecolor="none", edgecolor=COLS[ri], lw=1.2,
+                                       hatch="///", alpha=0.7, zorder=3))
+                ax.text(ci, ybase + 0.20, "CDI 止", color=DIM, fontsize=8, ha="center")
+                continue
+            h = float(nv) * 0.86
             ax.add_patch(Rectangle((ci - 0.27, ybase + 0.06), 0.54, h,
                                    facecolor=COLS[ri], edgecolor="white", lw=0.8,
                                    alpha=0.92, zorder=3))
-            ax.text(ci, ybase + 0.06 + h + 0.05, f"{norm[d][ci]:.2f}", color=DIM,
+            ax.text(ci, ybase + 0.06 + h + 0.05, f"{nv:.2f}", color=DIM,
                     fontsize=8.5, ha="center", va="bottom", zorder=4)
 
     for ri, d in enumerate(DIMS):
         ybase = (4 - ri)
-        ax.text(-0.72, ybase + 0.5, d, color=INK, fontsize=13.5, ha="right", va="center")
+        ax.text(-0.72, ybase + 0.5, d, color=INK, fontsize=13.0, ha="right", va="center")
         raw = vals[d]
-        fmt = (lambda v: f"{v:,.0f}") if d == "词汇量" else (lambda v: f"{v:.2f}")
-        ax.text(-0.72, ybase + 0.24, "  ".join(fmt(v) for v in raw), color=DIM,
-                fontsize=8.2, ha="right", va="center")
+        if d.startswith("词汇量"):
+            txt = "  ".join("—" if v is None else f"{v:,.0f}" for v in raw)
+        else:
+            txt = "  ".join("—" if v is None else f"{v:.2f}" for v in raw)
+        ax.text(-0.72, ybase + 0.24, txt, color=DIM, fontsize=8.2, ha="right", va="center")
 
     fig.text(0.045, 0.068,
              "横轴 · 月龄切片（±3 月）＝ 共享切片轴　——　切片轴律：怎么 bin，柱阵就讲什么故事",
@@ -173,12 +190,13 @@ def main():
     fig.text(0.045, 0.925, "切片柱阵 Slice-Pillar Array · 五维 × 五月龄切片 · 柱高＝该维在该片的掌握度"
                            "（本行 max 归一）", color=DIM, fontsize=12.5, va="top")
     fig.text(0.045, 0.040,
-             "数据：本地 CHILDES Brown + Bernstein（CHI 自身产出，真实月龄，%mor/%gra 直取）· "
-             "语料 13–62 月 · 12 月片样本薄（n=3 会话）† · Wordbank 常模候补（母本笔记指定）。",
+             "数据：① 词汇量 ＝ Wordbank 常模（English American，production 中位；CDI 8–30 月，36 月无值）；"
+             "② 其余四维 ＝ 本地 CHILDES Brown+Bernstein（CHI，%mor/%gra 直取，取 9–39 月入片）。",
              color=DIM, fontsize=9.5)
     fig.text(0.045, 0.018,
-             f"母本：ima 笔记《切片柱阵·三图提示词》doc 7511883443609699（2026-10-03）· "
-             f"仅限研究·非商业 · ver {VER} · lola", color=DIM, fontsize=9.5)
+             "指代清晰度 ＝ 有定标记率（det+noun / noun，正向代理）· 12 月片 CHILDES 薄（n=3）· "
+             f"母本 ima doc 7511883443609699 · 仅限研究非商业 · ver {VER} · lola",
+             color=DIM, fontsize=9.5)
 
     for ext in ("png", "svg"):
         fig.savefig(os.path.join(OUT, f"child-language-pillar-zh.{ext}"), facecolor=BG)

@@ -1,0 +1,20 @@
+# Wordbank vocabulary norms — English (American), CDI (MacArthur-Bates)
+# source : https://langcog.github.io/wordbank-datapage/slices/admins/english_american_{wg,ws}.csv
+#          (Wordbank; Frank et al. 2017, J Child Lang; wordbank.stanford.edu)
+# fetch  : 2026-10-03 by lola (chora/lola, ctx_execute) — 逐administration现算
+# measure: production ; statistic: per-age median (n_children shown)
+# covers : CDI 约 8–30 月 (WG=Words&Gestures 8–18 ; WS=Words&Sentences 16–30)
+# note   : 12m 取 WG ; 18/24/30 取 WS ; **36m 超出 CDI → 无值**
+age_months,form,n_children,median_vocab
+8,WG,255,0
+10,WG,279,2
+12,WG,615,4
+14,WG,460,8
+16,WS,930,35
+18,WS,642,52
+20,WS,544,80
+22,WS,481,146
+24,WS,1115,256
+26,WS,437,364
+28,WS,954,506
+30,WS,885,492
