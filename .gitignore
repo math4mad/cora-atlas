@@ -16,3 +16,6 @@ data/headshots/
 docs/figs/draft-body-slices-plate.png
 # 图件迭代档: 三维底版可重渲, 只留成图 (scripts/fig_history_pack.py)
 docs/figs/draft-body-slices/*/plate.png
+
+# Python 冒烟测试环境 (pyvista 对照)
+.venv/
