@@ -60,10 +60,18 @@ def draw_cube(ax, M, xlabels, ylabels, zlabels, cmap="viridis", o=(0.86, 0.60)):
         ax.text(ox - 0.12, oy + NY / 2, zlabels[k], color=INK, fontsize=7.8,
                 ha="right", va="center", zorder=300,
                 bbox=dict(boxstyle="round,pad=0.15", fc="#0e1015", ec="none", alpha=0.8))
-    # 轴标签
-    for i, xl in enumerate(xlabels):
-        ax.text(i + 0.5, -0.30, xl, color=DIM, fontsize=6.8, ha="right", va="top",
-                rotation=32, rotation_mode="anchor", zorder=300)
+    # 轴标签（xlabels 可为共享列表，也可为逐层列表）
+    per_slice = bool(xlabels) and isinstance(xlabels[0], (list, tuple))
+    if per_slice:
+        for k in range(Z):
+            ox, oy = o[0] * k, o[1] * k
+            for i, xl in enumerate(xlabels[k]):
+                ax.text(ox + i + 0.5, oy - 0.28, xl, color=DIM, fontsize=6.5, ha="right",
+                        va="top", rotation=32, rotation_mode="anchor", zorder=300)
+    else:
+        for i, xl in enumerate(xlabels):
+            ax.text(i + 0.5, -0.30, xl, color=DIM, fontsize=6.8, ha="right", va="top",
+                    rotation=32, rotation_mode="anchor", zorder=300)
     for j, yl in enumerate(ylabels):
         ax.text(-0.25, j + 0.47, yl, color=DIM, fontsize=7.8, ha="right", va="center", zorder=300)
 
