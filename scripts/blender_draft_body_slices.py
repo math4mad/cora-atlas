@@ -158,9 +158,7 @@ def add_slice_plane(x):
     for i in range(4):
         (ay, az), (by, bz) = CORNERS[i], CORNERS[(i + 1) % 4]
         add_line((x, ay * oy, az * oz), (x, by * oy, bz * oz), GOLD, e=3.0, r=0.020)
-    for cy, cz in CORNERS:                              # 长轴穿切面: 四角
-        add_knot((x, cy * HI_Y, cz * HI_Z))
-    add_knot((x, 0.0, 0.0))                             # 长轴穿切面: 中轴
+    add_knot((x, 0.0, 0.0))          # 三个切片各一: 长轴(中轴)与切片交汇处
 
 
 def add_quad(center, size, normal, mat, square=True):
