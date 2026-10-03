@@ -8,8 +8,8 @@ import bpy, math, os, json, mathutils
 DIR = "/Users/mac/Programming/code-2026/cora-atlas"
 OUT = DIR + "/docs/figs"
 GOLD = (0.85, 0.71, 0.38)
-METRIC_RGB = [(0.16, 0.61, 0.56), (0.25, 0.50, 0.70), (0.54, 0.44, 0.69),
-              (0.85, 0.54, 0.24), (0.75, 0.36, 0.36)]
+METRIC_RGB = [(0.08, 0.52, 0.46), (0.15, 0.40, 0.66), (0.42, 0.30, 0.60),
+              (0.84, 0.42, 0.10), (0.70, 0.22, 0.24)]
 
 VAL = json.load(open(DIR + "/data/child-dev-values.json"))
 MONTHS = VAL["months"]; METRICS = VAL["metrics"]; VALS = VAL["values"]
@@ -151,6 +151,19 @@ def add_bars(x, vals):
         bpy.context.active_object.data.materials.append(mat_emit(f"cap{i}", METRIC_RGB[i], 3.0))
 
 
+def add_trend_lines():
+    """五指标各自：把六月龄柱顶连成一条趋势线，贯穿各切片 —— 看「变化与轴趋势」。"""
+    n = len(METRICS)
+    for i in range(n):
+        pts = []
+        for mi, m in enumerate(MONTHS):
+            y = (i - (n - 1) / 2.0) * 0.92
+            hz = 0.18 + BAR_GAIN * float(VALS[mi][i])
+            pts.append((x_of(m), y, BAR_BASE + hz))
+        for a, b in zip(pts[:-1], pts[1:]):
+            add_line(a, b, METRIC_RGB[i], e=2.0, r=0.028)
+
+
 def add_text(txt, loc, size, rgb, normal, align="CENTER"):
     bpy.ops.object.text_add(location=loc)
     t = bpy.context.active_object
@@ -236,6 +249,8 @@ for mi, m in enumerate(MONTHS):
     tp = label((x, 0, -HI_Z), LABEL_S)
     LABELS.append(dict(text=f"{m} 月", kind="month", pos=[tp[0], tp[1], tp[2]]))
     print(f"  {m}mo: x={x:+.2f}")
+
+add_trend_lines()
 
 tp = over((4.6, 0, 0), 3.95)
 LABELS.append(dict(text="CHILD DEVELOPMENT   12 - 42 MO", kind="title", pos=[tp[0], tp[1], tp[2]]))

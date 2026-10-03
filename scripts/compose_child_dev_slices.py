@@ -14,8 +14,8 @@ FIG = os.path.join(D, "docs", "figs", "child-dev-slices-3d")
 VER = os.environ.get("VER", "v03")
 BG = (16, 16, 23); GOLD = (231, 195, 111); SLATE = (150, 156, 170); DIM = (128, 134, 148)
 BAND = 300
-METRIC_RGB = [(0.16, 0.61, 0.56), (0.25, 0.50, 0.70), (0.54, 0.44, 0.69),
-              (0.85, 0.54, 0.24), (0.75, 0.36, 0.36)]
+METRIC_RGB = [(0.08, 0.52, 0.46), (0.15, 0.40, 0.66), (0.42, 0.30, 0.60),
+              (0.84, 0.42, 0.10), (0.70, 0.22, 0.24)]
 METRICS = ["词汇量", "MLU", "词类多样性", "句法复杂度", "指代清晰度"]
 CJK = [("/System/Library/Fonts/Hiragino Sans GB.ttc", 0),
        ("/System/Library/Fonts/Supplemental/Songti.ttc", 0)]
