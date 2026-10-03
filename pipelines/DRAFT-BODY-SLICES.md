@@ -137,3 +137,22 @@
 ---
 
 *本地 lola（园笔）· 2026-10-03 · 实现件 `scripts/{fetch_nba_headshots,prep_draft_slice_assets,blender_draft_body_slices,compose_draft_body_slices}.*`*
+
+## 迭代留痕 · 封版律 (主人 1003 令)
+
+**绝不覆盖旧图。** 每版渲进 `docs/figs/draft-body-slices/vNN-slug/`，年表见该目录 `INDEX.md`。
+
+- 渲图：`VER=v06-polish blender -b -P scripts/blender_draft_body_slices.py`
+- 合成：`VER=v06-polish python3 scripts/compose_draft_body_slices.py`（同时刷 `draft-body-slices-latest-{zh,en}.png` 供站/信引用）
+- 封版：`python3 scripts/fig_history_pack.py` —— 旧版 PNG 压 JPEG q93 留档，最新版留 PNG
+- `plate.png`（三维底版）不入库（可重现）
+
+## 两趟法 —— 文字不由三维渲 (v06 起)
+
+3D 文字**无论沿视线前推多远都压不过本体近端**（本体近端离相机仅 ~30 单位，标签处 ~70）。
+故文字改由 PIL 后合成：
+
+1. Blender 只渲三维，并把标签 3D 锚点经 `world_to_camera_view` 投成像素 → `labels.json`
+   - ⚠ **投影前必须先设 `render.resolution_x/y` 并 `bpy.context.view_layer.update()`**，否则矩阵未刷新，坐标全错（P11）
+2. `compose_draft_body_slices.py` 用 PIL 把标签画在底版**之上** —— 字锐、不被长轴线穿
+- **P11**: `world_to_camera_view` 前未定画幅 / 未 `view_layer.update()` → 投影坐标是垃圾（曾见 px=-603, py=18061）。

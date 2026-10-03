@@ -5,7 +5,7 @@
 #   切面之上: 名人 12 张真头像 (金环, 亮度高) = 锚点;
 #             其余全体 = 灰剪影小阵 (1984 一行 12x18 填满, 1996/2003 只 46 人 → 四行, 八成空)。
 #   ⇒ 同形不同物: 三个切面长得一样, 密度与面孔却全不同 —— 投影不可恢复律的物证。
-import bpy, math, csv, os, random, mathutils
+import bpy, math, csv, os, json, random, mathutils
 DIR = "/Users/mac/Programming/code-2026/cora-atlas"
 OUT = DIR + "/docs/figs"
 GOLD = (0.85, 0.71, 0.38)
@@ -275,7 +275,7 @@ def render(path):
     elif hasattr(sc, "eevee"):
         for a in ("taa_render_samples", "taa_samples"):
             if hasattr(sc.eevee, a):
-                setattr(sc.eevee, a, 64); break
+                setattr(sc.eevee, a, 160); break
         for a in ("use_raytracing", "use_shadows"):
             if hasattr(sc.eevee, a):
                 setattr(sc.eevee, a, True)
@@ -310,6 +310,7 @@ crowd_n = {}
 for r in csv.DictReader(open(DIR + "/data/draft-class-crowd.csv")):
     crowd_n[int(r["draft_year"])] = int(r["n_anonymous"])
 
+LABELS = []
 add_beam()
 
 for year in YEARS:
@@ -324,14 +325,30 @@ for year in YEARS:
         mat = mat_tex("face" + r["person_id"], DIR + "/data/headshots/tile_" + r["person_id"] + ".png")
         add_quad((x + 0.10, y, z), TILE, face_cam((x + 0.10, y, z)), mat)
     tp = label((x, 0, 0), LABEL_S[year][0])
-    add_text(f"{year}   ·   {len(fam) + crowd_n[year]} picks", tp, 0.46, GOLD, face_cam(tp))
+    LABELS.append(dict(text=f"{year}   ·   {len(fam) + crowd_n[year]} picks", kind="year",
+                       pos=[tp[0], tp[1], tp[2]]))
     np_ = sum(1 for r in fam if r["has_portrait"] == "1")
     tq = label((x, 0, 0), LABEL_S[year][1])
-    add_text(f"{np_}/{len(fam)} portraits", tq, 0.34, (0.62, 0.65, 0.72), face_cam(tq))
+    LABELS.append(dict(text=f"{np_}/{len(fam)} portraits", kind="sub",
+                       pos=[tq[0], tq[1], tq[2]]))
     print(f"  {year}: x={x:+.2f}  faces={len(fam)} ({np_} with portrait)  crowd={crowd_n[year]}")
 
 tp = over((4.6, 0, 0), 3.90)
-add_text("TOTAL DRAFT   1947 - 2025", tp, 0.80, GOLD, face_cam(tp))
+LABELS.append(dict(text="TOTAL DRAFT   1947 - 2025", kind="title", pos=[tp[0], tp[1], tp[2]]))
 
 camera_lights()
-render(OUT + "/draft-body-slices-plate.png")
+# 迭代留痕: 每版渲进带号目录, 绝不覆盖旧图 (主人 1003 令)
+VER = os.environ.get("VER", "v06-polish")
+VDIR = os.path.join(OUT, "draft-body-slices", VER)
+os.makedirs(VDIR, exist_ok=True)
+# 标签投影坐标导出 (两趟法: 文字由 PIL 合成, 免受三维遮挡)
+from bpy_extras.object_utils import world_to_camera_view
+sc = bpy.context.scene
+sc.render.resolution_x, sc.render.resolution_y = RES     # 投影前必须先定画幅
+bpy.context.view_layer.update()                          # 刷新相机矩阵, 否则投影全错
+for L in LABELS:
+    c = world_to_camera_view(sc, sc.camera, mathutils.Vector(L["pos"]))
+    L["px"], L["py"] = round(c.x * RES[0], 1), round((1.0 - c.y) * RES[1], 1)
+json.dump(LABELS, open(VDIR + "/labels.json", "w"), ensure_ascii=False, indent=1)
+print("labels ->", [(L["kind"], L["px"], L["py"]) for L in LABELS])
+render(VDIR + "/plate.png")

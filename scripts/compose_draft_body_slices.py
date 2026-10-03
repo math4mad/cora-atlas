@@ -9,7 +9,21 @@ from PIL import Image, ImageDraw, ImageFont
 
 D = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIG = os.path.join(D, "docs", "figs")
-PLATE = os.path.join(FIG, "draft-body-slices-plate.png")
+HIST = os.path.join(FIG, "draft-body-slices")
+
+
+def pick_ver():
+    """VER 环境变量优先; 否则取带号目录里最新的一版。"""
+    v = os.environ.get("VER")
+    if v:
+        return v
+    vs = sorted(d for d in os.listdir(HIST) if d.startswith("v") and os.path.isdir(os.path.join(HIST, d)))
+    return vs[-1] if vs else None
+
+
+VER = pick_ver()
+PLATE = os.path.join(HIST, VER, "plate.png")
+OUTDIR = os.path.join(HIST, VER)
 BG = (16, 16, 23)
 GOLD = (231, 195, 111)
 SLATE = (150, 156, 170)
@@ -64,12 +78,34 @@ def swatch(canvas, src, box, size):
     canvas.alpha_composite(im, box)
 
 
+LAB_FONT = {"title": (68, (231, 195, 111)), "year": (44, (231, 195, 111)),
+            "sub": (29, (158, 166, 178))}
+
+
+def draw_labels(canvas, lang):
+    """两趟法第二趟: 标签由 PIL 合成于三维底版之上 —— 不受长轴线遮挡, 且字更利。"""
+    import json as _j
+    f = os.path.join(OUTDIR, "labels.json")
+    if not os.path.exists(f):
+        print("  (无 labels.json, 跳过)")
+        return
+    d = ImageDraw.Draw(canvas)
+    n = 0
+    for L in _j.load(open(f)):
+        sz, col = LAB_FONT.get(L["kind"], (30, (200, 200, 200)))
+        d.text((L["px"], L["py"]), L["text"], font=font(lang, sz), fill=col, anchor="mm")
+        n += 1
+    print("  labels drawn:", n)
+
+
 def compose(lang):
     plate = Image.open(PLATE).convert("RGBA")
     W, H = plate.size
     canvas = Image.new("RGBA", (W, H + BAND), BG + (255,))
     canvas.alpha_composite(plate, (0, 0))
     d = ImageDraw.Draw(canvas)
+
+    draw_labels(canvas, lang)
 
     y0 = H
     d.line([(0, y0), (W, y0)], fill=(58, 54, 44), width=2)
@@ -87,11 +123,14 @@ def compose(lang):
         d.text((74, yy), ln, font=font(lang, 23), fill=DIM)
         yy += 34
 
-    out = os.path.join(FIG, f"draft-body-slices-{lang}-dark.png")
+    out = os.path.join(OUTDIR, f"draft-body-slices-{lang}-dark.png")
     canvas.convert("RGB").save(out)
-    print("✔", out, canvas.size)
+    latest = os.path.join(FIG, "draft-body-slices-latest-{}.png".format(lang))
+    canvas.convert("RGB").save(latest)                       # 站/信引用的稳定名
+    print("✔", out, canvas.size, "→ latest:", os.path.basename(latest))
 
 
 if __name__ == "__main__":
+    print("version:", VER)
     for lg in ("zh", "en"):
         compose(lg)

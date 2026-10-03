@@ -14,3 +14,5 @@ data/headshots/
 
 # blender 底版: 可由 scripts/blender_draft_body_slices.py 重生成
 docs/figs/draft-body-slices-plate.png
+# 图件迭代档: 三维底版可重渲, 只留成图 (scripts/fig_history_pack.py)
+docs/figs/draft-body-slices/*/plate.png
