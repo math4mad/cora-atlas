@@ -53,3 +53,4 @@ title: "迭代手记 · 索引"
 - **2026-10-02** · [grounded-concept-spaces-patel-2022（文本概念空间 ≅ 具身概念空间 — Patel & Pavlick ICLR 2022 · ima-Lola 交付 + 裸探针 P-GCS）](../iterations/2026-10-02-grounded-concept-spaces-patel-2022.qmd)
 - **2026-10-02** · [brain-inspired-reading-ledger（Brain Inspired 读账 — 错名得宝：播客宝库，ima-Lola 整理中）](../iterations/2026-10-02-brain-inspired-reading-ledger.qmd)
 - **2026-10-02** · [ima-kb-treasure-map（ima 知识库藏宝图 — 20 库 / 能列不能读正文 / 挖掘候选）](../iterations/2026-10-02-ima-kb-treasure-map.qmd)
+- **2026-10-03** · [切片柱阵·三图](../iterations/2026-10-03-slice-pillar-three-figures.qmd)
