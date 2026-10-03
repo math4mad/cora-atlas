@@ -28,7 +28,9 @@ CHAT = "/Users/mac/Programming/code-2026/Concept-Space-Sphere/corpus/ladder05/la
 SLICES = [12, 18, 24, 30, 36]
 DIMS = ["词汇量·Wordbank", "平均句长 MLU", "词类多样性", "句法复杂度", "指代清晰度"]
 # Wordbank 常模（English American, production 中位；CDI 止于 30）
-WORDBANK = {12: 4, 18: 52, 24: 256, 30: 492, 36: None}
+WORDBANK_EN = {12: 4, 18: 52, 24: 256, 30: 492, 36: None}
+WORDBANK_ZH = {12: None, 18: 172, 24: 622, 30: 750, 36: None}   # 普通话(北京) WS
+WB_MAX = 750                                                   # 英/中同标度
 CONTENT = set("noun verb adj adv propn".split())
 PRON = set("pron".split())
 NOUN = set("noun propn".split())
@@ -117,13 +119,15 @@ def main():
 
     # 逐维原始值（每 bin）
     vals = {d: [] for d in DIMS}
+    vals_zh = []
     cumtypes = set()
     for b in range(5):
         r = acc[b]
         u = max(r["utt"], 1)
         cumtypes |= r["types"]
-        # 词汇量 → Wordbank 常模（本地累计词型另存作对照）
-        vals["词汇量·Wordbank"].append(WORDBANK[SLICES[b]])
+        # 词汇量 → Wordbank 常模（英/中双柱；本地累计词型另存作对照）
+        vals["词汇量·Wordbank"].append(WORDBANK_EN[SLICES[b]])
+        vals_zh.append(WORDBANK_ZH[SLICES[b]])
         vals["平均句长 MLU"].append(r["len"] / u)
         tot = sum(r["pos"].values()) or 1              # 词类多样性 ＝ POS 熵（nats）
         vals["词类多样性"].append(-sum(c / tot * math.log(c / tot) for c in r["pos"].values()))
@@ -135,9 +139,13 @@ def main():
     norm = {}
     for d in DIMS:
         v = np.array([x if x is not None else np.nan for x in vals[d]], float)
-        mx = np.nanmax(v) if np.any(~np.isnan(v)) and np.nanmax(v) > 0 else 1.0
+        if d.startswith("词汇量"):
+            mx = WB_MAX                                    # 英/中同标度
+        else:
+            mx = np.nanmax(v) if np.any(~np.isnan(v)) and np.nanmax(v) > 0 else 1.0
         norm[d] = v / mx
         print(f"[{d}] raw={np.round(v,3)}  norm={np.round(v/mx,3)}")
+    norm_zh = np.array([x if x is not None else np.nan for x in vals_zh], float) / WB_MAX
 
     # ── 画 ─────────────────────────────────────────────
     fig = plt.figure(figsize=(13.5, 8.6), dpi=110)
@@ -158,6 +166,25 @@ def main():
     for ri, d in enumerate(DIMS):
         ybase = (4 - ri)          # 顶行(词汇量)在最上
         for ci in range(5):
+            if ri == 0:                               # 词汇量行：英（绿）/ 中（橙）双柱
+                ev, zv = norm[d][ci], norm_zh[ci]
+                if not np.isnan(ev):
+                    h = float(ev) * 0.86
+                    ax.add_patch(Rectangle((ci - 0.30, ybase + 0.06), 0.25, h, facecolor=COLS[0],
+                                           edgecolor="white", lw=0.7, alpha=0.93, zorder=3))
+                    ax.text(ci - 0.175, ybase + 0.06 + h + 0.03, f"英 {vals[d][ci]:,.0f}",
+                            color=DIM, fontsize=7.2, ha="center", va="bottom", zorder=4)
+                if not np.isnan(zv):
+                    h = float(zv) * 0.86
+                    ax.add_patch(Rectangle((ci + 0.05, ybase + 0.06), 0.25, h, facecolor="#e08a3c",
+                                           edgecolor="white", lw=0.7, alpha=0.93, zorder=3))
+                    ax.text(ci + 0.175, ybase + 0.06 + h + 0.03, f"中 {vals_zh[ci]:,.0f}",
+                            color=DIM, fontsize=7.2, ha="center", va="bottom", zorder=4)
+                if np.isnan(ev) and np.isnan(zv):
+                    ax.add_patch(Rectangle((ci - 0.27, ybase + 0.06), 0.54, 0.10, facecolor="none",
+                                           edgecolor=COLS[0], lw=1.2, hatch="///", alpha=0.7, zorder=3))
+                    ax.text(ci, ybase + 0.20, "CDI 止", color=DIM, fontsize=8, ha="center")
+                continue
             nv = norm[d][ci]
             if np.isnan(nv):                          # Wordbank 无值（CDI 止于 30）
                 ax.add_patch(Rectangle((ci - 0.27, ybase + 0.06), 0.54, 0.10,
@@ -183,8 +210,8 @@ def main():
         ax.text(-0.72, ybase + 0.24, txt, color=DIM, fontsize=8.2, ha="right", va="center")
 
     fig.text(0.045, 0.068,
-             "横轴 · 月龄切片（±3 月）＝ 共享切片轴　——　切片轴律：怎么 bin，柱阵就讲什么故事",
-             color=DIM, fontsize=11)
+             "英（绿）＝Wordbank English American · 中（橙）＝Wordbank 普通话（北京）WS —— 同标度（max 750）；"
+             "其余四维＝本地 CHILDES。　横轴＝共享月龄切片（切片轴律）", color=DIM, fontsize=10)
 
     fig.text(0.045, 0.965, "儿童语言发育柱阵", color=INK, fontsize=26, fontweight="bold", va="top")
     fig.text(0.045, 0.925, "切片柱阵 Slice-Pillar Array · 五维 × 五月龄切片 · 柱高＝该维在该片的掌握度"
