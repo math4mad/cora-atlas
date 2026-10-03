@@ -140,9 +140,26 @@ def main():
         ax.plot([P[0][k][0], P[2][k][0]], [P[0][k][1], P[2][k][1]],
                 color="#333845", lw=0.9, zorder=1)
 
+    # 本体的长轴方向（微元厚度沿此轴）
+    c0 = np.mean(np.array(P[0]), axis=0); c2 = np.mean(np.array(P[2]), axis=0)
+    bdir = (c2 - c0) / (np.linalg.norm(c2 - c0) + 1e-9)
+    DEPTHS = [0.052, 0.040, 0.028]          # Δx：切片不是零厚平面，是微元长方体
+
     for i, (panelc, (name, lo, hi), wl) in enumerate(zip(P, STAGES, words)):
-        ax.add_patch(Polygon(panelc, closed=True, facecolor="#e7c36f", alpha=0.10,
-                             edgecolor="#f0d78c", lw=2.0, zorder=2))
+        d = bdir * DEPTHS[i]
+        back = [(x + d[0], y + d[1]) for x, y in panelc]
+        # 侧面（四个四边形）—— 显出厚度
+        for k in range(4):
+            k2 = (k + 1) % 4
+            ax.add_patch(Polygon([panelc[k], panelc[k2], back[k2], back[k]], closed=True,
+                                 facecolor="#b9974a", alpha=0.10, edgecolor="#8c7433",
+                                 lw=0.8, zorder=1))
+        # 背面
+        ax.add_patch(Polygon(back, closed=True, facecolor="#6b5a2a", alpha=0.16,
+                             edgecolor="#8c7433", lw=1.0, zorder=2))
+        # 前脸
+        ax.add_patch(Polygon(panelc, closed=True, facecolor="#e7c36f", alpha=0.08,
+                             edgecolor="#f0d78c", lw=2.0, zorder=3))
         wx = max((c for w, c in wl), default=1)
         for idx, (w, c) in enumerate(wl):
             col, row = idx % COLS, idx // COLS
@@ -152,7 +169,7 @@ def main():
             bw = c / wx
             size = 12.0 if i == 0 else (10.5 if i == 1 else 9.0)
             ax.text(px, py, w, color=(1, 1, 1, 0.30 + 0.70 * bw), fontsize=size,
-                    ha="center", va="center", zorder=3, fontfamily="Arial",
+                    ha="center", va="center", zorder=4, fontfamily="Arial",
                     fontweight="bold" if bw > 0.55 else "normal")
         # 片名 + 统计（面板正下方居中，避让词格）
         bx = sum(p[0] for p in panelc) / 4
@@ -166,17 +183,22 @@ def main():
                 color=SLATE, fontsize=10.5, ha="center", va="top")
 
     ax.plot([0.045, 0.955], [0.115, 0.115], color="#2a2d36", lw=1)
-    fig.text(0.045, 0.072,
+    fig.text(0.045, 0.088,
              "读：三片切面**形状一样**（同形），填进去的**词**全不同（不同物）——语言长河在等形的剖面里，"
              "词在换、句法在长（MLU 2.76→2.99→4.13）、逻辑在接（连接词 4.1%→12.3%→18.2%）。",
              color=SLATE, fontsize=11.5)
-    fig.text(0.045, 0.045,
-             "诚实：此为 2.5D 版（快速站位，候勘）；词＝各阶段高频实词（清转写噪声）。"
-             "真三维版（Blender，与 NBA 图同管线）候认；垂直与密度/词表口径候主人定。",
-             color=DIM, fontsize=11)
-    fig.text(0.045, 0.020,
+    fig.text(0.045, 0.062,
+             "切片微元律（候碑）：无厚度切片不存在——切面是 Δx 微元长方体（侧面已显厚度）；"
+             "辨不出厚度只是观察窗太窄。本体 ＝ ∫ 微元。",
+             color=INK, fontsize=11.5)
+    fig.text(0.045, 0.038,
+             "诚实：2.5D 版（候勘）；词＝各阶段高频词（清转写噪声）。真三维（Blender，与 NBA 图同管线）候认。",
+             color=DIM, fontsize=10.5)
+    fig.text(0.045, 0.015,
              f"source: CHILDES Brown+Bernstein 264 会话 (CHI only) · ver {VER} · lola 2026-10-03",
              color=DIM, fontsize=9.5)
+    fig.text(0.045, 0.020,
+             "", color=DIM, fontsize=9.5)
 
     fig.savefig(os.path.join(OUT, "language-slices.png"), facecolor=BG)
     fig.savefig(os.path.join(OUT, "language-slices.svg"), facecolor=BG)
