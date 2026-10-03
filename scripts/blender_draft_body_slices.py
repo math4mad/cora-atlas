@@ -20,6 +20,8 @@ CRO_COLS = 12                     # 灰剪影阵列数
 CRO_DY, CRO_DZ = 0.42, 0.36       # 灰剪影格距
 
 RES = (2400, 1350)
+CUT_GAP = 0.30                   # 刀口缝半宽: 本体在切面处断开, 棱线到缝即止 (主人 1003 令)
+SLICE_OVER = 1.18                # 切片面板明显大于截面 → 顶角落在体外, 不与长轴棱线咬合
 
 
 def clean():
@@ -96,36 +98,52 @@ def x_of(year):
     return X0 + (X1 - X0) * (year - Y0) / (Y1 - Y0)
 
 
+def add_line(p, q, rgb, e=0.55, r=0.011):
+    cu = bpy.data.curves.new("ln", "CURVE"); cu.dimensions = "3D"
+    cu.bevel_depth = r; cu.bevel_resolution = 2
+    sp = cu.splines.new("POLY"); sp.points.add(1)
+    sp.points[0].co = (*p, 1.0); sp.points[1].co = (*q, 1.0)
+    ob = bpy.data.objects.new("ln", cu)
+    bpy.context.scene.collection.objects.link(ob)
+    ob.data.materials.append(mat_emit("ml", rgb, e))
+    return ob
+
+
+CORNERS = [(-1, -1), (1, -1), (1, 1), (-1, 1)]
+
+
 def add_beam():
-    """本体: 半透明长方条, 1947→2025。"""
-    bpy.ops.mesh.primitive_cube_add(size=1, location=((X0 + X1) / 2, 0, 0))
-    b = bpy.context.active_object
-    b.scale = ((X1 - X0), HI_Y * 2, HI_Z * 2)
-    bpy.ops.object.transform_apply(scale=True)
-    b.data.materials.append(mat_glass("beam", (0.62, 0.68, 0.80), 0.055))
-    # 棱框
-    bpy.ops.mesh.primitive_cube_add(size=1, location=((X0 + X1) / 2, 0, 0))
-    f = bpy.context.active_object
-    f.scale = ((X1 - X0), HI_Y * 2, HI_Z * 2)
-    bpy.ops.object.transform_apply(scale=True)
-    w = f.modifiers.new("wf", "WIREFRAME"); w.thickness = 0.022
-    f.data.materials.append(mat_emit("beamframe", GOLD, 0.85))
+    """本体: 半透明长条 1947→2025, 在每道刀口断开成四段。
+    棱线分段绘制 —— 否则它们会穿过切面、在切面顶点处打叉。"""
+    xs = [X0] + [x_of(y) for y in YEARS] + [X1]
+    glass = mat_glass("beam", (0.62, 0.68, 0.80), 0.055)
+    for a, b in zip(xs[:-1], xs[1:]):
+        a0 = a + (CUT_GAP if a > X0 else 0.0)
+        b0 = b - (CUT_GAP if b < X1 else 0.0)
+        bpy.ops.mesh.primitive_cube_add(size=1, location=((a0 + b0) / 2, 0, 0))
+        s = bpy.context.active_object
+        s.scale = (b0 - a0, HI_Y * 2, HI_Z * 2)
+        bpy.ops.object.transform_apply(scale=True)
+        s.data.materials.append(glass)
+        for cy, cz in CORNERS:
+            add_line((a0, cy * HI_Y, cz * HI_Z), (b0, cy * HI_Y, cz * HI_Z), GOLD)
+    for x in (X0, X1):                                # 两端封口矩形
+        for i in range(4):
+            (ay, az), (by, bz) = CORNERS[i], CORNERS[(i + 1) % 4]
+            add_line((x, ay * HI_Y, az * HI_Z), (x, by * HI_Y, bz * HI_Z), GOLD)
 
 
 def add_slice_plane(x):
+    oy, oz = HI_Y * SLICE_OVER, HI_Z * SLICE_OVER
     bpy.ops.mesh.primitive_plane_add(size=1, location=(x, 0, 0))
     p = bpy.context.active_object
     p.rotation_euler = (0, math.radians(90), 0)
-    p.scale = (HI_Y * 2, HI_Z * 2, 1)
+    p.scale = (oy * 2, oz * 2, 1)
     bpy.ops.object.transform_apply(scale=True)
     p.data.materials.append(mat_glass("slice", GOLD, 0.20))
-    bpy.ops.mesh.primitive_plane_add(size=1, location=(x, 0, 0))
-    f = bpy.context.active_object
-    f.rotation_euler = (0, math.radians(90), 0)
-    f.scale = (HI_Y * 2, HI_Z * 2, 1)
-    bpy.ops.object.transform_apply(scale=True)
-    w = f.modifiers.new("wf", "WIREFRAME"); w.thickness = 0.028
-    f.data.materials.append(mat_emit("sliceframe", GOLD, 3.0))
+    for i in range(4):
+        (ay, az), (by, bz) = CORNERS[i], CORNERS[(i + 1) % 4]
+        add_line((x, ay * oy, az * oz), (x, by * oy, bz * oz), GOLD, e=3.0, r=0.020)
 
 
 def add_quad(center, size, normal, mat, square=True):
