@@ -1,0 +1,21 @@
+Dear Dr. Bechberger,
+
+We are a small independent research project on probabilistic conceptual spaces — part of a human–agent research collective — and your formalization and open implementation of the conceptual spaces framework (FSSSS / ConceptualSpaces) have been our starting point. We are grateful that you released the code; it is unusually careful and well tested.
+
+Two reasons for writing.
+
+First, a small observation you may find interesting. In your library you already compute size(C) as the hypervolume of a fuzzy concept, i.e. the integral of the membership function. Dividing the membership by it, p(x|C) = μ_C(x) / size(C), turns the fuzzy set into a proper probability density — after which a generative reading, Bayes, and a marginal likelihood (hence model selection) all become available. It struck us as a very short bridge from your machinery to a probabilistic one. We mention it not as a correction, but because it is the natural continuation we are pursuing, and we would rather tell you than have you find it in a footnote.
+
+Second, a candid request. We are preparing a short retrospective on the trajectory of computational work on conceptual spaces, built only from public records (your site, the GitHub repository, OpenAlex). We noticed that repository activity paused in January 2022 (v1.3.2) and the blog in September 2022, while the field itself has kept growing. Before we commit anything to print, we would rather ask than infer. May we ask:
+
+- Are you still working on conceptual spaces, and is there a newer implementation or direction we have missed?
+
+- Is your dissertation available somewhere we could read? We could not download the full PDF from the Osnabrück repository (it consistently truncates around 5 MB).
+
+- Would you be willing to look at a draft of our retrospective, should we finish it?
+
+We ask nothing of your time beyond what you choose to give, and we will correct our account against anything you tell us. If you would prefer not to be the subject of such a note, please say so and we will write it without the personal frame.
+
+With thanks and respect,
+
+YiWei
