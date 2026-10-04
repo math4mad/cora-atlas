@@ -4,6 +4,8 @@ subtitle: "lunar chuang × ima · 45 轮问答 · 2026-10-03/04"
 ---
 
 > 本文保留**问答原貌**：45 轮 human→agent 对话，含 agent 的「已浏览／全网搜索」工具轨迹。想看「现在 human–agent 对话是怎么展开的」，看这一篇即可。
+>
+> 📄 **配套成品（整理版）** → [《结构即智能（系列四篇）》](../papers/structure-is-intelligence.qmd)
 
 ### 你
 
