@@ -15,3 +15,4 @@ title: "论文 · 索引"
 | 红蓝军演·军械详案 PB16-D (V1–V10 十图 · M1–M8 八标) | [详案](prereg-pb16.qmd) | 案已冻候点菜 |
 | 模态交换臂 PL2-M (聋/盲类比·权重界，P-L2 第一枪) | [PREREG](prereg-pl2m.qmd) | 候批候射 |
 | 致 Gärdenfors (Letter 032) | [草稿 v2](https://github.com/math4mad/cora-atlas/blob/main/letters/gardenfors/draft-032-v2.md) | 候朱批 |
+- [结构即智能（系列四篇）](structure-is-intelligence.qmd) — lunar chuang
