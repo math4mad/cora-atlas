@@ -5,12 +5,11 @@ Dear Professor Strang,
 There is no request in this letter — only a correction, a quiet apology, and
 one word I have long wanted to give back to you.
 
-The word first. In your 2018 lectures on learning from data, you spoke of what
-was coming — deep learning, and the whole new way of working that comes with
-it — as an adventure, not as a threat to be resisted or a puzzle to be beaten.
-I have carried that word since, and I have come to think it was exactly right.
-The small episode below is, I suppose, one of its minor scenes: learning to
-work with a partner that occasionally looks away.
+The word first. You opened the 2018 course — learning from data — by calling it, in your own
+words, "a great adventure for me to be here." I have kept that word since, and I have come
+to think it was exactly right — including for a part none of us could see clearly then:
+learning to work with the new machines. The small episode below is, I suppose, one of its
+minor scenes: learning to work with a partner that occasionally looks away.
 
 The correction. On 20 September your kind reply reached us safely. We simply
 failed to check that mailbox for several days, so on 22 September we re-sent

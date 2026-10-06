@@ -14,12 +14,11 @@ Dear Professor Strang,
 There is no request in this letter — only a correction, a quiet apology, and
 one word I have long wanted to give back to you.
 
-The word first. In your 2018 lectures on learning from data, you spoke of what
-was coming — deep learning, and the whole new way of working that comes with
-it — as an adventure, not as a threat to be resisted or a puzzle to be beaten.
-I have carried that word since, and I have come to think it was exactly right.
-The small episode below is, I suppose, one of its minor scenes: learning to
-work with a partner that occasionally looks away.
+The word first. You opened the 2018 course — learning from data — by calling it, in your own
+words, "a great adventure for me to be here." I have kept that word since, and I have come
+to think it was exactly right — including for a part none of us could see clearly then:
+learning to work with the new machines. The small episode below is, I suppose, one of its
+minor scenes: learning to work with a partner that occasionally looks away.
 
 The correction. On 20 September your kind reply reached us safely. We simply
 failed to check that mailbox for several days, so on 22 September we re-sent
@@ -43,7 +42,11 @@ YiWei
 
 1. **窗口**：10-06 后发；若彼时已知先生康复则发，仍抱恙则再候——铃上已写明。
 2. **通道**：主人个人邮箱（与 09-22 v2 同路，先生所见线程一致）。**零请求零附件，全文不提论文/项目/Julia 之外的夹带。**
-3. **2018 表述**：v1 取「adventure」（主人 1006 亲述记忆）。**先生 2018 原话的确切出处/字面为 †候核**——若主人手边有那段视频/讲稿的原句，报我，我以原句为准作 v2（现 v1 措辞为回述，非逐字引）。
+3. **2018 表述（已核实，1006）**：v1 取「adventure」——主人 1006 供截图实证：
+   MIT 18.065（主人在录像《新MIT 线性代数|机器学习 18.065 by Gilbert Strang》，2020-02-24 上传）开场字幕
+   原句 **“great adventure for me to be here all on…”，中译“对我来说是一次伟大的冒险”**。
+   ⇒ 先生 2018 自述此新方向为 **“a great adventure”**（非 challenge）。源截图：
+   `~/Library/Mobile Documents/com~apple~CloudDocs/screenshot_1929.jpg`。**† 已解（原 †候核）。**
 4. **可选加段（Option B · 主人 1006 docx 另嘱）**：若主人愿把「Julia × Python 生态时序 × 结构即智能（本人所立，非先生所立）」的观察写入，可插在「The word first」段之后，草样：
 
    > One more thread from that same year: you mentioned Julia in those lectures, and
