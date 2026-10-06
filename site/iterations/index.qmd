@@ -56,3 +56,4 @@ title: "迭代手记 · 索引"
 - **2026-10-03** · [切片柱阵·三图](../iterations/2026-10-03-slice-pillar-three-figures.qmd)
 - **2026-10-03** · [NBA 三届 · 两种读法](../iterations/2026-10-03-three-classes-two-readings.qmd)
 - **2026-10-04** · [泛函分析中的抽象思维（human–agent 对话原貌）](../iterations/2026-10-04-funcanalysis-dialogue.qmd)
+- **2026-10-06** · [pcs-concept-space-evolution（概念空间的自变序列 · PCS 实验族：历时提问 × 真模型 · hierarchical CRP · 序效应 · 引擎桥接）](../iterations/2026-10-06-pcs-concept-space-evolution.qmd)

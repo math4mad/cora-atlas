@@ -33,6 +33,9 @@ point. It is born, it grows (new sub-concepts appear), and it may fall quiet.
 So we think every concept space has a lifespan. Time is then not a background
 clock but a coordinate that each concept carries within itself.
 
+A longer working note, with the experiments behind it, is here:
+https://math4mad.github.io/cora-atlas/
+
 A reply is not needed — you have already given me more than enough. I simply
 wanted you to know that your "great adventure" has become ours, and where it is
 leading.
