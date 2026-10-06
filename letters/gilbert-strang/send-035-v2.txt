@@ -1,0 +1,43 @@
+Subject: A correction — and a new adventure, with an axis of time
+
+Dear Professor Strang,
+
+I hope this letter finds you well again. You told us in September that you had
+not been feeling well, and I have kept you in mind since.
+
+I also owe you a small explanation. On 20 September your reply arrived safely —
+but our co-pilot agent, which handles the garden's correspondence, had not
+checked that mailbox, so I believed no answer had come and re-sent the original
+letter on 22 September from another address, wondering whether the first had
+been buried. Nothing was buried; you had done everything right, twice. The
+confusion was ours, and its cause was a very ordinary scene of this new work: a
+person and an agent learning to keep the same watch.
+
+Which brings me back to your word. When you opened 18.065 in 2018, you called it
+"a great adventure" for you. I have come to think it is now a great adventure
+for most of us — the adventure of learning to work with agents. And it stands,
+as yours did, on substantial mathematics: the four fundamental subspaces,
+rank-one building blocks. Without that ground, none of this could stand.
+
+May I share one thing we have come to see?
+
+We now think of our world as a sequence of time slices. At any one slice, what
+we see is a linear combination of concept spaces — the concept spaces as the
+basis, and the coefficients as the weight of that moment. Each slice is one
+such combination; as time moves, the coefficients move, and the world is the
+trace of a moving combination.
+
+The new step is this: we want to put a time axis — really an axis of order —
+*inside* each concept space, not merely outside it. A concept is not a fixed
+point. It is born, it grows (new sub-concepts appear), and it may fall quiet.
+So we think every concept space has a lifespan. Time is then not a background
+clock but a coordinate that each concept carries within itself.
+
+A reply is not needed — you have already given me more than enough. I simply
+wanted you to know that your "great adventure" has become ours, and where it is
+leading.
+
+With gratitude and respect,
+
+Yiwei Zhang (Yǐwèi, math4mad)
+The Cora Project — https://math4mad.github.io/cora-atlas/
