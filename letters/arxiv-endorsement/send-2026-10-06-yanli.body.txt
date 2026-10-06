@@ -1,0 +1,15 @@
+尊敬的李老师：
+
+冒昧打扰。我是 arXiv 首次投稿者，想恳请您为我担保 **cs.LG** 分类——请见本邮件所附
+（或随后的）arXiv 担保转发件，内含我的 unique code，点链接确认即可；**担保不会使您成为
+本文作者**。
+
+我的论文《A Unified Framework for Agents: Curves, Bases, and Manifolds》提出智能体的
+统一几何–概率框架：把参数更新看作曲线/子空间上的演化。其中「同基座 LoRA 线性 merge 的
+超加性与『合非拼接』鼓包」一节，与您的 CASS: Contribution-Aware Structured Sparsity for
+Model Merging 直接相关，正文已引用。
+
+若不便，也请告知，绝不纠缠。谢谢！
+
+Luanr Cheung (Yiwei Zhang) — The Cora Project
+https://math4mad.github.io/cora-atlas/
